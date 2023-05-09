@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>City Survey Form</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title" class="text-center">World Cities</h1>
+                <p id="description" class="description text-center">Thank you for taking the time to help us improve our platform</p>
+            </header>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">Age
+                        <span class="clue">(optional)</span>
+                    </label>
+                    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+                </div>
+                <div class="form-group">
+                    <p>Which major city best describes the destination you wish to visit?</p>
+                    <select id="dropdown" name="city" class="form-control" required>
+                        <option disabled selected value>Select global city</option>
+                        <option value="london">London</option>
+                        <option value="new-york">New York City</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>On a scale of 1 to 5, how would you rate your global city?</p>
+                    <label for="excellent">
+                        <input name="user-recommended" value="excellent" type="radio" class="input-radio" checked />5. Excellent
+                    </label>
+                    <label for="good">
+                        <input name="user-recommended" value="good" type="radio" class="input-radio"  />4. Good
+                    </label>
+                    <label for="fair">
+                        <input name="user-recommended" value="fair" type="radio" class="input-radio" />3. Fair
+                    </label>
+                    <label for="poor">
+                        <input name="user-recommended" value="poor" type="radio" class="input-radio" />2. Poor
+                    </label>
+                    <label for="terrible">
+                        <input name="user-recommended" value="terrible" type="radio" class="input-radio" />1. Terrible
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p> What do you value the most in your global city?</p>
+                    <select id="most-like" name="mostLike" class="form-control" required>
+                        <option disabled selected value>Select an option</option>
+                        <option value="banking">Banking and Postal Services</option>
+                        <option value="utilities">Utilities</option>
+                        <option value="environment">Clean Air</option>
+                        <option value="shopping">Markets and Shopping</option>
+                        <option value="medical">Medical Facilities</option>
+                        <option value="library">Libraries and Cinemas</option>
+                        <option value="transportation">Public Transportation</option>
+                        <option value="education">Education Services</option>
+                        <option value="parks">Parks and Recreation</option>
+                        <option value="roads">Infrastructure</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>
+                        What suggestions would you like that would improve your global city of choice?
+                        <span class="clue">(Check all that apply.)</span>
+                    </p>
+                    <label for="housing">
+                        <input name="prefer" value="housing" type="checkbox" class="input-checkbox" />Affordable Housing
+                    </label>
+                    <label for="transportation">
+                        <input name="prefer" value="transportation" type="checkbox" class="input-checkbox" />Public Transportation
+                    </label>
+                    <label for="services">
+                        <input name="prefer" value="services" type="checkbox" class="input-checkbox" />Public Services
+                    </label>
+                    <label for="utilities">
+                        <input name="prefer" value="utilities" type="checkbox" class="input-checkbox" />Public Utilities
+                    </label>
+                    <label for="sports">
+                        <input name="prefer" value="sports" type="checkbox" class="input-checkbox" />Sports Teams
+                    </label>
+                    <label for="tourism">
+                        <input name="prefer" value="tourism" type="checkbox" class="input-checkbox" />Leisure & Tourism
+                    </label>
+                    <label for="disaster">
+                        <input name="prefer" value="disaster" type="checkbox" class="input-checkbox" />Disaster Preparedness Plan
+                    </label>
+                    <label for="culture">
+                        <input name="prefer" value="culture" type="checkbox" class="input-checkbox" />Culture Awareness
+                    </label>
+                    <label for="concerts">
+                        <input name="prefer" value="concerts" type="checkbox" class="input-checkbox" />Concerts & Events
+                    </label>
+                    <label for="environmental">
+                        <input name="prefer" value="environmental" type="checkbox" class="input-checkbox" />Green Cities
+                    </label>
+                    <label for="parklife">
+                        <input name="prefer" value="parks" type="checkbox" class="input-checkbox" />Parks & Recreation
+                    </label>
+                    <label for="industries">
+                        <input name="prefer" value="industries" type="checkbox" class="input-checkbox" />Improved Industry
+                    </label>
+                    <label for="campuses">
+                        <input name="prefer" value="campuses" type="checkbox" class="input-checkbox" />Colleges & Universities
+                    </label>
+                    <label for="pedestrian">
+                        <input name="prefer" value="pedestrian" type="checkbox" class="input-checkbox" />Plazas & Pedestrian Zones
+                    </label>
+                    <label for="finance">
+                        <input name="prefer" value="finance" type="checkbox" class="input-checkbox" />Strong Financial Systems
+                    </label>
+                    <label for="other">
+                        <input name="prefer" value="other" type="checkbox" class="input-checkbox" />Other
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
