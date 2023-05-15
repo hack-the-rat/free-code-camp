@@ -76,3 +76,19 @@ p {
     font-weight: 700;
     margin: -7px -2px;
 }
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.double-indent {
+    margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
