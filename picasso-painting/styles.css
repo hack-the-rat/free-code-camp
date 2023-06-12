@@ -230,3 +230,22 @@ body {
     left: 200px;
     z-index: 3;
 }
+
+.eyes {
+    width: 35px;
+    height: 20px;
+    background-color: #8B4513;
+    border-radius: 20px 50%;
+}
+
+.right {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.left {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
