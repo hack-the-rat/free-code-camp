@@ -175,7 +175,8 @@ body {
         var(--building-color4) 10%,
         transparent 10%,
         transparent 15%
-    ), repeating-linear-gradient(
+    ), 
+    repeating-linear-gradient(
         var(--building-color4),
         var(--building-color4) 10%,
         var(--window-color4) 10%,
@@ -268,7 +269,8 @@ body {
         var(--building-color2) 5%,
         transparent 5%,
         transparent 10%
-    ), repeating-linear-gradient(
+    ), 
+    repeating-linear-gradient(
         90deg,
         var(--building-color2),
         var(--building-color2) 12%,
@@ -286,10 +288,33 @@ body {
         var(--building-color3) 10%,
         transparent 10%,
         transparent 30%
-    ), repeating-linear-gradient(
+    ), 
+    repeating-linear-gradient(
         var(--building-color3),
         var(--building-color3) 10%,
         var(--window-color3) 10%,
         var(--window-color3) 30%
     );
 }
+
+@media (max-width: 1000px) {
+    :root {
+        --building-color1: #000;
+        --building-color2: #000;
+        --building-color3: #000;
+        --building-color4: #000;
+        --window-color1: #777;
+        --window-color2: #777;
+        --window-color3: #777;
+        --window-color4: #777;
+    }
+    .sky {
+        background: radial-gradient(
+            closest-corner circle at 15% 15%,
+            #ccc,
+            #ccc 20%,
+            #445 21%,
+            #223 100%
+        );
+    }
+}  
