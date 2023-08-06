@@ -8,100 +8,107 @@
         <script src="./script.babel"></script>
     </head>
     <body>
-        <header id="header">
-            <nav id="nav-bar">
-                <div class="logo-container">
-                    <img src="./master-chef-logo.svg" alt="masterchef logo" width="60" id="header-img" />
-                    <span class="product">MasterChef</span>
-                    <ul class="nav-links">
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
+        <div id="page-wrapper">
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="./master-chef-logo.svg" alt="masterchef logo" />
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#how-it-works">How It Works</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
                     </ul>
-                </div>
-            </nav>
-        </header>
-        <div class="container"></div>
-        <section id="hero">
-            <h2>Make your own handcrafted, home-made meals: just like the masters</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
-                <input id="submit" type="submit" value="Get Started" class="btn" />
-            </form>
-        </section>
-        <div class="container">
-            <section id="features">
-                <div class="grid">
-                    <div class="icon">
-                        <i class="fa fa-3x fa-fire"></i>
-                    </div>
-                    <div class="desc">
-                        <h2>Quality Ingredients</h2>
-                        <p>MasterChef meals are prepared with farm-fresh, never frozen, quality ingredients made in the USA and grown in-season with no additives or preservatives.  These ingredients will help make your meals stand out above the rest and make professional chefs like Gordon Ramsey proud.</p>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="icon">
-                        <i class="fa fa-3x fa-truck"></i>
-                    </div>
-                    <div class="desc">
-                        <h2>Fast and Free Shipping</h2>
-                        <p>We make sure your orders arrive as soon as possible.  For every four meals you order, your fifth will be shipped to you absolutely free.  If you are unsatisfied with your order, we will return your order free and with a money-back guarantee.</p>
-                    </div>
-                </div>
-                <div class="grid">
-                    <div class="icon">
-                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-                    </div>
-                    <div class="desc">
-                        <h2>Meal Plans</h2>
-                        <p>You get to customize your meals for your lifestyle: paleo, vegetarian, lean & clean, gluten-free, carb-conscious, Mediterranean, diabetes-friendly, pescatarian, chef's choice, or fresh & ready.  The ingredients are to proportion for your meal and serving size, so there's no waste.  Cooking instructions also included.</p>
-                    </div>
-                </div>
+                </nav>
+            </header>
+            <div class="container"></div>
+            <section id="hero">
+                <h2>Make your own handcrafted, home-made meals: just like the masters</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                    <input id="submit" type="submit" value="Get Started" class="btn" />
+                </form>
             </section>
-            <section id="how-it-works">
-                <iframe id="video" height="315" src="https://www.youtube.com/embed/DcR6z3KkzTg" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section id="pricing">
-                <div class="product" id="breakfast">
-                    <div class="level">Breakfast & Brunch</div>
-                    <h2>$20 - $60</h2>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <button class="btn">Select</button>
-                </div>
-                <div class="product" id="lunch">
-                    <div class="level">Lunch & Appetizers</div>
-                    <h2>$20 - $80</h2>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <button class="btn">Select</button>
-                </div>
-                <div class="product" id="dinner">
-                    <div class="level">Dinner & Desserts</div>
-                    <h2>$20 - $100</h2>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <button class="btn">Select</button>
-                </div>
-            </section>
-            <footer>
-                <ul>
-                    <li>
-                        <a href="#">Privacy</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-                <span>Copyright 2023, MasterChef</span>
-            </footer>
+            <div class="container">
+                <section id="features">
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-3x fa-fire"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Quality Ingredients</h2>
+                            <p>MasterChef meals are prepared with farm-fresh, never frozen, quality ingredients made in the USA and grown in-season with no additives or preservatives.  These ingredients will help make your meals stand out above the rest and make professional chefs like Gordon Ramsey proud.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-3x fa-truck"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Fast and Free Shipping</h2>
+                            <p>We make sure your orders arrive as soon as possible.  For every four meals you order, your fifth will be shipped to you absolutely free.  If you are unsatisfied with your order, we will return your order free and with a money-back guarantee.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="icon">
+                            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Meal Plans</h2>
+                            <p>You get to customize your meals for your lifestyle: paleo, vegetarian, lean & clean, gluten-free, carb-conscious, Mediterranean, diabetes-friendly, pescatarian, chef's choice, or fresh & ready.  The ingredients are to proportion for your meal and serving size, so there's no waste.  Cooking instructions also included.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="how-it-works">
+                    <iframe id="video" height="315" src="https://www.youtube.com/embed/DcR6z3KkzTg" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section id="pricing">
+                    <div class="product" id="breakfast">
+                        <div class="level">Breakfast & Brunch</div>
+                        <h2>$20 - $60</h2>
+                        <ol>
+                            <li></li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product" id="lunch">
+                        <div class="level">Lunch & Appetizers</div>
+                        <h2>$20 - $80</h2>
+                        <ol>
+                            <li></li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="product" id="dinner">
+                        <div class="level">Dinner & Desserts</div>
+                        <h2>$20 - $100</h2>
+                        <ol>
+                            <li></li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                </section>
+                <footer>
+                    <ul>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <span>Copyright 2023, MasterChef</span>
+                </footer>
+            </div>
         </div>
     </body>
 </html>
