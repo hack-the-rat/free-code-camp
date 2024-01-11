@@ -16,6 +16,10 @@ h1, h2, p {
     max-width: 500px;
 }
 
+h1, h2 {
+    font-family: Impact;
+}
+
 .item p {
     display: inline-block;
 }
