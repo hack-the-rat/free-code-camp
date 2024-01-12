@@ -73,3 +73,7 @@ a {
 a:visited {
     color: gray;
 }
+
+a:hover {
+    color: brown;
+}
