@@ -29,56 +29,714 @@
                     <p>Which global city best describes your current location?</p>
                     <select name="city" id="dropdown" class="form-control" required>
                         <option disabled selected value>Select current city</option>
-                        <option value="amsterdam">Amsterdam</option>
-                        <option value="bangkok">Bangkok</option>
-                        <option value="bangalore">Bangalore</option>
-                        <option value="beijing">Beijing</option>
-                        <option value="boston">Boston</option>
-                        <option value="brussels">Brussels</option>
-                        <option value="buenos-aires">Buenos Aires</option>
-                        <option value="chicago">Chicago</option>
-                        <option value="delhi">Delhi</option>
-                        <option value="dubai">Dubai</option>
-                        <option value="dublin">Dublin</option>
-                        <option value="frankfurt">Frankfurt</option>
-                        <option value="guangzhou">Guangzhou</option>
-                        <option value="hong-kong">Hong Kong</option>
-                        <option value="istanbul">Istanbul</option>
-                        <option value="jakarta">Jakarta</option>
-                        <option value="johannesburg">Johannesburg</option>
-                        <option value="kuala-lumpur">Kuala Lumpur</option>
-                        <option value="lisbon">Lisbon</option>
-                        <option value="london">London</option>
-                        <option value="los-angeles">Los Angeles</option>
-                        <option value="luxembourg">Luxembourg City</option>
-                        <option value="madrid">Madrid</option>
-                        <option value="manila">Manila</option>
-                        <option value="melbourne">Melbourne</option>
-                        <option value="mexico-city">Mexico City</option>
-                        <option value="milan">Milan</option>
-                        <option value="montreal">Montreal</option>
-                        <option value="moscow">Moscow</option>
-                        <option value="mumbai">Mumbai</option>
-                        <option value="munich">Munich</option>
-                        <option value="new-york">New York City</option>
-                        <option value="paris">Paris</option>
-                        <option value="prague">Prague</option>
-                        <option value="riyadh">Riyadh</option>
-                        <option value="san-francisco">San Francisco</option>
-                        <option value="santiago">Santiago</option>
-                        <option value="sao-paulo">São Paulo</option>
-                        <option value="seoul">Seoul</option>
-                        <option value="shanghai">Shanghai</option>
-                        <option value="shenzhen">Shenzhen</option>
-                        <option value="singapore">Singapore</option>
-                        <option value="stockholm">Stockholm</option>
-                        <option value="sydney">Sydney</option>
-                        <option value="taipei">Taipei</option>
-                        <option value="tokyo">Tokyo</option>
-                        <option value="toronto">Toronto</option>
-                        <option value="vienna">Vienna</option>
-                        <option value="warsaw">Warsaw</option>
-                        <option value="zurich">Zürich</option>
+                        <option value="aba">Aba, Nigeria</option>
+                        <option value="aberdeen">Aberdeen, Scotland</option>
+                        <option value="abidjan">Abidjan, Ivory Coast</option>
+                        <option value="abu-dhabi">Abu Dhabi, UAE</option>
+                        <option value="abuja">Abuja, Nigeria</option>
+                        <option value="acapulco">Acapulco de Juárez, Mexico</option>
+                        <option value="accra">Accra, Ghana</option>
+                        <option value="adana">Adana, Turkey</option>
+                        <option value="addis-ababa">Addis Ababa, Ethiopia</option>
+                        <option value="adelaide">Adelaide, South Australia</option>
+                        <option value="agadir">Agadir, Morocco</option>
+                        <option value="aguascalientes">Aguascalientes, Mexico</option>
+                        <option value="ahmedabad">Ahmedabad, India</option>
+                        <option value="ahvaz">Ahvaz, Iran</option>
+                        <option value="akita">Akita, Japan</option>
+                        <option value="albuquerque">Albuquerque, New Mexico</option>
+                        <option value="alexandria">Alexandria, Egypt</option>
+                        <option value="algiers">Algiers, Algeria</option>
+                        <option value="aligarh">Aligarh, India</option>
+                        <option value="allentown">Allentown, Pennsylvania</option>
+                        <option value="almaty">Almaty, Kazakhstan</option>
+                        <option value="amman">Amman, Jordan</option>
+                        <option value="amritsar">Amritsar, India</option>
+                        <option value="amsterdam">Amsterdam, Netherlands</option>
+                        <option value="anchorage">Anchorage, Alaska</option>
+                        <option value="angeles">Angeles City, Philippines</option>
+                        <option value="ankara">Ankara, Turkey</option>
+                        <option value="anshan">Ānshān, China</option>
+                        <option value="antalya">Antalya, Turkey</option>
+                        <option value="antananarivo">Antananarivo, Madagascar</option>
+                        <option value="antwerp">Antwerpen, Belgium</option>
+                        <option value="aarhus">Århus, Denmark</option>
+                        <option value="asansol">Asansol, India</option>
+                        <option value="ashgabat">Ashgabat, Turkmenistan</option>
+                        <option value="asmara">Asmara, Eritrea</option>
+                        <option value="asuncion">Asunción, Paraguay</option>
+                        <option value="athens">Athens, Greece</option>
+                        <option value="atlanta">Atlanta, Georgia</option>
+                        <option value="auckland">Auckland, New Zealand</option>
+                        <option value="aurangabad">Aurangabad, India</option>
+                        <option value="austin">Austin, Texas</option>
+                        <option value="basra">Basra, Iraq</option>
+                        <option value="erbil">Erbil, Iraq</option>
+                        <option value="medina">Medina, Saudi Arabia</option>
+                        <option value="mosul">Mosul, Iraq</option>
+                        <option value="prayagraj">Prayagraj, India</option>
+                        <!-- to be added
+                            48 Baghdad Iraq
+                            49 Baku Azerbaijan
+                            50 Baltimore U.S.
+                            51 Bamako Mali
+                            52 Bandar Lampung Indonesia
+                            53 Bandar Seri Begawan Brunei
+                            54 Bandung Indonesia
+                            55 Bangalore India
+                            56 Bangkok Thailand
+                            57 Bangui Central African Rep.
+                            58 Baoding China
+                            59 Baoji China
+                            60 Baotou China
+                            61 Barcelona Spain
+                            62 Bareilly India
+                            63 Barquisimeto Venezuela
+                            64 Barranquilla Colombia
+                            65 Basel Switzerland
+                            66 Batam Indonesia
+                            67 Battle Creek U.S.
+                            68 Beijing China
+                            69 Beirut Lebanon
+                            70 Belem Brazil
+                            71 Belfast United Kingdom
+                            72 Belgrade Serbia
+                            73 Belo Horizonte Brazil
+                            74 Bengbu China
+                            75 Benin City Nigeria
+                            76 Bentonville U.S.
+                            77 Benxi China
+                            78 Bergen Norway
+                            79 Berlin Germany
+                            80 Bern Switzerland
+                            81 Bhilai India
+                            82 Bhopāl India
+                            83 Bhubaneswar India
+                            84 Bilbao Spain
+                            85 Birmingham (Alabama - US) U.S.
+                            86 Birmingham (UK) United Kingdom
+                            87 Bishkek Kyrgyzstan
+                            88 Bissau Guinea-Bissau
+                            89 Blantyre Malawi
+                            90 Bogota Colombia
+                            91 Bologna Italy
+                            92 Bonn Germany
+                            93 Bordeaux France
+                            94 Boston U.S.
+                            95 Brasilia Brazil
+                            96 Bratislava Slovakia
+                            97 Brazzaville R Congo
+                            98 Bremen Germany
+                            99 Brisbane Australia
+                            100 Bristol United Kingdom
+                            101 Brussels Belgium
+                            102 Bucaramanga Colombia
+                            103 Bucharest Romania
+                            104 Budapest Hungary
+                            105 Buenos Aires Argentina
+                            106 Buffalo (NY) U.S.
+                            107 Bulawayo Zimbabwe
+                            108 Bursa Turkey
+                            109 Cairo Egypt
+                            110 Calcutta India
+                            111 Calgary Canada
+                            112 Cali Colombia
+                            113 Campinas Brazil
+                            114 Canberra Australia
+                            115 Cangnan China
+                            116 Cape Town South Africa
+                            117 Caracas Venezuela
+                            118 Cardiff United Kingdom
+                            119 Cartagena Colombia
+                            120 Casablanca Morocco
+                            121 Cebu Philippines
+                            122 Chandigarh India
+                            123 Changchun China
+                            124 Changsha China
+                            125 Changshu China
+                            126 Changwon Korea
+                            127 Changzhou China
+                            128 Charleston U.S.
+                            129 Charlotte (North Carolina) U.S.
+                            130 Chattanooga U.S.
+                            131 Chelyabinsk Russia
+                            132 Chengdu China
+                            133 Chennai India
+                            134 Chiba Japan
+                            135 Chicago U.S.
+                            136 Chifeng China
+                            137 Chihuahua Mexico
+                            138 Chisinau Moldova
+                            139 Chittagong Bangladesh
+                            140 Chonburi Thailand
+                            141 Chongqing China
+                            142 Christchurch New Zealand
+                            143 Cincinnatti U.S.
+                            144 Ciudad Juarez Mexico
+                            145 Cixi China
+                            146 Clermont-Ferrand France
+                            147 Cleveland U.S.
+                            148 Cochabamba Bolivia
+                            149 Cochin India
+                            150 Coimbatore India
+                            151 Cologne Germany
+                            152 Colombo Sri Lanka
+                            153 Columbus (Ohio) U.S.
+                            154 Conakry Guinea
+                            155 Copenhagen Denmark
+                            156 Cordoba Argentina
+                            157 Cotonou Benin
+                            158 Cuernavaca Mexico
+                            159 Curitiba Brazil
+                            160 Daegu Korea
+                            161 Daejeon Korea
+                            162 Dakar Senegal
+                            163 Dalian China
+                            164 Dallas U.S.
+                            165 Damascus Syria
+                            166 Dammam Saudi Arabia
+                            167 Danbury U.S.
+                            168 Daqing China
+                            169 Dar Es Salaam Tanzania
+                            170 Datong China
+                            171 Davao Philippines
+                            172 Dehradun India
+                            173 Denpasar Indonesia
+                            174 Denver U.S.
+                            175 Des Moines U.S.
+                            176 Detroit U.S.
+                            177 Dhaka Bangladesh
+                            178 Dhanbād India
+                            179 Dili East Timor
+                            180 Djibouti Djibouti
+                            181 Dnipropėtrovs'k Ukraine
+                            182 Doha Qatar
+                            183 Donetsk Ukraine
+                            184 Dortmund Germany
+                            185 Douala Cameroon
+                            186 Dresden Germany
+                            187 Dubai UAE
+                            188 Dublin Ireland
+                            189 Duisburg Germany
+                            190 Durban South Africa
+                            191 Dushanbe Tajikistan
+                            192 Düsseldorf Germany
+                            193 Edinburgh United Kingdom
+                            194 Edmonton Canada
+                            195 El Paso U.S.
+                            196 Essen Germany
+                            197 Faisalabad Pakistan
+                            198 Fès Morocco
+                            199 Florence Italy
+                            200 Fortaleza Brazil
+                            201 Frankfurt Germany
+                            202 Freetown Sierra Leone
+                            203 Fuji Japan
+                            204 Fukuoka Japan
+                            205 Fuzhou China
+                            206 Gaborone Botswana
+                            207 Gaza Palestine
+                            208 Gaziantep Turkey
+                            209 Geneva Switzerland
+                            210 Genoa Italy
+                            211 George Town Malaysia
+                            212 Georgetown (Cayman) Cayman Islands
+                            213 Georgetown (Guy.) Guyana
+                            214 Glasgow United Kingdom
+                            215 Goiania Brazil
+                            216 Gothenburg Sweden
+                            217 Graz Austria
+                            218 Greensboro U.S.
+                            219 Grenoble France
+                            220 Guadalajara Mexico
+                            221 Guangzhou China
+                            222 Guatemala City Guetamala
+                            223 Guayaquil Ecuador
+                            224 Guilin China
+                            225 Guiyang China
+                            226 Gujranwala Pakistan
+                            227 Guwāhāti India
+                            228 Gwalior India
+                            229 Gwangju Korea
+                            230 Haifa Israel
+                            231 Haikou China
+                            232 Ḥalab Syria
+                            233 Halifax Canada
+                            234 Hamamatsu Japan
+                            235 Hamburg Germany
+                            236 Hamilton Bermuda
+                            237 Handan China
+                            238 Hangzhou China
+                            239 Hannover Germany
+                            240 Hanoi Vietnam
+                            241 Harare Zimbabwe
+                            242 Harbin China
+                            243 Harrisburg U.S.
+                            244 Hartford (Connecticut) U.S.
+                            245 Havana Cuba
+                            246 Hefei China
+                            247 Heidelberg Germany
+                            248 Helsinki Finland
+                            249 Hengyang China
+                            250 Hiroshima Japan
+                            251 Ho Chi Minh City Vietnam
+                            252 Hobart Australia
+                            253 Hohhot China
+                            254 Hong Kong China
+                            255 Honolulu U.S.
+                            256 Houston U.S.
+                            257 Hsinchu City China
+                            258 Huai'an China
+                            259 Huaibei China
+                            260 Huainan China
+                            261 Hubli-Dhārwār India
+                            262 Huizhou China
+                            263 Hyderabad (India) India
+                            264 Hyderabad (Pakistan) Pakistan
+                            265 Ibadan Nigeria
+                            266 Incheon Korea
+                            267 Indianapolis U.S.
+                            268 Indore India
+                            269 Isfahan Iran
+                            270 Islamabad Pakistan
+                            271 Istanbul Turkey
+                            272 Izmir Turkey
+                            273 Jabalpur India
+                            274 Jacksonville U.S.
+                            275 Jaipur India
+                            276 Jakarta Indonesia
+                            277 Jalandhar India
+                            278 Jamshedpur India
+                            279 Jeddah Saudi Arabia
+                            280 Jerusalem Israel
+                            281 Jiangyin China
+                            282 Jiaozuo China
+                            283 Jilin China
+                            284 Jinan China
+                            285 Jinzhou China
+                            286 João Pessoa Brazil
+                            287 Jodhpur India
+                            288 Johannesburg South Africa
+                            289 Johor Bahru Malaysia
+                            290 Kabul Afghanistan
+                            291 Kaduna Nigeria
+                            292 Kaifeng China
+                            293 Kampala Uganda
+                            294 Kano Nigeria
+                            295 Kānpur India
+                            296 Kansas City U.S.
+                            297 Kaohsiung China
+                            298 Karachi Pakistan
+                            299 Karlsruhe Germany
+                            300 Kathmandu Nepal
+                            301 Katowice Poland
+                            302 Kawasaki Japan
+                            303 Kayseri Turkey
+                            304 Kazan Russia
+                            305 Kharkov Ukraine
+                            306 Khartoum Sudan
+                            307 Khulna Bangladesh
+                            308 Kiev Ukraine
+                            309 Kigali Rwanda
+                            310 Kingston (Canada) Canada
+                            311 Kingston (Jamaica) Jamaica
+                            312 Kinshasa DR Congo
+                            313 Kirkūk Iraq
+                            314 Kitakyushu Japan
+                            315 Kobe Japan
+                            316 Konya Turkey
+                            317 Kotā India
+                            318 Krakow Poland
+                            319 Krasnoyarsk Russia
+                            320 Kuala Lumpur Malaysia
+                            321 Kumamoto Japan
+                            322 Kumasi Ghana
+                            323 Kunming China
+                            324 Kuwait City Kuwait
+                            325 Kyoto Japan
+                            326 La Paz Bolivia
+                            327 Labuan Malaysia
+                            328 Lagos Nigeria
+                            329 Lahore Pakistan
+                            330 Lanzhou China
+                            331 Las Vegas U.S.
+                            332 Lausanne Switzerland
+                            333 Leeds United Kingdom
+                            334 Leicester United Kingdom
+                            335 Leipzig Germany
+                            336 Leon Mexico
+                            337 Leverkusen Germany
+                            338 Lianyungang China
+                            339 Libreville Gabon
+                            340 Liege Belgium
+                            341 Lille France
+                            342 Lilongwe Malawi
+                            343 Lima Peru
+                            344 Limassol Cyprus
+                            345 Linyi China
+                            346 Linz Austria
+                            347 Lisbon Portugal
+                            348 Little Rock (Arkansas) U.S.
+                            349 Liuzhou China
+                            350 Liverpool United Kingdom
+                            351 Ljubljana Slovenia
+                            352 Lodz Poland
+                            353 Lomé Togo
+                            354 London United Kingdom
+                            355 Los Angeles U.S.
+                            356 Louisville U.S.
+                            357 Luanda Angola
+                            358 Lubumbashi Congo (Dem. Rep.)
+                            359 Lucknow India
+                            360 Ludhiāna India
+                            361 Ludwigshafen Germany
+                            362 Luoyang China
+                            363 Lusaka Zambia
+                            364 Luxembourg Luxembourg
+                            365 Lyon France
+                            366 Ma'anshan China
+                            367 Macao China
+                            368 Maceió Brazil
+                            369 Madison (Wisconsin) U.S.
+                            370 Madrid Spain
+                            371 Madurai India
+                            372 Maiduguri Nigeria
+                            373 Mainz Germany
+                            374 Makassar Indonesia
+                            375 Makkah Saudi Arabia
+                            376 Malabo Equatorial Guinea
+                            377 Malacca Malaysia
+                            378 Málaga Spain
+                            379 Malang Indonesia
+                            380 Malmö Sweden
+                            381 Managua Nicaragua
+                            382 Manama Bahrain
+                            383 Manaus Brazil
+                            384 Manchester United Kingdom
+                            385 Mandalay Myanmar
+                            386 Manila Philippines
+                            387 Mannheim Germany
+                            388 Maoming China
+                            389 Maputo Mozambique
+                            390 Maracaibo Venezuela
+                            391 Maracay Venezuela
+                            392 Marrakech Morocco
+                            393 Marseille France
+                            394 Maseru Lesotho
+                            395 Mashhad Iran
+                            396 Mbabane Swaziland
+                            397 Mbuji-Mayi Congo (Dem. Rep.)
+                            398 McAllen U.S.
+                            399 Medan Indonesia
+                            400 Medellin Colombia
+                            401 Meerut India
+                            402 Melbourne Australia
+                            403 Melbourne (U.S.) U.S.
+                            404 Memphis (Tenessee) U.S.
+                            405 Mendoza Argentina
+                            406 Mérida Mexico
+                            407 Mexicali Mexico
+                            408 Mexico City Mexico
+                            409 Miami U.S.
+                            410 Mianyang China
+                            411 Milan Italy
+                            412 Milwaukee U.S.
+                            413 Minneapolis U.S.
+                            414 Minsk Belarus
+                            415 Mogadishu Somalia
+                            416 Mombasa Kenya
+                            417 Monrovia Liberia
+                            418 Monterrey Mexico
+                            419 Montevideo Uraguay
+                            420 Montpellier France
+                            421 Montreal Canada
+                            422 Morādābād India
+                            423 Moscow Russia
+                            424 Multan Pakistan
+                            425 Mumbai India
+                            426 Munich Germany
+                            427 Muscat Oman
+                            428 Mysore India
+                            429 Nagoya Japan
+                            430 Nāgpur India
+                            431 Naha Japan
+                            432 Nairobi Kenya
+                            433 Nanchang China
+                            434 Nanchong China
+                            435 Nanjing China
+                            436 Nanning China
+                            437 Nantes France
+                            438 Nantong China
+                            439 Nanyang China
+                            440 Naples Italy
+                            441 Nāshik India
+                            442 Nashville (Tennessee) U.S.
+                            443 Nassau Bahamas
+                            444 Natal Brazil
+                            445 N'Djamena Chad
+                            446 New Delhi India
+                            447 New Orleans U.S.
+                            448 New York U.S.
+                            449 Newcastle United Kingdom
+                            450 Niamey Niger
+                            451 Nice France
+                            452 Nicosia Cyprus
+                            453 Ningbo China
+                            454 Nizhny Novgorod Russia
+                            455 Norfolk (Virginia) U.S.
+                            456 Norwich United Kingdom
+                            457 Nottingham United Kingdom
+                            458 Nouakchott Mauritania
+                            459 Novosibirsk Russia
+                            460 Nürnberg Germany
+                            461 Odėsa Ukraine
+                            462 Okayama Japan
+                            463 Oklahoma City U.S.
+                            464 Omaha (Nebraska) U.S.
+                            465 Omsk Russia
+                            466 Onitsha Nigeria
+                            467 Oran Algeria
+                            468 Orlando U.S.
+                            469 Osaka Japan
+                            470 Oslo Norway
+                            471 Ottawa Canada
+                            472 Ouagadougou Burkina
+                            473 Palembang Indonesia
+                            474 Palermo Italy
+                            475 Palo Alto U.S.
+                            476 Panama City Panama
+                            477 Paramaribo Surinam
+                            478 Paris France
+                            479 Patna India
+                            480 Pekanbaru Indonesia
+                            481 Penang Malaysia
+                            482 Peoria U.S.
+                            483 Perm Russia
+                            484 Perth Australia
+                            485 Peshawar Pakistan
+                            486 Philadelphia U.S.
+                            487 Phnom Penh Cambodia
+                            488 Phoenix U.S.
+                            489 Pittsburgh (Pennsylvania) U.S.
+                            490 Plymouth United Kingdom
+                            491 Podgorica Montenegro
+                            492 Pombal Portugal
+                            493 Port Elizabeth South Africa
+                            494 Port Harcourt Nigeria
+                            495 Port Louis Mauritius
+                            496 Port Moresby Papua New Guinea
+                            497 Port of Spain Trinidad and Tobago
+                            498 Port-Au-Prince Haiti
+                            499 Portland U.S.
+                            500 Porto Portugal
+                            501 Porto Alegre Brazil
+                            502 Porto Novo Benin
+                            503 Poznan Poland
+                            504 Prague Czeck Republic
+                            505 Pretoria South Africa
+                            506 Providence (Rhode Island) U.S.
+                            507 Puebla Mexico
+                            508 Pune India
+                            509 Pusan Korea
+                            510 Putian China
+                            511 Pyongyang Korea (Nouth)
+                            512 Qingdao China
+                            513 Qingyuan China
+                            514 Qinhuangdao China
+                            515 Qiqihar China
+                            516 Qom Iran
+                            517 Quebec Canada
+                            518 Queretaro Mexico
+                            519 Quetta Pakistan
+                            520 Quito Ecuador
+                            521 Rabat Morocco
+                            522 Rājkot India
+                            523 Raleigh (North Carolina) U.S.
+                            524 Ranchi India
+                            525 Rawalpindi Pakistan
+                            526 Rayong Thailand
+                            527 Recife Brazil
+                            528 Reykjavik Iceland
+                            529 Richmond (Virginia) U.S.
+                            530 Riga Latvia
+                            531 Rio De Janeiro Brazil
+                            532 Riyadh Saudi Arabia
+                            533 Rizhao China
+                            534 Rochester (NY) U.S.
+                            535 Rome Italy
+                            536 Rosario Argentina
+                            537 Rostov-on-Don Russia
+                            538 Rotterdam Netherlands
+                            539 Ruhrgebiet Germany
+                            540 Sacramento U.S.
+                            541 Sakai Japan
+                            542 Salem India
+                            543 Salt Lake City U.S.
+                            544 Salvador Brazil
+                            545 Samara Russia
+                            546 San Antonio U.S.
+                            547 San Diego U.S.
+                            548 San Francisco U.S.
+                            549 San Jose Costa Rica
+                            550 San Jose (Ca) U.S.
+                            551 San Juan Puerto Rico
+                            552 San Luis Potosí Mexico
+                            553 San Pedro Sula Honduras
+                            554 San Salvador El Salvador
+                            555 Sanaa Yemen
+                            556 Sandviken Sweden
+                            557 Santa Cruz Bolivia
+                            558 Santiago Chile
+                            559 Santo Domingo Dominican Republic
+                            560 Santos Brazil
+                            561 São Luís Brazil
+                            562 Sao Paulo Brazil
+                            563 Sapporo Japan
+                            564 Sarajevo Bosnia and Herzegovina
+                            565 Saratov Russia
+                            566 Saskatoon Canada
+                            567 Seattle U.S.
+                            568 Semarang Indonesia
+                            569 Sendai Japan
+                            570 Seoul Korea
+                            571 Serang Indonesia
+                            572 Seville Spain
+                            573 Shanghai China
+                            574 Shantou China
+                            575 Sheffield United Kingdom
+                            576 Shenyang China
+                            577 Shenzhen China
+                            578 Shijiazhuang China
+                            579 Shīrāz Iran
+                            580 Shizuoka Japan
+                            581 Singapore Singapore
+                            582 Skopje Macedonia
+                            583 Sofia Bulgaria
+                            584 Solāpur India
+                            585 Southampton United Kingdom
+                            586 Srīnagar India
+                            587 St Louis U.S.
+                            588 St Petersburg Russia
+                            589 Stockholm Sweden
+                            590 Stockton U.S.
+                            591 Strasbourg France
+                            592 Stuttgart Germany
+                            593 Surabaya Indonesia
+                            594 Surakarta Indonesia
+                            595 Sūrat India
+                            596 Surgut Russia
+                            597 Sūsah Tunisia
+                            598 Suva Fiji
+                            599 Suzhou China
+                            600 Swindon United Kingdom
+                            601 Sydney Australia
+                            602 Tabrīz Iran
+                            603 Tai'an China
+                            604 Tainan Taiwan (Rep. of China)
+                            605 Taipei China
+                            606 Taiyuan China
+                            607 Taizhong Taiwan (Rep. of China)
+                            608 Taizhou China
+                            609 Takamatsu Japan
+                            610 Tallinn Estonia
+                            611 Tampa U.S.
+                            612 Tangshan China
+                            613 Taoyuan Taiwan (Rep. of China)
+                            614 Tashkent Uzbekistan
+                            615 Tbilisi Georgia
+                            616 Tegucigalpa Honduras
+                            617 Tehran Iran
+                            618 Tel Aviv Israel
+                            619 Teresina Brazil
+                            620 The Hague Netherlands
+                            621 Thimphu Bhutan
+                            622 Tianjin China
+                            623 Tijuana Mexico
+                            624 Tirana Albania
+                            625 Tiruchirāppalli India
+                            626 Tiruppūr India
+                            627 Tokyo Japan
+                            628 Toluca Mexico
+                            629 Toronto Canada
+                            630 Torreón Mexico
+                            631 Toulouse France
+                            632 Toyama Japan
+                            633 Trieste Italy
+                            634 Tripoli Libya
+                            635 Trivandrum India
+                            636 Tucson U.S.
+                            637 Tulsa U.S.
+                            638 Tunis Tunisia
+                            639 Turin Italy
+                            640 Ufa Russia
+                            641 Ulan Bator Mongolia
+                            642 Ulsan Korea
+                            643 Urumqi China
+                            644 Utrecht Netherlands
+                            645 Vadodara India
+                            646 Valencia (Sp.) Spain
+                            647 Valencia (Ve.) Venezuela
+                            648 Valparaíso Chile
+                            649 Vancouver Canada
+                            650 Vārānasi India
+                            651 Venice Italy
+                            652 Victoria Seychelles
+                            653 Vienna Austria
+                            654 Vientiane Laos
+                            655 Vijayawāda India
+                            656 Vilnius Lithuania
+                            657 Virginia Beach U.S.
+                            658 Visākhapatnam India
+                            659 Vitoria Brazil
+                            660 Vladivostok Russia
+                            661 Volgograd Russia
+                            662 Voronež Russia
+                            663 Wanzhou China
+                            664 Warsaw Poland
+                            665 Washington U.S.
+                            666 Weifang China
+                            667 Wellington New Zealand
+                            668 Wenzhou China
+                            669 Windhoek Namibia
+                            670 Winnipeg Canada
+                            671 Winston-Salem United Kingdom
+                            672 Wolfsburg Germany
+                            673 Wroclaw Poland
+                            674 Wuhan China
+                            675 Wuhu China
+                            676 Wuxi China
+                            677 Xiamen China
+                            678 Xi'An China
+                            679 Xiangtan China
+                            680 Xiangyang China
+                            681 Xingtai China
+                            682 Xining China
+                            683 Xinxiang China
+                            684 Xuzhou China
+                            685 Yancheng China
+                            686 Yangon Myanmar
+                            687 Yangzhou China
+                            688 Yantai China
+                            689 Yaonde Cameroon
+                            690 Yekaterinburg Russia
+                            691 Yerevan Armenia
+                            692 Yichang China
+                            693 Yinchuan China
+                            694 Yiwu China
+                            695 Yogyakarta Indonesia
+                            696 Yokohama Japan
+                            697 Zagreb Croatia
+                            698 Zamboanga Philippines
+                            699 Zhangjiakou China
+                            700 Zhanjiang China
+                            701 Zhengzhou China
+                            702 Zhenjiang China
+                            703 Zhuhai China
+                            704 Zhuzhou China
+                            705 Zibo China
+                            706 Zunyi China
+                            707 Zurich Switzerland
+                        -->
                     </select>
                 </div>
                 <div class="form-group"></div>
