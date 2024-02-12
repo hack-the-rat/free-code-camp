@@ -772,7 +772,19 @@
                 <div class="form-group">
                     <p>What issues concern you about your city the most? <span class="clue">(Check all that apply.)</span></p>
                     <label for="infrastructure">
-                        <input name="prefer" value="infrastructure" type="checkbox" class="input-checkbox" />Poor Infrastructure
+                        <input name="prefer" value="infrastructure" type="checkbox" class="input-checkbox" />Crumbling Infrastructure
+                    </label>
+                    <label for="education">
+                        <input name="prefer" value="education" type="education" class="input-checkbox" />Lack of Education
+                    </label>
+                    <label for="healthcare">
+                        <input name="prefer" value="healthcare" type="checkbox" class="input-checkbox" />Poor Access to Healthcare
+                    </label>
+                    <label for="housing">
+                        <input name="prefer" value="housing" type="checkbox" class="input-checkbox" />Housing Crisis
+                    </label>
+                    <label for="unemployment">
+                        <input name="prefer" value="housing" type="checkbox" class="input-checkbox" />Unemployment or Underemployment
                     </label>
                     <label for="crime">
                         <input name="prefer" value="crime" type="checkbox" class="input-checkbox" />Crime
@@ -802,8 +814,13 @@
                         <input name="prefer" value="climate-change" type="checkbox" class="input-checkbox" />Climate Change
                     </label>
                 </div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
+                <div class="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                </div>
             </form>
         </div>
     </body>
