@@ -27,3 +27,19 @@ label {
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
 }
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
