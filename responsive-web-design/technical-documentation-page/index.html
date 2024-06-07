@@ -50,6 +50,19 @@
             </section>
             <section class="main-section" id="Anatomy">
                 <header>Anatomy</header>
+                <article>
+                    <p>Some code needs to be run frame-by-frame, so why attach that function to anything other than the browser's redraw schedule?  On the Web, <code>window.requestAnimationFrame()</code> will be the foundation of most well-programmed per-frame main loops.  A callback function must be passed in to it when it is called.  That callback function will be executed at a suitable time before the next repaint. Here is an example of a simple main loop:</p>
+                    <code>
+                        window.main = function () {
+                            window.requestAnimationFrame( main );
+                            
+                            // Whatever your main loop needs to do.
+                          };
+                          
+                          main(); //Start the cycle.
+                    </code>
+                    <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+                </article>
             </section>
             <section class="main-section" id="Examples">
                 <header>Examples</header>
