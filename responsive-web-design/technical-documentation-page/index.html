@@ -114,7 +114,9 @@
                     <p>The canvas element is also used by WebGL to draw hardware-accelerated 3D graphics on web pages.</p>
                     <p>This is just a simple code snippet which uses the <code>CanvasRenderingContext2D.fillRect()</code> method.</p>
                     <p>HTML</p>
-                    <code> canvas id="canvas" canvas </code>
+                    <code>
+                        <canvas id="canvas"></canvas>
+                    </code>
                     <p>JavaScript</p>
                     <code>
                         var canvas = document.getElementById('canvas');
@@ -170,6 +172,40 @@
             </section>
             <section class="main-section" id="Using_async_scripts_for_asm.js">
                 <header>Using async scripts for asm.js</header>
+                <article>
+                    <h3>Putting async into action</h3>
+                    <p>Getting async compilation is easy: when writing your JavaScript, just use the async attribute like so: </p>
+                    <code>
+                        <script async src="file.js"></script>
+                    </code>
+                    <p>Or, do the same thing via script: </p>
+                    <code>
+                        var script = document.createElement('script');
+                        script.src = "file.js";
+                        document.body.appendChild(script);
+                    </code>
+                    <h3>When is async not async?</h3>
+                    <p>Two common situations in which a script is *not* async (as defined by the HTML spec) are: </p>
+                    <code>
+                        <script async code></script>
+                    </code>
+                    <p>and</p>
+                    <code>
+                        var script = document.createElement('script');
+                        script.innerHTML = "code";
+                        ocument.body.appendChild(script);
+                    </code>
+                    <p>Both are counted as 'inline' scripts and get compiled and then run immediately.</p>
+                    <p>What if your code is in a JS string?  Instead of using eval or innerHTML, both of which trigger synchronous compilation, you should use a Blob with an object URL: </p>
+                    <code>
+                        var blob = new Blob([codeString]);
+                        var script = document.createElement('script');
+                        var url = URL.createObjectURL(blob);
+                        script.onload = script.onerror = function() { URL.revokeObjectURL(url); };
+                        script.src = url;
+                        document.body.appendChild(script);
+                    </code>
+                </article>
             </section>
             <section class="main-section" id="Optimizing_startup_performance">
                 <header>Optimizing startup performance</header>
