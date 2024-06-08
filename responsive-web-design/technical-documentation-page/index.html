@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Games Development Page</title>
+        <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
         <nav id="navbar">
@@ -98,7 +99,7 @@
             <section class="main-section" id="Anatomy">
                 <header>Anatomy</header>
                 <article>
-                    <p>Some code needs to be run frame-by-frame, so why attach that function to anything other than the browser's redraw schedule?  On the Web, <code>window.requestAnimationFrame()</code> will be the foundation of most well-programmed per-frame main loops.  A callback function must be passed in to it when it is called.  That callback function will be executed at a suitable time before the next repaint. Here is an example of a simple main loop:</p>
+                    <p>Some code needs to be run frame-by-frame, so why attach that function to anything other than the browser's redraw schedule?  On the Web, window.requestAnimationFrame() will be the foundation of most well-programmed per-frame main loops.  A callback function must be passed in to it when it is called.  That callback function will be executed at a suitable time before the next repaint. Here is an example of a simple main loop: </p>
                     <code>
                         window.main = function () {
                             window.requestAnimationFrame( main );
@@ -157,14 +158,14 @@
             <section class="main-section" id="Canvas">
                 <header>Canvas</header>
                 <article>
-                    <p> Mozilla applications gained support for <code>canvas</code> tag starting with Gecko 1.8 (i.e. Firefox 1.5).  The element was originally introduced by Apple for the OS X Dashboard and Safari.  Internet Explorer supports <code>canvas</code> tag from version 9 onwards.  For earlier versions of IE, a page can effectively add support for <code>canvas</code> tag by including a script from Google's Explorer Canvas project.  Google Chrome and Opera 9 also support <code>canvas</code> tag.</p>
+                    <p> Mozilla applications gained support for canvas tag starting with Gecko 1.8 (i.e. Firefox 1.5).  The element was originally introduced by Apple for the OS X Dashboard and Safari.  Internet Explorer supports canvas tag from version 9 onwards.  For earlier versions of IE, a page can effectively add support for canvas tag by including a script from Google's Explorer Canvas project.  Google Chrome and Opera 9 also support canvas tag.</p>
                     <p>The canvas element is also used by WebGL to draw hardware-accelerated 3D graphics on web pages.</p>
-                    <p>This is just a simple code snippet which uses the <code>CanvasRenderingContext2D.fillRect()</code> method.</p>
-                    <p>HTML</p>
+                    <p>This is just a simple code snippet which uses the CanvasRenderingContext2D.fillRect() method.</p>
+                    <h4>HTML</h4>
                     <code>
                         canvas id="canvas" /canvas
                     </code>
-                    <p>JavaScript</p>
+                    <h4>JavaScript</h4>
                     <code>
                         var canvas = document.getElementById('canvas');
                         var ctx = canvas.getContext('2d');
@@ -195,11 +196,11 @@
                     <p>See also the extensions to the Gamepad interface for features that allow you to access the above information.</p>
                     <p>You cannot declare a constant with the same name as a function or variable in the same scope.  For example: </p>
                     <h4>Extensions to other interfaces</h4>
-                    <p>Navigator</p>
-                    <p><code>Navigator.getGamepads()</code>: An extension to the Navigator object that returns an array of Gamepad objects, one for each connected gamepad.</p>
-                    <p>Window events</p>
-                    <p><code>Window.ongamepadconnected</code>: Represents an event handler that will run when a gamepad is connected (when the gamepadconnected event fires).</p>
-                    <p><code>Window.ongamepaddisconnected</code>: Represents an event handler that will run when a gamepad is disconnected (when the gamepaddisconnected event fires).</p>
+                    <h6>Navigator</h6>
+                    <p>Navigator.getGamepads(): An extension to the Navigator object that returns an array of Gamepad objects, one for each connected gamepad.</p>
+                    <h6>Window events</h6>
+                    <p>Window.ongamepadconnected: Represents an event handler that will run when a gamepad is connected (when the gamepadconnected event fires).</p>
+                    <p>Window.ongamepaddisconnected: Represents an event handler that will run when a gamepad is disconnected (when the gamepaddisconnected event fires).</p>
                 </article>
             </section>
             <section class="main-section" id="Techniques">
