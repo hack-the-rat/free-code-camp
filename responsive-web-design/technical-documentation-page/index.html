@@ -224,6 +224,15 @@
             </section>
             <section class="main-section" id="Using_WebRTC_peer-to-peer_data_channels">
                 <header>Using WebRTC peer-to-peer data channels</header>
+                <article>
+                    <h3>What is a data channel?</h3>
+                    <p>A WebRTC data channel lets you send text or binary data over an active connection to a peer.  In the context of a game, this lets players send data to each other, whether text chat or game status information.  Data channels come in two flavors.</p>
+                    <p>Reliable channels guarantee that messages you send arrive at the other peer and in the same order in which they're sent.  This is analogous to a TCP socket.</p>
+                    <p>Unreliable channels make no such guarantees; messages aren't guaranteed to arrive in any particular order and, in fact, aren't guaranteed to arrive at all.  This is analogous to a UDP socket.</p>
+                    <p>We have documentation for using WebRTC.  This article, however, will take advantage of some libraries that can help trivialize the work, and will demonstrate ways to use abstraction to work around implementation differences between browsers.  Hopefully, of course, those differences will fade away in time.</p>
+                    <h3>Using the p2p library</h3>
+                    <p>One library you can use is the p2p library.  This library provides a simple API for creating peer connections and setting up streams and data channels.  There's also a broker server component and a hosted broker you can use instead of having to set one up for yourself.</p>
+                </article>
             </section>
             <section class="main-section" id="Reference">
                 <header>Reference</header>
