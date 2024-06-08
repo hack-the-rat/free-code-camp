@@ -115,7 +115,7 @@
                     <p>This is just a simple code snippet which uses the <code>CanvasRenderingContext2D.fillRect()</code> method.</p>
                     <p>HTML</p>
                     <code>
-                        <canvas id="canvas"></canvas>
+                        canvas id="canvas" /canvas
                     </code>
                     <p>JavaScript</p>
                     <code>
@@ -176,7 +176,7 @@
                     <h3>Putting async into action</h3>
                     <p>Getting async compilation is easy: when writing your JavaScript, just use the async attribute like so: </p>
                     <code>
-                        <script async src="file.js"></script>
+                        script async src="file.js" /script
                     </code>
                     <p>Or, do the same thing via script: </p>
                     <code>
@@ -187,7 +187,7 @@
                     <h3>When is async not async?</h3>
                     <p>Two common situations in which a script is *not* async (as defined by the HTML spec) are: </p>
                     <code>
-                        <script async code></script>
+                        script async code /script
                     </code>
                     <p>and</p>
                     <code>
@@ -209,6 +209,18 @@
             </section>
             <section class="main-section" id="Optimizing_startup_performance">
                 <header>Optimizing startup performance</header>
+                <article>
+                    <h3>Starting up nicely</h3>
+                    <p>Regardless of platform, it's always a good idea to start up as quickly as possible.  Since that's a universal issue, we won't be focusing on it too much here.  Instead, we're going to look at a more important issue when building Web apps: starting up as asynchronously as possible.  That means not running all your startup code in a single event handler on the app's main thread.</p>
+                    <p>Why is it important to be asynchronous?  Other than the reasons suggested above, consider the impact of a non-responsive page or user interface.  The user is unable to cancel if they launch your app by mistake.  If the app is being run in a browser, it's possible the user may get an "unresponsive app" or "slow script" notification.  You should present some kind of interface, such as a progress bar, so that the user knows how much longer they'll need to wait while your app starts up.</p>
+                    <h3>Where there's a will...</h3>
+                    <p>If you're starting your project from scratch, it's usually pretty easy to just write everything the "right way," making appropriate bits of the code asynchronous.  All pure startup calculations should be performed in background threads, while you keep the run-time of main thread events as short as possible.  Include a progress indicator so the user knows what's going on and how long they'll be waiting.  In theory, anyway, it should be pretty easy to design your new app to start up nicely.</p>
+                    <p>While you can use Web workers to run even very large, long-duration chunks of JavaScript code asynchronously, there's a huge caveat that: workers don't have access to WebGL or audio, and they can't send synchronous messages to the main thread, so you can't even proxy those APIs to the main thread.  This all means that unless you can easily pull out the "pure calculation" chunks of your startup process into workers, you'll wind up having to run most or all of your startup code on the main thread.</p>
+                    <p>When that part of the document needs to be rendered, load the commented HTML.</p>
+                    <code>
+                        foo.innerHTML = foo.firstChild.nodeValue;
+                    </code>
+                </article>
             </section>
             <section class="main-section" id="Using_WebRTC_peer-to-peer_data_channels">
                 <header>Using WebRTC peer-to-peer data channels</header>
