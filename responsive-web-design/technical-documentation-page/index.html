@@ -109,6 +109,21 @@
             </section>
             <section class="main-section" id="Canvas">
                 <header>Canvas</header>
+                <article>
+                    <p> Mozilla applications gained support for <code>canvas</code> tag starting with Gecko 1.8 (i.e. Firefox 1.5).  The element was originally introduced by Apple for the OS X Dashboard and Safari.  Internet Explorer supports <code>canvas</code> tag from version 9 onwards.  For earlier versions of IE, a page can effectively add support for <code>canvas</code> tag by including a script from Google's Explorer Canvas project.  Google Chrome and Opera 9 also support <code>canvas</code> tag.</p>
+                    <p>The canvas element is also used by WebGL to draw hardware-accelerated 3D graphics on web pages.</p>
+                    <p>This is just a simple code snippet which uses the <code>CanvasRenderingContext2D.fillRect()</code> method.</p>
+                    <p>HTML</p>
+                    <code> canvas id="canvas" canvas </code>
+                    <p>JavaScript</p>
+                    <code>
+                        var canvas = document.getElementById('canvas');
+                        var ctx = canvas.getContext('2d');
+                        
+                        ctx.fillStyle = 'green';
+                        ctx.fillRect(10, 10, 100, 100);
+                    </code>
+                </article>
             </section>
             <section class="main-section" id="CSS">
                 <header>CSS</header>
