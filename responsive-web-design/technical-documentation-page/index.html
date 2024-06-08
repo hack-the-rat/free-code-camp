@@ -134,6 +134,24 @@
             </section>
             <section class="main-section" id="Gamepad_API">
                 <header>Gamepad API</header>
+                <article>
+                    <p>The Gamepad API is a way for developers to access and respond to signals from gamepads and other game controllers in a simple, consistent way.  It contains three interfaces, two events and one specialist function, to respond to gamepads being connected and disconnected, and to access other information about the gamepads themselves, and what buttons and other controls are currently being pressed.</p>
+                    <h4>Interfaces</h4> 
+                    <p>Gamepad: Represents a gamepad/controller connected to the computer.</p>
+                    <p>GamepadButton: Represents a button on one of the connected controllers.</p>
+                    <p>GamepadEvent: The event object representing events fired that are related to gamepads.</p>
+                    <h4>Experimental Gamepad extensions</h4>
+                    <p>GamepadHapticActuator: Represents hardware in the controller designed to provide haptic feedback to the user (if available), most commonly vibration hardware.</p>
+                    <p>GamepadPose: Represents the pose of a controller (e.g. position and orientation in 3D space) in the case of a WebVRcontroller.</p>
+                    <p>See also the extensions to the Gamepad interface for features that allow you to access the above information.</p>
+                    <p>You cannot declare a constant with the same name as a function or variable in the same scope.  For example: </p>
+                    <h4>Extensions to other interfaces</h4>
+                    <p>Navigator</p>
+                    <p><code>Navigator.getGamepads()</code>: An extension to the Navigator object that returns an array of Gamepad objects, one for each connected gamepad.</p>
+                    <p>Window events</p>
+                    <p><code>Window.ongamepadconnected</code>: Represents an event handler that will run when a gamepad is connected (when the gamepadconnected event fires).</p>
+                    <p><code>Window.ongamepaddisconnected</code>: Represents an event handler that will run when a gamepad is disconnected (when the gamepaddisconnected event fires).</p>
+                </article>
             </section>
             <section class="main-section" id="Techniques">
                 <header>Techniques</header>
