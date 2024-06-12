@@ -262,7 +262,8 @@ body {
         var(--building-color2) 5%,
         transparent 5%,
         transparent 10%
-    ), repeating-linear-gradient(
+    ), 
+    repeating-linear-gradient(
         90deg,
         var(--building-color2) 0%,
         var(--building-color2) 12%,
@@ -281,5 +282,11 @@ body {
         var(--building-color3) 10%,
         transparent 10%,
         transparent 30%
+    ), 
+    repeating-linear-gradient(
+        var(--building-color3),
+        var(--building-color3) 10%,
+        var(--window-color3) 10%,
+        var(--window-color3) 30%
     );
 }  
