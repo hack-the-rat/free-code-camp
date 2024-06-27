@@ -43,3 +43,8 @@
     border: 2px solid;
     transform-origin: 50% 0%;
 }
+
+.cabin:first-of-type {
+    right: -8.5%;
+    top: 50%;
+}
