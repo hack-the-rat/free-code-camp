@@ -81,6 +81,7 @@ body {
 
 .penguin-body::before {
     content: "";
+    position: absolute;
 }
 
 .ground {
