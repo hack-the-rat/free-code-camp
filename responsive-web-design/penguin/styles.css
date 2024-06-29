@@ -57,6 +57,10 @@ body {
     position: absolute;
 }
 
+.penguin:active {
+    transform: scale(1.5);
+}
+
 .penguin-head {
     width: 50%;
     height: 45%;
