@@ -3,7 +3,7 @@ const count = 8;
 const rows = [];
 
 function padRow() {
-
+    return "Hello!";
 }
 const call = padRow();
 console.log(call);
