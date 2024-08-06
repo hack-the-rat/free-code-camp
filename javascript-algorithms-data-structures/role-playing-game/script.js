@@ -17,7 +17,8 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 const locations = [{
-    name: "town square"
+    name: "town square",
+    "button text": []
 }];
 
 // initialize buttons
