@@ -63,6 +63,8 @@ function calculateCalories(e) {
     <p>${consumedCalories} Calories Consumed</p>
     <p>${exerciseCalories} Calories Budgeted</p>
     `;
+
+    output.classList.remove('hide');
 }
 
 function getCaloriesFromInputs(list) {
