@@ -12,7 +12,7 @@
         <main>
             <h1>Calorie Counter</h1>
             <div class="container">
-                <form action="" id="calorie-counter">
+                <form id="calorie-counter">
                     <label for="budget">Budget</label>
                     <input
                         type="number"
@@ -29,9 +29,9 @@
                         <legend>Lunch</legend>
                         <div class="input-container"></div>
                     </fieldset>
-                    <fieldset id="dinner">
+                        <fieldset id="dinner">
                         <legend>Dinner</legend>
-                        <div class="input-container"></div>
+                    <div class="input-container"></div>
                     </fieldset>
                     <fieldset id="snacks">
                         <legend>Snacks</legend>
@@ -44,18 +44,20 @@
                     <div class="controls">
                         <span>
                             <label for="entry-dropdown">Add food or exercise:</label>
-                            <select name="options" id="entry-dropdown">
+                            <select id="entry-dropdown" name="options">
                                 <option value="breakfast" selected>Breakfast</option>
                                 <option value="lunch">Lunch</option>
                                 <option value="dinner">Dinner</option>
                                 <option value="snacks">Snacks</option>
                                 <option value="exercise">Exercise</option>
                             </select>
-                            <button id="add-entry" type="button">Add Entry</button>
+                            <button type="button" id="add-entry">Add Entry</button>
                         </span>
                     </div>
                     <div>
-                        <button type="submit">Calculate Remaining Calories</button>
+                        <button type="submit">
+                            Calculate Remaining Calories
+                        </button>
                         <button type="button" id="clear">Clear</button>
                     </div>
                 </form>
