@@ -109,7 +109,7 @@ const renderSongs = (array) => {
 };
 
 const sortSongs = () => {
-    
+    userData?.songs.sort();
 }
 
 renderSongs(userData?.songs);
