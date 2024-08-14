@@ -106,7 +106,7 @@ const renderSongs = (array) => {
         .map((song)=> {
         return `
         <li id="song-${song.id}" class="playlist-song">
-        <button class="playlist-song-info">
+        <button class="playlist-song-info" onclick="playSong(${song.id})">
             <span class="playlist-song-title">${song.title}</span>
             <span class="playlist-song-artist">${song.artist}</span>
             <span class="playlist-song-duration">${song.duration}</span>
@@ -132,18 +132,20 @@ playButton.addEventListener("click", () => {
 });
 
 const sortSongs = () => {
-    userData?.songs.sort((a, b) => {
+    userData?.songs.sort((a,b) => {
         if (a.title < b.title) {
             return -1;
         }
-
+    
         if (a.title > b.title) {
             return 1;
         }
-
+    
         return 0;
     });
+  
     return userData?.songs;
-}
-
-renderSongs(sortSongs());
+  };
+  
+  
+  renderSongs(userData?.songs);
