@@ -190,12 +190,14 @@ const renderSongs = (array) => {
 
 const setPlayButtonAccessibleText = () => {
     const song = userData?.currentSong || userData?.songs[0];
-    playButton.setAttribute("aria-label", song?.title ? `Play ${song.title}` : "Play");
-}
 
-const getCurrentSongIndex = () => {
-    return userData?.songs.indexOf(userData?.currentSong);
+    playButton.setAttribute(
+        "aria-label",
+        song?.title ? `Play ${song.title}` : "Play"
+    );
 };
+
+const getCurrentSongIndex = () => userData?.songs.indexOf(userData?.currentSong);
 
 playButton.addEventListener("click", () => {
     if (userData?.currentSong === null) {
@@ -210,6 +212,8 @@ pauseButton.addEventListener("click",  pauseSong);
 nextButton.addEventListener("click", playNextSong);
 
 previousButton.addEventListener("click", playPreviousSong);
+
+shuffleButton.addEventListener("click", shuffle);
 
 const sortSongs = () => {
     userData?.songs.sort((a,b) => {
