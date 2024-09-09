@@ -43,7 +43,7 @@ body {
     padding: 20px;
     margin: 10px 0;
     background-color: white;
-    box-shadow: 0 6px 6px #002ead;
+    box-shadow: 0 6px 6px blue;
 }
 
 label {
@@ -56,7 +56,7 @@ label {
     border: none;
     padding: 10px;
     border-radius: 15px;
-    background-color: #5a01a7;
+    background-color: purple;
     color: #fff;
     cursor: pointer;
 }
@@ -68,11 +68,11 @@ label {
     font-size: 1.2rem;
     margin: 10px;
     border: none;
-    border-bottom: 2px solid #5a01a7;
+    border-bottom: 2px solid purple;
 }
   
 .palindrome-input:focus {
-    border-bottom: 3px solid #5a01a7;
+    border-bottom: 3px solid purple;
 }
   
 .palindrome-input::placeholder {
@@ -100,7 +100,7 @@ label {
     width: min(100vw, 450px);
     font-size: 1.3rem;
     min-height: 140px;
-    background-color: #00471b;
+    background-color: darkgreen;
     margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
