@@ -24,3 +24,8 @@ const checkForPalindrome = input => {
 
     resultDiv.classList.remove('hidden');
 };
+
+checkPalindromeBtn.addEventListener('click', () => {
+    checkForPalindrome(userInput.value);
+    userInput.value = '';
+});
