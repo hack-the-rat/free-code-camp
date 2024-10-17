@@ -42,4 +42,6 @@ taskForm.addEventListener("submit", (e) => {
     if (dataArrIndex === -1) {
         taskData.unshift(taskObj);
     }
+
+    taskData.forEach(({id, title, date, description}));
 });
