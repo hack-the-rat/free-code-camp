@@ -13,8 +13,8 @@ const descriptionInput = document.getElementById("description-input");
 const taskData = JSON.parse(localStorage.getItem("data")) || [];
 let currentTask = {};
 
-const removeSpecialChars = (string) => {
-    return string.replace(/[/'/'/"/"_]/g,"");
+const removeSpecialChars = (val) => {
+    return val.trim().replace(/[^A-Za-z0-9\-\s]/g, '')
 };
 
 const addOrUpdateTask = () => {
@@ -24,10 +24,10 @@ const addOrUpdateTask = () => {
     }
     const dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
     const taskObj = {
-        id: `${titleInput.value.toLowerCase().split(" ").join("-")}-${Date.now()}`,
-        title: titleInput.value,
+        id: `${removeSpecialChars(titleInput.value).toLowerCase().split(" ").join("-")}-${Date.now()}`,
+        title: removeSpecialChars(titleInput.value),
         date: dateInput.value,
-        description: descriptionInput.value,
+        description: removeSpecialChars(descriptionInput.value),
     };
 
     if (dataArrIndex === -1) {
@@ -35,8 +35,8 @@ const addOrUpdateTask = () => {
     } else {
         taskData[dataArrIndex] = taskObj;
     }
-    localStorage.setItem("data", JSON.stringify(taskData));
 
+    localStorage.setItem("data", JSON.stringify(taskData));
     updateTaskContainer();
     reset();
 };
@@ -46,7 +46,7 @@ const updateTaskContainer = () => {
 
     taskData.forEach(
         ({ id, title, date, description }) => {
-                tasksContainer.innerHTML += `
+            (tasksContainer.innerHTML += `
                 <div class="task" id="${id}">
                     <p><strong>Title:</strong> ${title}</p>
                     <p><strong>Date:</strong> ${date}</p>
@@ -54,7 +54,7 @@ const updateTaskContainer = () => {
                     <button onclick="editTask(this)" type="button" class="btn">Edit</button>
                     <button onclick="deleteTask(this)" type="button" class="btn">Delete</button> 
                 </div>
-            `
+            `);
         }
     );
 };
