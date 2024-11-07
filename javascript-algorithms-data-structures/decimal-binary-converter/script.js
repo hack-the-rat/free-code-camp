@@ -18,6 +18,8 @@ const decimalToBinary = (input) => {
     }
 };
 
+console.log("Inputs: ", inputs);
+
 const checkUserInput = () => {
     if (
         !numberInput.value ||
