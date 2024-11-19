@@ -12,7 +12,8 @@ const decimalToBinary = (input) => {
 
 const showAnimation = () => {
     if (parseInt(numberInput.value) === 5) {
-        
+        showAnimation();
+        return;
     }
 };
 
