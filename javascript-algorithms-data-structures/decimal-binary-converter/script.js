@@ -11,19 +11,23 @@ const decimalToBinary = (input) => {
 };
 
 const showAnimation = () => {
-    if (parseInt(numberInput.value) === 5) {
-        showAnimation();
-        return;
-    }
+
 };
 
 const checkUserInput = () => {
+    const inputInt = parseInt(numberInput.value);
+
     if (
         !numberInput.value ||
         isNaN(parseInt(numberInput.value)) ||
         parseInt(numberInput.value) < 0
     ) {
         alert("Please provide a decimal number greater than or equal to 0");
+        return;
+    }
+
+    if (parseInt(numberInput.value) === 5) {
+        showAnimation();
         return;
     }
 
