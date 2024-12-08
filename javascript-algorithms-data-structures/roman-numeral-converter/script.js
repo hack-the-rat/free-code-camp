@@ -53,3 +53,16 @@ const clearOutput = () => {
     output.innerText = '';
     output.classList.remove('alert');
 };
+
+const updateUI = () => {
+    const numStr = document.getElementById('number').value;
+    const int = parseInt(numStr, 10);
+
+    output.classList.remove('hidden');
+
+    clearOutput();
+
+    if (isValid(numStr, int)) {
+        output.innerText = convertToRoman(int);
+    }
+};
