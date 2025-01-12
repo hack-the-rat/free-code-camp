@@ -54,6 +54,11 @@ const clearOutput = () => {
     output.classList.remove('alert');
 };
 
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    updateUI();
+});
+
 const updateUI = () => {
     const numStr = document.getElementById('number').value;
     const int = parseInt(numStr, 10);
