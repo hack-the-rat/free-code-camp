@@ -59,6 +59,10 @@ form.addEventListener('submit', e => {
     updateUI();
 });
 
+convertButton.addEventListener('click', () => {
+    updateUI();
+});
+
 const updateUI = () => {
     const numStr = document.getElementById('number').value;
     const int = parseInt(numStr, 10);
