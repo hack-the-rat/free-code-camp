@@ -80,7 +80,7 @@ I'll tell you this: if you can code for even 30 minutes a day, you're going to m
 
 Tip number 3: *Use the Pomodoro technique*. Pomodoro is the Italian word for tomato. In Italy they have these tomato shaped clocks that you set for 25 minutes.
 
-Sitting down to code isn't easy. It takes willpower. S**o to make it easier to sit down and start that coding, just tell yourself that you're going to code for 25 minutes.** Set a timer. Then, once you've finished 25 minutes, you can take a break. But by this point, you may be so deep into your coding session, that you don't even need to take a break.
+Sitting down to code isn't easy. It takes willpower. **So to make it easier to sit down and start that coding, just tell yourself that you're going to code for 25 minutes.** Set a timer. Then, once you've finished 25 minutes, you can take a break. But by this point, you may be so deep into your coding session, that you don't even need to take a break.
 
 The Pomodoro technique makes it a lot easier to get started.
 
