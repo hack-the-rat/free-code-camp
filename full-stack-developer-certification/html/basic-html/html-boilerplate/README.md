@@ -75,3 +75,19 @@ The `body` section is where all your content goes:
 Now, why is a boilerplate important? It ensures your pages are structured correctly and work well across different browsers. Using a boilerplate helps you avoid common mistakes and follow best practices. It's a great starting point for any web project. Remember, you can customize your own boilerplate to fit your needs. As you gain experience, you might add your own preferred elements or `meta` tags. As you continue to improve your personal boilerplate, you'll find that it saves you time when starting new projects.
 
 Next time you start a new HTML file, consider using a boilerplate. It will definitely give you a solid foundation to build on.
+
+## What Is UTF-8 Character Encoding, and Why Is It Needed?
+
+What is UTF-8 character encoding, and why is it needed?
+
+UTF-8, or UCS Transformation Format 8, is a standardized character encoding widely used on the web. *Character encoding is the method computers use to store characters as data.* Essentially, all text on a web page is a sequence of characters stored as one or more bytes. *In computing, a byte is a unit of data consisting of 8 bits, or binary digits*. UTF-8 supports every character in the Unicode character set - and this includes characters and symbols from all writing systems, languages, and technical symbols. Here is an example of using the `meta` element with the `charset` attribute to set the character encoding to `UTF-8`:
+
+**Example Code**
+```<meta charset="UTF-8" />```
+
+By setting the character encoding to UTF-8, it will ensure that the accented `"e"` character (`é`) is displayed correctly on the page. Here is an extended code example of using the UTF-8 character encoding:
+
+**Example Code**
+```<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Examples of the UTF-8 encoding</title></head><body><p>Café</p></body></html>```
+
+For each new project you create, you should include this `meta` element with the `charset` attribute set to `UTF-8`.
