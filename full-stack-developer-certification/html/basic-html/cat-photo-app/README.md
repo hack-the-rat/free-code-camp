@@ -118,3 +118,9 @@ Add the words `See more` before the anchor element and `in our gallery` after th
 ## Step 13
 
 Add `p` tags to turn `See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.` into a paragraph.
+
+## Step 14
+
+Turn the existing text `cute cats` into an anchor element that links to:
+
+`https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`
