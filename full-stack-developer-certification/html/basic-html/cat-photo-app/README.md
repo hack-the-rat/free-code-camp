@@ -124,3 +124,16 @@ Add `p` tags to turn `See more <a href="https://freecatphotoapp.com">cat photos<
 Turn the existing text `cute cats` into an anchor element that links to:
 
 `https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg`
+
+## Step 15
+
+To open links in a new tab, you can use the `target` attribute on the anchor (`a`) element.
+
+The t`arget` attribute specifies where to open the linked document. `target="_blank"` opens the linked document in a new tab or window.
+
+Here is the basic syntax for an a element with a target attribute:
+
+**Example Code**
+<```a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>```
+
+Add a `target` attribute with the value `_blank` to the anchor (`a`) element's opening tag, so that the link opens in a new tab.
