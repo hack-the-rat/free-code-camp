@@ -45,3 +45,14 @@ The `main` element is used to represent the main content of the body of an HTML 
 ```<main><h1>Most important content of the document</h1><p>Some more important content...</p></main>```
 
 Identify the main section of this page by adding a `<main>` opening tag before the `h1` element, and a `</main>` closing tag after the `p` element.
+
+## Step 6
+
+In the previous step, you put the `h1`, `h2`, comment, and `p` elements inside the `main` element. This is called *nesting*. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation and it is used to make HTML easier to read.
+
+Here is an example of nesting and indentation:
+
+**Example Code**
+```<main><h1>Most important content of the document</h1><p>Some more important content...</p></main>```
+
+The `h1` element, `h2` element and the comment are indented two spaces more than the `main` element in the code below. Use the space bar on your keyboard to add two more spaces in front of the `p` element so that it is indented properly as well.
