@@ -114,3 +114,7 @@ Add the anchor text `cat photos` to the anchor element. This will become the lin
 ## Step 12
 
 Add the words `See more` before the anchor element and `in our gallery` after the anchor element.
+
+## Step 13
+
+Add `p` tags to turn `See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.` into a paragraph.
