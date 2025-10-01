@@ -99,3 +99,14 @@ Here is an example linking to `https://www.freecodecamp.org`:
 `<a href="https://www.freecodecamp.org"></a>`
 
 Add an anchor element after the paragraph that links to `https://freecatphotoapp.com`. At this point, the link won't show up in the preview.
+
+## Step 11
+
+A link's text must be placed between the opening and closing tags of an anchor (`a`) element.
+
+Here is an example of a link with the text `click here to go to freeCodeCamp.org`:
+
+**Example Code**
+`<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>`
+
+Add the anchor text `cat photos` to the anchor element. This will become the link's text.
