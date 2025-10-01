@@ -56,3 +56,9 @@ Here is an example of nesting and indentation:
 ```<main><h1>Most important content of the document</h1><p>Some more important content...</p></main>```
 
 The `h1` element, `h2` element and the comment are indented two spaces more than the `main` element in the code below. Use the space bar on your keyboard to add two more spaces in front of the `p` element so that it is indented properly as well.
+
+## Step 7
+
+You can add images to your website by using the `img` element. `img` elements have an opening tag without a closing tag. An element without a closing tag is known as a *void element*.
+
+Add an `img` element below the `p` element. At this point, no image will show up in the browser.
