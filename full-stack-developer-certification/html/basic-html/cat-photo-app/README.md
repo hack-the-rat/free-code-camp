@@ -88,3 +88,14 @@ Here is an example of an `img` element with an `alt` attribute:
 Inside the `img` element, add an `alt` attribute with this text:
 
 `A cute orange cat lying on its back`
+
+## Step 10
+
+You can link to another page with the anchor (`a`) element.
+
+Here is an example linking to `https://www.freecodecamp.org`:
+
+**Example Code**
+`<a href="https://www.freecodecamp.org"></a>`
+
+Add an anchor element after the paragraph that links to `https://freecatphotoapp.com`. At this point, the link won't show up in the preview.
