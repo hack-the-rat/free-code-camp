@@ -110,3 +110,7 @@ Here is an example of a link with the text `click here to go to freeCodeCamp.org
 `<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>`
 
 Add the anchor text `cat photos` to the anchor element. This will become the link's text.
+
+## Step 12
+
+Add the words `See more` before the anchor element and `in our gallery` after the anchor element.
