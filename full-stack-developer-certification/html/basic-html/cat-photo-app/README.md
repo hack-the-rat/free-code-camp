@@ -137,3 +137,7 @@ Here is the basic syntax for an a element with a target attribute:
 <```a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>```
 
 Add a `target` attribute with the value `_blank` to the anchor (`a`) element's opening tag, so that the link opens in a new tab.
+
+## Step 16
+
+Now that you have added the link you can remove the comment.
