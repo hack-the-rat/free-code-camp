@@ -74,4 +74,17 @@ Here is an example of an `img` element with a `src` attribute pointing to the fr
 
 Inside the existing `img` element, add a `src` attribute with this URL:
 
-https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+`https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`
+
+## Step 9
+
+All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Here is an example of an `img` element with an `alt` attribute:
+
+**Example Code**
+```<img src="cat.jpg" alt="A cat">```
+
+Inside the `img` element, add an `alt` attribute with this text:
+
+`A cute orange cat lying on its back`
