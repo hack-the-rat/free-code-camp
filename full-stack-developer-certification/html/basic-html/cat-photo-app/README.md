@@ -15,3 +15,9 @@ Begin the workshop by adding an `h1` element with the text of `CatPhotoApp`.
 Below the `h1` element, add an `h2` element with this text:
 
 `Cat Photos`
+
+## Step 3
+
+Create a `p` element below your `h2` element and give it the following text:
+
+`Everyone loves cute cats online!`
