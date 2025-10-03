@@ -163,3 +163,7 @@ The `section` element is used to define sections in a document, such as chapters
 ```<section><h2>Section Title</h2><p>Section content...</p></section>```
 
 Take your `h2` element, two `p` elements, and anchor (`a`) element and nest them in a `section` element.
+
+## Step 19
+
+It is time to add a new section. Add a second `section` element below the existing `section` element.
