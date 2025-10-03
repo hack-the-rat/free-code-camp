@@ -251,3 +251,7 @@ The code for an ordered list (`ol`) is similar to an unordered list, but list it
 Below the `h3` element, add an ordered list with these three list items:
 
 `flea treatment` `thunder` `other cats`
+
+## Step 30
+
+After the ordered list, add another `figure` element.
