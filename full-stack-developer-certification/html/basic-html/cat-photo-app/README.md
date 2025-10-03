@@ -141,3 +141,14 @@ Add a `target` attribute with the value `_blank` to the anchor (`a`) element's o
 ## Step 16
 
 Now that you have added the link you can remove the comment.
+
+## Step 17
+
+In previous steps, you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+
+Here is an example of turning an image into a link:
+
+**Example Code**
+```<a href="example-link"><img src="image-link.jpg" alt="A photo of a cat."></a>```
+
+Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
