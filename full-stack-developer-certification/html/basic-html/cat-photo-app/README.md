@@ -152,3 +152,14 @@ Here is an example of turning an image into a link:
 ```<a href="example-link"><img src="image-link.jpg" alt="A photo of a cat."></a>```
 
 Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
+
+## Step 18
+
+Before adding any new content, you should make use of a `section` element to separate the cat photos content from the future content.
+
+The `section` element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+
+**Example Code**
+```<section><h2>Section Title</h2><p>Section content...</p></section>```
+
+Take your `h2` element, two `p` elements, and anchor (`a`) element and nest them in a `section` element.
