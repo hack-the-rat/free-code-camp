@@ -212,3 +212,9 @@ After the unordered list, add a new image with a `src` attribute value set to:
 And its `alt` attribute value to:
 
 `A slice of lasagna on a plate.`
+
+## Step 25
+
+The `figure` element represents self-contained content and will allow you to associate an image with a caption.
+
+Nest the image you just added within a `figure` element.
