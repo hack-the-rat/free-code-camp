@@ -243,3 +243,11 @@ Emphasize the word `love` in the `figcaption` element by wrapping it in an empha
 After the `figure` element, add another `h3` element with the text:
 
 `Top 3 things cats hate:`
+
+## Step 29
+
+The code for an ordered list (`ol`) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+
+Below the `h3` element, add an ordered list with these three list items:
+
+`flea treatment` `thunder` `other cats`
