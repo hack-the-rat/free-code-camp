@@ -167,3 +167,7 @@ Take your `h2` element, two `p` elements, and anchor (`a`) element and nest them
 ## Step 19
 
 It is time to add a new section. Add a second `section` element below the existing `section` element.
+
+## Step 20
+
+Within the second `section` element, add a new `h2` element with the text `Cat Lists`.
