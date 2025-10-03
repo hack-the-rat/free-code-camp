@@ -171,3 +171,11 @@ It is time to add a new section. Add a second `section` element below the existi
 ## Step 20
 
 Within the second `section` element, add a new `h2` element with the text `Cat Lists`.
+
+## Step 21
+
+When you add a lower-rank heading element to the page, it's implied that you're starting a new subsection.
+
+After the last `h2` element of the second `section` element, add an `h3` element with this text:
+
+`Things cats love:`
