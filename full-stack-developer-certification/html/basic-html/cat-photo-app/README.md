@@ -179,3 +179,9 @@ When you add a lower-rank heading element to the page, it's implied that you're 
 After the last `h2` element of the second `section` element, add an `h3` element with this text:
 
 `Things cats love:`
+
+## Step 22
+
+To create an unordered list of items, you can use the `ul` element.
+
+After the `h3` element with the `Things cats love:` text, add an unordered list (`ul`) element. Note that nothing will be displayed at this point.
