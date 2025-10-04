@@ -259,3 +259,9 @@ After the ordered list, add another `figure` element.
 ## Step 31
 
 Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+
+## Step 32
+
+To improve the accessibility of the image you added, add an `alt` attribute with the text:
+
+`Two tabby kittens sleeping together on a couch.`
