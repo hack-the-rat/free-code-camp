@@ -313,3 +313,11 @@ Notice that the entire contents of the page are nested within an `html` element.
 You can also specify the language of your page by adding the `lang` attribute to the `html` element.
 
 Add the `lang` attribute with the value `en` to the opening `html` tag to specify that the language of the page is English.
+
+## Step 41
+
+All pages should begin with `<!DOCTYPE html>`. This special string is known as a *declaration* and ensures the browser tries to meet industry-wide specifications.
+
+`<!DOCTYPE html>` tells browsers that the document is an HTML5 document which is the latest version of HTML.
+
+Add this declaration as the first line of the code.
