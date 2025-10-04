@@ -305,3 +305,11 @@ The `title` element determines what browsers show in the title bar or tab for th
 Add a `title` element within the `head` element using the text below:
 
 `CatPhotoApp`
+
+## Step 40
+
+Notice that the entire contents of the page are nested within an `html` element. The `html` element is the root element of an HTML page and wraps all content on the page.
+
+You can also specify the language of your page by adding the `lang` attribute to the `html` element.
+
+Add the `lang` attribute with the value `en` to the opening `html` tag to specify that the language of the page is English.
