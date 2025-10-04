@@ -321,3 +321,16 @@ All pages should begin with `<!DOCTYPE html>`. This special string is known as a
 `<!DOCTYPE html>` tells browsers that the document is an HTML5 document which is the latest version of HTML.
 
 Add this declaration as the first line of the code.
+
+## Step 42
+
+You can set browser behavior by adding `meta` elements in the `head`. Here's an example:
+
+**Example Code**
+```<meta attribute="value">```
+
+Inside the `head` element, nest a `meta` element with a `charset` attribute set to the value of `utf-8`. This tells the browser how to encode characters for the page.
+
+Note that the `meta` element is a void element.
+
+With that last change, you have completed the Cat Photo App workshop. Congratulations!
