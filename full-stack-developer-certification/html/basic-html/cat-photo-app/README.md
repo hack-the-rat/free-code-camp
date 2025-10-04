@@ -285,3 +285,7 @@ After the `main` element, add a `footer` element.
 ## Step 36
 
 Nest a `p` element with the text `No Copyright - freeCodeCamp.org` within the `footer` element.
+
+## Step 37
+
+Turn the existing `freeCodeCamp.org` text into a link by enclosing it in an anchor (`a`) element. The `href` attribute should be set to `https://www.freecodecamp.org`.
