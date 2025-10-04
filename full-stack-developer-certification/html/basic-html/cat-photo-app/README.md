@@ -269,3 +269,9 @@ To improve the accessibility of the image you added, add an `alt` attribute with
 ## Step 33
 
 After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
+
+## Step 34
+
+The `strong` element is used to indicate that some text is of strong importance or urgent.
+
+In the `figcaption` you just added, indicate that `hate` is of strong importance by wrapping it in a `strong` element.
