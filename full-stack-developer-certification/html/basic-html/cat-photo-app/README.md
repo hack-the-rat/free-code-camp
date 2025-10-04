@@ -281,3 +281,7 @@ In the `figcaption` you just added, indicate that `hate` is of strong importance
 The `footer` element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
 
 After the `main` element, add a `footer` element.
+
+## Step 36
+
+Nest a `p` element with the text `No Copyright - freeCodeCamp.org` within the `footer` element.
