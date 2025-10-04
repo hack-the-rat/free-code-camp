@@ -297,3 +297,11 @@ Notice that everything you've added to the page so far is inside the `body` elem
 The `head` element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
 
 Add a `head` element above the `body` element.
+
+## Step 39
+
+The `title` element determines what browsers show in the title bar or tab for the page.
+
+Add a `title` element within the `head` element using the text below:
+
+`CatPhotoApp`
