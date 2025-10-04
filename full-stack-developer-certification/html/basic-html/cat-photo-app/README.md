@@ -265,3 +265,7 @@ Inside the `figure` element you just added, nest an `img` element with a `src` a
 To improve the accessibility of the image you added, add an `alt` attribute with the text:
 
 `Two tabby kittens sleeping together on a couch.`
+
+## Step 33
+
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
