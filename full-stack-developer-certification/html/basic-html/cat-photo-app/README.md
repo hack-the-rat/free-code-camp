@@ -255,3 +255,7 @@ Below the `h3` element, add an ordered list with these three list items:
 ## Step 30
 
 After the ordered list, add another `figure` element.
+
+## Step 31
+
+Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
