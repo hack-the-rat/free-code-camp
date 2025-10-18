@@ -25,3 +25,30 @@ Some images might be released under a permissive license, like a Creative Common
 Finally, some images may be released to the public domain. An image under the public domain has no copyright attached to it and is free to be used without any restrictions. *Images licensed specifically under the Creative Commons 0 license are considered public domain.*
 
 Most search engines will allow you to filter image results by a license. *There are also sites like Pixabay and Unsplash, which offer free-to-use images.* Always be mindful of the copyright and licensing when you use an image in your website.
+
+## What Are SVGs, and When Should You Use Them?
+
+First, you need to understand how images work. Common image formats like PNG and JPG are classified as *raster formats. This essentially means that they are pixel-based, with the data tracking the color value in each pixel.*
+
+A large downside of raster based images is that they do not upscale well. If you've ever tried to make a PNG larger, you may have seen that it becomes pixelated, or blurry.
+
+An SVG is a different kind of image. SVG stands for a scalable vector graphic. *A vector graphic tracks data based on paths and equations to plot points, lines, and curves.* What this really means is that a vector graphic, like an SVG, can be scaled to any size without impacting the quality.
+
+*SVGs specifically have the added benefit of storing data in XML*. This means you can use them directly in your code as raw HTML with the `svg` element. It also means you can programmatically change the color of the image.
+
+To change the [smiley face](https://codesandbox.io/p/sandbox/sytcj8) to red, change the `fill="yellow"` to `fill="red"`.
+
+----------------------------------------------------------------------------------
+
+Here are the basic elements for the example:
+
+* The `svg` element is the container for the whole drawing. It sets up the space where all the shapes appear. Everything you want to draw with SVG, such as circles, lines, or paths, goes inside the `svg` element.
+* The `circle` element is used to make the face and the eyes. One large circle forms the yellow face, and two smaller circles make the eyes.
+* The `path` element is used to draw the smile. It creates a curved line for the mouth.
+* Each SVG element has attributes that control its appearance and position within the drawing area.
+
+Here are a few more examples. To change the color for any of the [examples](https://codesandbox.io/p/sandbox/jzm58l), update the value for the `fill` attribute to any named color like `red`, `green`, `blue`, `yellow`, etc.
+
+----------------------------------------------------------------------------------
+
+So when would you want to use an SVG? A great use case is for icons. If you want to create custom bullet points, or add icons to your links to represent social media platforms, using SVGs is the best approach. One of the most popular icon libraries, Font Awesome, uses SVG images for their icons. SVGs are also great for webpage logos, because they scale perfectly. They allow you to adapt your layout to any responsive design you need. Next time you have an SVG locally, try opening it with a text editor and playing with the code.
