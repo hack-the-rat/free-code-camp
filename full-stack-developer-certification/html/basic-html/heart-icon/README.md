@@ -21,3 +21,9 @@ You are getting closer. The next thing to do is to set the `viewBox` attribute o
 The following two numbers set the size of the image we can see: width followed by height.
 
 Since here the entirety of the icon should be visible, you should set the `viewBox` attribute to `0 0 24 24`.
+
+## Step 4
+
+Before you begin coloring the image in, you should nest one `path` element inside your `svg` element to give the image shape.
+
+Create a `path` element.
