@@ -27,3 +27,19 @@ There are some other replaced elements, such as `video`, and `embed`. And some e
 ```<input type="image" alt="Descriptive text goes here" src="example-img-url">```
 
 This type of `input` is considered to be a replaced element, but other `input` types like `text`, or `email` are not replaced elements.
+
+## How Do You Embed Videos onto Your Page Using the iframe Element?
+
+In a prior lesson, you were first introduced to the `iframe` element. In this lesson, you will learn more about how to work with the `iframe` element. This element stands for *inline frame*. It's an inline element used to embed other HTML content directly within the HTML page. That HTML content could be a video, map, another HTML element, or even other web pages.
+
+Here's an [example](https://codesandbox.io/p/sandbox/wrktmg) of embedding a popular freeCodeCamp course from YouTube. To see a different video, change the `src` value to a video of your choosing.
+
+*The `src` attribute specifies the URL of the page you want to embed.* The `width` attribute specifies the width of the `iframe`. The `height` attribute specifies the height of the `iframe`. The `allowfullscreen` attribute allows the user to display the `iframe` in full screen mode. It's also a good practice to specify a `title` attribute for the `iframe`, as it's important for accessibility.
+
+Note that the video can come from anywhere. It doesn't have to come from video services like YouTube and Vimeo.
+
+Don't forget you can also embed a map, another web page, or direct HTML within the `iframe` element. Here is an example of an embedded map.
+
+Try interacting with the map in [this example](https://codesandbox.io/p/sandbox/zff8cc) by zooming in and out.
+
+*If you want to embed direct HTML within the `iframe` element you have to use the `srcdoc` attribute* instead of `src`.
