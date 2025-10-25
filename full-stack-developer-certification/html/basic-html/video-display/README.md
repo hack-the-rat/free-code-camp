@@ -50,3 +50,9 @@ These three will allow the use of encrypted media extensions to protect the vide
 The next attribute you'll add is `referrerpolicy`. It is the rule that determines how much detail you share when your page connects to another page.
 
 Add the `referrerpolicy` attribute and set it to `strict-origin-when-cross-origin`. This shares the full address on the same site, only the site name on other sites, and nothing on insecure sites.
+
+## Step 8
+
+Last but not least, the attribute you will add is `allowfullscreen`. As it implies, it allows the video to be viewed in full screen mode.
+
+With that, the workshop is completed!
