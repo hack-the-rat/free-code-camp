@@ -38,3 +38,9 @@ Here's an `iframe` element with the `allow` attribute:
 Add the `allow` attribute with the value `accelerometer`, `autoplay`, and `clipboard-write`.
 
 `accelerometer` lets the `iframe` use motion sensors so it can detect things like device tilting and rotation. `autoplay` lets the video start playing automatically, and `clipboard-write` lets the iframe write data to the user’s clipboard.
+
+## Step 6
+
+Add `encrypted-media`, `gyroscope`, and `web-share` to the existing values in the `allow` attribute.
+
+These three will allow the use of encrypted media extensions to protect the video, let the iframe pop out into picture-in-picture mode when needed, and allow sharing the iframe content through the device's native share dialogs.
