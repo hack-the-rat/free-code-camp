@@ -25,3 +25,16 @@ The `iframe` element also takes an `src` attribute with a value that indicates t
 Add an `src` attribute of `https://www.youtube.com/embed/I0_951_MPE0` to your `iframe` element.
 
 At this point, you should see the video displaying on the page, but there are some more attributes you need to add.
+
+## Step 5
+
+One of the attributes is `allow`. It's like a permission list that tells the browser what features the `iframe` is allowed to use.
+
+Here's an `iframe` element with the `allow` attribute:
+
+**Example Code**
+```<iframe allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share"></iframe>```
+
+Add the `allow` attribute with the value `accelerometer`, `autoplay`, and `clipboard-write`.
+
+`accelerometer` lets the `iframe` use motion sensors so it can detect things like device tilting and rotation. `autoplay` lets the video start playing automatically, and `clipboard-write` lets the iframe write data to the user’s clipboard.
