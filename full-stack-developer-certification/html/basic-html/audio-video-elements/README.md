@@ -1,7 +1,5 @@
 # Working with Audio and Video Elements
 
-In these lessons, you will learn how to work with the `audio` and `video` elements.
-
 ## What Are the Roles of the HTML Audio and Video Elements, and How Do They Work?
 
 The `audio` and `video` elements allow you to add sound and video content to your HTML documents. The `audio` element supports popular audio formats like mp3, wav, and ogg. The `video` element supports mp4, ogg, and webm formats.

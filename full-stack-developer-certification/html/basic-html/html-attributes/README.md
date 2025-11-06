@@ -1,9 +1,5 @@
 # Understanding HTML Attributes
 
-In these lessons, you will learn more about HTML (HyperText Markup Language), a markup language for creating web pages.
-
-You will learn about HTML's role on the web, and what HTML attributes are.
-
 ## What Role Does HTML Play on the Web?
 
 HTML, which stands for *Hypertext Markup Language*, is a markup language for creating web pages. When you visit a website and see content like paragraphs, headings, links, images, and videos; that's HTML. HTML represents the content and structure of a webpage through the use of elements. Here's an example of a paragraph element:

@@ -1,7 +1,5 @@
 # Understanding How HTML Affects SEO
 
-In these lessons, you will learn how your HTML code impacts search engine optimization.
-
 ## What Is the Role of the Meta Description, and How Does It Affect SEO?
 
 *SEO, or Search Engine Optimization*, is a practice that optimizes web pages so they become more visible and rank higher on search engines. *One way to improve your site's SEO, is to provide a short description for the web page using the `meta` element.* Here is an example of using the meta element to set a page description for a gardening site:

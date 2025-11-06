@@ -1,7 +1,5 @@
 # Working with Inages and SVGs
 
-In these lessons, you will learn how to work with SVGs and learn about techniques for optimizing your images.
-
 ## What Are Common Ways to Optimize Media Assets?
 
 There are three tools to consider when using media, such as images, on your web pages: the size, the format, and the compression.

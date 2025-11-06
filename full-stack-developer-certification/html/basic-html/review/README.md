@@ -267,7 +267,7 @@ All the attributes we have learned so far are also supported in the `video` elem
 
 * **Absolute Path**: An absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension. The "root directory" refers to the top-level directory or folder in a hierarchy. An absolute path also includes the protocol - which could be `http`, `https`, and `file` and the domain name if the resource is on the web. Here's an example of an absolute path that links to the freeCodeCamp logo:
 
-```<a href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">View fCC Logo</a>```\
+```<a href="https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg">View fCC Logo</a>```
 
 * **Relative Path**: A relative path specifies the location of a file relative to the directory of the current file. It does not include the protocol or the domain name, making it shorter and more flexible for internal links within the same website. Here's an example of linking to the `about.html` page from the `contact.html` page, both of which are in the same folder:
 

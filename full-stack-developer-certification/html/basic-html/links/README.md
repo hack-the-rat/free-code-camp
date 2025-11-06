@@ -1,7 +1,5 @@
 # Working with Links
 
-In these lessons, you will learn about links, the `target` attribute, different link states, absolute, and relative paths, and more.
-
 ## What Are the Different Target Attribute Types, and How Do They Work?
 
 You may have seen the `target` attribute on anchor elements, or links. This important attribute tells the browser where to open the URL for the anchor element.

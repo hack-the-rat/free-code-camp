@@ -1,7 +1,5 @@
 # Working with the iframe Element
 
-In these lessons, you will learn how to work with the `iframe` element which is used to embed an external site on your web page.
-
 ## What Are Replaced Elements, and What Are Some Examples?
 
 A replaced element is an element whose content is determined by an external resource rather than by CSS itself. CSS, or cascading stylesheets, is used to add styles to a web page. Common examples of replaced elements include the image, iframe, and video elements.
