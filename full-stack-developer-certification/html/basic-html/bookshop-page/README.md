@@ -70,3 +70,7 @@ Now create a second book card. Add another `div` element with the `class` attrib
 ## Step 11
 
 Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
+
+## Step 12
+
+Inside the second element having a class of `card`, add an `h2` element with the text `Dave's Cooking Adventure`.
