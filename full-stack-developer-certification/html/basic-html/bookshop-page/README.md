@@ -27,3 +27,9 @@ Here is an example:
 ```<p class="example">example paragraph</p>```
 
 Add a `class` attribute to your `div` element and set its value to `card-container`.
+
+## Step 5
+
+Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+
+Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
