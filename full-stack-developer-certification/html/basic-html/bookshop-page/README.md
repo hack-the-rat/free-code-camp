@@ -81,3 +81,9 @@ Below the `h2` element in the second card, add a `p` element with this text:
 
 **Example Code**
 ```This is the story of Dave as he learns to cook everything from pancakes to pasta, one recipe at a time.```
+
+## Step 14
+
+Inside the second card, add a `button` element with the `class` attribute set to `btn` and the text `Buy Now`.
+
+Both `button` elements now share the same `class`, which means they can be styled consistently together.
