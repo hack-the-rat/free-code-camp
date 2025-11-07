@@ -66,3 +66,7 @@ You can add multiple elements inside a `div` element to group related content. A
 ## Step 10
 
 Now create a second book card. Add another `div` element with the `class` attribute set to `card`. Notice how you can reuse the same class name for multiple elements to apply consistent styling.
+
+## Step 11
+
+Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
