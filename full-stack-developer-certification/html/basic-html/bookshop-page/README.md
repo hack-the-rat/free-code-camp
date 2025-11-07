@@ -87,3 +87,12 @@ Below the `h2` element in the second card, add a `p` element with this text:
 Inside the second card, add a `button` element with the `class` attribute set to `btn` and the text `Buy Now`.
 
 Both `button` elements now share the same `class`, which means they can be styled consistently together.
+
+## Step 15
+
+Below the element with the class `card-container`, add a new `p` element with this text:
+
+**Example Code**
+```Review your selections and continue to checkout.```
+
+Below the `p` element, create a `div` element with the `class` attribute set to `btn-container`. This container will group your navigation button elements.
