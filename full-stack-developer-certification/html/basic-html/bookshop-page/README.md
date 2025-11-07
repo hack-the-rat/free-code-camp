@@ -74,3 +74,10 @@ Add an `id` attribute to your second element having a class of `card` and set it
 ## Step 12
 
 Inside the second element having a class of `card`, add an `h2` element with the text `Dave's Cooking Adventure`.
+
+## Step 13
+
+Below the `h2` element in the second card, add a `p` element with this text:
+
+**Example Code**
+```This is the story of Dave as he learns to cook everything from pancakes to pasta, one recipe at a time.```
