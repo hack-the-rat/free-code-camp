@@ -96,3 +96,21 @@ Below the element with the class `card-container`, add a new `p` element with th
 ```Review your selections and continue to checkout.```
 
 Below the `p` element, create a `div` element with the `class` attribute set to `btn-container`. This container will group your navigation button elements.
+
+## Step 16
+
+Inside the element with a class of `btn-container`, add two `button` elements:
+
+First button:
+
+* Id: `view-cart-btn`
+* Class: `btn`
+* Text: `View Cart`
+
+Second button:
+
+* Id: `checkout-btn`
+* Class: `btn`
+* Text: `Checkout`
+
+Congratulations! You have successfully built the structure of a bookstore page using divs, classes, and ids to organize your content. You used classes to group elements that share styling (the card divs and buttons), and you used unique ids to identify specific elements (individual book cards and action buttons).
