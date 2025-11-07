@@ -45,3 +45,7 @@ Here is an example:
 ```<p id="para">example paragraph</p>```
 
 Add an `id` attribute to your element having a class of `card` and set its value to `sally-adventure-book`.
+
+## Step 7
+
+Inside the first element having a class of `card`, add an `h2` element with the text `Sally's SciFi Adventure`.
