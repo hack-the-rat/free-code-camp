@@ -44,3 +44,47 @@ Instead, you should *choose the appropriate element for your document structure 
 *Finally, depending on how incorrect your structure is, your HTML may not even be technically valid.* When this happens, the web browser has to effectively guess what you meant to do. And what it guesses might not even be what you want at all.
 
 As you have learned today, there are many reasons to use the proper structural hierarchy for your page. Keep this in mind as you build new projects.
+
+## What Is the Difference Between Presentational and Semantic HTML?
+
+Presentational HTML focuses on the appearance and style of the content. In the early days of HTML, developers would use elements like the `center`, `big`, and `font` elements. But in modern web development you shouldn't use these types of elements, because of their limitations and negative impact on accessibility and maintainability.
+
+Many presentational HTML elements are deprecated, which means that they are outdated and no longer recommended. There are better ways to get the same results. However, it is helpful to know that they exist, so we'll take a look at some examples.
+
+The `font` element is a deprecated element used to set the `font` size and color of the text. Here's an example of a font element.
+
+Change the size from 5 to 7 in this [example](https://codesandbox.io/p/sandbox/6fcwrj) to see the font increase.
+
+This example sets the color of the text to `blue` and the size to a value of `5`. The range for the size attribute is from `1` to `7`, with `1` being the smallest and `7` being the largest. The default value is `3`, if you don't set the value explicitly.
+
+While this element still works, you should not use it because the font size and color should always be set in CSS, not in HTML.
+
+The `center` element is another deprecated element that is used to center the content horizontally within its container. Here's an example of the `center` element that contains text and a paragraph element.
+
+Add `center` tags around the `<p>Another example text.</p>` to see it centered on the [page](https://codesandbox.io/p/sandbox/qf9ql8).
+
+And next, we have the `big` element. This is another deprecated presentational HTML element that makes the enclosed text one level bigger than its surrounding text. Here we have an example that defines a paragraph with two parts.
+
+Add `big` tags around the `Some other text` and see the changes in the [preview window](https://codesandbox.io/p/sandbox/sqgtrf).
+
+Remember that font size should always be set with CSS, so you should not use this element in modern HTML.
+
+These were examples of presentational HTML elements. But all of them are deprecated and no longer recommended. So what should you use instead? Let's see.
+
+Semantic HTML is now the recommended practice. It describes the content of the elements, so it's much easier to read, understand, and maintain.
+
+Search engines can easily understand your website when you use semantic HTML. It's also helpful for accessibility purposes, because screen readers need semantic information to describe what's on the web page.
+
+Examples of semantic HTML elements include:
+
+* The `header` element for defining the header of the document, or section.
+* The navigation section element, `nav`, for sections with navigation links.
+* The `section` element for grouping related information.
+* The `figure` element for illustrations and diagrams.
+This is an example of a `header` element that contains a navigation section element.
+
+Add a `<a href="#">Products</a>` inside of the `nav` and see the changes in the [preview window](https://codesandbox.io/p/sandbox/2tjxfp).
+
+The semantic elements clearly show their purpose within the HTML structure. There are many different semantic HTML elements. You will definitely find one that fits the needs of your project.
+
+Great work. Now you know the difference between presentational and semantic HTML: *semantic HTML describes the content, while presentational HTML focuses on the appearance*.
