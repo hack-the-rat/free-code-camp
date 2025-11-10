@@ -12,7 +12,7 @@ As you recall from an earlier lesson, description lists are used to present term
 
 Here is an example:
 
-**Example Code**
+**Example Code**  
 ```<dl> <dt>HTML</dt> <dd>HyperText Markup Language</dd> <dt>CSS</dt> <dd>Cascading Style Sheets</dd> </dl>```
 
 Below the `h1` element, create a `dl` element. This will hold the list of browsers.
@@ -27,7 +27,7 @@ Inside your `dl` element, add a `dt` element containing the text Google Chrome.
 
 Below your `dt` element, add a `dd` element with the following text:
 
-**Example Code**
+**Example Code**  
 ```This is a free web browser developed by Google and first released in 2008.```
 
 ## Step 4
@@ -38,7 +38,7 @@ Below your `Google Chrome` entry, add another `dt` element containing the text `
 
 Below your `dt` element, add a `dd` element with the following text:
 
-**Example Code**
+**Example Code**  
 ```This is a free web browser developed by the Mozilla Corporation and first created in 2004.```
 
 ## Step 5
@@ -49,7 +49,7 @@ Add another `dt` element containing the text `Safari`.
 
 Below your `dt` element, add a `dd` element with the following text:
 
-**Example Code**
+**Example Code**  
 ```This browser was developed by Apple and is the default browser for iPhone, iPad and Mac devices.```
 
 ## Step 6
@@ -60,5 +60,18 @@ Add another `dt` element containing the text `Brave`.
 
 Below your `dt` element, add a `dd` element with the following text:
 
-**Example Code**
+**Example Code**  
 ```This is a free web browser first released in 2016 that is based on the Chromium web browser.```
+
+## Step 7
+
+The last browser you will add to the list will be for the Arc browser.
+
+Add another `dt` element containing the text `Arc`.
+
+Below your `dt` element, add a `dd` element with the following text:
+
+**Example Code**  
+```This is a free Chromium based web browser first released in 2023 by The Browser Company.```
+
+With that last addition, your browser list is complete!
