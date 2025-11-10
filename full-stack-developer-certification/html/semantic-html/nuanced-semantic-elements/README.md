@@ -17,3 +17,19 @@ You can see the sentence `Never give up on your dreams`. Notice that the word `y
 *Even if it looks the same when the text was inside the idiomatic text element, the semantic emphasis element conveys its meaning and importance behind the scenes.*
 
 It's important to know that these elements should not be used for presentational purposes only. *If you need to display the text in italics, but the text doesn't have a special purpose, style, or meaning in the paragraph, you should use CSS instead*.
+
+## When Should You Use the Strong Element Over the Bring Attention To Element?
+
+The "bring attention to" element, `b`, is commonly used to highlight keywords in summaries, or product names in reviews. Usually, browsers display this text in boldface. Here's an [example](https://codesandbox.io/p/sandbox/ggh4x7) using the `b` element to highlight product names in this review:
+
+The browser renders these parts of the text as bold text. This visual emphasis will draw readers attention to the product names.
+
+If you need to emphasize the importance of the text, you should use the `strong` element instead of the `b` element.
+
+`strong` is a semantic HTML element that emphasizes text that is crucial, or urgent. Here is an [example](https://codesandbox.io/p/sandbox/kflqjg) where the `strong` element is used to label a very important warning about the potential allergic reactions that customers may have to a product:
+
+The `strong` element communicates that sense of urgency.
+
+Visually both are very similar, because they are both rendered as bold by default. But their meanings are quite different. While the *"bring attention to" element only draws attention to the text, without indicating the higher level of importance*, *the `strong` element does more than that. It conveys a sense of importance, or urgency. This is their main difference*.
+
+To choose between them, consider the purpose of the text and its importance within the surrounding content.
