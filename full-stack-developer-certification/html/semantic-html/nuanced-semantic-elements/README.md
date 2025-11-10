@@ -33,3 +33,33 @@ The `strong` element communicates that sense of urgency.
 Visually both are very similar, because they are both rendered as bold by default. But their meanings are quite different. While the *"bring attention to" element only draws attention to the text, without indicating the higher level of importance*, *the `strong` element does more than that. It conveys a sense of importance, or urgency. This is their main difference*.
 
 To choose between them, consider the purpose of the text and its importance within the surrounding content.
+
+## What Are Description Lists, and When Should You Use Them?
+
+Description lists are perfect for presenting terms and definitions in an organized and easy-to-read format, like in a glossary, or real dictionary, where you can find words with their corresponding definitions.
+
+This is an example of a description list in HTML with two terms and their corresponding details.
+
+Uncomment the code to see the new detail item show up in the [preview window](https://codesandbox.io/p/sandbox/jqgddj).
+
+In this case the terms are the acronyms HTML and CSS, and the details are their expansions. The details could also be definitions, or other information related to the terms.
+
+You will need three HTML elements to define a description list. First, *the description list element, `dl`, which is the container for the entire list*. You can see it wraps around all the other elements of the description list in the example.
+
+Then, *one description term element, `dt`, for each term*. In this case the description list has two terms, HTML and CSS, so it has two of these elements.
+
+And finally, after each term you will find a *description details element, `dd`, for the description, or details associated with that term*. In this example, they are Hypertext Markup Language and Cascading Style Sheets.
+
+In the browser, you would see each term followed by its corresponding description. By default, the descriptions are slightly more indented towards the right to distinguish them visually.
+
+But description lists are not limited to only terms and definitions. They are much more versatile than that. Here we have a recipe with two ingredients.
+
+Uncomment the code to see the new detail item show up in the [preview window](https://codesandbox.io/p/sandbox/d8jdth).
+
+The entire description list is within a description list element. The first ingredient, `Flour`, is within a description term element. Then, you can see how much of this ingredient you will need: `2 cups`. This is within a description details element directly after its corresponding ingredients.
+
+And the same structure is repeated for `Sugar`. In this case, the recipe has only two ingredients, but if there were more the same structure could be repeated throughout the description list.
+
+In the browser, you would see the ingredients aligned to the left, and the measurements indented to separate them visually.
+
+Other use cases for description lists include product specifications, frequently asked questions, contact information, and metadata. Essentially, when you have two related pieces of information in a key-value pair format, where one acts as a label, the key, and the other acts as additional related information, the value, you can use a description list.
