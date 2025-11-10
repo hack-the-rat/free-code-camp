@@ -16,3 +16,16 @@ Here is an example:
 ```<dl> <dt>HTML</dt> <dd>HyperText Markup Language</dd> <dt>CSS</dt> <dd>Cascading Style Sheets</dd> </dl>```
 
 Below the `h1` element, create a `dl` element. This will hold the list of browsers.
+
+## Step 3
+
+Description lists are made up of a list of terms and details. The `dt` element represents the description term, while the dd element represents the description detail.
+
+The first browser you will add to your description list will be for Google Chrome.
+
+Inside your `dl` element, add a `dt` element containing the text Google Chrome.
+
+Below your `dt` element, add a `dd` element with the following text:
+
+**Example Code**
+```This is a free web browser developed by Google and first released in 2008.```
