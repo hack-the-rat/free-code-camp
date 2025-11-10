@@ -51,3 +51,14 @@ Below your `dt` element, add a `dd` element with the following text:
 
 **Example Code**
 ```This browser was developed by Apple and is the default browser for iPhone, iPad and Mac devices.```
+
+## Step 6
+
+Now it is time to add your fourth browser to the list.
+
+Add another `dt` element containing the text `Brave`.
+
+Below your `dt` element, add a `dd` element with the following text:
+
+**Example Code**
+```This is a free web browser first released in 2016 that is based on the Chromium web browser.```
