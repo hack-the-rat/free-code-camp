@@ -31,3 +31,39 @@ This works exactly the same as it did with the block quotation element. There wo
 In the browser, you'll see that the quoted text is part of the paragraph and it's surrounded by quotation marks. Most modern browsers will add these quotation marks automatically.
 
 What's the difference between block quotes and inline quotes? You should use block quotes for extended quotations from other sources and inline quotes for short quotations from other sources that should be part of existing paragraphs.
+
+## How Do You Display Abbreviations in HTML?
+
+An abbreviation is a shortened form of a word or phrase. For example, "Dr" followed by a period, is an abbreviation for the word "doctor".
+
+There are two common forms of abbreviations: acronyms and initialisms.
+
+An acronym is a word formed from the initial letters of a phrase, with each letter representing the first letter of a word in that phrase.
+
+GUI is an example of an acronym. It stands for Graphical User Interface. By taking the first letters of each word G, U, and I, you get the acronym GUI.
+
+An initialism is formed from the initial letters of a phrase, with each letter representing the first letter of a word in that phrase.
+
+For example, HTML is an initialism; it stands for HyperText Markup Language and is pronounced by spelling out each letter H, T, M, L.
+
+Both acronyms and initialisms are types of abbreviations. The distinction is acronyms are pronounced as words and initialisms are pronounced as individual letters.
+
+They are very helpful for writing more concise text, especially when they are well-known and easy to understand in a given context.
+
+If you need to *display abbreviations such as acronyms or initialisms in HTML, the abbreviation element* is exactly what you're looking for. *You should always explain their full meaning when you use them for the first time. Then you can use the abbreviation element to highlight them and provide more details.*
+
+Here's an [example](https://codesandbox.io/p/sandbox/5kjmjt) where you can see a paragraph with the sentence `HTML is the foundation of the web`:
+
+The initialism HTML is within an abbreviation element. In the browser, you'll see that nothing has really changed. It still looks like normal text. The abbreviation element is providing helpful context behind the scenes, but users will still see the initialism as normal text.
+
+*If you want to help users understand what this initialism means, you can show its full form with the `title` attribute.*
+
+The `title` attribute is optional, but if you decide to include it, it must be a human readable description of the abbreviation, acronym, or initialism.
+
+Let's take the same [example](https://codesandbox.io/p/sandbox/x86sgw) as before, but add the `title` attribute. It will be `HyperText Markup Language`, the expanded form of the initialism:
+
+Usually, the style of the abbreviation element will change when you add this attribute. The specific style will depend on the browser. Some browsers may display a dotted underline, while others may convert the contents to small caps, or even assign certain default styles, such as a dotted underline. When the user hovers over the abbreviation with the mouse, the full form is displayed as a tooltip.
+
+While you don't necessarily need to use the abbreviation element for every abbreviation on your web page, it's recommended for those that might be unclear and those that might need additional context.
+
+You should use your best judgment to find the right balance between information and presentation to avoid cluttering the text while being clear and concise.
