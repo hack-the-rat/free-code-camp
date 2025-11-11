@@ -67,3 +67,19 @@ Usually, the style of the abbreviation element will change when you add this att
 While you don't necessarily need to use the abbreviation element for every abbreviation on your web page, it's recommended for those that might be unclear and those that might need additional context.
 
 You should use your best judgment to find the right balance between information and presentation to avoid cluttering the text while being clear and concise.
+
+## How Do You Display Addresses in HTML?
+
+*The contact address element is used to represent contact information for a section on a web page.* The `address` element is versatile and can be used for business pages, author pages, personal sites, and more.
+
+When it comes to building out your website's contact sections, you should use the semantic `address` element over a generic element like a `div`.
+
+Here is an [example](https://codesandbox.io/p/sandbox/smnzlp) of using the `address` element for a company contact page:
+
+In this example, there is the company name, physical address, phone, and email information. For the physical address, the line break element, `br`, is used to show the division between the street name, city, and country.
+
+For the phone number, we have an anchor element with the `href` value set for telephone numbers. The `tel:+` value inside the `href` attribute creates a clickable link to initiate a phone call on certain devices that support that.
+
+For the email address, another anchor element is used with the `href` value set to a `mailto` link. *`mailto` links are used in HTML documents to allow users to open a new email within their preferred email client*.
+
+One of the downsides of using a `mailto` link is that users often perceive it as spam. *Unfortunately, a lot of spammers will use this option to send emails to users.* So just keep that in mind when you're using it.
