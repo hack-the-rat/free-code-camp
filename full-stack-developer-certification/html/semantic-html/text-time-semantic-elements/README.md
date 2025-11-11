@@ -83,3 +83,25 @@ For the phone number, we have an anchor element with the `href` value set for te
 For the email address, another anchor element is used with the `href` value set to a `mailto` link. *`mailto` links are used in HTML documents to allow users to open a new email within their preferred email client*.
 
 One of the downsides of using a `mailto` link is that users often perceive it as spam. *Unfortunately, a lot of spammers will use this option to send emails to users.* So just keep that in mind when you're using it.
+
+## How Do You Display Times and Dates in HTML?
+
+The `time` element is used to represent a specific moment in time.
+
+Here is an [example](https://codesandbox.io/p/sandbox/yvpwjp) using the `time` element to represent twenty hundred hours, or eight PM in the evening.
+
+*The `datetime` attribute is used to translate dates and times into a machine-readable format.*
+
+This is important, because it helps with search engine results and helps the browser process date and time information more effectively.
+
+The value for the `datetime` attribute must be either a valid year, valid month, valid time, local date, global date, or valid duration string.
+
+Here is another [example](https://codesandbox.io/p/sandbox/s89lly) of using the time element to represent a particular date:
+
+The value for the `datetime` attribute is in the ISO 8601 format. ISO 8601 is an international standard to represent dates and times.
+
+*The first part of that value is the year, month and day. The capital T in the value is a separator between the date and time.*
+
+The fifteen hundred hours would be three PM in the afternoon.
+
+Whenever you need to represent events, publication dates, or appointments, it is best to use the `time` element.
