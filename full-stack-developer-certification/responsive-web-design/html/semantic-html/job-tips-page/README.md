@@ -65,3 +65,7 @@ Here is an example of a block quotation element with a `cite` attribute:
 ```<blockquote cite="https://www.freecodecamp.org/news/is-college-worth-it/">The first thing you should consider about education is this is an economic decision.</blockquote>```
 
 Now, add a `cite` attribute to the block quotation element with the URL `https://www.freecodecamp.org/news/learn-to-code-book/`.
+
+## Step 9
+
+Below the block quotation element, add a paragraph element with the text `—Quincy Larson, How to Learn to Code and Get a Developer Job [Full Book]`.
