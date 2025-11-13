@@ -54,3 +54,14 @@ Here is an example of a block quotation element with quoted text:
 ```<blockquote>The first thing you should consider about education is this is an economic decision.</blockquote>```
 
 Now, inside the first section, add a block quotation element below the `h2` element with the text `Can you imagine what it would be like to be a successful developer? To have built software systems that people rely upon?`.
+
+## Step 8
+
+Exactly like the inline quotation element, you can also add a `cite` attribute to a block quotation element.
+
+Here is an example of a block quotation element with a `cite` attribute:
+
+**Example Code**
+```<blockquote cite="https://www.freecodecamp.org/news/is-college-worth-it/">The first thing you should consider about education is this is an economic decision.</blockquote>```
+
+Now, add a `cite` attribute to the block quotation element with the URL `https://www.freecodecamp.org/news/learn-to-code-book/`.
