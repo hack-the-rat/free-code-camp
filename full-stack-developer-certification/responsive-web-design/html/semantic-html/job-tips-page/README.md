@@ -43,3 +43,14 @@ Below the paragraph element, add a `main` element and nest three `section` eleme
 ## Step 6
 
 Inside the first `section` element, add an `h2` element with the text `Envisioning Success`.
+
+## Step 7
+
+Below the `h2` element, you will add another quote by Quincy. This time, the quote won't be part of a larger paragraph. Instead, the whole paragraph will be a quote. In order to distinguish quoted text like this, you should use the block quotation element: `blockquote`. In the browser, you'll see that the text is slightly indented.
+
+Here is an example of a block quotation element with quoted text:
+
+**Example Code**
+```<blockquote>The first thing you should consider about education is this is an economic decision.</blockquote>```
+
+Now, inside the first section, add a block quotation element below the `h2` element with the text `Can you imagine what it would be like to be a successful developer? To have built software systems that people rely upon?`.
