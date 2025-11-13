@@ -69,3 +69,16 @@ Now, add a `cite` attribute to the block quotation element with the URL `https:/
 ## Step 9
 
 Below the block quotation element, add a paragraph element with the text `—Quincy Larson, How to Learn to Code and Get a Developer Job [Full Book]`.
+
+## Step 10
+
+So far you have been using the `cite` attribute to attribute the source of the quotation, but the attribute doesn't really show the source to the user.
+
+If you want to attribute the source visually, you can add a citation element, `cite`, outside the block quotation element. The citation element is an HTML element that you can use to mark up the title of a referenced creative work, like a book, article, song, film, website, or research paper.
+
+Here's an example:
+
+**Example Code**
+```<div> <blockquote cite="https://www.freecodecamp.org/news/is-college-worth-it/">The first thing you should consider about education is this is an economic decision.</blockquote> <p>—Quincy Larson, <cite>Is College Still Worth it? Tips from my 20 Years in Adult Education</cite></p> </div>```
+
+Inside the `p` element below the block quotation element, wrap `How to Learn to Code and Get a Developer Job [Full Book]` in a `cite` element.
