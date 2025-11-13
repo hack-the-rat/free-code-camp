@@ -39,3 +39,7 @@ Add the `cite` attribute to the inline quotation element with this URL:
 ## Step 5
 
 Below the paragraph element, add a `main` element and nest three `section` elements inside it.
+
+## Step 6
+
+Inside the first `section` element, add an `h2` element with the text `Envisioning Success`.
