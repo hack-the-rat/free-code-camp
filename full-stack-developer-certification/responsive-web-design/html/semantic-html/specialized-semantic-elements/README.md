@@ -43,3 +43,29 @@ In the browser, you will see that the code is indented several spaces to the rig
 When it comes to including code examples inside your HTML document, you should use the `code` element for short inline examples.
 
 If you need to display longer code snippets, then you will need to use the `pre` and `code` elements.
+
+## What Are the U, S, and Ruby Elements Used For, and How Do They Work?
+
+*The unarticulated annotation element, or `u` element for short, is used to represent inline text that has non-textual annotation applied.*
+
+Here is an [example](https://codesandbox.io/p/sandbox/fmt54l) of using the `u` element to highlight various spelling errors:
+
+In the example, the words `incorrect`, `spelling`, and `issues` are misspelled. The default styling for the `u` element is a black underline underneath the text.
+
+In HTML4, the `u` element was used for styling purposes. But in HTML5, the `u` element should only be used to indicate that text has non-textual annotation applied.
+
+If you want to style a piece of text with an underline, you should use CSS instead of HTML.
+
+*The strikethrough element, or `s` element for short, should be used to represent when text is no longer accurate or relevant.* Here is an [example](https://codesandbox.io/p/sandbox/m5n9hd) of using the `s` element to show the cancellation of an activity:
+
+In this example, the first sentence is crossed out because the hike was canceled due to weather reasons.
+
+The `s` element should never be used to just to show changes to a document. More appropriate elements in that case would be the deleted text element and the inserted text element.
+
+The `ruby` element represents small text shown above or below the main text. *It is typically used to show the pronunciation of East Asian characters*. Here is the `ruby` element [example](https://codesandbox.io/p/sandbox/qg96sl) from the MDN web docs page:
+
+The `rp` element, or ruby fallback parenthesis element, is used as a fallback for browsers lacking support for displaying ruby annotations.
+
+The `rt` element, or ruby text element, is used to indicate text for the ruby annotation. This text is usually used for pronunciation, or translation details in East Asian typography.
+
+While the `ruby` element can be used for other types of annotations, the most common use case is for East Asian typography.
