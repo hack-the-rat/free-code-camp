@@ -19,3 +19,9 @@ Here is an example using the `header` element:
 ```
 
 Inside the `body` element, add a `header` element.
+
+## Step 2
+
+The `header` will be responsible for displaying main title, image and page navigation for the blog.
+
+Inside the `header` element, add an `h1` with the text of `Welcome to Mr. Whiskers' Blog Page!`.
