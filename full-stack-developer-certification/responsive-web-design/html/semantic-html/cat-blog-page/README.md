@@ -71,3 +71,9 @@ The first section on the page will be the about section. The section will introd
 Inside your `main` element, add a `section` element with the `id` attribute set to `"about"`.
 
 Inside the `section` element, add an `h2` with the text of `About`.
+
+## Step 8
+
+Below your `h2` element, add a paragraph element with the text of `Hi there! I'm Jane Doe, a passionate writer who finds endless inspiration in the antics of my beloved cat, Mr. Whiskers.`.
+
+Below your paragraph element, add another paragraph element with the text of `His playful nature and boundless energy keeps me on my toes. I love him so much.`
