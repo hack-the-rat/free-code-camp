@@ -77,3 +77,13 @@ Inside the `section` element, add an `h2` with the text of `About`.
 Below your `h2` element, add a paragraph element with the text of `Hi there! I'm Jane Doe, a passionate writer who finds endless inspiration in the antics of my beloved cat, Mr. Whiskers.`.
 
 Below your paragraph element, add another paragraph element with the text of `His playful nature and boundless energy keeps me on my toes. I love him so much.`
+
+## Step 9
+
+Now that you have added the about section, try clicking on the `About` link to see the page jump down to that section.
+
+The next section in the blog page will be a list of posts talking about Mr. Whiskers.
+
+Add another `section` element with an `id` set to `"posts"`.
+
+Inside the `section` element, add an `h2` element with the text of `Posts`.
