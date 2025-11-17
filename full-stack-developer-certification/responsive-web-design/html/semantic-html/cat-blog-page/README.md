@@ -47,3 +47,13 @@ Here is an example of using the `nav` element:
 Below your `figure` element, add a `nav` element with a `ul` element nested inside.
 
 Inside the `ul` element, add three `li` elements.
+
+## Step 5
+
+Inside each of the `li` elements, you will need to have an anchor element.
+
+For the first anchor element, the text should be `About` and the `href` attribute value should be `"#about"`. The hash symbol in front of the `about` represents an `id` name which be added later on in the project.
+
+For the second anchor element, the text should be `Posts` and the `href` attribute value should be `"#posts"`.
+
+For the third anchor element, the text should be `Contact` and the `href` attribute value should be `"#contact"`.
