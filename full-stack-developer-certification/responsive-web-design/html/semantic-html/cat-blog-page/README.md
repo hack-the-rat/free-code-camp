@@ -57,3 +57,9 @@ For the first anchor element, the text should be `About` and the `href` attribut
 For the second anchor element, the text should be `Posts` and the `href` attribute value should be `"#posts"`.
 
 For the third anchor element, the text should be `Contact` and the `href` attribute value should be `"#contact"`.
+
+## Step 6
+
+Now that you are finished building out the page header, you will need to start adding your main content.
+
+Below your `header`, add a `main` element.
