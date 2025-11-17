@@ -42,7 +42,7 @@ The `nav` element is used to provide navigation links to other sections in the d
 Here is an example of using the `nav` element:
 
 **Example Code**
-```<nav> <ul> <li><a href="#">Home</a></li> <li><a href="#about">About</a></li> <li><a href="#contact">Contact</a></li> </ul> </nav>```
+``<nav> <ul> <li><a href="#">Home</a></li> <li><a href="#about">About</a></li> <li><a href="#contact">Contact</a></li> </ul> </nav>``
 
 Below your `figure` element, add a `nav` element with a `ul` element nested inside.
 
@@ -63,3 +63,11 @@ For the third anchor element, the text should be `Contact` and the `href` attrib
 Now that you are finished building out the page header, you will need to start adding your main content.
 
 Below your `header`, add a `main` element.
+
+## Step 7
+
+The first section on the page will be the about section. The section will introduce Mr. Whiskers and give users an idea of what this blog is about.
+
+Inside your `main` element, add a `section` element with the `id` attribute set to `"about"`.
+
+Inside the `section` element, add an `h2` with the text of `About`.
