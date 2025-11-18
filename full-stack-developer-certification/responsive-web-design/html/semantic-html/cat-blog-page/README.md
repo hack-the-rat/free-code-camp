@@ -111,7 +111,8 @@ Lorem ipsum is commonly used in web development to serve as placeholder text. It
 
 Here is an example of using lorem ipsum:
 
-``<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.</p>``
+**Example Code**
+```<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.</p>```
 
 Below your `h3` element, add two paragraphs of lorem ipsum text.
 
@@ -144,3 +145,16 @@ Below the `main` element, add a `footer` element.
 Inside the `footer` element, add a `section` element with an `id` set to `contact`.
 
 Inside the `section` element, add an `h2` element with the text of `Contact`.
+
+## Step 16
+
+Inside the contact section, you will want to show the blog author's contact information. You will use an address element for this.
+
+The `address` element is used to represent contact information for a person or organization.
+
+Here is an example using the `address` element for a physical address. The `br` element is used here to create a line break between the text.
+
+**Example Code**
+```<address> 1234 Make Believe Lane <br /> Pretend City, USA</address>```
+
+Below your `h2` element, add an `address` element.
