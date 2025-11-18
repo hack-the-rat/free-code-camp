@@ -138,3 +138,9 @@ Now that you have finished adding all of the blog posts, try clicking on the `Po
 The last component to add to your blog page is going to be the contact section.
 
 Below the `main` element, add a `footer` element.
+
+## Step 15
+
+Inside the `footer` element, add a `section` element with an `id` set to `contact`.
+
+Inside the `section` element, add an `h2` element with the text of `Contact`.
