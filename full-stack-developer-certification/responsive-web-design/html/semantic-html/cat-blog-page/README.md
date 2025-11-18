@@ -95,7 +95,7 @@ For the first blog post, you will use an *article* element.
 The `article` element represents self contained content on a web page.
 
 **Example Code**
-```<article> <h1>Example heading</h1> <p>Example article text</p> </article>```
+``<article> <h1>Example heading</h1> <p>Example article text</p> </article>``
 
 Below the `h2` element, add an `article` element.
 
@@ -111,13 +111,14 @@ Lorem ipsum is commonly used in web development to serve as placeholder text. It
 
 Here is an example of using lorem ipsum:
 
-```html
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-  quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae
-  quidem voluptatum quas. Quisquam quod, voluptates, quae, quos
-  quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.
-</p>
-```
+``<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.</p>``
+
+Below your `h3` element, add two paragraphs of lorem ipsum text.
+
+## Step 12
+
+For the second blog post, you will need to add another `article` element.
+
+Inside the `article` element, add an `h3` element with the text of `Mr. Whiskers' First Bath`.
 
 Below your `h3` element, add two paragraphs of lorem ipsum text.
