@@ -87,3 +87,20 @@ The next section in the blog page will be a list of posts talking about Mr. Whis
 Add another `section` element with an `id` set to `"posts"`.
 
 Inside the `section` element, add an `h2` element with the text of `Posts`.
+
+## Step 10
+
+For the first blog post, you will use an *article* element.
+
+The `article` element represents self contained content on a web page.
+
+**Example Code**
+```<article> <h1>Example heading</h1> <p>Example article text</p> </article>```
+
+</details>
+
+Below the `h2` element, add an `article` element.
+
+Inside the `article` element, add an `h3` element with the text `Mr. Whiskers' First Day Home`.
+
+The reason an `h3` is used here is that maintaining a proper structural hierarchy for heading elements is important. Since the posts subheading is an `h2` element, the next level down in the hierarchy would be an `h3`.
