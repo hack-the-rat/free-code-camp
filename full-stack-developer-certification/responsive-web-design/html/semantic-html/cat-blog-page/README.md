@@ -166,3 +166,14 @@ For this step, you will need to add the phone number and email address for the b
 Inside the `address` element, add a paragraph element with the text of `Phone: 555-555-5555`.
 
 Below that paragraph element, add another paragraph element with the text of `Email: fake@email.com`.
+
+## Step 18
+
+To improve user experience, you will want to enhance the phone number so that users tap on it and initiate a call.
+
+Here is how you can make phone numbers clickable:
+
+**Example Code**
+```<a href="tel:2345678912">234-567-8912</a>```
+
+Wrap the text `555-555-5555` in an anchor element and use `tel:` to make it a clickable phone number.
