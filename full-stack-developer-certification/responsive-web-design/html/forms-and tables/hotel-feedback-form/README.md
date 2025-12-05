@@ -21,7 +21,7 @@ Now, it is time to add the `main` element which represents the main content of t
 In previous lessons, you learned how to work with the `form` element like this:
 
 **Example Code**
-```<form method="value-goes-here" action="url-goes-here"> <!-- inputs go inside here --> </form>```
+``<form method="value-goes-here" action="url-goes-here"> <!-- inputs go inside here --> </form>``
 
 The `action` attribute is used to specify where the form data should be sent when the form is submitted.
 
@@ -30,3 +30,14 @@ The `method` attribute is used to specify the HTTP method to use when sending th
  **NOTE** : You will learn about how HTTP methods work in later modules.
 
 Inside your `main` element, add a `form` element with an `action` attribute set to `"https://hotel-feedback.freecodecamp.org"` and a `method` attribute set to `"POST"`.
+
+## Step 4
+
+Forms consist of `inputs` where users can input their data. You can group related inputs together using the `fieldset` element.
+
+Here is an example of using a `fieldset` element:
+
+**Example Code**
+```<form action="/example-url"> <fieldset> <!-- inputs go inside here--> </fieldset> </form>```
+
+Inside your `form` element, add a `fieldset` element.
