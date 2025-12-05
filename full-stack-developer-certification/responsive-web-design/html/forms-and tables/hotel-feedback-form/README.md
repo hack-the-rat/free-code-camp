@@ -11,3 +11,7 @@ Inside your `body` element, add a `header` element.
 Inside the `header` element, add an `h1` element. The `h1` element's text should be `Hotel Feedback Form`.
 
 Below your `h1` element, add a `p` element. The `p` element's text should be `Thank you for staying with us. Please provide feedback on your recent stay.`
+
+## Step 2
+
+Now, it is time to add the `main` element which represents the main content of the page.
