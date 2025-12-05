@@ -85,3 +85,27 @@ Other forms of validation for email inputs are to use the `minlength` and `maxle
 Type `b@m` in the field and click on the submit button in this [example](https://codesandbox.io/p/sandbox/f2nzr8). You will see a message pop up because it doesn't meet the minimum required length.
 
 *The `minlength` and `maxlength` attributes are used to set the minimum and maximum length in characters for the email input.* If you don't include the minimum length or exceed the max length of characters, the browser will show an alert message.
+
+## What Are the Different Form States, and Why Are They Important?
+
+In HTML, form controls, like inputs, can be in different stages or conditions like a `focused` state, `readonly` state, or `disabled` state.
+
+The first state would be considered the `default` state. The default state of an email address input is a blank input. That is what the email input looks like when it is first rendered on the [page](https://codesandbox.io/p/sandbox/9wgkh7).
+
+*When the user clicks on a form control or selects it with the keyboard's tab key, then that means it is in the `focused` state.* When an input is in the `focused` state, most browsers will show a blue highlighted border around the input. But you can choose to add additional styles in CSS.
+
+Click on any part of the whitespace in the [preview window](https://codesandbox.io/p/sandbox/9wgkh7) and then press the `tab` key to see the focus state. To see the previews, you will need to enable the interactive editor.
+
+Another form state is the `disabled` state. This state *shows users that an input cannot be focused or activated*.
+
+Go to [this link](https://codesandbox.io/p/sandbox/cq3tmv) and try clicking on the email input and you will notice that it will not focus anymore.
+
+Similar to the `focused` state, you can choose to add additional styles for the `disabled` state using CSS.
+
+Another type of form state is the `readonly` state. This is when a *form control, like an input, is not editable by the user*. Here is an example of setting an email input to read-only. The `value` attribute is used to set the value shown inside the input field.
+
+Click on [this link](https://codesandbox.io/p/sandbox/pxj4q9) and try editing the current value of `example@email.com` in the preview window, and you will notice that is not possible.
+
+A key difference between the `disabled` state and `readonly` state is that `readonly` can be focused while the `disabled` state cannot.
+
+Understanding the different form states is important because they ensure a smooth user experience by providing clear feedback and guidance while handling errors.
