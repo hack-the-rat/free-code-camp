@@ -38,6 +38,17 @@ Forms consist of `inputs` where users can input their data. You can group relate
 Here is an example of using a `fieldset` element:
 
 **Example Code**
-```<form action="/example-url"> <fieldset> <!-- inputs go inside here--> </fieldset> </form>```
+``<form action="/example-url"> <fieldset> <!-- inputs go inside here--> </fieldset> </form>``
 
 Inside your `form` element, add a `fieldset` element.
+
+## Step 5
+
+When working with `fieldset` elements, it is common to use a caption to describe the group of inputs. You can use the `legend` element for this.
+
+Here is an example of using a `legend` element:
+
+**Example Code**
+```<form action="/example-url"> <fieldset> <legend>Personal Information</legend> <!-- inputs go inside here--> </fieldset> </form>```
+
+Inside your `fieldset` element, add a `legend` element with the text `Personal Information`.
