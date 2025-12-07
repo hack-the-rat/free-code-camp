@@ -21,7 +21,7 @@ Now, it is time to add the `main` element which represents the main content of t
 In previous lessons, you learned how to work with the `form` element like this:
 
 **Example Code**
-```<form method="value-goes-here" action="url-goes-here"> <!-- inputs go inside here --> </form>```
+``<form method="value-goes-here" action="url-goes-here"> <!-- inputs go inside here --> </form>``
 
 The `action` attribute is used to specify where the form data should be sent when the form is submitted.
 
@@ -38,7 +38,7 @@ Forms consist of `inputs` where users can input their data. You can group relate
 Here is an example of using a `fieldset` element:
 
 **Example Code**
-```<form action="/example-url"> <fieldset> <!-- inputs go inside here--> </fieldset> </form>```
+``<form action="/example-url"> <fieldset> <!-- inputs go inside here--> </fieldset> </form>``
 
 Inside your `form` element, add a `fieldset` element.
 
@@ -49,7 +49,7 @@ When working with `fieldset` elements, it is common to use a caption to describe
 Here is an example of using a `legend` element:
 
 **Example Code**
-```<form action="/example-url"> <fieldset> <legend>Personal Information</legend> <!-- inputs go inside here--> </fieldset> </form>```
+``<form action="/example-url"> <fieldset> <legend>Personal Information</legend> <!-- inputs go inside here--> </fieldset> </form>``
 
 Inside your `fieldset` element, add a `legend` element with the text `Personal Information`.
 
@@ -58,10 +58,23 @@ Inside your `fieldset` element, add a `legend` element with the text `Personal I
 In previous lessons, you learned how to associate a `label` element with an `input` like this:
 
 **Example Code**
-```<label for="name">Name:</label> <input type="text" id="name" name="name">```
+``<label for="name">Name:</label> <input type="text" id="name" name="name">``
 
 The `for` attribute on the `label` element should match the `id` attribute on the `input` element. This is known as an explicit association.
 
 Below your `legend` element, add a `label` element with the text of `Name (required):`. Set its `for` attribute to the value of `"full-name"`.
 
 Then below your `label` element, add an `input` element with no attributes. In the next steps, you will add the necessary attributes.
+
+## Step 7
+
+When a user provides their full name, the `input` will accept plaintext.
+
+In previous lessons, you learned how to work with the `type` attribute like this:
+
+**Example Code**
+```html<input type="text">```
+
+For your existing `input` element, add a `type` attribute set to `"text"`.
+
+Also give the `input` element an `id` attribute with the value of `"full-name"`.
