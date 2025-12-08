@@ -123,3 +123,11 @@ Finally, add a `placeholder` attribute set to `"example@email.com"`.
 ```<label for="lastName">Last Name:</label> <input id="lastName" name="lastName" type="text" size="10" />```
 
 Give the name and email inputs a `size` attribute with a value of `"20"`.
+
+## Step 13
+
+Your hotel feedback form should have an option for users to add their age.
+
+Start by adding a `label` element with the text `Age (optional):` to the form.
+
+The `for` attribute should be set to `"age"`.
