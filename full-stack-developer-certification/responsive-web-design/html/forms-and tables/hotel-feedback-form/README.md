@@ -100,3 +100,9 @@ In previous lessons, you learned how to work with the `placeholder` and `require
 For your existing `input` element, add a `placeholder` attribute with the value of `"e.g., John Doe"`.
 
 Also, add the `required` attribute to the `input` element.
+
+## Step 10
+
+Your hotel feedback form should also collect an email address from the user.
+
+Start by adding a new `label` element with the text `Email address (required):` to the form. Your `label` element should have a `for` attribute set to the value of `"email"`.
