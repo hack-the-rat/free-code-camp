@@ -206,3 +206,13 @@ Below your checkbox `input`, add a `label` element with the text `Social Media A
 Add another checkbox `input` with the `id`, `name` and `value` attributes set to `"recommendation"`.
 
 Below the checkbox `input`, add another `label` with the text `Personal Recommendation`. The `for` attribute should be set to `"recommendation"`.
+
+## Step 21
+
+Next, add another checkbox `input` with the `id`, `name` and `value` attributes set to `"location"`.
+
+For the `label` element, the text of `Location` and the for attribute should be set to `"location"`.
+
+Below that `label` element, add another checkbox `input` with the `id`, `name` and `value` attributes set to `"reputation"`.
+
+For the `label` element, the text of `Reputation` and the for attribute should be set to `"reputation"`.
