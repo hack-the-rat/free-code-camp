@@ -200,3 +200,9 @@ The `value` attribute is used to specify the value that will be sent to the serv
 Below your `legend` element, add a checkbox `input` with the `id`, `name` and `value` attributes set to `"ads"`.
 
 Below your checkbox `input`, add a `label` element with the text `Social Media Ads`. The `for` attribute should be set to `"ads"`.
+
+## Step 20
+
+Add another checkbox `input` with the `id`, `name` and `value` attributes set to `"recommendation"`.
+
+Below the checkbox `input`, add another `label` with the text `Personal Recommendation`. The `for` attribute should be set to `"recommendation"`.
