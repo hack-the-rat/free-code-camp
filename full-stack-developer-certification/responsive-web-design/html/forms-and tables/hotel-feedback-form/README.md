@@ -146,3 +146,11 @@ The `min` and `max` attributes are used to set the minimum and maximum values th
 Below your `label` element, add an input with the `type` attribute set to `"number"` and an `id` of `"age"`.
 
 The `name` attribute should be set to `"age"`, the `min` attribute should be set to `"3"` and the `max` attribute should be set to `"100"`.
+
+## Step 15
+
+The next section in the form will be responsible for asking users if they have stayed at the hotel before.
+
+Start by adding a `fieldset` element.
+
+Inside the `fieldset` element, add a `legend` element with the text of `Was this your first time at our hotel?`.
