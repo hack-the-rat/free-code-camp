@@ -169,3 +169,11 @@ In this example, the radio buttons are grouped together by using the same `name`
 Below your `legend` element, add a `radio` button with the `id` set to `"yes-option"`, and the `name` attribute set to `"hotel-stay"`.
 
 Below your `radio` button, add a `label` element with the text `Yes` and a `for` attribute set to `"yes-option"`.
+
+## Step 17
+
+Below your `label` element, add a `radio` button with the `id` set to `"no-option"`, and the `name` attribute set to `"hotel-stay"`.
+
+Below your new `radio` button, add another `label` element with the `for` attribute set to `"no-option"`. The text for the `label` should be `No`.
+
+When you are finished, you can now try out the radio buttons by selecting one option at a time.
