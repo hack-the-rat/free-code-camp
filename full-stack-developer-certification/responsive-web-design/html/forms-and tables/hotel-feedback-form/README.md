@@ -227,3 +227,11 @@ Here is an example of using the `checked` attribute:
 ```<input checked type="checkbox" id="checked" name="checked">```
 
 Add the `checked` attribute to the checkbox input with the `id` of `"reputation"` to make it checked by default.
+
+## Step 23
+
+For the final `input` and `label` inside this fieldset, you will add a checkbox `input` with the `id`, `name` and `value` attributes set to `"price"`.
+
+Then, a `label` element with the text `Price` and the for attribute set to `"price"`.
+
+Now you can test out your `form` by selecting the various checkboxes.
