@@ -216,3 +216,14 @@ For the `label` element, the text of `Location` and the for attribute should be 
 Below that `label` element, add another checkbox `input` with the `id`, `name` and `value` attributes set to `"reputation"`.
 
 For the `label` element, the text of `Reputation` and the for attribute should be set to `"reputation"`.
+
+## Step 22
+
+To make a checkbox input checked by default, you can add the `checked` attribute.
+
+Here is an example of using the `checked` attribute:
+
+**Example Code**
+```<input checked type="checkbox" id="checked" name="checked">```
+
+Add the `checked` attribute to the checkbox input with the `id` of `"reputation"` to make it checked by default.
