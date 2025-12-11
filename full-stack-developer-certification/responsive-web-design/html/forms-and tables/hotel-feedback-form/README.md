@@ -293,3 +293,25 @@ Your hotel feedback form should also give users the ability to rate the food.
 Start by adding a `label` element with the text of `How was the food?`. That `label` element should have a `for` attribute set to `"food"`.
 
 Below your `label` element, add a `select` element with an `id` and `name` set to `"food"`.
+
+## Step 29
+
+Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
+
+**Value Attribute:**
+
+* poor
+* satisfactory
+* good
+* very-good
+* excellent
+
+**Option Text:**
+
+* Poor
+* Satisfactory
+* Good
+* Very Good
+* Excellent
+
+Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
