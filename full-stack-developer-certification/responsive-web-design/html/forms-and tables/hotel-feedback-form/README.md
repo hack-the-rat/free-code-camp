@@ -243,3 +243,14 @@ The next section of the form will provide users with the ability to leave a rati
 Start by adding a new `fieldset` element with a `legend` element nested inside. The `legend` should have the text `Ratings`.
 
 Below the `legend` element, add a `label` element with the text `How was the service?`. The `for` attribute should be set to `"service"`.
+
+## Step 25
+
+When you want users to make selections from a dropdown menu, you can use the `select` and `option` elements.
+
+Here is an example of using the `select` and `option` elements to create a dropdown for different cities:
+
+**Example Code**
+```<label for="city">Choose a City: </label> <select id="city" name="city"> <option value="new-york">New York</option> <option value="los-angeles">Los Angeles</option> <option value="chicago">Chicago</option> <option value="miami">Miami</option> </select>```
+
+Start by adding a `select` element with the `name` and `id` attributes set to `"service"`.
