@@ -342,3 +342,13 @@ Below your `label` element, add a `textarea` element. In the next step, you will
 For your `textarea` element, add an `id` and `name` attribute with the value of `"comments"`.
 
 For the `cols` attribute set the value to `30` and for the `rows` attribute set the value to `10`.
+
+## Step 33
+
+For the last step in the hotel feedback form workshop, you will need to add a submit button to the form.
+
+Remember that you learned how to work submit buttons in previous lessons.
+
+Add a `button` element with the `type` attribute set to `"submit"` and the text content set to `Submit`.
+
+And with that, your hotel feedback form is complete!
