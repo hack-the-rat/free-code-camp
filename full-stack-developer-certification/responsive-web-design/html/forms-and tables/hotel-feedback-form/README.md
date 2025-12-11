@@ -254,3 +254,23 @@ Here is an example of using the `select` and `option` elements to create a dropd
 ```<label for="city">Choose a City: </label> <select id="city" name="city"> <option value="new-york">New York</option> <option value="los-angeles">Los Angeles</option> <option value="chicago">Chicago</option> <option value="miami">Miami</option> </select>```
 
 Start by adding a `select` element with the `name` and `id` attributes set to `"service"`.
+
+## Step 26
+
+Inside your `select` element, add the following five `option` elements with these corresponding values for the `option` text and `value` attribute:
+
+**Value Attributes:**
+
+* poor
+* satisfactory
+* good
+* very-good
+* excellent
+
+**Option Element Text:**
+
+* Poor
+* Satisfactory
+* Good
+* Very Good
+* Excellent
