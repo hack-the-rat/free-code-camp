@@ -336,3 +336,9 @@ Here's an example of a `textarea` element:
 The `rows` attribute is used to specify the visible height of the `textarea`, and the `cols` attribute is used to specify the visible width of the `textarea`.
 
 Below your `label` element, add a `textarea` element. In the next step, you will add the necessary attributes.
+
+## Step 32
+
+For your `textarea` element, add an `id` and `name` attribute with the value of `"comments"`.
+
+For the `cols` attribute set the value to `30` and for the `rows` attribute set the value to `10`.
