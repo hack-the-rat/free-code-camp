@@ -235,3 +235,11 @@ For the final `input` and `label` inside this fieldset, you will add a checkbox 
 Then, a `label` element with the text `Price` and the for attribute set to `"price"`.
 
 Now you can test out your `form` by selecting the various checkboxes.
+
+## Step 24
+
+The next section of the form will provide users with the ability to leave a rating for the hotel.
+
+Start by adding a new `fieldset` element with a `legend` element nested inside. The `legend` should have the text `Ratings`.
+
+Below the `legend` element, add a `label` element with the text `How was the service?`. The `for` attribute should be set to `"service"`.
