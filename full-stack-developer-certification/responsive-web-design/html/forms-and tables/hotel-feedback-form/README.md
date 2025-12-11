@@ -285,3 +285,11 @@ Here is an example using the `selected` attribute:
 ```<option selected value="amazing">Amazing</option>```
 
 Inside your `select` element, add the `selected` attribute to the `option` element with the value of `"excellent"`.
+
+## Step 28
+
+Your hotel feedback form should also give users the ability to rate the food.
+
+Start by adding a `label` element with the text of `How was the food?`. That `label` element should have a `for` attribute set to `"food"`.
+
+Below your `label` element, add a `select` element with an `id` and `name` set to `"food"`.
