@@ -315,3 +315,9 @@ Inside your `select` element, add the following five `option` elements with thes
 * Excellent
 
 Don't forget to add the `selected` attribute to the `option` element with the value of `"excellent"`.
+
+## Step 30
+
+The last section of the `form` will allow users to provide any additional feedback they like about the hotel.
+
+Start by adding a `label` element with the text of `Other Comments?` and a `for` attribute set to `"comments"`.
