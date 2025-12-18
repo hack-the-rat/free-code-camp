@@ -39,10 +39,16 @@ The table head element consists of a table row element, `tr`, which contains the
 Here is an example using the `tr` and `th` elements for a sports table:
 
 **Example Code**
-```<table> <caption>Football Scores</caption> <thead> <tr> <th>Team</th> <th>Wins</th> <th>Losses</th> </tr> </thead> </table>```
+````<table> <caption>Football Scores</caption> <thead> <tr> <th>Team</th> <th>Wins</th> <th>Losses</th> </tr> </thead> </table>````
 
 Inside your `thead` element, add a `tr` element.
 
 Inside your `tr` element, add three `th` elements.
 
 The first `th` element should contain the text `Last Name`. The second `th` element should contain the text `First Name`. The third `th` element should contain the text `Grade`.
+
+## Step 5
+
+Now that you have completed the head section, it is time to add the *table body*, `tbody`. The table body will represent all of the student names and their grades.
+
+Add a table body element to your table.
