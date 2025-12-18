@@ -87,3 +87,19 @@ For the third student table row, use the following data for the table data eleme
 * Last Name: `Rodriguez`
 * First Name: `Marcus`
 * Grade: `88`
+
+## Step 8
+
+Now it is time to add two more students to the table.
+
+Following the same pattern as the previous steps, add a fourth student table row. Use the following data for the table data elements:
+
+* Last Name: `Thompson`
+* First Name: `Jane`
+* Grade: `77`
+
+For the fifth student table row, use the following data for the table data elements:
+
+* Last Name: `Williams`
+* First Name: `Natalie`
+* Grade: `83`
