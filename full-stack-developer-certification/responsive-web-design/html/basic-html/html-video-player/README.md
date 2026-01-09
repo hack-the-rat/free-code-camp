@@ -9,3 +9,9 @@ Create an `h1` element and give it the text `Working with the HTML Video Element
 ## Step 2
 
 Next, create a `video` element below the `h1`. Over the next few steps, you will add the necessary attributes to make the video player functional.
+
+## Step 3
+
+In a previous lesson, you learned about different attributes available to the `video` element. The `width` attribute determines the width of the video in pixels.
+
+Add the `width` attribute to the `video` element with a value of `640`.
