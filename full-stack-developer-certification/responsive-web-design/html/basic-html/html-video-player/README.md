@@ -94,3 +94,13 @@ Another common MIME type is the `video/ogg` MIME type.
 Ogg is a digital multimedia container format designed to provide for efficient streaming and manipulation of digital multimedia. It is maintained by the Xiph.Org Foundation and is free and open, unrestricted by software patents. Its name is derived from "ogging", jargon from the computer game Netrek.
 
 Below your second `source` element, add a third `source` element and give it a `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg` and a `type` attribute with the value `video/ogg`.
+
+## Step 13
+
+The last `source` element you will add will be for the `video/quicktime` MIME type.
+
+QuickTime is an extensible multimedia architecture created by Apple, which supports playing, streaming, encoding, and transcoding a variety of digital media formats. Not as popular as the MP4 format, you may need it for legacy application support.
+
+Below your third `source` element, add a fourth `source` element and give it a `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov` and `type` attribute with the value `video/quicktime`.
+
+Congratulations! You completed the HTML Video Player Workshop.
