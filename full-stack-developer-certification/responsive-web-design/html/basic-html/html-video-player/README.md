@@ -41,3 +41,9 @@ The `muted` attribute will silence audio on initial playback. If you have `contr
 The `muted` attribute is a boolean attribute and does not need a value.
 
 Add the `muted` attribute to the `video` element.
+
+## Step 7
+
+The `poster` attribute is a thumbnail image of the video. Think of the videos you watch on YouTube. It's displayed while the video is downloading. If the attribute is omitted, the first video frame is shown during the download phase.
+
+Now, add the `poster` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg` to your `video` element.
