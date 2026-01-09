@@ -78,3 +78,11 @@ MIME (Multipurpose Internet Mail Extensions) is a standard to describe documents
 MP4, formally known as MPEG-4 Part 14, is a digital multimedia container format. It is widely used for storing video and audio, but it can also include other data types like subtitles and still images. MP4 files are designed for streaming over the Internet and are compatible with many devices and platforms.
 
 Now, add the `type` attribute and the value `video/mp4`.
+
+## Step 11
+
+Another common MIME type is the `video/webm` MIME type.
+
+WebM is an open-source audiovisual media file format developed by Google, primarily designed for web-based media content. It supports video codecs like VP8, VP9, and AV1, and audio codecs such as Vorbis and Opus, making it a popular choice for HTML5 video and audio elements.
+
+Below your first `source` element, add another `source` element and give it a `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm` and a `type` attribute with the value `video/webm`.
