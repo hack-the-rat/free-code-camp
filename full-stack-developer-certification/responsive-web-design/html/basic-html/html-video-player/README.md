@@ -66,3 +66,15 @@ Add a `source` element inside of your `video` element.
 To specify the media resource for the video, you will need to add the `src` attribute to the `source` element.
 
 Add the `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4`.
+
+## Step 10
+
+You have used a video file with an `mp4` file extension, and you need to tell the browser that so it knows how to read the file.
+
+You will use the `type` attribute to specify the `video/mp4` MIME type.
+
+MIME (Multipurpose Internet Mail Extensions) is a standard to describe documents in other forms besides ASCII text, for example, audio, video, and images.
+
+MP4, formally known as MPEG-4 Part 14, is a digital multimedia container format. It is widely used for storing video and audio, but it can also include other data types like subtitles and still images. MP4 files are designed for streaming over the Internet and are compatible with many devices and platforms.
+
+Now, add the `type` attribute and the value `video/mp4`.
