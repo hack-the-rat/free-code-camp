@@ -23,3 +23,13 @@ The `loop` attribute will restart the video once playback is completed. Think of
 The `loop` attribute is a boolean attribute and does not need a value.
 
 Add the `loop` attribute to the `video` element.
+
+## Step 5
+
+The `controls` attribute provides playback controls including playback, rewind, and volume control for the `video` element.
+
+The `controls` attribute is a boolean attribute and does not need a value.
+
+Add the `controls` attribute to the `video` element.
+
+Now you should see the video element displayed on the page.
