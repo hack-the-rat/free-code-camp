@@ -60,3 +60,9 @@ Here is an example of a `source` element:
 The `source` element is a void element so it does not have a closing tag.
 
 Add a `source` element inside of your `video` element.
+
+## Step 9
+
+To specify the media resource for the video, you will need to add the `src` attribute to the `source` element.
+
+Add the `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4`.
