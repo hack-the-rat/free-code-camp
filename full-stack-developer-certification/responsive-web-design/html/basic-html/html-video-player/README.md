@@ -47,3 +47,16 @@ Add the `muted` attribute to the `video` element.
 The `poster` attribute is a thumbnail image of the video. Think of the videos you watch on YouTube. It's displayed while the video is downloading. If the attribute is omitted, the first video frame is shown during the download phase.
 
 Now, add the `poster` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg` to your `video` element.
+
+## Step 8
+
+You might have noticed you didn't link to the actual video. You will do that in the next phase. When it comes to video file types, there are differences in browser support. To accommodate this, you can use `source` elements inside the `video` element and the browser will select the first compatible `source`.
+
+Here is an example of a `source` element:
+
+**Example Code**
+```<video controls width="250"><source src="src-url-goes-here" type="video-type-goes-here" /> </video>```
+
+The `source` element is a void element so it does not have a closing tag.
+
+Add a `source` element inside of your `video` element.
