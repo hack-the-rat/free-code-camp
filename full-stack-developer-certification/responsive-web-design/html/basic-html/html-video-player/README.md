@@ -86,3 +86,11 @@ Another common MIME type is the `video/webm` MIME type.
 WebM is an open-source audiovisual media file format developed by Google, primarily designed for web-based media content. It supports video codecs like VP8, VP9, and AV1, and audio codecs such as Vorbis and Opus, making it a popular choice for HTML5 video and audio elements.
 
 Below your first `source` element, add another `source` element and give it a `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm` and a `type` attribute with the value `video/webm`.
+
+## Step 12
+
+Another common MIME type is the `video/ogg` MIME type.
+
+Ogg is a digital multimedia container format designed to provide for efficient streaming and manipulation of digital multimedia. It is maintained by the Xiph.Org Foundation and is free and open, unrestricted by software patents. Its name is derived from "ogging", jargon from the computer game Netrek.
+
+Below your second `source` element, add a third `source` element and give it a `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg` and a `type` attribute with the value `video/ogg`.
