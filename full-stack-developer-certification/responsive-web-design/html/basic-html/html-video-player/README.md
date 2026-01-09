@@ -33,3 +33,11 @@ The `controls` attribute is a boolean attribute and does not need a value.
 Add the `controls` attribute to the `video` element.
 
 Now you should see the video element displayed on the page.
+
+## Step 6
+
+The `muted` attribute will silence audio on initial playback. If you have `controls` enabled, the user will be able to unmute audio. Omitting the `muted` attribute will play audio on initial playback.
+
+The `muted` attribute is a boolean attribute and does not need a value.
+
+Add the `muted` attribute to the `video` element.
