@@ -25,3 +25,9 @@ Change the `h5` element to an `h3` element.
 Below the main title of the page, there is a navigation section that contains links to each blog post.
 
 This section should be wrapped in a `nav` element to indicate its purpose as a navigation landmark.
+
+## Step 5
+
+In the blog page, there are a total of three blog posts wrapped inside generic `div` elements. But it would be better to use semantic elements to wrap each post.
+
+Change each `div` element that wraps each blog post to an `article` element.
