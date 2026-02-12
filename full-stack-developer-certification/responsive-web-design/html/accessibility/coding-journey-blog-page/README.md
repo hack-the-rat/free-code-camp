@@ -14,8 +14,14 @@ It looks like there are still some issues with the use of headings on the page. 
 
 Change the two `h4` elements to `h3` elements.
 
-### Step 3
+## Step 3
 
 In the second post section, there is an `h5` element being used. It would be more appropriate to use an `h3` element here.
 
 Change the `h5` element to an `h3` element.
+
+## Step 4
+
+Below the main title of the page, there is a navigation section that contains links to each blog post.
+
+This section should be wrapped in a `nav` element to indicate its purpose as a navigation landmark.
