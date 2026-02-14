@@ -31,3 +31,7 @@ This section should be wrapped in a `nav` element to indicate its purpose as a n
 In the blog page, there are a total of three blog posts wrapped inside generic `div` elements. But it would be better to use semantic elements to wrap each post.
 
 Change each `div` element that wraps each blog post to an `article` element.
+
+## Step 6
+
+Since the entire section containing the blog posts represents the main content of the page, it should be wrapped in a `main` element. This helps screen readers and other assistive technologies understand the structure of the page better.
