@@ -35,3 +35,9 @@ Change each `div` element that wraps each blog post to an `article` element.
 ## Step 6
 
 Since the entire section containing the blog posts represents the main content of the page, it should be wrapped in a `main` element. This helps screen readers and other assistive technologies understand the structure of the page better.
+
+## Step 7
+
+For the last part of the workshop, there are a few changes needed for the contact section at the bottom.
+
+The first change would be to wrap the contact section inside of a `footer` element. This will help screen readers identify this section as the footer of the page.
