@@ -41,3 +41,9 @@ Since the entire section containing the blog posts represents the main content o
 For the last part of the workshop, there are a few changes needed for the contact section at the bottom.
 
 The first change would be to wrap the contact section inside of a `footer` element. This will help screen readers identify this section as the footer of the page.
+
+## Step 8
+
+Right now the `footer` section has an `h3` heading. But it should be an `h2` heading to maintain a proper heading hierarchy.
+
+Change the `h3` to an `h2`.
