@@ -91,3 +91,17 @@ Then, add three `td` elements with the following text content:
 ## Step 13
 
 Next, add a fifth row to the table. Start by adding another `tr` element. Inside that `tr` element, add a `th` element with a `scope` attribute set to `"row"` and the text content of `12:30 PM`. Then below that `th` element, add a `td` element with the text content of `Lunch Break`. Your `td` element should also have a `colspan` attribute set to `3` so that it spans all three tracks.
+
+## Step 14
+
+The last step is to add one more row to the table.
+
+Start by adding another `tr` element. Inside that `tr` element, add a `th` element with a `scope` attribute set to `"row"` and the text content of `2:00 PM`.
+
+Then, add three `td` elements with the following text content:
+
+* `Voice UI Workshop`
+* `Git & GitHub Essentials`
+* `Color & Contrast in UI`
+
+With those last set of changes, your table is now complete!
