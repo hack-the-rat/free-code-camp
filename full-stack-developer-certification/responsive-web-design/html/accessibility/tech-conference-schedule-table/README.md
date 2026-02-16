@@ -32,3 +32,9 @@ The `scope` attribute is used to specify whether a header cell is a header for a
 This helps screen readers understand the relationship between header and data cells.
 
 For all `th` elements, add a `scope` attribute with a value of `col`.
+
+## Step 6
+
+For the next few steps, you will build out the body of the table.
+
+Start by adding a `tbody` element below the `thead` element. Then inside the `tbody`, add a `tr` element.
