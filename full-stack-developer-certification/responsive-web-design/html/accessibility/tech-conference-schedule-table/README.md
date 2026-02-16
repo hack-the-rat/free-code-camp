@@ -5,3 +5,9 @@
 In this workshop, you will learn how to make accessible table elements by building out a schedule for a tech conference.
 
 Start by adding an `h1` element with the text `Tech Conference 2025 Schedule`.
+
+## Step 2
+
+Now it is time to start building out the table.
+
+Start by adding a `table` element below your `h1` element. Inside of the `table` element, add a `caption` element with the text `Schedule by Track and Time`.
