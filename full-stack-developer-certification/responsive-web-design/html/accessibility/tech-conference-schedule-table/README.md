@@ -42,3 +42,9 @@ Start by adding a `tbody` element below the `thead` element. Then inside the `tb
 ## Step 7
 
 Inside your `tr` element, add a `th` element with the text of `9:00 AM`. Then below that `th` element, add three `td` elements with the text of `Keynote: Tech Future`, `Intro to Web Dev`, and `UX for All`.
+
+## Step 8
+
+Another value for the `scope` attribute is `row`, which indicates that a header cell is a header for its entire row.
+
+Inside of your `th` element, add a `scope` attribute with a value of `row`.
