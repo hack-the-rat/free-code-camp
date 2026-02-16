@@ -48,3 +48,15 @@ Inside your `tr` element, add a `th` element with the text of `9:00 AM`. Then be
 Another value for the `scope` attribute is `row`, which indicates that a header cell is a header for its entire row.
 
 Inside of your `th` element, add a `scope` attribute with a value of `row`.
+
+## Step 9
+
+Now it is time to add another row to the table.
+
+Start by adding another `tr` element. Inside that `tr` element, add a `th` element with a `scope` attribute set to `"row"` and the text content of `10:00 AM`.
+
+Then, add three `td` elements with the following text content:
+
+* `Accessibility Deep Dive`
+* `CSS for Beginners`
+* `Inclusive Design Principles`
