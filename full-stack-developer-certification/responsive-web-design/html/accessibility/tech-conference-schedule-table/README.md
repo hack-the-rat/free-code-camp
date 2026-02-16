@@ -21,3 +21,14 @@ Start by adding a `thead` element below the `caption` element. Inside the `thead
 ## Step 4
 
 Inside of your `tr` element, add four `th` elements. The first `th` element should have the text of `Time`, the second should have the text of `Track A`, the third should have the text of `Track B`, and the fourth should have the text of `Track C`.
+
+## Step 5
+
+The `scope` attribute is used to specify whether a header cell is a header for a row, column, or group of rows or columns. Here is an example:
+
+**Example Code**
+```<th scope="col">Example Header</th>```
+
+This helps screen readers understand the relationship between header and data cells.
+
+For all `th` elements, add a `scope` attribute with a value of `col`.
