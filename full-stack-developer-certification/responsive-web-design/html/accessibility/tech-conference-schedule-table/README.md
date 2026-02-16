@@ -64,3 +64,14 @@ Then, add three `td` elements with the following text content:
 ## Step 10
 
 Next, add a third row to the table. Start by adding another `tr` element. Inside that `tr` element, add a `th` element with a `scope` attribute set to `"row"` and the text content of `11:00 AM`. Then below that `th` element, add a `td` element with the text content of `Break`.
+
+## Step 11
+
+Right now, the `td` element with the text content of `Break` only spans one column. But it would be nice if it spanned all three columns.
+
+As you recall from earlier workshops and lessons, you can use the `colspan` attribute to make a table cell span multiple columns.
+
+**Example Code**
+```<tr> <td colspan="3">Total Points</td> </tr>```
+
+Add a `colspan` attribute to the `td` element and set its value to `3`.
