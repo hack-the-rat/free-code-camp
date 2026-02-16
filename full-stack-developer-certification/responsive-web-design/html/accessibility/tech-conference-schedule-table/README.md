@@ -38,3 +38,7 @@ For all `th` elements, add a `scope` attribute with a value of `col`.
 For the next few steps, you will build out the body of the table.
 
 Start by adding a `tbody` element below the `thead` element. Then inside the `tbody`, add a `tr` element.
+
+## Step 7
+
+Inside your `tr` element, add a `th` element with the text of `9:00 AM`. Then below that `th` element, add three `td` elements with the text of `Keynote: Tech Future`, `Intro to Web Dev`, and `UX for All`.
