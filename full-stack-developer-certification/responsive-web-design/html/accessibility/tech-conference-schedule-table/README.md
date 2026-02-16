@@ -17,3 +17,7 @@ Start by adding a `table` element below your `h1` element. Inside of the `table`
 The next step is to add the table head.
 
 Start by adding a `thead` element below the `caption` element. Inside the `thead`, add a `tr` element.
+
+## Step 4
+
+Inside of your `tr` element, add four `th` elements. The first `th` element should have the text of `Time`, the second should have the text of `Track A`, the third should have the text of `Track B`, and the fourth should have the text of `Track C`.
