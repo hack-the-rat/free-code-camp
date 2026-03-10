@@ -49,3 +49,9 @@ Below the `h2`, add a `p` element with the text `Artist: Quincy Larson`.
 ## Step 8
 
 Below the `p` element, add an `audio` element, give it an `src` attribute with a value of `https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3`, and the `loop` and `controls` attributes.
+
+## Step 9
+
+The last song is titled `Scratching the Surface`, the artist is Quincy Larson, and the file to use is `https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3`.
+
+Add the last song to complete the music player following the same pattern you used for the first two songs.
