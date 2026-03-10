@@ -45,3 +45,7 @@ Now you should see the `audio` element displayed on the page.
 Add a new `h2` element below the `audio` element with the text `Cruising for a Musing`.
 
 Below the `h2`, add a `p` element with the text `Artist: Quincy Larson`.
+
+## Step 8
+
+Below the `p` element, add an `audio` element, give it an `src` attribute with a value of `https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3`, and the `loop` and `controls` attributes.
