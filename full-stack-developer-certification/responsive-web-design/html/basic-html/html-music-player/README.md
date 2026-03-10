@@ -21,3 +21,11 @@ Next, create an `audio` element below the `p` element. Over the next few steps, 
 To specify the media resource for the audio, you will need to add the `src` attribute to the `audio` element.
 
 Add the `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3`.
+
+## Step 5
+
+The `loop` attribute will restart the audio once playback is completed. Think of an internet meme that repeats playback. Omitting the `loop` attribute will make the audio play once.
+
+The `loop` attribute is a boolean attribute and does not need a value.
+
+Add the `loop` attribute to the `audio` element.
