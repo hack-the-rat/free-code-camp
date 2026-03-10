@@ -29,3 +29,13 @@ The `loop` attribute will restart the audio once playback is completed. Think of
 The `loop` attribute is a boolean attribute and does not need a value.
 
 Add the `loop` attribute to the `audio` element.
+
+## Step 6
+
+The `controls` attribute provides playback controls including pause/resume playback, seeking, and volume control for the `audio` element.
+
+The `controls` attribute is a boolean attribute and does not need a value.
+
+Add the `controls` attribute to the `audio` element.
+
+Now you should see the `audio` element displayed on the page.
