@@ -15,3 +15,9 @@ Below the `h2` element add a `p` element with the text `Artist: Quincy Larson`.
 ## Step 3
 
 Next, create an `audio` element below the `p` element. Over the next few steps, you will add the necessary attributes to make the audio element play music.
+
+## Step 4
+
+To specify the media resource for the audio, you will need to add the `src` attribute to the `audio` element.
+
+Add the `src` attribute with the value `https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3`.
