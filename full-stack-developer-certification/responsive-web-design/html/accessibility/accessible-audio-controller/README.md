@@ -31,3 +31,9 @@ Similar to the previous `span` element, the `id` of this `span` will later be re
 ## Step 5
 
 Next, you need to add an `input` element with the `type` attribute set to `range` to create the volume slider. Set the `min` attribute to `0`, the `max` attribute to `100`, and the `value` attribute to `50` to define the default volume level.
+
+## Step 6
+
+As you recall from prior lessons, the `aria-labelledby` attribute is used when there is existing text on the page that can be used as a label. In this case, you have added the `id` attribute to your `span` elements which will now be used here.
+
+Add an `aria-labelledby` attribute to the `input` element set to `volume-label volume-description`.
