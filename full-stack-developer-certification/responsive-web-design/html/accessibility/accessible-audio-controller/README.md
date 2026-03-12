@@ -37,3 +37,11 @@ Next, you need to add an `input` element with the `type` attribute set to `range
 As you recall from prior lessons, the `aria-labelledby` attribute is used when there is existing text on the page that can be used as a label. In this case, you have added the `id` attribute to your `span` elements which will now be used here.
 
 Add an `aria-labelledby` attribute to the `input` element set to `volume-label volume-description`.
+
+## Step 7
+
+Your accessible audio controller is almost complete but there is one last thing to add.
+
+Add a `button` element with the `type` attribute set to `button` and with text `Mute` below the `div` element.
+
+And with that change, you have completed this workshop!
