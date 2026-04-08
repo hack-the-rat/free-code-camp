@@ -16,7 +16,18 @@
         </section>
         <section>
             <h2>Payment Information</h2>
-            <form action="/submit-payment" method="POST"></form>
+            <form action="/submit-payment" method="POST">
+                <div>
+                    <label for="card-name">
+                        "Cardholder Name "
+                        <span aria-hidden="true">*</span>
+                    </label>
+                    <input type="text" id="card-name" name="card-name" required>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </form>
         </section>
     </body>
 
