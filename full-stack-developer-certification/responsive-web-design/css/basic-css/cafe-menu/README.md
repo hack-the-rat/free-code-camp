@@ -318,3 +318,9 @@ Since all `4` sides of the menu have the same internal spacing, remove the four 
 The current width of the menu will always take up 80% of the `body` element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
 
 Add a `max-width` property to the `menu` class with a value of `500px` to prevent it from growing too wide.
+
+## Step 53
+
+You can change the `font-family` of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+
+Change all the text in your `body`, by adding a `font-family` property with the value `sans-serif`. This is a fairly common font that is very readable.
