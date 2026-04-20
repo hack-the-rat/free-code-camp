@@ -127,3 +127,9 @@ In your style sheet, comment out the line containing the `background-color` prop
 ## Step 19
 
 Now use the existing `#menu` selector to set the background color of the `div` element to be `burlywood`.
+
+## Step 20
+
+Now it's easy to see that the text is centered inside the `#menu` element. Currently, the width of the `#menu` element is specified in pixels (`px`).
+
+Change the `width` property's value to be `80%`, to make it `80%` the width of its parent element (`body`).
