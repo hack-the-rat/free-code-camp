@@ -434,3 +434,7 @@ Add some more space by creating a class named `bottom-line` using `25px` for the
 ## Step 73
 
 Now add the `bottom-line` class to the second `hr` element so the styling is applied.
+
+## Step 74
+
+Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
