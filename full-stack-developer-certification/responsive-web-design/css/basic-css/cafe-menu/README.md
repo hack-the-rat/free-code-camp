@@ -65,3 +65,9 @@ Start by rewriting the styles you have created into the `styles.css` file. Make 
 ## Step 11
 
 Now that you have the CSS in the `styles.css` file, go ahead and remove the `style` element and all its content. Once it is removed, the text that was centered will shift back to the left.
+
+## Step 12
+
+Now you need to link the `styles.css` file, so the styles will be applied again. Inside the `head` element, add a `link` element. Give it a `rel` attribute with the value of `"stylesheet"` and an `href` attribute with the value of `"styles.css"`.
+
+**Note:** The `link` element is a void element, which means it doesn't have a closing tag. Void elements should be written as `<link>` rather than `<link></link>`.
