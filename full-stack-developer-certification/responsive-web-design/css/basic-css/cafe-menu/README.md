@@ -123,3 +123,7 @@ Comments in CSS look like this:
 ```
 
 In your style sheet, comment out the line containing the `background-color` property and value, so you can see the effect of only styling the `#menu` element. This will make the background white again.
+
+## Step 19
+
+Now use the existing `#menu` selector to set the background color of the `div` element to be `burlywood`.
