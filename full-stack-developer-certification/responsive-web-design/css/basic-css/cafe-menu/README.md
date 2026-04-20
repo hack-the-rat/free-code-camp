@@ -244,3 +244,7 @@ You could keep trying various percentages for the widths. Instead, use the backs
 ## Step 37
 
 Now go ahead and change both the `flavor` and `price` class' widths to be `50%` again.
+
+## Step 38
+
+Now that you know it works, you can change the remaining `article` and `p` elements to match the first set. Start by adding the class `item` to the other `article` elements.
