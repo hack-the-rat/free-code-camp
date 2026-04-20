@@ -53,3 +53,11 @@ selector1, selector2 {
 ```
 
 Delete the three existing type selectors and replace them with one selector list that centers the text for the `h1`, `h2`, and `p` elements.
+
+## Step 10
+
+You have styled three elements by writing CSS inside the `style` tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
+
+A separate `styles.css` file has been created for you. You can switch between files with the tabs at the top of the editor.
+
+Start by rewriting the styles you have created into the `styles.css` file. Make sure you exclude the opening and closing `style` tags.
