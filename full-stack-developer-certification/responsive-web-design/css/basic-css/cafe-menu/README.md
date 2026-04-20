@@ -406,3 +406,7 @@ Make all the edges of the `hr` element the same color as the background of it us
 Notice how the thickness of the line looks bigger? The default value of a property named `border-width` is `1px` for all edges of `hr` elements. By changing the border to the same color as the background, the total height of the line is `5px` (`3px` plus the top and bottom border width of `1px`).
 
 Change the `height` property of the `hr` to `2px`, so the total height of it becomes `4px`.
+
+## Step 68
+
+Go ahead and add another `hr` element between the `main` element and the `footer` element.
