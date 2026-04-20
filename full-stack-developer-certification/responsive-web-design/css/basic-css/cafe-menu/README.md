@@ -61,3 +61,7 @@ You have styled three elements by writing CSS inside the `style` tags. This work
 A separate `styles.css` file has been created for you. You can switch between files with the tabs at the top of the editor.
 
 Start by rewriting the styles you have created into the `styles.css` file. Make sure you exclude the opening and closing `style` tags.
+
+## Step 11
+
+Now that you have the CSS in the `styles.css` file, go ahead and remove the `style` element and all its content. Once it is removed, the text that was centered will shift back to the left.
