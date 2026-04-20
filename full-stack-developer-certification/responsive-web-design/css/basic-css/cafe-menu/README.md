@@ -161,3 +161,9 @@ To apply the class's styling to the `div` element, remove the `id` attribute and
 Since the cafe's main product for sale is coffee, you could use an image of coffee beans as the page background.
 
 Remove the comment and its contents inside the `body` type selector. After that, add a `background-image` property and set its value to `url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)`.
+
+## Step 25
+
+Now that things look good, it's time to start adding some menu items.
+
+Add an empty `article` element under the `Coffee` heading. It will contain a flavor and price of each coffee you currently offer.
