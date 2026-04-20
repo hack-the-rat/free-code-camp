@@ -384,3 +384,9 @@ You can use an `hr` element to display a divider between sections of different c
 First, add an `hr` element between the `p` element with the class `established` and the first `section` element.
 
 Note that the `hr` element is a void element.
+
+## Step 64
+
+The default properties of an `hr` element will make it appear as a thin light grey line. You can change the height of the line by specifying a value for the `height` property.
+
+Change the height of the `hr` element to `3px`.
