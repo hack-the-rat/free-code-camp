@@ -270,3 +270,7 @@ You will come back to styling the menu in a few steps, but for now, go ahead and
 ## Step 43
 
 Add an `h2` element in the new section and give it the text `Desserts`.
+
+## Step 44
+
+Add an empty `article` element under the `Desserts` heading. Give it a `class` attribute with the value `item`.
