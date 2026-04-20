@@ -274,3 +274,7 @@ Add an `h2` element in the new section and give it the text `Desserts`.
 ## Step 44
 
 Add an empty `article` element under the `Desserts` heading. Give it a `class` attribute with the value `item`.
+
+## Step 45
+
+Nest two `p` elements inside your `article` element. The first one's text should be `Donut`, and the second's text `1.50`. Put both of them on the same line making sure there is no space between them.
