@@ -400,3 +400,9 @@ Change the background color of the `hr` element to `brown` so it matches the col
 Notice the grey color along the edges of the line. Those edges are known as borders. Each side of an element can have a different color or they can all be the same.
 
 Make all the edges of the `hr` element the same color as the background of it using the `border-color` property.
+
+## Step 67
+
+Notice how the thickness of the line looks bigger? The default value of a property named `border-width` is `1px` for all edges of `hr` elements. By changing the border to the same color as the background, the total height of the line is `5px` (`3px` plus the top and bottom border width of `1px`).
+
+Change the `height` property of the `hr` to `2px`, so the total height of it becomes `4px`.
