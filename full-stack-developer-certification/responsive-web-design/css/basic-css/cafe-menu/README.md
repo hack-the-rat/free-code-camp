@@ -91,3 +91,9 @@ The text is centered again so the link to the CSS file is working. Add another s
 ## Step 15
 
 That brown background makes it hard to read the text. Change the `body` element's background color to `burlywood` so it has some color, but you are still able to read the text.
+
+## Step 16
+
+The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
+
+Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
