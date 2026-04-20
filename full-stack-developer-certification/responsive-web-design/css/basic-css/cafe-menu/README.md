@@ -173,3 +173,16 @@ Add an empty `article` element under the `Coffee` heading. It will contain a fla
 `article` elements commonly contain multiple elements that have related information. In this case, it will contain a coffee flavor and a price for that flavor.
 
 Nest two `p` elements inside your `article` element. The first one's text should be `French Vanilla`, and the second's text `3.00`.
+
+## Step 27
+
+Starting below the existing coffee/price pair, add the following coffee and prices using `article` elements with two nested `p` elements inside each.
+
+```md
+Caramel Macchiato 3.75
+Pumpkin Spice 3.50
+Hazelnut 4.00
+Mocha 4.50
+```
+
+As before, the first `p` element's text should contain the coffee flavor and the second `p` element's text should contain the price.
