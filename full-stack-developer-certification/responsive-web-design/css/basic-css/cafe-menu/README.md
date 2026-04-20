@@ -167,3 +167,9 @@ Remove the comment and its contents inside the `body` type selector. After that,
 Now that things look good, it's time to start adding some menu items.
 
 Add an empty `article` element under the `Coffee` heading. It will contain a flavor and price of each coffee you currently offer.
+
+## Step 26
+
+`article` elements commonly contain multiple elements that have related information. In this case, it will contain a coffee flavor and a price for that flavor.
+
+Nest two `p` elements inside your `article` element. The first one's text should be `French Vanilla`, and the second's text `3.00`.
