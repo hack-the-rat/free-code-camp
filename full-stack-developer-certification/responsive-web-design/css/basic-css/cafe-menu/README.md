@@ -204,3 +204,11 @@ Next, you want to align the price to the right. Add a class named `price` to you
 ## Step 31
 
 Now align the text to the `right` for the elements with the `price` class.
+
+## Step 32
+
+That is kind of what you want, but now it would be nice if the flavor and price were on the same line. `p` elements are block-level elements, so they take up the entire width of their parent element.
+
+To get them on the same line, you need to apply some styling to the `p` elements so they behave more like inline elements.
+
+To do that, start by adding a `class` attribute with the value `item` to the first `article` element under the `Coffee` heading.
