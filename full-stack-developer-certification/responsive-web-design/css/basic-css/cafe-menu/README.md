@@ -368,3 +368,19 @@ Make sure that the link opens in a new tab by adding a `target` attribute with t
 ## Step 62
 
 Add a second `p` element below the one with the link and give it the text `123 Free Code Camp Drive`.
+
+## Step 63
+
+You can use an `hr` element to display a divider between sections of different content.
+
+```html
+<section>
+  <h2>Things cats love</h2>
+  <hr>
+  <p>Cats love lasagna.</p>
+</section>
+```
+
+First, add an `hr` element between the `p` element with the class `established` and the first `section` element.
+
+Note that the `hr` element is a void element.
