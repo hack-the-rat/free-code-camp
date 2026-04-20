@@ -288,3 +288,13 @@ For the two `p` elements you just added, add `dessert` as the value of the first
 Something does not look right. You added the correct `class` attribute value to the `p` element with `Donut` as its text, but you have not defined a selector for it.
 
 The CSS rule for the `flavor` class already sets the properties you want. Add the `dessert` class as an additional selector for this CSS rule.
+
+## Step 48
+
+Below the dessert you just added, add the rest of the desserts and prices using three more `article` elements, each with two nested `p` elements. Each element should have the correct dessert and price text, and all of them should have the correct classes.
+
+```md
+Cherry Pie 2.75
+Cheesecake 3.00
+Cinnamon Roll 2.50
+```
