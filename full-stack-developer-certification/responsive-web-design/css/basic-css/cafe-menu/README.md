@@ -155,3 +155,9 @@ Change the existing `#menu` selector into a class selector by replacing `#menu` 
 ## Step 23
 
 To apply the class's styling to the `div` element, remove the `id` attribute and add a `class` attribute to the `div` element's opening tag. Make sure to set the class value to `menu`.
+
+## Step 24
+
+Since the cafe's main product for sale is coffee, you could use an image of coffee beans as the page background.
+
+Remove the comment and its contents inside the `body` type selector. After that, add a `background-image` property and set its value to `url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)`.
