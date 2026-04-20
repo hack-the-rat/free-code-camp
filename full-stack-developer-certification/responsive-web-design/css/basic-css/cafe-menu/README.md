@@ -228,3 +228,9 @@ Using the above selector, add a `display` property with value `inline-block` so 
 That's closer, but the price didn't stay over on the right. This is because `inline-block` elements only take up the width of their content.
 
 To spread them out, add a `width` property to the `flavor` and `price` class selectors that have a value of `50%` each.
+
+## Step 35
+
+Well, that did not work. Styling the `p` elements as `inline-block` and placing them on separate lines creates an extra space to the right of the first `p` element, causing the second one to shift to the next line.
+
+One way to fix that is to make each `p` element's width slightly less than `50%`. So, change the `width` value to `49%` for each class to see what happens.
