@@ -350,3 +350,7 @@ Now apply the `established` class to the `Est. 2020` text.
 The typography of heading elements (e.g. `h1`, `h2`) is set by default values of users' browsers.
 
 Add two new type selectors (`h1` and `h2`). Use the `font-size` property for both, but use the value `40px` for the `h1` and `30px` for the `h2`.
+
+## Step 59
+
+Add a `footer` element below the `main` element, where you can add some additional information.
