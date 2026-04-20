@@ -25,3 +25,15 @@ Create an `h2` element in the `section` element and give it the text `Coffee`.
 ## Step 6
 
 Until now, you've had limited control over the presentation and appearance of your content. To change that, add a `style` element within the `head` element.
+
+## Step 7
+
+In previous lessons, you learned how to add `CSS` properties and values like this:
+
+```css
+element {
+ property: value;
+}
+```
+
+Center the content of the `h1` element by setting its `text-align` property to the value `center`.
