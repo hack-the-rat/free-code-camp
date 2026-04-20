@@ -13,3 +13,7 @@ The name of the cafe is `CAMPER CAFE`. So, add an `h1` element within your `main
 ## Step 3
 
 To let visitors know the cafe was founded in `2020`, add a `p` element below the `h1` element with the text `Est. 2020`.
+
+## Step 4
+
+There will be two sections on the menu, one for coffees and one for desserts. Add a `section` element within the `main` element so you have a place to put all the coffees available.
