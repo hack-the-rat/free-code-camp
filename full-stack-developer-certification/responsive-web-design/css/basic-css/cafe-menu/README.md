@@ -312,3 +312,9 @@ That looks better. Now try to add the same `20px` padding to the top and bottom 
 ## Step 51
 
 Since all `4` sides of the menu have the same internal spacing, remove the four properties and use a single `padding` property with the value `20px`.
+
+## Step 52
+
+The current width of the menu will always take up 80% of the `body` element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
+
+Add a `max-width` property to the `menu` class with a value of `500px` to prevent it from growing too wide.
