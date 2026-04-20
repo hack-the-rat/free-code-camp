@@ -420,3 +420,7 @@ To create a little more room around the menu, add `20px` of space on the inside 
 Focusing on the menu items and prices, there is a fairly large gap between each line.
 
 Use the existing selector that targets all the `p` elements nested in elements with the class named `item` and set their top and bottom margin to `5px`.
+
+## Step 71
+
+Using the same style selector in the previous step, make the font size of the items and prices larger by using a value of `18px`.
