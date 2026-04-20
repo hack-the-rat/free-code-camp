@@ -151,3 +151,7 @@ You learned how to work with `class` selectors in previous lessons like this:
 ```
 
 Change the existing `#menu` selector into a class selector by replacing `#menu` with a class named `.menu`.
+
+## Step 23
+
+To apply the class's styling to the `div` element, remove the `id` attribute and add a `class` attribute to the `div` element's opening tag. Make sure to set the class value to `menu`.
