@@ -83,3 +83,7 @@ Here is an example:
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
+
+## Step 14
+
+The text is centered again so the link to the CSS file is working. Add another style to the file that changes the `background-color` property to `brown` for the `body` element.
