@@ -137,3 +137,17 @@ Change the `width` property's value to be `80%`, to make it `80%` the width of i
 ## Step 21
 
 Next, you want to center the `#menu` horizontally. You can do this by setting its `margin-left` and `margin-right` properties to `auto`. Think of the margin as an invisible space around an element. Using these two margin properties, center the `#menu` element within the `body` element.
+
+## Step 22
+
+So far you have been using type and id selectors to style elements. However, it is more common to use a different selector to style your elements.
+
+You learned how to work with `class` selectors in previous lessons like this:
+
+```css
+.class-name {
+  styles
+}
+```
+
+Change the existing `#menu` selector into a class selector by replacing `#menu` with a class named `.menu`.
