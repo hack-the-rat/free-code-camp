@@ -17,3 +17,7 @@ To let visitors know the cafe was founded in `2020`, add a `p` element below the
 ## Step 4
 
 There will be two sections on the menu, one for coffees and one for desserts. Add a `section` element within the `main` element so you have a place to put all the coffees available.
+
+## Step 5
+
+Create an `h2` element in the `section` element and give it the text `Coffee`.
