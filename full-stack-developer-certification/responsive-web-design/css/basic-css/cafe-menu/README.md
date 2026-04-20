@@ -282,3 +282,9 @@ Nest two `p` elements inside your `article` element. The first one's text should
 ## Step 46
 
 For the two `p` elements you just added, add `dessert` as the value of the first `p` element's `class` attribute and the value `price` as the second `p` element's `class` attribute.
+
+## Step 47
+
+Something does not look right. You added the correct `class` attribute value to the `p` element with `Donut` as its text, but you have not defined a selector for it.
+
+The CSS rule for the `flavor` class already sets the properties you want. Add the `dessert` class as an additional selector for this CSS rule.
