@@ -364,3 +364,7 @@ Inside the `footer`, add an `address` element. You will add contact information 
 Inside the `address`, add a `p` element. Then, nest an anchor (`a`) element in the `p` that links to `https://www.freecodecamp.org` and has the text `Visit our website`.
 
 Make sure that the link opens in a new tab by adding a `target` attribute with the value `_blank`.
+
+## Step 62
+
+Add a second `p` element below the one with the link and give it the text `123 Free Code Camp Drive`.
