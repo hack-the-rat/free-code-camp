@@ -340,3 +340,7 @@ Add the fallback font `serif` after the `Impact` font.
 ## Step 56
 
 Italicize the `Est. 2020` by creating an `established` class selector and giving it a `font-style` property of `italic`.
+
+## Step 57
+
+Now apply the `established` class to the `Est. 2020` text.
