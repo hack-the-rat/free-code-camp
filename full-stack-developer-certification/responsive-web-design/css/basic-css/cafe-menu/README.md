@@ -234,3 +234,9 @@ To spread them out, add a `width` property to the `flavor` and `price` class sel
 Well, that did not work. Styling the `p` elements as `inline-block` and placing them on separate lines creates an extra space to the right of the first `p` element, causing the second one to shift to the next line.
 
 One way to fix that is to make each `p` element's width slightly less than `50%`. So, change the `width` value to `49%` for each class to see what happens.
+
+## Step 36
+
+That worked, but there is still a little space on the right of the price.
+
+You could keep trying various percentages for the widths. Instead, use the backspace key to move the `p` element with the class `price` next to the `p` element with the class `flavor` so that they are on the same line in the editor. Make sure there is no space between the two elements.
