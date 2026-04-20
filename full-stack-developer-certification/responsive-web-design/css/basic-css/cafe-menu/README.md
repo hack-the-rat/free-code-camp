@@ -324,3 +324,9 @@ Add a `max-width` property to the `menu` class with a value of `500px` to preven
 You can change the `font-family` of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
 
 Change all the text in your `body`, by adding a `font-family` property with the value `sans-serif`. This is a fairly common font that is very readable.
+
+## Step 54
+
+It is a bit boring for all the text to have the same `font-family`. You can still have the majority of the text `sans-serif` and make just the `h1` and `h2` elements different using a different selector.
+
+Style both the `h1` and the `h2` elements using a single selector so that these elements' text use `Impact` font.
