@@ -97,3 +97,19 @@ That brown background makes it hard to read the text. Change the `body` element'
 The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
 Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
+
+## Step 17
+
+The goal now is to make the `div` not take up the entire width of the page. The CSS `width` property is perfect for this.
+
+You can use the `id` selector to target a specific element with an `id` attribute.
+
+You learned how to work with the `id` selector in previous lessons like this:
+
+```css
+#cat {
+  width: 250px;
+}
+```
+
+Use the `#menu` selector to give your element a width of `300px`.
