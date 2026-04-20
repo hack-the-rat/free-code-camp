@@ -41,3 +41,15 @@ Center the content of the `h1` element by setting its `text-align` property to t
 ## Step 8
 
 In the previous step, you used a type selector to style the `h1` element. Center the content of the `h2` and the `p` elements by adding a new type selector for each one to the existing `style` element.
+
+## Step 9
+
+You now have three type selectors with the same styling. You can add the same group of styles to many elements by creating a list of selectors. Each selector is separated with commas like this:
+
+```css
+selector1, selector2 {
+  property: value;
+}
+```
+
+Delete the three existing type selectors and replace them with one selector list that centers the text for the `h1`, `h2`, and `p` elements.
