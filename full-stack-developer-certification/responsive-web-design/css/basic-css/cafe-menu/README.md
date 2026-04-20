@@ -308,3 +308,7 @@ Give the `menu` class a `padding-left` and a `padding-right` with the same value
 ## Step 50
 
 That looks better. Now try to add the same `20px` padding to the top and bottom of the menu.
+
+## Step 51
+
+Since all `4` sides of the menu have the same internal spacing, remove the four properties and use a single `padding` property with the value `20px`.
