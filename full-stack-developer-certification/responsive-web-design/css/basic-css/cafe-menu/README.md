@@ -358,3 +358,9 @@ Add a `footer` element below the `main` element, where you can add some addition
 ## Step 60
 
 Inside the `footer`, add an `address` element. You will add contact information to this element in the next few steps.
+
+## Step 61
+
+Inside the `address`, add a `p` element. Then, nest an anchor (`a`) element in the `p` that links to `https://www.freecodecamp.org` and has the text `Visit our website`.
+
+Make sure that the link opens in a new tab by adding a `target` attribute with the value `_blank`.
