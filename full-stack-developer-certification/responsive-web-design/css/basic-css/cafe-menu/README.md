@@ -21,3 +21,7 @@ There will be two sections on the menu, one for coffees and one for desserts. Ad
 ## Step 5
 
 Create an `h2` element in the `section` element and give it the text `Coffee`.
+
+## Step 6
+
+Until now, you've had limited control over the presentation and appearance of your content. To change that, add a `style` element within the `head` element.
