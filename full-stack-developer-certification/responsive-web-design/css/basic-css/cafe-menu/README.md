@@ -9,3 +9,7 @@ Let's start by adding some menu content. Add a `main` element within the existin
 ## Step 2
 
 The name of the cafe is `CAMPER CAFE`. So, add an `h1` element within your `main` element. Give it the name of the cafe in capitalized letters to make it stand out.
+
+## Step 3
+
+To let visitors know the cafe was founded in `2020`, add a `p` element below the `h1` element with the text `Est. 2020`.
