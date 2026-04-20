@@ -424,3 +424,9 @@ Use the existing selector that targets all the `p` elements nested in elements w
 ## Step 71
 
 Using the same style selector in the previous step, make the font size of the items and prices larger by using a value of `18px`.
+
+## Step 72
+
+Changing the `margin-bottom` to `5px` looks great. However, now the space between the `Cinnamon Roll` menu item and the second `hr` element does not match the space between the top `hr` element and the `Coffee` heading.
+
+Add some more space by creating a class named `bottom-line` using `25px` for the `margin-top` property.
