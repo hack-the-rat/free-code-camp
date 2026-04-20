@@ -278,3 +278,7 @@ Add an empty `article` element under the `Desserts` heading. Give it a `class` a
 ## Step 45
 
 Nest two `p` elements inside your `article` element. The first one's text should be `Donut`, and the second's text `1.50`. Put both of them on the same line making sure there is no space between them.
+
+## Step 46
+
+For the two `p` elements you just added, add `dessert` as the value of the first `p` element's `class` attribute and the value `price` as the second `p` element's `class` attribute.
