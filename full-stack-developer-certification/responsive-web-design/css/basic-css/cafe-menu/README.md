@@ -222,3 +222,9 @@ The `p` elements are nested in an `article` element with the class attribute of 
 ```
 
 Using the above selector, add a `display` property with value `inline-block` so the `p` elements behave more like inline elements.
+
+## Step 34
+
+That's closer, but the price didn't stay over on the right. This is because `inline-block` elements only take up the width of their content.
+
+To spread them out, add a `width` property to the `flavor` and `price` class selectors that have a value of `50%` each.
