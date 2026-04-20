@@ -37,3 +37,7 @@ element {
 ```
 
 Center the content of the `h1` element by setting its `text-align` property to the value `center`.
+
+## Step 8
+
+In the previous step, you used a type selector to style the `h1` element. Center the content of the `h2` and the `p` elements by adding a new type selector for each one to the existing `style` element.
