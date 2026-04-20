@@ -71,3 +71,15 @@ Now that you have the CSS in the `styles.css` file, go ahead and remove the `sty
 Now you need to link the `styles.css` file, so the styles will be applied again. Inside the `head` element, add a `link` element. Give it a `rel` attribute with the value of `"stylesheet"` and an `href` attribute with the value of `"styles.css"`.
 
 **Note:** The `link` element is a void element, which means it doesn't have a closing tag. Void elements should be written as `<link>` rather than `<link></link>`.
+
+## Step 13
+
+For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a `meta` element with a special `content` attribute.
+
+You learned about the viewport `meta` element in previous lessons.
+
+Here is an example:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
