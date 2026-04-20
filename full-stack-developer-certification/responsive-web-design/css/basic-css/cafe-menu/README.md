@@ -410,3 +410,7 @@ Change the `height` property of the `hr` to `2px`, so the total height of it bec
 ## Step 68
 
 Go ahead and add another `hr` element between the `main` element and the `footer` element.
+
+## Step 69
+
+To create a little more room around the menu, add `20px` of space on the inside of the `body` element by using the `padding` property.
