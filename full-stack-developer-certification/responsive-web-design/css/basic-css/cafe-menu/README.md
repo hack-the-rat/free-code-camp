@@ -252,3 +252,7 @@ Now that you know it works, you can change the remaining `article` and `p` eleme
 ## Step 39
 
 Next, position the other `p` elements to be on the same line with no space between them.
+
+## Step 40
+
+To complete the styling, add the applicable class names `flavor` and `price` to all the remaining `p` elements.
