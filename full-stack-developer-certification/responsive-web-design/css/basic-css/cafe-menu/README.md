@@ -442,3 +442,7 @@ Next, you are going to be styling the `footer` element. To keep the CSS organize
 ## Step 75
 
 Moving down to the `footer` element, make all the text have a value of `14px` for the font size.
+
+## Step 76
+
+The default styling of the `address` element is to have `font-style` set to `italic`. Add a selector for the `address` element and set its `font-style` to `normal`.
