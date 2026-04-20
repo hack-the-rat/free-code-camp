@@ -336,3 +336,7 @@ Style both the `h1` and the `h2` elements using a single selector so that these 
 You can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.
 
 Add the fallback font `serif` after the `Impact` font.
+
+## Step 56
+
+Italicize the `Est. 2020` by creating an `established` class selector and giving it a `font-style` property of `italic`.
