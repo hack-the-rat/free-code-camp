@@ -133,3 +133,7 @@ Now use the existing `#menu` selector to set the background color of the `div` e
 Now it's easy to see that the text is centered inside the `#menu` element. Currently, the width of the `#menu` element is specified in pixels (`px`).
 
 Change the `width` property's value to be `80%`, to make it `80%` the width of its parent element (`body`).
+
+## Step 21
+
+Next, you want to center the `#menu` horizontally. You can do this by setting its `margin-left` and `margin-right` properties to `auto`. Think of the margin as an invisible space around an element. Using these two margin properties, center the `#menu` element within the `body` element.
