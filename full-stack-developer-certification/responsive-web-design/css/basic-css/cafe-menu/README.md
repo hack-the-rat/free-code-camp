@@ -262,3 +262,7 @@ To complete the styling, add the applicable class names `flavor` and `price` to 
 If you make the width of the page preview smaller, you will notice at some point, some of the text on the left starts wrapping around to the next line. This is because the width of the `p` elements on the left side can only take up `50%` of the space.
 
 Since the prices on the right have significantly fewer characters, update the `flavor` class `width` to `75%` and the price class `width` to `25%`.
+
+## Step 42
+
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
