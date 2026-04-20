@@ -354,3 +354,7 @@ Add two new type selectors (`h1` and `h2`). Use the `font-size` property for bot
 ## Step 59
 
 Add a `footer` element below the `main` element, where you can add some additional information.
+
+## Step 60
+
+Inside the `footer`, add an `address` element. You will add contact information to this element in the next few steps.
