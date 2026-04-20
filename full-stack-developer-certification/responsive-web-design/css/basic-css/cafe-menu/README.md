@@ -304,3 +304,7 @@ Cinnamon Roll 2.50
 You can give your menu some space between the content and the sides with various `padding` properties.
 
 Give the `menu` class a `padding-left` and a `padding-right` with the same value `20px`.
+
+## Step 50
+
+That looks better. Now try to add the same `20px` padding to the top and bottom of the menu.
