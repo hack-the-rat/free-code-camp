@@ -87,3 +87,7 @@ Here is an example:
 ## Step 14
 
 The text is centered again so the link to the CSS file is working. Add another style to the file that changes the `background-color` property to `brown` for the `body` element.
+
+## Step 15
+
+That brown background makes it hard to read the text. Change the `body` element's background color to `burlywood` so it has some color, but you are still able to read the text.
