@@ -196,3 +196,7 @@ Add the class name `flavor` to the `French Vanilla` element.
 ## Step 29
 
 Using your new `flavor` class as a selector, set the `text-align` property's value to `left`.
+
+## Step 30
+
+Next, you want to align the price to the right. Add a class named `price` to your `p` element that has `3.00` as its text.
