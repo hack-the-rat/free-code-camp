@@ -240,3 +240,7 @@ One way to fix that is to make each `p` element's width slightly less than `50%`
 That worked, but there is still a little space on the right of the price.
 
 You could keep trying various percentages for the widths. Instead, use the backspace key to move the `p` element with the class `price` next to the `p` element with the class `flavor` so that they are on the same line in the editor. Make sure there is no space between the two elements.
+
+## Step 37
+
+Now go ahead and change both the `flavor` and `price` class' widths to be `50%` again.
