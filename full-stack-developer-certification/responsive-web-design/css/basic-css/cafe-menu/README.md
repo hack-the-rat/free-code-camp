@@ -192,3 +192,7 @@ As before, the first `p` element's text should contain the coffee flavor and the
 The flavors and prices are currently stacked on top of each other and centered with their respective `p` elements. It would be nice if the flavor was on the left and the price was on the right.
 
 Add the class name `flavor` to the `French Vanilla` element.
+
+## Step 29
+
+Using your new `flavor` class as a selector, set the `text-align` property's value to `left`.
