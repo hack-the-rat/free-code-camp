@@ -266,3 +266,7 @@ Since the prices on the right have significantly fewer characters, update the `f
 ## Step 42
 
 You will come back to styling the menu in a few steps, but for now, go ahead and add a second `section` element below the first for displaying the desserts offered by the cafe.
+
+## Step 43
+
+Add an `h2` element in the new section and give it the text `Desserts`.
