@@ -330,3 +330,9 @@ Change all the text in your `body`, by adding a `font-family` property with the 
 It is a bit boring for all the text to have the same `font-family`. You can still have the majority of the text `sans-serif` and make just the `h1` and `h2` elements different using a different selector.
 
 Style both the `h1` and the `h2` elements using a single selector so that these elements' text use `Impact` font.
+
+## Step 55
+
+You can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.
+
+Add the fallback font `serif` after the `Impact` font.
