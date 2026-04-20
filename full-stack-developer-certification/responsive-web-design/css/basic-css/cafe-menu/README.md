@@ -248,3 +248,7 @@ Now go ahead and change both the `flavor` and `price` class' widths to be `50%` 
 ## Step 38
 
 Now that you know it works, you can change the remaining `article` and `p` elements to match the first set. Start by adding the class `item` to the other `article` elements.
+
+## Step 39
+
+Next, position the other `p` elements to be on the same line with no space between them.
