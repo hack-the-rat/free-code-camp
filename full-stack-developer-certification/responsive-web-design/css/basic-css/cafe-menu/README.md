@@ -506,3 +506,7 @@ Under the `Coffee` heading, add an image using the url `https://cdn.freecodecamp
 The image you added is not centered horizontally like the `Coffee` heading above it. `img` elements are "like" inline elements.
 
 To make the image behave like block-level elements such as headings, create an `img` type selector. Set the `display` property to `block`, and use `margin-left` and `margin-right` properties to center it horizontally.
+
+## Step 88
+
+Add one last image under the `Desserts` heading using the URL `https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg`. Give the image an `alt` value of `pie icon`.
