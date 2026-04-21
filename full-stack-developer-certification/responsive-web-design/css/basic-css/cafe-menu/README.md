@@ -464,3 +464,9 @@ Change the color of the footer `Visit our website` link to `grey` when a user ha
 You change the properties of a link when the mouse hovers over them by using a pseudo-selector that looks like `a:hover { propertyName: propertyValue; }`.
 
 Change the color of the footer `Visit our website` link to be `brown` when a user hovers over it.
+
+## Step 80
+
+You change the properties of a link when the link is being clicked by using a pseudo-selector that looks like `a:active { propertyName: propertyValue; }`.
+
+Change the color of the footer `Visit our website` link to `white` when clicked on.
