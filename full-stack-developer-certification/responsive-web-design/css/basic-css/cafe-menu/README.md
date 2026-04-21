@@ -510,3 +510,11 @@ To make the image behave like block-level elements such as headings, create an `
 ## Step 88
 
 Add one last image under the `Desserts` heading using the URL `https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg`. Give the image an `alt` value of `pie icon`.
+
+## Step 89
+
+It would be nice if the vertical space between the `h2` elements and their associated icons was smaller. The `h2` elements have default top and bottom margin space, so you could change the bottom margin of the `h2` elements to say `0` or another number.
+
+There is an easier way, simply add a negative top margin to the `img` elements to pull them up from their current positions. Negative values are created using a `-` in front of the value. To complete this workshop, go ahead and use a negative top margin of `25px` in the `img` type selector.
+
+Congratulations! You have completed the Cafe Menu workshop.
