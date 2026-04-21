@@ -500,3 +500,9 @@ Now apply the `address` class to the `p` element containing the street address `
 The menu looks good, but other than the coffee beans background image, it is mainly just text.
 
 Under the `Coffee` heading, add an image using the url `https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg`. Give the image an `alt` value of `coffee icon`.
+
+## Step 87
+
+The image you added is not centered horizontally like the `Coffee` heading above it. `img` elements are "like" inline elements.
+
+To make the image behave like block-level elements such as headings, create an `img` type selector. Set the `display` property to `block`, and use `margin-left` and `margin-right` properties to center it horizontally.
