@@ -72,6 +72,10 @@ address {
     font-style: normal;
 }
 
+.address {
+    margin-bottom: 5px;
+}
+
 a {
     color: black;
 }

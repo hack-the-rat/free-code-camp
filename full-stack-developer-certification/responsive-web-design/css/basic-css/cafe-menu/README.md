@@ -484,3 +484,9 @@ Change the top margin of the `h1` element to `0` to remove all the top margin.
 ## Step 83
 
 To remove some of the vertical space between the `h1` element and the text `Est. 2020`, change the bottom margin of the `h1` to `15px`.
+
+## Step 84
+
+Now the top spacing looks good. The space below the address at the bottom of the menu is a little bigger than the space at the top of the menu and the `h1` element.
+
+To decrease the default margin space below the address `p` element, create a class selector named `address` and use the value `5px` for the `margin-bottom` property.
