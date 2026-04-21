@@ -458,3 +458,9 @@ To make the `footer` links the same color regardless if a link has been visited,
 You change the properties of a link when the link has been visited by using a pseudo-selector that looks like `a:visited { propertyName: propertyValue; }`.
 
 Change the color of the footer `Visit our website` link to `grey` when a user has visited the link.
+
+## Step 79
+
+You change the properties of a link when the mouse hovers over them by using a pseudo-selector that looks like `a:hover { propertyName: propertyValue; }`.
+
+Change the color of the footer `Visit our website` link to be `brown` when a user hovers over it.
