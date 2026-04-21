@@ -494,3 +494,9 @@ To decrease the default margin space below the address `p` element, create a cla
 ## Step 85
 
 Now apply the `address` class to the `p` element containing the street address `123 Free Code Camp Drive`.
+
+## Step 86
+
+The menu looks good, but other than the coffee beans background image, it is mainly just text.
+
+Under the `Coffee` heading, add an image using the url `https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg`. Give the image an `alt` value of `coffee icon`.
