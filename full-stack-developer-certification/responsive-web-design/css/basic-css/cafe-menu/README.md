@@ -452,3 +452,9 @@ The default styling of the `address` element is to have `font-style` set to `ita
 The default color of a link that has not yet been clicked on is typically blue. The default color of a link that has already been visited from a page is typically purple.
 
 To make the `footer` links the same color regardless if a link has been visited, use a type selector for the anchor element (`a`) and use the value `black` for the `color` property.
+
+## Step 78
+
+You change the properties of a link when the link has been visited by using a pseudo-selector that looks like `a:visited { propertyName: propertyValue; }`.
+
+Change the color of the footer `Visit our website` link to `grey` when a user has visited the link.
