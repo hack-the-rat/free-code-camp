@@ -446,3 +446,9 @@ Moving down to the `footer` element, make all the text have a value of `14px` fo
 ## Step 76
 
 The default styling of the `address` element is to have `font-style` set to `italic`. Add a selector for the `address` element and set its `font-style` to `normal`.
+
+## Step 77
+
+The default color of a link that has not yet been clicked on is typically blue. The default color of a link that has already been visited from a page is typically purple.
+
+To make the `footer` links the same color regardless if a link has been visited, use a type selector for the anchor element (`a`) and use the value `black` for the `color` property.
