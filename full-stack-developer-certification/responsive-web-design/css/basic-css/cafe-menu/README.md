@@ -480,3 +480,7 @@ To maintain the existing black and brown color theme, change the color for when 
 The menu text `CAMPER CAFE` has a different space from the top than the address's space at the bottom of the menu. This is due to the browser having some default top margin for the `h1` element.
 
 Change the top margin of the `h1` element to `0` to remove all the top margin.
+
+## Step 83
+
+To remove some of the vertical space between the `h1` element and the text `Est. 2020`, change the bottom margin of the `h1` to `15px`.
