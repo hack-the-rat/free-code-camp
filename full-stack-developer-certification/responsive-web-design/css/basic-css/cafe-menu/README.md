@@ -470,3 +470,7 @@ Change the color of the footer `Visit our website` link to be `brown` when a use
 You change the properties of a link when the link is being clicked by using a pseudo-selector that looks like `a:active { propertyName: propertyValue; }`.
 
 Change the color of the footer `Visit our website` link to `white` when clicked on.
+
+## Step 81
+
+To maintain the existing black and brown color theme, change the color for when the link is visited to `black` and use `brown` for when the link is actually clicked.
