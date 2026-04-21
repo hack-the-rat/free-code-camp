@@ -490,3 +490,7 @@ To remove some of the vertical space between the `h1` element and the text `Est.
 Now the top spacing looks good. The space below the address at the bottom of the menu is a little bigger than the space at the top of the menu and the `h1` element.
 
 To decrease the default margin space below the address `p` element, create a class selector named `address` and use the value `5px` for the `margin-bottom` property.
+
+## Step 85
+
+Now apply the `address` class to the `p` element containing the street address `123 Free Code Camp Drive`.
