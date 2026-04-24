@@ -22,3 +22,22 @@ body {
     margin-bottom: 10px;
     border: 2px solid lightslategray;
 }
+
+.full-name {
+    font-size: 24px;
+    color: darkgrey;
+}
+
+.designation {
+    font-size: 18px;
+    color: grey;
+}
+
+.company {
+    font-size: 16px;
+    color: darkslategrey;
+}
+
+p {
+    margin: 5px 0;
+}
