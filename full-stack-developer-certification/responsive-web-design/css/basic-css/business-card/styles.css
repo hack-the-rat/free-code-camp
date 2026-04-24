@@ -4,7 +4,7 @@ body {
 }
 
 .business-card {
-    background-color: lavender;
+    background-color: lavenderblush;
     border: 3px solid darkgrey;
     padding: 20px;
     text-align: center;
@@ -20,12 +20,12 @@ body {
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
-    border: 2px solid lightslategray;
+    border: 2px solid slategray;
 }
 
 .full-name {
     font-size: 24px;
-    color: darkgrey;
+    color: darkslategrey;
 }
 
 .designation {
@@ -35,9 +35,27 @@ body {
 
 .company {
     font-size: 16px;
-    color: darkslategrey;
+    color: darkgrey;
 }
 
 p {
     margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-media {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.social-media a {
+    margin: 10px;
+    color: crimson;
+}
+
+hr {
+    margin: 20px 0;
 }
