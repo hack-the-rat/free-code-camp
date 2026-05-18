@@ -27,3 +27,13 @@ body {
 .post-content {
     padding: 20px;
 }
+
+.post-title {
+    color: navy;
+    margin: 0 0 10px;
+}
+
+.post-excerpt {
+    color: darkblue;
+    margin: 10px 0;
+}
