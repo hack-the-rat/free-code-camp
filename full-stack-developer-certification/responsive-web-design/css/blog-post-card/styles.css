@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: ghostwhite;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,4 +36,18 @@ body {
 .post-excerpt {
     color: darkblue;
     margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: cyan;
 }
