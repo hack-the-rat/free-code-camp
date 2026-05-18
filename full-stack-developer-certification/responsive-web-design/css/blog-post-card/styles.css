@@ -23,3 +23,7 @@ body {
     height: auto;
     border-bottom: 3px solid darkgray;
 }
+
+.post-content {
+    padding: 20px;
+}
