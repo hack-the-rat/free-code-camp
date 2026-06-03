@@ -449,3 +449,98 @@ Here are some other examples of input pseudo-classes and what they do:
 * `:autofill`: applies styles to input fields that the browser automatically fills with saved data.
 * `:optional`: styles input elements that are not required and can be left empty.
 * `:in-range` and `:out-of-range`: style elements based on whether their values are within or outside specified range constraints.
+
+## What Are Examples of Location Pseudo-classes?
+
+Location pseudo-classes are used for styling links and elements that are targeted within the current document. *They offer a way to apply styles based on whether a link is visited or whether an element is currently in focus*.
+
+Examples of location pseudo-classes are:
+
+* `:link`
+* `:visited`
+* `:any-link`
+* `:local-link`
+* `:target`
+
+Let's take a deeper look at each of these pseudo-classes.
+
+The `:link` pseudo-class allows you to target all unvisited links on a webpage. You can use it to style links differently before the user clicks on them. For example, you might want to make all unvisited links blue or your website's primary color:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
+
+```css
+a:link {
+  color: magenta;
+}
+```
+
+In this case, any link the user hasn't clicked yet will appear magenta. Once the user clicks the link, the `:link` style no longer applies, and the `:visited` pseudo-class takes over. The `:visited` pseudo-class comes into play after the user clicks the link, so you can use it to target links the user has already clicked.
+
+Here is an example of changing the visited link state to the color `purple`:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
+
+```css
+a:visited {
+  color: purple;
+}
+```
+
+The `:visited` pseudo-class helps users distinguish between links they have visited and those they have not.
+
+The `:any-link` pseudo-class is a combination of the `:link` and `:visited` pseudo-classes. So it matches any anchor element with an `href` attribute, regardless of whether it's visited or not.
+
+Here is an example of changing the link color for the `:any-link` pseudo-class to `crimson`:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<a target="_blank" href="https://www.example.com">Visit Example.com</a>
+```
+
+```css
+a:any-link {
+  color: crimson;
+}
+```
+
+*The `:local-link` pseudo-class targets links that point to the same document. It can be useful when you want to differentiate internal links from external ones. Currently, no browser supports the `:local-link` pseudo-class*.
+
+The `:target` pseudo-class selects an element that matches the current URL fragment identifier, for example, `#section1`. It's very useful for pages with in-page navigation.
+
+Here's an HTML example that represents an in-page navigation. *The CSS uses the `:target` pseudo-class to style the section that matches where the user navigates to*:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<nav id="table-of-contents">
+  <ul>
+    <li><a href="#section1">Introduction</a></li>
+    <li><a href="#section2">Features</a></li>
+  </ul>
+</nav>
+
+<section id="section1">
+  <h2>Introduction</h2>
+  <p>This is the introduction section.</p>
+</section>
+
+<section id="section2">
+  <h2>Features</h2>
+  <p>This section describes the features.</p>
+</section>
+```
+
+```css
+section:target {
+  background-color: green;
+  border: 2px solid green;
+  padding: 10px;
+}
+```
+
+When the user clicks on one of the navigation links, the background color for that respective section will change to green.
