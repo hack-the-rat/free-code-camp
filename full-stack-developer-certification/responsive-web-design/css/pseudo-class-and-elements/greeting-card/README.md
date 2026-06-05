@@ -107,3 +107,9 @@ Try it out, the hover transition is complete.
 You can add an emoji in front of the title using the pseudo-element `::before` of the `h1` element.
 
 Create an `h1::before` selector, give it a `content` property and set its value to `"🥳 "` (note there is a space after the emoji).
+
+## Step 16
+
+Now you can do something similar to add the emoji also after the title.
+
+Create a selector that targets the pseudo-element `::after` of the `h1` element. Give it a `content` property and set its value to `" 🥳"` (note there is a space before the emoji).
