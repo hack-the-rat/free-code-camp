@@ -153,3 +153,7 @@ Add a `transition` property to the `.card-links a` selector and give it a value 
 ## Step 22
 
 Add a new selector that targets the `.card-links a` elements when they are active. Set the `background-color` to `midnightblue`.
+
+## Step 23
+
+Add a new selector that targets the `.card-links a` elements when focused. Set the `outline` property to `2px solid yellow`.
