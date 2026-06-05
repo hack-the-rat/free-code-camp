@@ -128,3 +128,14 @@ Add a `.card-links` selector, and set the `margin-top` property to `20px`.
 You can add `display: flex` to set an element to use flexbox, you will learn more about flexbox later in the course, you can consider this a small preview.
 
 To space the two links so that they have the same space around, add a `display` property set to `flex`, and a `justify-content` set to `space-around`.
+
+## Step 19
+
+Target the `a` elements inside `.card-links` and give them:
+
+* a `text-decoration` property set to `none`.
+* a `font-size` property set to `1em`
+* a `padding` property set to `10px 20px`
+* a `border-radius` property set to `5px`
+* a `color` property set to `white`
+* a `background-color` property set to `midnightblue`
