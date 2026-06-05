@@ -25,3 +25,7 @@ Add a selector for the `body` element, then:
 ## Step 4
 
 Now it's time for some color. Give the `body` a `background-color` of `brown` and also give the `.card` a `background-color` of `white`.
+
+## Step 5
+
+Give `.card` a `max-width` of `400px`, a `padding` of `40px` on all sides, and a `margin` of `0` for top and bottom and `auto` for left and right (use the shorthand property).
