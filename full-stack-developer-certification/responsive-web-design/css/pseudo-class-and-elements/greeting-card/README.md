@@ -171,3 +171,15 @@ Create a selector for the `section` elements, and give them:
 * a `background-color` property set to `whitesmoke`
 * a `padding` property set to `20px`
 * a `border-radius` property set to `10px`
+
+## Step 26
+
+Another value that can be used for the `transform` property is `skewX`, this function skews the element horizontally.
+
+```css
+div {
+  transform: skewX(7deg);
+}
+```
+
+Add a selector that targets the `section` elements when hovered. Set the `transform` property to `skewX(10deg)`.
