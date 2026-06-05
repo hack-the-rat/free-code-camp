@@ -101,3 +101,9 @@ If a value is omitted, like the timing for the first property, a default value i
 Add to the `.card` selector `transition: transform 0.3s, background-color 0.3s ease`.
 
 Try it out, the hover transition is complete.
+
+## Step 15
+
+You can add an emoji in front of the title using the pseudo-element `::before` of the `h1` element.
+
+Create an `h1::before` selector, give it a `content` property and set its value to `"🥳 "` (note there is a space after the emoji).
