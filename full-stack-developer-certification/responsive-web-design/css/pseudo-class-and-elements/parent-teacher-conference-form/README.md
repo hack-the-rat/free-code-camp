@@ -19,3 +19,11 @@ Next, add a paragraph element with the text `Please fill out the form below to h
 Now it is time to add the `form` and `input` elements, which will represent the parent and student information.
 
 Start by adding a `form` element below the `p` element.
+
+## Step 5
+
+The first section of the form will focus on the student's information, like their name and grade.
+
+Inside the `form` element, add a `fieldset` element. Inside that `fieldset` element, add a `legend` element with the text `Student Information`.
+
+Below the `legend` element, add a `label` element with the text `Full Name:` and a `for` attribute with the value of `student-name`.
