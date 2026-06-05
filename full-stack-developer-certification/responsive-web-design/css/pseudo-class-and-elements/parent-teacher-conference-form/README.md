@@ -13,3 +13,9 @@ Next, inside your `main` element, add an `h1` element with the text `Parent Teac
 ## Step 3
 
 Next, add a paragraph element with the text `Please fill out the form below to help schedule your parent-teacher conference.`. Your paragraph element should also have the classes `description` and `center`.
+
+## Step 4
+
+Now it is time to add the `form` and `input` elements, which will represent the parent and student information.
+
+Start by adding a `form` element below the `p` element.
