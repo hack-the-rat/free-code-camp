@@ -183,3 +183,9 @@ div {
 ```
 
 Add a selector that targets the `section` elements when hovered. Set the `transform` property to `skewX(10deg)`.
+
+## Step 27
+
+As last thing to complete this project, add a `display` property set to `none` to the `section` selector.
+
+After that, create a `section:target` selector, and add there a `display` property set to `block` so that the `section` elements are visible only when the links are clicked.
