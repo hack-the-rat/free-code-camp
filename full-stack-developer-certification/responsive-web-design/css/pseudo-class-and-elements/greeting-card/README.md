@@ -149,3 +149,7 @@ The `background-color` should change to `orangered`.
 ## Step 21
 
 Add a `transition` property to the `.card-links a` selector and give it a value of `background-color 0.3s ease`.
+
+## Step 22
+
+Add a new selector that targets the `.card-links a` elements when they are active. Set the `background-color` to `midnightblue`.
