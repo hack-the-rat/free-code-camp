@@ -145,3 +145,7 @@ Target the `a` elements inside `.card-links` and give them:
 Create a pseudo-class selector that targets the `.card-links a` elements when hovered over.
 
 The `background-color` should change to `orangered`.
+
+## Step 21
+
+Add a `transition` property to the `.card-links a` selector and give it a value of `background-color 0.3s ease`.
