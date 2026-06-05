@@ -37,3 +37,11 @@ The `.card` element needs some more styling: add a `border-radius` of `10px`, an
 ## Step 7
 
 Now add a new `div` below the `.message` element. The new `div` should have a `class` attribute of `card-links`.
+
+## Step 8
+
+Add two `a` elements inside the `.card-links` element.
+
+The first one should have a text of `Send Card`, a `class` of `send-link` and an `href` of `#send`.
+
+The second one should have a text of `Share on Social Media`, a `class` of `share-link` and an `href` of `#share`.
