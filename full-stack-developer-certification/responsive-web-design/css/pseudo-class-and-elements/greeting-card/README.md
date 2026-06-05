@@ -29,3 +29,7 @@ Now it's time for some color. Give the `body` a `background-color` of `brown` an
 ## Step 5
 
 Give `.card` a `max-width` of `400px`, a `padding` of `40px` on all sides, and a `margin` of `0` for top and bottom and `auto` for left and right (use the shorthand property).
+
+## Step 6
+
+The `.card` element needs some more styling: add a `border-radius` of `10px`, and a `box-shadow` with a value of `0 4px 8px gray`.
