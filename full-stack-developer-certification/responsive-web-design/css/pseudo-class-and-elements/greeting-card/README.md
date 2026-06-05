@@ -49,3 +49,7 @@ The second one should have a text of `Share on Social Media`, a `class` of `shar
 ## Step 9
 
 Add two `section` elements, one after the other. The first should have an `id` of `send`, the second one should have an `id` of `share`.
+
+## Step 10
+
+Add an `h2` to `#send` that contains the text `Sending your card...`, then add a `p` element with the text `Card successfully sent to your recipient!`.
