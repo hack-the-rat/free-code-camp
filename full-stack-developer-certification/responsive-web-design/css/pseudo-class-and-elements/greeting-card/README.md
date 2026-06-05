@@ -161,3 +161,13 @@ Add a new selector that targets the `.card-links a` elements when focused. Set t
 ## Step 24
 
 Create a new selector that targets the `.card-links a` elements if they have already been visited. Set the property `color` to `crimson`.
+
+## Step 25
+
+Create a selector for the `section` elements, and give them:
+
+* a `margin` property set to `20px auto`,
+* a `max-width` set to `600px`.
+* a `background-color` property set to `whitesmoke`
+* a `padding` property set to `20px`
+* a `border-radius` property set to `10px`
