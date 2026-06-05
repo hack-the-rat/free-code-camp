@@ -33,3 +33,7 @@ Give `.card` a `max-width` of `400px`, a `padding` of `40px` on all sides, and a
 ## Step 6
 
 The `.card` element needs some more styling: add a `border-radius` of `10px`, and a `box-shadow` with a value of `0 4px 8px gray`.
+
+## Step 7
+
+Now add a new `div` below the `.message` element. The new `div` should have a `class` attribute of `card-links`.
