@@ -59,3 +59,7 @@ Add an `h2` to `#send` that contains the text `Sending your card...`, then add a
 Time to fill the second `section`!
 
 Add an `h2` element to the `#share` element that contains the text `Sharing your card...`, then add a `p` element with the text `Your card was shared on social media!`.
+
+## Step 12
+
+Add a new selector that changes the `background-color` of the `.card` element to `khaki` when it is hovered over.
