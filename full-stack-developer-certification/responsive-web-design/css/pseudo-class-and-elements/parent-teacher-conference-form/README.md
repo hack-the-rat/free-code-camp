@@ -73,3 +73,9 @@ Start by adding a label with a class of `"contact-method"` and a `for` attribute
 Below your `label` element, add a radio button with `id` and `value` attributes set to `"email"`. The `name` attribute should be set to `"contact-method"` and the class should be set to `"contact-method-radio-btn"`.
 
 Lastly, make sure this radio button is checked by default.
+
+## Step 12
+
+Next, add another label with a class of `"contact-method"` and a `for` attribute set to `"phone"`. The label text should be `Phone:`.
+
+Below your `label` element, add a radio button with `id` and `value` attributes set to `"phone"`. The `name` attribute should be set to `"contact-method"` and the class should be set to `"contact-method-radio-btn"`.
