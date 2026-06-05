@@ -120,3 +120,11 @@ The `.message` element needs some styling. Give it:
 
 * a `font-size` of `1.2em`,
 * a `margin-bottom` of `20px`.
+
+## Step 18
+
+Add a `.card-links` selector, and set the `margin-top` property to `20px`.
+
+You can add `display: flex` to set an element to use flexbox, you will learn more about flexbox later in the course, you can consider this a small preview.
+
+To space the two links so that they have the same space around, add a `display` property set to `flex`, and a `justify-content` set to `space-around`.
