@@ -57,3 +57,9 @@ Now it is time to add the form elements to collect the parent's information.
 Start by adding a `label` element with the text `Parent/Guardian Name:` and `for` attribute set to `"parent-name"`.
 
 Then, below your `label` element, add an `input` element with the `type` attribute set to `"text"`. The `name` and `id` attributes should be set to `"parent-name"`. The `placeholder` attribute should be set to `"E.g., Nancy Doe"`. Lastly, your `input` should be required.
+
+## Step 10
+
+In the next few steps, you will add the form elements responsible for collecting the user's preferred contact method.
+
+Start by adding another `fieldset` element with a `legend` element nested inside. Your `legend` element should have the text `Preferred Contact Method`.
