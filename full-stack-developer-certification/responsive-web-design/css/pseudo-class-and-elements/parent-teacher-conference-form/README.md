@@ -63,3 +63,13 @@ Then, below your `label` element, add an `input` element with the `type` attribu
 In the next few steps, you will add the form elements responsible for collecting the user's preferred contact method.
 
 Start by adding another `fieldset` element with a `legend` element nested inside. Your `legend` element should have the text `Preferred Contact Method`.
+
+## Step 11
+
+The next step is to add the `label` and `input` elements for the email contact method.
+
+Start by adding a label with a class of `"contact-method"` and a `for` attribute set to `"email"`. The label text should be `Email:`.
+
+Below your `label` element, add a radio button with `id` and `value` attributes set to `"email"`. The `name` attribute should be set to `"contact-method"` and the class should be set to `"contact-method-radio-btn"`.
+
+Lastly, make sure this radio button is checked by default.
