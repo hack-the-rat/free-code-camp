@@ -157,3 +157,7 @@ Add a new selector that targets the `.card-links a` elements when they are activ
 ## Step 23
 
 Add a new selector that targets the `.card-links a` elements when focused. Set the `outline` property to `2px solid yellow`.
+
+## Step 24
+
+Create a new selector that targets the `.card-links a` elements if they have already been visited. Set the property `color` to `crimson`.
