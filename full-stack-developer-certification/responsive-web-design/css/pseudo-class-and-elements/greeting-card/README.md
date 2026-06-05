@@ -75,3 +75,29 @@ p {
 ```
 
 Add a `transform` property to the `.card:hover` selector and set to `scale(1.1)`.
+
+## Step 14
+
+When the `a` elements are hovered, the color of the background makes a transition to a different color. You can regulate how that transition happens with the `transition` property:
+
+```css
+a {
+  transition: color 1s linear;
+}
+```
+
+The values that the `transition` property accepts are, in order, the property that the transition is applied to, the duration of the transition, and then the timing.
+
+If there are multiple properties that have a transition, you can write the values for each separated by a comma:
+
+```css
+p {
+  transition: property1 0.1s, property2 0.6s linear;
+}
+```
+
+If a value is omitted, like the timing for the first property, a default value is applied.
+
+Add to the `.card` selector `transition: transform 0.3s, background-color 0.3s ease`.
+
+Try it out, the hover transition is complete.
