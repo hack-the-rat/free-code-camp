@@ -35,3 +35,11 @@ The next step is to add the associated `input` element for the student's informa
 Start by adding an `input` element with a `type` attribute set to `"text"`. Then add a `name` and `id` attribute, both set to `student-name`.
 
 Next, add a `placeholder` attribute set to `E.g., Jane Doe`. And finally, add a `required` attribute.
+
+## Step 7
+
+Now it is time to add the form elements to collect the student's grade information.
+
+Start by adding another `label` element with the text `Student Grade:` and `for` attribute set to `"grade"`.
+
+Then, below your `label` element, add an `input` element with the `type` attribute set to `"number"`. The `name` and `id` attributes should be set to `"grade"`. The `placeholder` attribute should be set to `"E.g., 4"`. Lastly, your number `input` should be required.
