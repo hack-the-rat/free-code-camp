@@ -45,3 +45,7 @@ Add two `a` elements inside the `.card-links` element.
 The first one should have a text of `Send Card`, a `class` of `send-link` and an `href` of `#send`.
 
 The second one should have a text of `Share on Social Media`, a `class` of `share-link` and an `href` of `#share`.
+
+## Step 9
+
+Add two `section` elements, one after the other. The first should have an `id` of `send`, the second one should have an `id` of `share`.
