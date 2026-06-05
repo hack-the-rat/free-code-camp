@@ -113,3 +113,10 @@ Create an `h1::before` selector, give it a `content` property and set its value 
 Now you can do something similar to add the emoji also after the title.
 
 Create a selector that targets the pseudo-element `::after` of the `h1` element. Give it a `content` property and set its value to `" 🥳"` (note there is a space before the emoji).
+
+## Step 17
+
+The `.message` element needs some styling. Give it:
+
+* a `font-size` of `1.2em`,
+* a `margin-bottom` of `20px`.

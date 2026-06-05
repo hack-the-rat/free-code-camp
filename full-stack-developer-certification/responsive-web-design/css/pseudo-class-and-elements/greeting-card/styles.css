@@ -27,3 +27,8 @@ h1::before {
 h1::after {
     content: " 🥳";
 }
+
+.message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
