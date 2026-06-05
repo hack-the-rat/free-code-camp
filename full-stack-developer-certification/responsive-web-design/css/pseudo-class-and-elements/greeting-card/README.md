@@ -139,3 +139,9 @@ Target the `a` elements inside `.card-links` and give them:
 * a `border-radius` property set to `5px`
 * a `color` property set to `white`
 * a `background-color` property set to `midnightblue`
+
+## Step 20
+
+Create a pseudo-class selector that targets the `.card-links a` elements when hovered over.
+
+The `background-color` should change to `orangered`.
