@@ -63,3 +63,15 @@ Add an `h2` element to the `#share` element that contains the text `Sharing your
 ## Step 12
 
 Add a new selector that changes the `background-color` of the `.card` element to `khaki` when it is hovered over.
+
+## Step 13
+
+The `transform` property can transform the element look. For example, giving it a value of `scale(0.9)` would make the element 10% smaller.
+
+```css
+p {
+  transform: scale(0.9);
+}
+```
+
+Add a `transform` property to the `.card:hover` selector and set to `scale(1.1)`.
