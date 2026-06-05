@@ -27,3 +27,11 @@ The first section of the form will focus on the student's information, like thei
 Inside the `form` element, add a `fieldset` element. Inside that `fieldset` element, add a `legend` element with the text `Student Information`.
 
 Below the `legend` element, add a `label` element with the text `Full Name:` and a `for` attribute with the value of `student-name`.
+
+## Step 6
+
+The next step is to add the associated `input` element for the student's information.
+
+Start by adding an `input` element with a `type` attribute set to `"text"`. Then add a `name` and `id` attribute, both set to `student-name`.
+
+Next, add a `placeholder` attribute set to `E.g., Jane Doe`. And finally, add a `required` attribute.
