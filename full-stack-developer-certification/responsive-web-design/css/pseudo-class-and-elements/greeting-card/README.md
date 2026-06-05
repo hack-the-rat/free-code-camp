@@ -21,3 +21,7 @@ Add a selector for the `body` element, then:
 * change the `font-family` to be `Arial` followed by the generic `sans-serif`,
 * give a padding on all sides of `40px`,
 * set the `text-align` property to `center`.
+
+## Step 4
+
+Now it's time for some color. Give the `body` a `background-color` of `brown` and also give the `.card` a `background-color` of `white`.
