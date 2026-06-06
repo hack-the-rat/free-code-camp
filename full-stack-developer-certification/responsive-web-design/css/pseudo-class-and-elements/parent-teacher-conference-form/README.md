@@ -214,3 +214,11 @@ Select the element with the class `contact-method-radio-btn`. Set `appearance` t
 You should give your custom radio buttons a size and shape.
 
 Still targeting `.contact-method-radio-btn`, set `width` to `20px`, `height` to `20px`, `border-radius` to `50%`, and `border` to `2px solid gray`.
+
+## Step 31
+
+By default, form elements like radio buttons might not sit perfectly aligned with their labels, especially if the label text is taller or has different font settings.
+
+To align the radio buttons vertically with their labels, you can use the `vertical-align` property. This property controls how inline or inline-block elements line up vertically with the surrounding text.
+
+Now, set `vertical-align` to `bottom` for the radio buttons. You can experiment with other values like `middle` or `top` to see how they affect alignment, but `bottom` usually works well for radio buttons next to labels.
