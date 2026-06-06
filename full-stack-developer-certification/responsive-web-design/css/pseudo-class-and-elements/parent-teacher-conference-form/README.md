@@ -196,3 +196,9 @@ Select `input:not(.contact-method-radio-btn), textarea`. Set `background-color` 
 The `:not(.contact-method-radio-btn)` part excludes radio buttons with that class from being styled by this rule. This way, we can apply general styles to most inputs while keeping radio buttons separate.
 
 These styles will make your form fields wider and more readable. Try previewing the form to see how the layout changes.
+
+## Step 28
+
+To ensure the text entered into inputs and textareas, as well as their placeholders, is visible, set their color.
+
+Select `input, input::placeholder, textarea` and set `color` to `whitesmoke`.
