@@ -141,3 +141,7 @@ This adds a shadow effect around the container. The values control the horizonta
 You added a `center` class to some elements in the HTML. Now, you should define that class to center those elements.
 
 Target the `center` class and center the elements having it with a `text-align` property set to `center`.
+
+## Step 22
+
+The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
