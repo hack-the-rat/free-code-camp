@@ -99,3 +99,11 @@ Finally, you should add the submit button for the form.
 Below the last `fieldset` element, add a `button` element with the class `submit-btn` and `type` attribute set to `"submit"`. The text content of the button should be `Submit Form`.
 
 With this, your HTML structure is complete!
+
+## Step 16
+
+Now that the HTML structure is complete, you should move on to the CSS styling.
+
+Open your `styles.css` file. First, set a dark background color for the `body` and a light color for the text.
+
+Select the `body` element and set its `background-color` to `midnightblue` and `color` to `whitesmoke`.
