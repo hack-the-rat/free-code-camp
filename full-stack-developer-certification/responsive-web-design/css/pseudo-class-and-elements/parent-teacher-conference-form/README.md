@@ -222,3 +222,11 @@ By default, form elements like radio buttons might not sit perfectly aligned wit
 To align the radio buttons vertically with their labels, you can use the `vertical-align` property. This property controls how inline or inline-block elements line up vertically with the surrounding text.
 
 Now, set `vertical-align` to `bottom` for the radio buttons. You can experiment with other values like `middle` or `top` to see how they affect alignment, but `bottom` usually works well for radio buttons next to labels.
+
+## Step 32
+
+Now, you should create the inner circle that will appear when the radio button is checked. You will use the `::before` pseudo-element for this.
+
+A pseudo-element like `::before` lets you insert extra content before the actual element. This is often used for decorative purposes.
+
+Targeting `.contact-method-radio-btn::before` pseudo-element, set a `display` of `block`, `content` of `" "`, `width` of `10px`, `height` of `10px`, and `border-radius` of `50%`.

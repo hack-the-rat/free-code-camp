@@ -62,3 +62,11 @@ input, input::placeholder, textarea {
     border: 2px solid gray;
     vertical-align: bottom;
 }
+
+.contact-method-radio-btn::before {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
