@@ -36,3 +36,8 @@ fieldset legend {
 label {
     font-size: 1.2rem;
 }
+
+label:not(.contact-method) {
+    display: block;
+    margin: 10px 0;
+}

@@ -178,3 +178,11 @@ Common values of `font-weight` are:
 Now, you should increase the font size for all `label` elements.
 
 Select the `label` element and set its `font-size` to `1.2rem`.
+
+## Step 26
+
+By default, `label` elements are inline. To make them stack vertically (except for your radio button labels), use the `:not()` pseudo-class.
+
+The `:not()` pseudo-class negates a selection. Here, it selects all `label` elements that do not have the class `contact-method`.
+
+Select `label:not(.contact-method)`, then set `display` to `block` and `margin` to `10px 0`.
