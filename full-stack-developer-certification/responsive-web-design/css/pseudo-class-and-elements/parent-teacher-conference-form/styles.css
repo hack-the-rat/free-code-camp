@@ -77,3 +77,12 @@ input, input::placeholder, textarea {
     transform: translate(3px, 3px) scale(1);
     background-color: lightgreen;
 }
+
+.submit-btn {
+    cursor: pointer;
+    background-color: royalblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+}

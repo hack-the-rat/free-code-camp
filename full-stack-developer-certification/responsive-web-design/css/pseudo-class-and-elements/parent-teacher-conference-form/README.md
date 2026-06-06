@@ -248,3 +248,9 @@ You are styling the inner circle only when the radio button is selected, so your
 In the rule, set `transform` to `translate(3px, 3px) scale(1)` and `background-color` to `lightgreen`.
 
 The `transform` moves the inner circle slightly and scales it up to full size with `scale(1)`, and a background of lightgreen fills the circle with color to show that the option is selected, making it visible.
+
+## Step 35
+
+Time to style the submit button.
+
+Select the element with the class `submit-btn`. Set `cursor` to `pointer` (to indicate it's clickable), `background-color` to `royalblue`, `color` to `whitesmoke`, `border` to `none`, `border-radius` to `6px`, and `padding` to `12px 20px`.
