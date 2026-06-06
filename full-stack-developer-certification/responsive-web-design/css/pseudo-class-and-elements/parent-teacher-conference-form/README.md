@@ -167,7 +167,14 @@ Common values of `font-weight` are:
 * `lighter` → Lighter than the parent element
 * `bolder` → Bolder than the parent element
 * Numeric values like:
+
   * `100` (thin)
   * `400` (normal)
   * `700` (bold)
   * `900` (extra bold)
+
+## Step 25
+
+Now, you should increase the font size for all `label` elements.
+
+Select the `label` element and set its `font-size` to `1.2rem`.
