@@ -258,3 +258,11 @@ Select the element with the class `submit-btn`. Set `cursor` to `pointer` (to in
 ## Step 36
 
 Set `font-size` to `1.1rem`, `display` to `block`, and `margin` to `auto` to center the button.
+
+## Step 37
+
+Finally, add a hover effect to the submit button for better user feedback.
+
+Select `.submit-btn:hover` and set its `background-color` to `midnightblue`.
+
+Congratulations on finishing this workshop!

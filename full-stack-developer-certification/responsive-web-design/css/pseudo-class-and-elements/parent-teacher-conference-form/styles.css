@@ -1,5 +1,5 @@
 body {
-    background-color: midnightblue;
+    background-color: MidnightBlue;
     color: whitesmoke;
 }
 
@@ -10,7 +10,7 @@ body {
     border-radius: 10px;
     margin: 20px auto;
     padding: 10px 20px;
-    box-shadow: 0 5px 15px black;
+    box-shadow: 0 5px 15px black;  
 }
 
 .center {
@@ -42,7 +42,8 @@ label:not(.contact-method) {
     margin: 10px 0;
 }
 
-input:not(.contact-method-radio-btn), textarea {
+input:not(.contact-method-radio-btn),
+textarea {
     background-color: #ffffff1a;
     width: 95%;
     border: 1px solid gray;
@@ -50,7 +51,9 @@ input:not(.contact-method-radio-btn), textarea {
     padding: 10px;
 }
 
-input, input::placeholder, textarea {
+input,
+input::placeholder,
+textarea {
     color: whitesmoke;
 }
 
@@ -88,4 +91,8 @@ input, input::placeholder, textarea {
     font-size: 1.1rem;
     display: block;
     margin: auto;
+}
+
+.submit-btn:hover {
+    background-color: midnightblue;
 }
