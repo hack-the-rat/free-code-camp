@@ -125,3 +125,7 @@ You can also add two extra digits at the end to control opacity (called the alph
 ## Step 18
 
 Continuing with the main container, give the `container` class a `width` of `80%` and a `max-width` of `600px`. Also, add a `border-radius` of `10px` and set `margin` to `20px auto` to center it horizontally.
+
+## Step 19
+
+Now, you should add some padding to the container. Set `padding` to `10px 20px`. This way, you set a padding of `10px` on the top and bottom, and `20px` on the left and right.
