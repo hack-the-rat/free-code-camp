@@ -135,3 +135,9 @@ Now, you should add some padding to the container. Set `padding` to `10px 20px`.
 To make the container stand out, you should add a `box-shadow` set to `0 5px 15px black`.
 
 This adds a shadow effect around the container. The values control the horizontal offset, vertical offset, blur radius, and color respectively.
+
+## Step 21
+
+You added a `center` class to some elements in the HTML. Now, you should define that class to center those elements.
+
+Target the `center` class and center the elements having it with a `text-align` property set to `center`.
