@@ -151,3 +151,23 @@ The description text needs to be a bit larger. Select the element with the class
 Time to style the `fieldset` elements to give them a distinct border.
 
 Select the `fieldset` element. Set its `border` to `1px solid gray`, `border-radius` to `5px`, `margin` to `20px 0`, and `padding` to `20px`.
+
+## Step 24
+
+To make the `legend` text more prominent, you need to style it.
+
+Select the `fieldset legend` element. Set its `font-size` to `1.3rem` and its `font-weight` to `600`.
+
+`font-weight` controls the boldness of text.
+
+Common values of `font-weight` are:
+
+* `normal` → Regular weight (default)
+* `bold` → Bold text
+* `lighter` → Lighter than the parent element
+* `bolder` → Bolder than the parent element
+* Numeric values like:
+  * `100` (thin)
+  * `400` (normal)
+  * `700` (bold)
+  * `900` (extra bold)
