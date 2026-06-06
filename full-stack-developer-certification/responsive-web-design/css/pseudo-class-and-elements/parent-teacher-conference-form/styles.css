@@ -69,4 +69,6 @@ input, input::placeholder, textarea {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    transform: translate(3px, 3px) scale(0);
+    transition: all 0.3s ease-in;
 }

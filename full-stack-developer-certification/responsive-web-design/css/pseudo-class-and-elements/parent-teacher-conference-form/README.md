@@ -230,3 +230,11 @@ Now, you should create the inner circle that will appear when the radio button i
 A pseudo-element like `::before` lets you insert extra content before the actual element. This is often used for decorative purposes.
 
 Targeting `.contact-method-radio-btn::before` pseudo-element, set a `display` of `block`, `content` of `" "`, `width` of `10px`, `height` of `10px`, and `border-radius` of `50%`.
+
+## Step 33
+
+You need to position the inner circle and make it initially invisible.
+
+Still targeting `.contact-method-radio-btn::before`, set `transform` to `translate(3px, 3px) scale(0)`. The `translate` function moves the circle slightly, and `scale(0)` shrinks it to zero size so it’s hidden by default.
+
+Also, add a `transition` of `all 0.3s ease-in` to create a smooth animation when it appears. This means any style change will animate over 0.3 seconds, starting slowly and speeding up.
