@@ -186,3 +186,13 @@ By default, `label` elements are inline. To make them stack vertically (except f
 The `:not()` pseudo-class negates a selection. Here, it selects all `label` elements that do not have the class `contact-method`.
 
 Select `label:not(.contact-method)`, then set `display` to `block` and `margin` to `10px 0`.
+
+## Step 27
+
+Now, you should style the `input` and `textarea` elements. It's often a good idea to start with general styles for `input` and `textarea`, then refine specific types.
+
+Select `input:not(.contact-method-radio-btn), textarea`. Set `background-color` to `#ffffff1a`, `width` to `95%`, `border` to `1px solid gray`, `border-radius` to `5px`, and `padding` to `10px`.
+
+The `:not(.contact-method-radio-btn)` part excludes radio buttons with that class from being styled by this rule. This way, we can apply general styles to most inputs while keeping radio buttons separate.
+
+These styles will make your form fields wider and more readable. Try previewing the form to see how the layout changes.

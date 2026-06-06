@@ -41,3 +41,11 @@ label:not(.contact-method) {
     display: block;
     margin: 10px 0;
 }
+
+input:not(.contact-method-radio-btn), textarea {
+    background-color: #ffffff1a;
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
