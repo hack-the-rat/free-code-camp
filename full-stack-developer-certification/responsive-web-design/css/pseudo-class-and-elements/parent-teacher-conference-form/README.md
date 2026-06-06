@@ -208,3 +208,9 @@ Select `input, input::placeholder, textarea` and set `color` to `whitesmoke`.
 Now, it's time to customize the radio buttons. By default, radio buttons have a native browser appearance. You want to remove this so you can create a custom look.
 
 Select the element with the class `contact-method-radio-btn`. Set `appearance` to `none`.
+
+## Step 30
+
+You should give your custom radio buttons a size and shape.
+
+Still targeting `.contact-method-radio-btn`, set `width` to `20px`, `height` to `20px`, `border-radius` to `50%`, and `border` to `2px solid gray`.
