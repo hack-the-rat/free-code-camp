@@ -53,3 +53,7 @@ input:not(.contact-method-radio-btn), textarea {
 input, input::placeholder, textarea {
     color: whitesmoke;
 }
+
+.contact-method-radio-btn {
+    appearance: none;
+}

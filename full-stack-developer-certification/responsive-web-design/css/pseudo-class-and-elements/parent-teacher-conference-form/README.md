@@ -202,3 +202,9 @@ These styles will make your form fields wider and more readable. Try previewing 
 To ensure the text entered into inputs and textareas, as well as their placeholders, is visible, set their color.
 
 Select `input, input::placeholder, textarea` and set `color` to `whitesmoke`.
+
+## Step 29
+
+Now, it's time to customize the radio buttons. By default, radio buttons have a native browser appearance. You want to remove this so you can create a custom look.
+
+Select the element with the class `contact-method-radio-btn`. Set `appearance` to `none`.
