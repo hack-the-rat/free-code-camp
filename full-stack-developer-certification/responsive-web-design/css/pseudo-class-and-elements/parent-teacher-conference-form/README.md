@@ -254,3 +254,7 @@ The `transform` moves the inner circle slightly and scales it up to full size wi
 Time to style the submit button.
 
 Select the element with the class `submit-btn`. Set `cursor` to `pointer` (to indicate it's clickable), `background-color` to `royalblue`, `color` to `whitesmoke`, `border` to `none`, `border-radius` to `6px`, and `padding` to `12px 20px`.
+
+## Step 36
+
+Set `font-size` to `1.1rem`, `display` to `block`, and `margin` to `auto` to center the button.
