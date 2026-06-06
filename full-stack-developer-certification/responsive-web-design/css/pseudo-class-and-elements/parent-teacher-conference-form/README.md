@@ -145,3 +145,9 @@ Target the `center` class and center the elements having it with a `text-align` 
 ## Step 22
 
 The description text needs to be a bit larger. Select the element with the class `description` and set its `font-size` to `1.2rem`.
+
+## Step 23
+
+Time to style the `fieldset` elements to give them a distinct border.
+
+Select the `fieldset` element. Set its `border` to `1px solid gray`, `border-radius` to `5px`, `margin` to `20px 0`, and `padding` to `20px`.
