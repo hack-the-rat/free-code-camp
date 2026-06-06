@@ -129,3 +129,9 @@ Continuing with the main container, give the `container` class a `width` of `80%
 ## Step 19
 
 Now, you should add some padding to the container. Set `padding` to `10px 20px`. This way, you set a padding of `10px` on the top and bottom, and `20px` on the left and right.
+
+## Step 20
+
+To make the container stand out, you should add a `box-shadow` set to `0 5px 15px black`.
+
+This adds a shadow effect around the container. The values control the horizontal offset, vertical offset, blur radius, and color respectively.
