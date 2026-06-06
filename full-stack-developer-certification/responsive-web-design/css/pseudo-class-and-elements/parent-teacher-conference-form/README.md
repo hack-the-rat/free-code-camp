@@ -79,3 +79,9 @@ Lastly, make sure this radio button is checked by default.
 Next, add another label with a class of `"contact-method"` and a `for` attribute set to `"phone"`. The label text should be `Phone:`.
 
 Below your `label` element, add a radio button with `id` and `value` attributes set to `"phone"`. The `name` attribute should be set to `"contact-method"` and the class should be set to `"contact-method-radio-btn"`.
+
+## Step 13
+
+It's a good practice to allow users to add additional notes or concerns.
+
+Below your third `fieldset` element, add a new `fieldset` element. Inside, add a `legend` element with the text `Additional Notes`.
