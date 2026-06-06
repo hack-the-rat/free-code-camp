@@ -238,3 +238,13 @@ You need to position the inner circle and make it initially invisible.
 Still targeting `.contact-method-radio-btn::before`, set `transform` to `translate(3px, 3px) scale(0)`. The `translate` function moves the circle slightly, and `scale(0)` shrinks it to zero size so it’s hidden by default.
 
 Also, add a `transition` of `all 0.3s ease-in` to create a smooth animation when it appears. This means any style change will animate over 0.3 seconds, starting slowly and speeding up.
+
+## Step 34
+
+Now, it's time to define what happens when the radio button is checked.
+
+You are styling the inner circle only when the radio button is selected, so your selector should be `.contact-method-radio-btn:checked::before`.
+
+In the rule, set `transform` to `translate(3px, 3px) scale(1)` and `background-color` to `lightgreen`.
+
+The `transform` moves the inner circle slightly and scales it up to full size with `scale(1)`, and a background of lightgreen fills the circle with color to show that the option is selected, making it visible.
