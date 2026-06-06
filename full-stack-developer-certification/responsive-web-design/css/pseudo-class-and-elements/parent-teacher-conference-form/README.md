@@ -107,3 +107,17 @@ Now that the HTML structure is complete, you should move on to the CSS styling.
 Open your `styles.css` file. First, set a dark background color for the `body` and a light color for the text.
 
 Select the `body` element and set its `background-color` to `midnightblue` and `color` to `whitesmoke`.
+
+## Step 17
+
+Next, you should style the main container. Select the element with the class `container` and set its `background-color` to the hex-code `#ffffff1a`.
+
+A hex code is a six-digit combination of numbers and letters used in HTML and CSS to represent colors. It starts with a `#` followed by three pairs:
+
+* The first two digits represent red
+* The next two represent green
+* The last two represent blue
+
+For example, `#ffffff` is pure white because it has the maximum value for red, green, and blue.
+
+You can also add two extra digits at the end to control opacity (called the alpha channel). In `#ffffff1a`, the `1a` makes the white color semi-transparent. The lower the alpha value, the more transparent the color appears. You'll learn more about hex codes later!
