@@ -121,3 +121,7 @@ A hex code is a six-digit combination of numbers and letters used in HTML and CS
 For example, `#ffffff` is pure white because it has the maximum value for red, green, and blue.
 
 You can also add two extra digits at the end to control opacity (called the alpha channel). In `#ffffff1a`, the `1a` makes the white color semi-transparent. The lower the alpha value, the more transparent the color appears. You'll learn more about hex codes later!
+
+## Step 18
+
+Continuing with the main container, give the `container` class a `width` of `80%` and a `max-width` of `600px`. Also, add a `border-radius` of `10px` and set `margin` to `20px auto` to center it horizontally.
