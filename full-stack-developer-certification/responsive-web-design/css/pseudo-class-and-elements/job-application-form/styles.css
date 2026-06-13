@@ -88,3 +88,11 @@ input:valid, select:valid, textarea:valid {
 button:hover {
     background-color: orangered;
 }
+
+input[type="radio"]:checked + label {
+    color: green;
+}
+
+button:disabled {
+    background-color: gray;
+}
