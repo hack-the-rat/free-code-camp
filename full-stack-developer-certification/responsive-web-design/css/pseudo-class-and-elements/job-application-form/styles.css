@@ -65,3 +65,8 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+input:focus, textarea:focus {
+    border-color: blue;
+    outline: none;
+}
