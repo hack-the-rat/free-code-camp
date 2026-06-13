@@ -70,3 +70,7 @@ input:focus, textarea:focus {
     border-color: blue;
     outline: none;
 }
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
