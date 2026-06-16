@@ -89,3 +89,7 @@ To give the markers different colors, you'll need to add a unique class to each 
 If you add multiple classes to an HTML element, the styles of the first classes you list in the stylesheet may be overridden by later classes.
 
 To begin, add the class `one` to the first marker `div` element.
+
+## Step 12
+
+Next, remove the `background-color` property and its value from the `.marker` CSS rule.
