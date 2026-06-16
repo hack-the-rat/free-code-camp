@@ -33,3 +33,19 @@ First, within the `body` element, add a `div` element with a `class` attribute s
 ## Step 5
 
 Next, within the `div` element, add another `div` element and give it a class of `marker`.
+
+## Step 6
+
+It's time to add some color to the marker. Remember that one way to add color to an element is to use a color keyword like `black`, `cyan`, or `yellow`.
+
+As a reminder, here's how to target the class `freecodecamp`:
+
+```css
+.freecodecamp {
+  
+}
+```
+
+Create a new CSS rule that targets the class `marker`, and set its `background-color` property to `red`.
+
+**Note:** You will not see any changes after adding the CSS.
