@@ -107,3 +107,11 @@ Add the class `two` to the second marker `div` and the class `three` to the thir
 Create a CSS rule that targets the class `two` and set its `background-color` property to `green`.
 
 Also, create a separate CSS rule that targets the class `three` and set its `background-color` to `blue`.
+
+## Step 16
+
+As you have learned in the lessons, there are two main color models: the additive RGB (red, green, blue) model, used in electronic devices, and the subtractive CMYK (cyan, magenta, yellow, black) model, used in print.
+
+In this project, you'll work with the RGB model. This means colors start as black and change as different levels of red, green, and blue are introduced. An easy way to see this is with the CSS `rgb` function.
+
+Create a new CSS rule that targets the class `container` and set its `background-color` to black with `rgb(0, 0, 0)`.
