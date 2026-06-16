@@ -115,3 +115,15 @@ As you have learned in the lessons, there are two main color models: the additiv
 In this project, you'll work with the RGB model. This means colors start as black and change as different levels of red, green, and blue are introduced. An easy way to see this is with the CSS `rgb` function.
 
 Create a new CSS rule that targets the class `container` and set its `background-color` to black with `rgb(0, 0, 0)`.
+
+## Step 17
+
+As you have learned in previous lessons, a function is a piece of code that can take an input and perform a specific action. The CSS `rgb` function accepts values, or arguments, for red, green, and blue, and produces a color:
+
+```css
+rgb(red, green, blue);
+```
+
+Each red, green, and blue value is a number from `0` to `255`. `0` means that there's 0% of that color, and is black. `255` means that there's 100% of that color.
+
+In the `.one` CSS rule, replace the color keyword `red` with the `rgb` function. For the `rgb` function, set the value for red to `255`, the value for green to `0`, and the value for blue to `0`.
