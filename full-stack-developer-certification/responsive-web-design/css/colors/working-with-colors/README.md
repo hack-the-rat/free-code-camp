@@ -152,3 +152,114 @@ The RGB color model is especially useful for digital media because it directly c
 Additionally, the RGB model is ideal when working with dynamic designs. For instance, if you want to create animations or color effects that require real-time changes, the flexibility of the RGB function allows you to modify colors programmatically.
 
 By understanding the RGB color model and how to use the `rgb()` and `rgba()` functions in CSS, you'll have greater control over how colors are displayed on your web pages. You can create vibrant designs, transparency, and even programmatically adjust colors for dynamic effects.
+
+## What Is the HSL Color Model, and How Does the HSL Function Work in CSS?
+
+When styling websites, one of the most versatile and intuitive ways to work with color is by using the HSL color model. *HSL stands for Hue, Saturation, and Lightness — three key components that define a color*.
+
+The HSL color model represents colors in a way that is more in line with how humans perceive color. In this lesson, we will explore what the HSL color model is and how the `hsl()` function is used in CSS.
+
+The hue is the color type, represented as an angle on the color wheel, which ranges from `0` to `360` degrees. For example, `0` degrees represents red, `120` degrees is green, and `240` degrees is blue. By adjusting the hue, you shift through different colors on the spectrum.
+
+Saturation refers to the intensity or purity of the color. It is measured as a percentage from `0%` (a completely desaturated, grayscale color) to `100%` (the most vibrant form of that color). A color with `100%` saturation is fully vivid, while a color with `0%` saturation appears as a shade of gray.
+
+Lightness determines how light or dark the color is, again measured as a percentage. *A lightness value of `0%` will produce black, `50%` will give you the normal tone of the hue, and `100%` will result in white*.
+
+In CSS, the `hsl()` function is used to define colors using the HSL color model. The modern syntax uses space-separated values:
+
+```css
+element {
+  color: hsl(hue saturation lightness);
+}
+```
+
+You may also encounter the older comma-separated syntax in existing code, which is still supported by browsers:
+
+```css
+element {
+  color: hsl(hue, saturation, lightness);
+}
+```
+
+Let's break this down with an example:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<p>This is a paragraph.</p>
+```
+
+```css
+body {
+  background-color: hsl(0 0% 1% / 1);
+}
+
+p {
+  color: hsl(120 100% 50%);
+}
+```
+
+In this case, the hue is `120` degrees, which corresponds to green. The saturation is `100%`, so the green will be fully vivid. The lightness is `50%`, so it's at its normal tone — neither too dark nor too light. As a result, the text color of the paragraph will be a bright green.
+
+One of the main advantages of the HSL color model is its intuitive nature. It makes it easy to adjust a color’s vibrancy or lightness by tweaking the saturation and lightness values without having to alter the core color (hue).
+
+For instance, if you want to create different shades or tints of the same color, you can simply adjust the lightness value.
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="light">This is a light blue div.</div>
+<div class="dark">This is a dark blue div.</div>
+```
+
+```css
+div.light {
+  background-color: hsl(240 100% 80%);
+}
+
+div.dark {
+  background-color: hsl(240 100% 20%);
+  color: hsl(0 0% 100%);
+}
+```
+
+Here, both `div` elements are using the same hue (`240` degrees, which is blue), but one has a lightness of `80%` (a lighter shade of blue), and the other has a lightness of `20%` (a darker shade of blue).
+
+Just like the RGB model, *the `hsl()` function also supports an optional alpha value to control transparency. You add it after a `/` separator as a fourth parameter*. Here is the basic syntax:
+
+```css
+element {
+  background-color: hsl(hue saturation lightness / alpha);
+}
+```
+
+Let's take a look at an example:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div>This is a div.</div>
+```
+
+```css
+div {
+  background-color: hsl(0 100% 50% / 0.5);
+}
+```
+
+This code would give the `div` a semi-transparent red background, where the hue is set to `0` degrees (red), saturation is `100%`, lightness is `50%`, and alpha is `0.5` (50% opacity). You can also specify the alpha as a percentage — for example, `hsl(0 100% 50% / 50%)` is equivalent to `hsl(0 100% 50% / 0.5)`.
+
+You will also commonly see the `hsla()` function in existing CSS. This was the original way to include transparency in HSL colors, using comma-separated values:
+
+```css
+element {
+  background-color: hsla(hue, saturation, lightness, alpha);
+}
+```
+
+For example, `hsla(0, 100%, 50%, 0.5)` is the legacy equivalent of `hsl(0 100% 50% / 0.5)`. Both are supported by browsers, but the modern `hsl()` syntax with the `/` separator is now preferred.
+
+The HSL color model is particularly useful when you need to create color schemes and adjust shades or tints easily.
+
+Because HSL separates the hue from saturation and lightness, you can keep a consistent color theme while tweaking lightness for shadows or highlights. This level of flexibility makes HSL a favorite for designers and developers alike.
+
+Additionally, HSL makes color values more readable and understandable when compared to other methods like hex codes or RGB. You can more clearly see the intent behind the color and adjust accordingly, especially when experimenting with different designs.
+
+With the HSL color model, you gain more flexibility in controlling color tones, saturation, and lightness, making it a powerful tool for creating rich and dynamic designs in CSS.
