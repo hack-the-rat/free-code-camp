@@ -135,3 +135,9 @@ Notice that the `background-color` for your marker is still red. This is because
 Now use the `rgb` function to set the other colors.
 
 In the `.two` CSS rule, use the `rgb` function to set the `background-color` to the max value for green, and `0` for the other values. And in the `.three` CSS rule, use the `rgb` function to set the `background-color` to the max value for blue, and `0` for the other values.
+
+## Step 19
+
+While the red and blue markers look the same, the green one is much lighter than it was before. This is because the `green` color keyword is actually a darker shade, and is about halfway between black and the maximum value for green.
+
+In the `.two` CSS rule, set the green value in the `rgb` function to `127` to lower its intensity.
