@@ -357,3 +357,91 @@ h2 {
 The shorthand `#FFF` is equivalent to `#FFFFFF`. Similarly, `#000` would represent black which is `#000000` in full form.
 
 Hex codes are popular for their precision and compatibility, allowing for over 16 million colors across all browsers. They're ideal when you need specific branding colors, want to control exact shades that aren't easily defined by named colors or HSL, or when you're copying colors from design software that provides hex codes by default.
+
+## What Are Linear and Radial Gradients, and How Do They Work in CSS?
+
+In a previous lesson, you learned how to start working with linear and radial gradients. In this lesson, we are going to dive deeper into how to work with the CSS properties to create more visually appealing and complex designs.
+
+Gradients in CSS allow you to create smooth transitions between two or more specified colors. They are often used to add depth, texture, and visual interest to web designs without the need for image files.
+
+CSS supports two main types of gradients: linear gradients and radial gradients.
+
+*Linear gradients create a gradual blend between colors along a straight line*. You can control the direction of this line and the colors used. Here's a basic [example](https://codesandbox.io/p/sandbox/ll333s) of a linear gradient:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="linear-gradient"></div>
+```
+
+```css
+.linear-gradient {
+  background: linear-gradient(to right, red, blue);
+  height: 40vh;
+}
+```
+
+This creates a gradient that transitions from red on the left to blue on the right. The `to right` parameter specifies the direction of the gradient. You can use other directions like `to left`, `to top`, `to bottom`, or even specify angles like `45deg`.
+
+You can also use multiple [color stops](https://codesandbox.io/p/sandbox/mztspr) in a linear gradient:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="multi-color-gradient"></div>
+```
+
+```css
+.multi-color-gradient {
+  background: linear-gradient(to right, red, yellow, blue);
+  height: 40vh;
+}
+```
+
+This creates a gradient that transitions from red to yellow to blue, evenly spaced across the element.
+
+*Radial gradients, on the other hand, create circular or elliptical gradients that radiate from a central point*. Here's an [example](https://codesandbox.io/p/sandbox/r8snks):
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="radial-gradient"></div>
+```
+
+```css
+.radial-gradient {
+  background: radial-gradient(circle, red, blue);
+  height: 40vh;
+}
+```
+
+This creates a circular gradient that starts with red in the center and transitions to blue at the edges. You can also specify the [shape and size](https://codesandbox.io/p/sandbox/yd2mvc) of radial gradients:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="custom-radial-gradient"></div>
+```
+
+```css
+.custom-radial-gradient {
+  background: radial-gradient(ellipse at top left, red, blue);
+  height: 40vh;
+}
+```
+
+This creates an elliptical gradient starting from the top left corner of the element. Both linear and radial gradients allow you to specify color stops at precise positions. [For example](https://codesandbox.io/p/sandbox/49jfxs):
+
+```html
+<link rel="stylesheet" href="styles.css" />
+<div class="precise-gradient"></div>
+```
+
+```css
+.precise-gradient {
+  background: linear-gradient(to right, red 20%, yellow 40%, blue 80%);
+  height: 40vh;
+}
+```
+
+This creates a gradient where red takes up the first `20%`, then transitions to yellow at `40%`, and finally to blue at `80%`.
+
+Gradients can be used wherever you'd use an image in CSS. This makes them versatile for creating backgrounds, buttons, or even text effects when combined with other CSS properties.
+
+Remember, while gradients can enhance the visual appeal of your website, it's important to ensure sufficient contrast for accessibility, especially when using gradients behind text.
