@@ -97,3 +97,7 @@ Next, remove the `background-color` property and its value from the `.marker` CS
 ## Step 13
 
 Then, create a new CSS rule that targets the class `one` and set its `background-color` property to `red`.
+
+## Step 14
+
+Add the class `two` to the second marker `div` and the class `three` to the third marker `div`.
