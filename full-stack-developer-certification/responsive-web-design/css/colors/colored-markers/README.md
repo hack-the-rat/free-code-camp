@@ -101,3 +101,9 @@ Then, create a new CSS rule that targets the class `one` and set its `background
 ## Step 14
 
 Add the class `two` to the second marker `div` and the class `three` to the third marker `div`.
+
+## Step 15
+
+Create a CSS rule that targets the class `two` and set its `background-color` property to `green`.
+
+Also, create a separate CSS rule that targets the class `three` and set its `background-color` to `blue`.
