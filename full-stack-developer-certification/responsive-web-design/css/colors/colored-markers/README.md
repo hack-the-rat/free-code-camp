@@ -69,3 +69,11 @@ To center your marker on the page, set its `margin` property to `auto`. This set
 Now that you've got one marker centered with color, it's time to add the other markers.
 
 In the `.container` element, add two more `div` elements and give them each a class of `marker`.
+
+## Step 10
+
+While you have three separate marker `div` elements, they look like one big rectangle. You should add some space between them to make it easier to see each element.
+
+When the shorthand `margin` property has two values, it sets `margin-top` and `margin-bottom` to the first value, and `margin-left` and `margin-right` to the second value.
+
+In your `.marker` CSS rule, set the `margin` property to `10px auto`.
