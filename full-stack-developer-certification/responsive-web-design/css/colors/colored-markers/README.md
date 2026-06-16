@@ -63,3 +63,9 @@ Your marker would look better if it were centered on the page. An easy way to do
 You can set the margin area of elements separately with properties like `margin-top` and `margin-left`, the `margin` shorthand property makes it easy to set multiple margin areas at the same time.
 
 To center your marker on the page, set its `margin` property to `auto`. This sets `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` all to `auto`.
+
+## Step 9
+
+Now that you've got one marker centered with color, it's time to add the other markers.
+
+In the `.container` element, add two more `div` elements and give them each a class of `marker`.
