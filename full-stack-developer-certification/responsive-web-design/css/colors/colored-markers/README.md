@@ -49,3 +49,9 @@ As a reminder, here's how to target the class `freecodecamp`:
 Create a new CSS rule that targets the class `marker`, and set its `background-color` property to `red`.
 
 **Note:** You will not see any changes after adding the CSS.
+
+## Step 7
+
+The background color was applied, but since the marker `div` element has no content in it, it doesn't have any height by default.
+
+In your `.marker` CSS rule, set the `height` property to `25px` and the `width` property to `200px`
