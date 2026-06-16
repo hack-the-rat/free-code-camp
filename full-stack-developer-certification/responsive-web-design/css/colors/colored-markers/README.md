@@ -141,3 +141,9 @@ In the `.two` CSS rule, use the `rgb` function to set the `background-color` to 
 While the red and blue markers look the same, the green one is much lighter than it was before. This is because the `green` color keyword is actually a darker shade, and is about halfway between black and the maximum value for green.
 
 In the `.two` CSS rule, set the green value in the `rgb` function to `127` to lower its intensity.
+
+## Step 20
+
+Now add a little more vertical space between your markers and the edge of the `container` element they're in.
+
+In the `.container` CSS rule, use the shorthand `padding` property to add `10px` of top and bottom padding, and set the left and right padding to `0`. This works similarly to the shorthand `margin` property you used earlier.
