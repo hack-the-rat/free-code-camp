@@ -77,3 +77,15 @@ While you have three separate marker `div` elements, they look like one big rect
 When the shorthand `margin` property has two values, it sets `margin-top` and `margin-bottom` to the first value, and `margin-left` and `margin-right` to the second value.
 
 In your `.marker` CSS rule, set the `margin` property to `10px auto`.
+
+## Step 11
+
+To give the markers different colors, you'll need to add a unique class to each one. You can add multiple classes to an element by listing them in the `class` attribute and separating them with a space. For example, the following code adds both the `animal` and `dog` classes to a `div` element:
+
+```html
+<div class="animal dog">
+```
+
+If you add multiple classes to an HTML element, the styles of the first classes you list in the stylesheet may be overridden by later classes.
+
+To begin, add the class `one` to the first marker `div` element.
