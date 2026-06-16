@@ -3,3 +3,9 @@
 ## Step 1
 
 Within the `body`, nest an `h1` element with the text `CSS Color Markers`.
+
+## Step 2
+
+In this project you'll work with an external CSS file to style the page. A `styles.css` file has been already created for you. But before you can use it, you'll need to link it to the page.
+
+Nest a `link` element within the `head` element. Give it a `rel` attribute set to `"stylesheet"` and an `href` attribute set to `"styles.css"`.
