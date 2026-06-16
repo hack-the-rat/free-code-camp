@@ -55,3 +55,11 @@ Create a new CSS rule that targets the class `marker`, and set its `background-c
 The background color was applied, but since the marker `div` element has no content in it, it doesn't have any height by default.
 
 In your `.marker` CSS rule, set the `height` property to `25px` and the `width` property to `200px`
+
+## Step 8
+
+Your marker would look better if it were centered on the page. An easy way to do this is by using the `margin` shorthand property.
+
+You can set the margin area of elements separately with properties like `margin-top` and `margin-left`, the `margin` shorthand property makes it easy to set multiple margin areas at the same time.
+
+To center your marker on the page, set its `margin` property to `auto`. This sets `margin-top`, `margin-right`, `margin-bottom`, and `margin-left` all to `auto`.
