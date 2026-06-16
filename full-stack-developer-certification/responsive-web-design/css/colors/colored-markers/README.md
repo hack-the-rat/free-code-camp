@@ -29,3 +29,7 @@ Create a new CSS rule that targets the `h1` element, and set its `text-align` pr
 Now you'll add some elements that you'll eventually style into color markers.
 
 First, within the `body` element, add a `div` element with a `class` attribute set to `container`. Make sure the `div` element is placed below the `h1` element.
+
+## Step 5
+
+Next, within the `div` element, add another `div` element and give it a class of `marker`.
