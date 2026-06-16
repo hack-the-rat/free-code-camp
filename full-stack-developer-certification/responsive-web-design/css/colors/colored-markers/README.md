@@ -147,3 +147,9 @@ In the `.two` CSS rule, set the green value in the `rgb` function to `127` to lo
 Now add a little more vertical space between your markers and the edge of the `container` element they're in.
 
 In the `.container` CSS rule, use the shorthand `padding` property to add `10px` of top and bottom padding, and set the left and right padding to `0`. This works similarly to the shorthand `margin` property you used earlier.
+
+## Step 21
+
+In the additive RGB color model, primary colors are colors that, when combined, create pure white. But for this to happen, each color needs to be at its highest intensity.
+
+Before you combine colors, set your green marker back to pure green. For the `rgb` function in the `.two` CSS rule, set green back to the max value of `255`.
