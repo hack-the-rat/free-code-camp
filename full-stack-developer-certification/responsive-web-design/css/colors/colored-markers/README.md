@@ -153,3 +153,9 @@ In the `.container` CSS rule, use the shorthand `padding` property to add `10px`
 In the additive RGB color model, primary colors are colors that, when combined, create pure white. But for this to happen, each color needs to be at its highest intensity.
 
 Before you combine colors, set your green marker back to pure green. For the `rgb` function in the `.two` CSS rule, set green back to the max value of `255`.
+
+## Step 22
+
+Now that you have the primary RGB colors, it's time to combine them.
+
+For the `rgb` function in the `.container` rule, set the red, green, and blue values to the max of `255`.
