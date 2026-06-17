@@ -159,3 +159,9 @@ Before you combine colors, set your green marker back to pure green. For the `rg
 Now that you have the primary RGB colors, it's time to combine them.
 
 For the `rgb` function in the `.container` rule, set the red, green, and blue values to the max of `255`.
+
+## Step 23
+
+Secondary colors are the colors you get when you combine primary colors. You might have noticed some secondary colors in the last step as you changed the red, green, and blue values.
+
+To create the first secondary color, yellow, update the `rgb` function in the `.one` CSS rule to combine pure red and pure green.
