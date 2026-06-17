@@ -169,3 +169,7 @@ To create the first secondary color, yellow, update the `rgb` function in the `.
 ## Step 24
 
 To create the next secondary color, cyan, update the `rgb` function in the `.two` CSS rule to combine pure green and pure blue.
+
+## Step 25
+
+To create the final secondary color, magenta, update the `rgb` function in the `.three` CSS rule to combine pure blue and pure red.
