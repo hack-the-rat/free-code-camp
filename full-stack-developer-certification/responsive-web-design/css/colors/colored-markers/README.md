@@ -179,3 +179,9 @@ To create the final secondary color, magenta, update the `rgb` function in the `
 Now that you've practiced with secondary colors, here's a review of how to create tertiary colors: tertiary colors are created by combining a primary color with a nearby secondary color.
 
 To create the tertiary color orange, update the `rgb` function in the `.one` CSS rule by setting red to its maximum value (`255`) and green to `127`.
+
+## Step 27
+
+Notice that, to create orange, you increased the intensity of red and decreased the intensity of green in the `rgb` values. This is because orange is created by blending red with yellow.
+
+To create the tertiary color spring green, combine cyan with green. Update the `rgb` function in the `.two` CSS rule by setting green to its maximum value and blue to `127`.
