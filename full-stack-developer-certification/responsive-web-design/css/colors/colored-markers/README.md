@@ -185,3 +185,7 @@ To create the tertiary color orange, update the `rgb` function in the `.one` CSS
 Notice that, to create orange, you increased the intensity of red and decreased the intensity of green in the `rgb` values. This is because orange is created by blending red with yellow.
 
 To create the tertiary color spring green, combine cyan with green. Update the `rgb` function in the `.two` CSS rule by setting green to its maximum value and blue to `127`.
+
+## Step 28
+
+To create the tertiary color violet, combine magenta with blue. Update the `rgb` function in the `.three` CSS rule by setting blue to its maximum value and red to `127`.
