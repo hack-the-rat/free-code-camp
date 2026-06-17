@@ -173,3 +173,9 @@ To create the next secondary color, cyan, update the `rgb` function in the `.two
 ## Step 25
 
 To create the final secondary color, magenta, update the `rgb` function in the `.three` CSS rule to combine pure blue and pure red.
+
+## Step 26
+
+Now that you've practiced with secondary colors, here's a review of how to create tertiary colors: tertiary colors are created by combining a primary color with a nearby secondary color.
+
+To create the tertiary color orange, update the `rgb` function in the `.one` CSS rule by setting red to its maximum value (`255`) and green to `127`.
