@@ -165,3 +165,7 @@ For the `rgb` function in the `.container` rule, set the red, green, and blue va
 Secondary colors are the colors you get when you combine primary colors. You might have noticed some secondary colors in the last step as you changed the red, green, and blue values.
 
 To create the first secondary color, yellow, update the `rgb` function in the `.one` CSS rule to combine pure red and pure green.
+
+## Step 24
+
+To create the next secondary color, cyan, update the `rgb` function in the `.two` CSS rule to combine pure green and pure blue.
