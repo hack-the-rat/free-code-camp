@@ -237,3 +237,9 @@ For now, use the `rgb` function in the `.two` CSS rule to set the `background-co
 ## Step 35
 
 In the `h1` CSS rule, remove the `background-color` property and its value to revert to the default white color.
+
+## Step 36
+
+Now it's time to add other details to the markers, starting with the first one.
+
+In the first marker `div` element, change the class `one` to `red`.
