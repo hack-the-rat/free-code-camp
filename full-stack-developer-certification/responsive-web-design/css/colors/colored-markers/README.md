@@ -391,3 +391,9 @@ Use the `linear-gradient` function and set `gradientDirection` to `180deg`. And 
 ## Step 57
 
 For the second color argument, use a hex color code with the values `71` for red, `F5` for green, and `3E` for blue.
+
+## Step 58
+
+That's looking better, but the bottom edge of the green marker needs to be darker to add a little more dimension.
+
+In the same `linear-gradient` function, add a hex color code with the values `11` for red, `6C` for green, and `31` for blue as the third color argument.
