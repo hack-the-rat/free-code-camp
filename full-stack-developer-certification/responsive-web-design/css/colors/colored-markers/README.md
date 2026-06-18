@@ -251,3 +251,7 @@ Update the `.one` CSS rule to target the new `red` class.
 ## Step 38
 
 Update the `rgb` function in the `.red` CSS rule by setting the red value to its maximum.
+
+## Step 39
+
+Next, change the class `two` to `green` in the second marker `div` and change the class `three` to `blue` in the third marker `div`.
