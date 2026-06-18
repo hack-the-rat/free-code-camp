@@ -347,3 +347,9 @@ linear-gradient(90deg, red 90%, black);
 ```
 
 In the `linear-gradient` function, add a `75%` color stop after the first red color argument. Do not add color stops to the other colors arguments.
+
+## Step 50
+
+Now that you know the basics of how the `linear-gradient` function and color-stops work, you can use them to make the markers look more realistic.
+
+In the `linear-gradient` function, set `gradientDirection` to `180deg`.
