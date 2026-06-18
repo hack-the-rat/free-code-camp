@@ -317,3 +317,9 @@ linear-gradient(gradientDirection, color1, color2, ...);
 Now you'll apply a red-to-green gradient along a 90 degree line to the first marker.
 
 First, in the `.red` CSS rule, set the `background` property to `linear-gradient()`, and pass it the value `90deg` as the `gradientDirection`.
+
+## Step 46
+
+You'll use the `rgb` function for the colors of this gradient.
+
+In the `linear-gradient` function, use the `rgb` function to set the first color argument to pure red.
