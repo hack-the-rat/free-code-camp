@@ -247,3 +247,7 @@ In the first marker `div` element, change the class `one` to `red`.
 ## Step 37
 
 Update the `.one` CSS rule to target the new `red` class.
+
+## Step 38
+
+Update the `rgb` function in the `.red` CSS rule by setting the red value to its maximum.
