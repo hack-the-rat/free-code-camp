@@ -267,3 +267,15 @@ A very common way to apply color to an element with CSS is with hexadecimal or h
 Hex color values start with a `#` character and take six characters from 0-9 and A-F. The first pair of characters represent red, the second pair represent green, and the third pair represent blue. For example, `#4B5320`.
 
 In the `.green` class selector, set the `background-color` property to a hex color code with the values `00` for red, `FF` for green, and `00` blue.
+
+## Step 42
+
+You may already be familiar with decimal, or base 10 values, which go from 0 - 9. Hexadecimal, or base 16 values, go from 0 - 9, then A - F:
+
+```js
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+```
+
+With hex colors, `00` is 0% of that color, and `FF` is 100%. So `#00FF00` translates to 0% red, 100% green, and 0% blue, and is the same as `rgb(0, 255, 0)`.
+
+Lower the intensity of green by setting the green value of the hex color to `7F`.
