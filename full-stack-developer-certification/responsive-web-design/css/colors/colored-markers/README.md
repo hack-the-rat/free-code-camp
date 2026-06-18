@@ -375,3 +375,9 @@ Update the `rgb` function so the value for red is `245`, the value of green is `
 Finally, modify the third color argument in the `linear-gradient` function, which is currently pure blue.
 
 Update the `rgb` function so the value for red is `162`, the value of green is `27`, and the value of blue is `27`.
+
+## Step 55
+
+The red marker is looking much more realistic. Now you'll do the same for the green marker, using a combination of the `linear-gradient` function and hex colors.
+
+In the `.green` CSS rule, change the `background-color` property to `background`.
