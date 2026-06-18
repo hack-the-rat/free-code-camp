@@ -381,3 +381,9 @@ Update the `rgb` function so the value for red is `162`, the value of green is `
 The red marker is looking much more realistic. Now you'll do the same for the green marker, using a combination of the `linear-gradient` function and hex colors.
 
 In the `.green` CSS rule, change the `background-color` property to `background`.
+
+## Step 56
+
+For this marker, you'll use hex color codes for your gradient.
+
+Use the `linear-gradient` function and set `gradientDirection` to `180deg`. And for the first color argument, use a hex color code with the values `55` for red, `68` for green, and `0D` for blue.
