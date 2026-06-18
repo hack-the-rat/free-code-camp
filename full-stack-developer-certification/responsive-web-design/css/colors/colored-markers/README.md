@@ -369,3 +369,9 @@ For the first color argument, which is currently pure red, update the `rgb` func
 Now modify the second color argument in the `linear-gradient` function, which is currently pure green.
 
 Update the `rgb` function so the value for red is `245`, the value of green is `62`, and the value of blue is `113`.
+
+## Step 54
+
+Finally, modify the third color argument in the `linear-gradient` function, which is currently pure blue.
+
+Update the `rgb` function so the value for red is `162`, the value of green is `27`, and the value of blue is `27`.
