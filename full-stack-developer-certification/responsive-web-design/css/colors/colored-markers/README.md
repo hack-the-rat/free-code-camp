@@ -259,3 +259,11 @@ Next, change the class `two` to `green` in the second marker `div` and change th
 ## Step 40
 
 Update the CSS class selector `.two` so it targets the new `green` class. And update the `.three` class selector so it targets the new `blue` class.
+
+## Step 41
+
+A very common way to apply color to an element with CSS is with hexadecimal or hex values. While hex values sound complicated, they're really just another form of RGB values.
+
+Hex color values start with a `#` character and take six characters from 0-9 and A-F. The first pair of characters represent red, the second pair represent green, and the third pair represent blue. For example, `#4B5320`.
+
+In the `.green` class selector, set the `background-color` property to a hex color code with the values `00` for red, `FF` for green, and `00` blue.
