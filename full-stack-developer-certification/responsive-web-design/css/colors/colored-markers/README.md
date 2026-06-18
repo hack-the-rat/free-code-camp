@@ -255,3 +255,7 @@ Update the `rgb` function in the `.red` CSS rule by setting the red value to its
 ## Step 39
 
 Next, change the class `two` to `green` in the second marker `div` and change the class `three` to `blue` in the third marker `div`.
+
+## Step 40
+
+Update the CSS class selector `.two` so it targets the new `green` class. And update the `.three` class selector so it targets the new `blue` class.
