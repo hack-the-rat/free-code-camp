@@ -397,3 +397,11 @@ For the second color argument, use a hex color code with the values `71` for red
 That's looking better, but the bottom edge of the green marker needs to be darker to add a little more dimension.
 
 In the same `linear-gradient` function, add a hex color code with the values `11` for red, `6C` for green, and `31` for blue as the third color argument.
+
+## Step 59
+
+Even without the color-stops, you might have noticed that the colors for the green marker transition at the same points as the red marker. The first color is at the start (0%), the second is in the middle (50%), and the last is at the end (100%) of the gradient line.
+
+The `linear-gradient` function automatically calculates these values for you, and places colors evenly along the gradient line by default.
+
+In the `.red` CSS rule, remove the three color stops from the `linear-gradient` function to clean up your code a bit.
