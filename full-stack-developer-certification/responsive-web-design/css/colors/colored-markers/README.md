@@ -221,3 +221,7 @@ Notice that the red and cyan colors are very bright right next to each other. Th
 It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
 
 First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+
+## Step 33
+
+Next, in the `.one` CSS rule, use the `rgb` function to set the `background-color` to black. And in the `.two` CSS rule, use the `rgb` function to set the `background-color` to red.
