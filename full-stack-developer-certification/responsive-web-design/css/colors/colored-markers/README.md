@@ -329,3 +329,9 @@ In the `linear-gradient` function, use the `rgb` function to set the first color
 You won't see gradient yet because the `linear-gradient` function needs at least two color arguments to work.
 
 In the same `linear-gradient` function, use the `rgb` function to set the second color argument to pure green.
+
+## Step 48
+
+As you can see, the `linear-gradient` function produced a smooth red-green gradient. While the `linear-gradient` function needs a minimum of two color arguments to work, it can accept many color arguments.
+
+Use the `rgb` function to add pure blue as the third color argument to the `linear-gradient` function.
