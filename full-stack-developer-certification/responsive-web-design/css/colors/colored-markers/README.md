@@ -213,3 +213,11 @@ A color wheel is a circle where similar colors, or hues, are near each other, an
 Two colors that are opposite from each other on the color wheel are called complementary colors. If two complementary colors are combined, they produce gray. But when they are placed side-by-side, these colors produce strong visual contrast and appear brighter.
 
 In the `rgb` function for the `.one` CSS rule, set the red value to the max of `255` to produce pure red. In the `rgb` function for `.two` CSS rule, set the values for green and blue to the max of `255` to produce cyan.
+
+## Step 32
+
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+
+It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+
+First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
