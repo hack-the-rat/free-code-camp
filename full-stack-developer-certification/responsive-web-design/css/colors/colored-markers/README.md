@@ -233,3 +233,7 @@ Notice how your eyes are naturally drawn to the red color in the center? When de
 There are several other important color combinations outside of complementary colors, but you'll learn those a bit later.
 
 For now, use the `rgb` function in the `.two` CSS rule to set the `background-color` to black.
+
+## Step 35
+
+In the `h1` CSS rule, remove the `background-color` property and its value to revert to the default white color.
