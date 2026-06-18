@@ -293,3 +293,13 @@ Saturation is the intensity of a color from 0%, or gray, to 100% for pure color.
 Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.
 
 In the `.blue` CSS rule, use the `hsl` function to change the `background-color` property to pure blue. Set the hue to `240`, the saturation to `100%`, and the lightness to `50%`.
+
+## Step 44
+
+You've practiced a few ways to set flat colors in CSS, but you can also use a color transition, or gradient, on an element.
+
+A gradient is when one color transitions into another. The CSS `linear-gradient` function lets you control the direction of the transition along a line, and which colors are used.
+
+One thing to remember is that the `linear-gradient` function actually creates an `image` element, and is usually paired with the `background` property which can accept an image as a value.
+
+In the `.red` CSS rule, change the `background-color` property to `background`.
