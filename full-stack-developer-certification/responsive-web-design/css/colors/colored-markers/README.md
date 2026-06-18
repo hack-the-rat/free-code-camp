@@ -243,3 +243,7 @@ In the `h1` CSS rule, remove the `background-color` property and its value to re
 Now it's time to add other details to the markers, starting with the first one.
 
 In the first marker `div` element, change the class `one` to `red`.
+
+## Step 37
+
+Update the `.one` CSS rule to target the new `red` class.
