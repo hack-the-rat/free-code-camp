@@ -335,3 +335,15 @@ In the same `linear-gradient` function, use the `rgb` function to set the second
 As you can see, the `linear-gradient` function produced a smooth red-green gradient. While the `linear-gradient` function needs a minimum of two color arguments to work, it can accept many color arguments.
 
 Use the `rgb` function to add pure blue as the third color argument to the `linear-gradient` function.
+
+## Step 49
+
+Color-stops allow you to fine-tune where colors are placed along the gradient line. They are used in the `linear-gradient` function to specify where a color ends and the transition to the next color begins. Either a percentage or a length value can be used to define the color-stop position.
+
+For example, in this red-black gradient, the transition from red to black takes place at the 90% point along the gradient line, so red takes up most of the available space:
+
+```css
+linear-gradient(90deg, red 90%, black);
+```
+
+In the `linear-gradient` function, add a `75%` color stop after the first red color argument. Do not add color stops to the other colors arguments.
