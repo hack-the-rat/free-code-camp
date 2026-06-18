@@ -323,3 +323,9 @@ First, in the `.red` CSS rule, set the `background` property to `linear-gradient
 You'll use the `rgb` function for the colors of this gradient.
 
 In the `linear-gradient` function, use the `rgb` function to set the first color argument to pure red.
+
+## Step 47
+
+You won't see gradient yet because the `linear-gradient` function needs at least two color arguments to work.
+
+In the same `linear-gradient` function, use the `rgb` function to set the second color argument to pure green.
