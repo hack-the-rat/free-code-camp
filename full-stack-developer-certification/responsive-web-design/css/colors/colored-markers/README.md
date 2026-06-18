@@ -405,3 +405,9 @@ Even without the color-stops, you might have noticed that the colors for the gre
 The `linear-gradient` function automatically calculates these values for you, and places colors evenly along the gradient line by default.
 
 In the `.red` CSS rule, remove the three color stops from the `linear-gradient` function to clean up your code a bit.
+
+## Step 60
+
+If no `gradientDirection` argument is provided to the `linear-gradient` function, it arranges colors from top to bottom, or along a 180 degree line, by default.
+
+Clean up your code a little more by removing the `gradientDirection` argument from both `linear-gradient` functions.
