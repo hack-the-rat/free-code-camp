@@ -421,3 +421,7 @@ In the `.blue` CSS rule, change the `background-color` property to `background`.
 ## Step 62
 
 Use the `linear-gradient` function, and pass in the `hsl` function with the values `186` for hue, `76%` for saturation, and `16%` for lightness as the first color argument.
+
+## Step 63
+
+As the second color argument, pass in the `hsl` function with the values `223` for hue, `90%` for saturation, and `60%` for lightness.
