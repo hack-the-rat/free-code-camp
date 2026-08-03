@@ -425,3 +425,7 @@ Use the `linear-gradient` function, and pass in the `hsl` function with the valu
 ## Step 63
 
 As the second color argument, pass in the `hsl` function with the values `223` for hue, `90%` for saturation, and `60%` for lightness.
+
+## Step 64
+
+And as the third color argument, pass in the `hsl` function with the values `240` for hue, `56%` for saturation, and `42%` for lightness.
