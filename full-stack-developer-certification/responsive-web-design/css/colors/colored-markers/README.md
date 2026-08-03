@@ -445,3 +445,11 @@ Create a new CSS rule that targets the class `sleeve`. Set the `width` property 
 To make the marker look more realistic, give the sleeve a transparent white color.
 
 First, set the sleeve element's `background-color` to `white`.
+
+## Step 68
+
+Opacity describes how opaque, or non-transparent, something is. For example, a solid wall is opaque, and no light can pass through. But a drinking glass is much more transparent, and you can see through the glass to the other side.
+
+With the CSS `opacity` property, you can control how opaque or transparent an element is. With the value `0`, or 0%, the element will be completely transparent, and at `1.0`, or 100%, the element will be completely opaque like it is by default.
+
+In the `.sleeve` CSS rule, set the `opacity` property to `0.5`.
