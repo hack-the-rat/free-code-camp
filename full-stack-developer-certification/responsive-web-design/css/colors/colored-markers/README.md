@@ -495,3 +495,9 @@ This is because the default `display` property for `div` elements is `block`. So
 To position two `div` elements on the same line, set their `display` properties to `inline-block`.
 
 Create a new rule to target both the `cap` and `sleeve` classes, and set `display` to `inline-block`.
+
+## Step 74
+
+All HTML elements have borders, though they're usually set to `none` by default. With CSS, you can control all aspects of an element's border, and set the border on all sides, or just one side at a time. For a border to be visible, you need to set its width and style.
+
+In the `.sleeve` CSS rule, add the `border-left-width` property with the value `10px`.
