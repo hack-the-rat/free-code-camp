@@ -435,3 +435,7 @@ And as the third color argument, pass in the `hsl` function with the values `240
 Now that the markers have the correct colors, it's time to build the marker sleeves. Start with the red marker.
 
 Inside the red marker `div` element, create a new `div` element and give it a class of `sleeve`.
+
+## Step 66
+
+Create a new CSS rule that targets the class `sleeve`. Set the `width` property to `110px`, and the `height` property to `25px`.
