@@ -475,3 +475,9 @@ rgba(redValue, greenValue, blueValue, alphaValue);
 You can also use an alpha channel with `hsl` and `hex` colors. You will see how to do that soon.
 
 In the `.sleeve` rule, use the `rgba` function to set the `background-color` property to pure white with 50% opacity.
+
+## Step 71
+
+Your sleeve is looking good, but it would look even better if it was positioned more toward the right side of the marker. One way to do that is to add another element before the sleeve to push it to the right.
+
+Add a new `div` with the class `cap` before the sleeve `div` element.
