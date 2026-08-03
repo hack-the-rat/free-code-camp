@@ -411,3 +411,9 @@ In the `.red` CSS rule, remove the three color stops from the `linear-gradient` 
 If no `gradientDirection` argument is provided to the `linear-gradient` function, it arranges colors from top to bottom, or along a 180 degree line, by default.
 
 Clean up your code a little more by removing the `gradientDirection` argument from both `linear-gradient` functions.
+
+## Step 61
+
+Now you'll apply a gradient to the blue marker, this time using the `hsl` function as color arguments.
+
+In the `.blue` CSS rule, change the `background-color` property to `background`.
