@@ -533,3 +533,9 @@ In the `.sleeve` CSS rule, replace the `border-left-width`, `border-left-style`,
 Your marker is looking good. But to make it look even more realistic, you can change the border style to double solid borders.
 
 For the `border-left` shorthand property, change the border style value from `solid` to `double`.
+
+## Step 79
+
+The black color of your border looks pretty harsh against the more transparent sleeve. You can use an alpha channel to lower the opacity of the black border.
+
+For the `border-left` shorthand property, use the `rgba` function to set the color value to pure black with 75% opacity.
