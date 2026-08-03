@@ -527,3 +527,9 @@ border-left: width style color;
 ```
 
 In the `.sleeve` CSS rule, replace the `border-left-width`, `border-left-style`, and `border-left-color` properties with the `border-left` shorthand property. The values for the width, style, and color of the left border should be the same.
+
+## Step 78
+
+Your marker is looking good. But to make it look even more realistic, you can change the border style to double solid borders.
+
+For the `border-left` shorthand property, change the border style value from `solid` to `double`.
