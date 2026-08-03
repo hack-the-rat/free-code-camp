@@ -501,3 +501,9 @@ Create a new rule to target both the `cap` and `sleeve` classes, and set `displa
 All HTML elements have borders, though they're usually set to `none` by default. With CSS, you can control all aspects of an element's border, and set the border on all sides, or just one side at a time. For a border to be visible, you need to set its width and style.
 
 In the `.sleeve` CSS rule, add the `border-left-width` property with the value `10px`.
+
+## Step 75
+
+Borders have several styles to choose from. You can make your border a solid line, but you can also use a dashed or dotted line if you prefer. Solid border lines are probably the most common.
+
+In the `.sleeve` CSS rule, add the `border-left-style` property with the value `solid`.
