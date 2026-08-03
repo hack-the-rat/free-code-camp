@@ -539,3 +539,9 @@ For the `border-left` shorthand property, change the border style value from `so
 The black color of your border looks pretty harsh against the more transparent sleeve. You can use an alpha channel to lower the opacity of the black border.
 
 For the `border-left` shorthand property, use the `rgba` function to set the color value to pure black with 75% opacity.
+
+## Step 80
+
+Awesome. Your red marker is looking good. Now all you need to do is add the caps and sleeves to your other markers.
+
+Add a cap and sleeve to both the green and blue markers. You can just copy the `div` elements from the red marker and paste them into the other two markers.
