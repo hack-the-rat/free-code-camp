@@ -461,3 +461,17 @@ Another way to set the opacity for an element is with the alpha channel. Similar
 You've already set sleeve's opacity with a named color and the `opacity` property, but you can add an alpha channel to the other CSS color properties.
 
 Inside the `.sleeve` rule, remove the `opacity` property and value.
+
+## Step 70
+
+You were using the `rgb` function to set colors. To add an alpha channel to an `rgb` color, use the `rgba` function instead.
+
+The `rgba` function works just like the `rgb` function, but takes one more number from `0` to `1.0` for the alpha channel:
+
+```css
+rgba(redValue, greenValue, blueValue, alphaValue);
+```
+
+You can also use an alpha channel with `hsl` and `hex` colors. You will see how to do that soon.
+
+In the `.sleeve` rule, use the `rgba` function to set the `background-color` property to pure white with 50% opacity.
