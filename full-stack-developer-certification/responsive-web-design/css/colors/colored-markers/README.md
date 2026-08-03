@@ -614,3 +614,9 @@ In the `.red` CSS rule, update the values for the `box-shadow` property so `offs
 Next, update the `color` value of the red marker's `box-shadow` property.
 
 Replace the named color with the `rgba` function. Use the values `83` for red, `14` for green, `14` for blue and `0.8` for the alpha channel.
+
+## Step 87
+
+The shadows for your green and blue markers will have the same position, blur, and spread. The only difference will be the colors.
+
+In the `.green` and `.blue` CSS rules, update the values for the `box-shadow` properties so `offsetX` is `0`,`offsetY` is `0`, `blurRadius` is `20px`, and `spreadRadius` is `0`. Leave the colors as `green` and `blue` for now.
