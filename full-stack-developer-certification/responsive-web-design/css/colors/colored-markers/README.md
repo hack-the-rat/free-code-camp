@@ -481,3 +481,7 @@ In the `.sleeve` rule, use the `rgba` function to set the `background-color` pro
 Your sleeve is looking good, but it would look even better if it was positioned more toward the right side of the marker. One way to do that is to add another element before the sleeve to push it to the right.
 
 Add a new `div` with the class `cap` before the sleeve `div` element.
+
+## Step 72
+
+Create a new CSS rule to target the class `cap`. In the new rule, set the `width` property to `60px`, and the `height` to `25px`.
