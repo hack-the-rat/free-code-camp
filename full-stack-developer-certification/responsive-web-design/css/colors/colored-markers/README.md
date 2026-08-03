@@ -568,3 +568,11 @@ The height and width of the shadow is determined by the height and width of the 
 Start by adding a simple shadow to the red marker.
 
 In the `.red` CSS rule, add the `box-shadow` property with the values `5px` for `offsetX`, `5px` for `offsetY`, and `red` for `color`.
+
+## Step 82
+
+As you can see, you added a simple red shadow around your marker that's 5 pixels to the right, and 5 pixels down.
+
+But what if you wanted to position your shadow on the opposite side? You can do that by using negative values for `offsetX` and `offsetY`.
+
+Update the values for the `box-shadow` property, and set `offsetX` to `-5px`, and `offsetY` to `-5px`.
