@@ -507,3 +507,11 @@ In the `.sleeve` CSS rule, add the `border-left-width` property with the value `
 Borders have several styles to choose from. You can make your border a solid line, but you can also use a dashed or dotted line if you prefer. Solid border lines are probably the most common.
 
 In the `.sleeve` CSS rule, add the `border-left-style` property with the value `solid`.
+
+## Step 76
+
+Your border should be visible now. If no color is set, black is used by default.
+
+But to make your code more readable, it's better to set the border color explicitly.
+
+In the `.sleeve` CSS rule, add the `border-left-color` property with the value `black`.
