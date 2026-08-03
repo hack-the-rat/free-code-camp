@@ -576,3 +576,15 @@ As you can see, you added a simple red shadow around your marker that's 5 pixels
 But what if you wanted to position your shadow on the opposite side? You can do that by using negative values for `offsetX` and `offsetY`.
 
 Update the values for the `box-shadow` property, and set `offsetX` to `-5px`, and `offsetY` to `-5px`.
+
+## Step 83
+
+Notice that the edges of the shadow are sharp. This is because there is an optional `blurRadius` value for the `box-shadow` property:
+
+```css
+box-shadow: offsetX offsetY blurRadius color;
+```
+
+If a `blurRadius` value isn't included, it defaults to `0` and produces sharp edges. The higher the value of `blurRadius`, the greater the blurring effect is.
+
+In the `.green` CSS rule, add the `box-shadow` property with the values `5px` for `offsetX`, `5px` for `offsetY`, `5px` for `blurRadius`, and `green` for `color`.
