@@ -439,3 +439,9 @@ Inside the red marker `div` element, create a new `div` element and give it a cl
 ## Step 66
 
 Create a new CSS rule that targets the class `sleeve`. Set the `width` property to `110px`, and the `height` property to `25px`.
+
+## Step 67
+
+To make the marker look more realistic, give the sleeve a transparent white color.
+
+First, set the sleeve element's `background-color` to `white`.
