@@ -515,3 +515,15 @@ Your border should be visible now. If no color is set, black is used by default.
 But to make your code more readable, it's better to set the border color explicitly.
 
 In the `.sleeve` CSS rule, add the `border-left-color` property with the value `black`.
+
+## Step 77
+
+The `border-left` shorthand property lets you to set the left border's width, style, and color at the same time.
+
+Here is the syntax:
+
+```css
+border-left: width style color;
+```
+
+In the `.sleeve` CSS rule, replace the `border-left-width`, `border-left-style`, and `border-left-color` properties with the `border-left` shorthand property. The values for the width, style, and color of the left border should be the same.
