@@ -417,3 +417,7 @@ Clean up your code a little more by removing the `gradientDirection` argument fr
 Now you'll apply a gradient to the blue marker, this time using the `hsl` function as color arguments.
 
 In the `.blue` CSS rule, change the `background-color` property to `background`.
+
+## Step 62
+
+Use the `linear-gradient` function, and pass in the `hsl` function with the values `186` for hue, `76%` for saturation, and `16%` for lightness as the first color argument.
