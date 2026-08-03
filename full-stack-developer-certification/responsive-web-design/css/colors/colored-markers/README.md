@@ -429,3 +429,9 @@ As the second color argument, pass in the `hsl` function with the values `223` f
 ## Step 64
 
 And as the third color argument, pass in the `hsl` function with the values `240` for hue, `56%` for saturation, and `42%` for lightness.
+
+## Step 65
+
+Now that the markers have the correct colors, it's time to build the marker sleeves. Start with the red marker.
+
+Inside the red marker `div` element, create a new `div` element and give it a class of `sleeve`.
