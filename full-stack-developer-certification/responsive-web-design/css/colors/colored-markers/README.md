@@ -608,3 +608,9 @@ In the `.blue` CSS rule, add the `box-shadow` property with the values `0` for `
 Now that you're familiar with the `box-shadow` property you can finalize the shadows, starting with the one for the red marker.
 
 In the `.red` CSS rule, update the values for the `box-shadow` property so `offsetX` is `0`,`offsetY` is `0`, `blurRadius` is `20px`, `spreadRadius` is `0`, and `color` is `red`. Remember that you don't need to add units to a zero value.
+
+## Step 86
+
+Next, update the `color` value of the red marker's `box-shadow` property.
+
+Replace the named color with the `rgba` function. Use the values `83` for red, `14` for green, `14` for blue and `0.8` for the alpha channel.
