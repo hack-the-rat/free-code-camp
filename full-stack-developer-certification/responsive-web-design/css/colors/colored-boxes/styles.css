@@ -30,3 +30,23 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+.color1 {
+    background-color: #f41029;
+}
+
+.color2 {
+    background-color: rgb(11, 23, 246);
+}
+
+.color3 {
+    background-color: magenta;
+}
+
+.color4 {
+    background-color: hsl(129, 75%, 33%);
+}
+
+.color5 {
+    background-color: yellow;
+}
