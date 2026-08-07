@@ -27,3 +27,7 @@ It is time to spruce the project up with some CSS. Begin by giving the `body` a 
 ## Step 4
 
 Now, get rid of the horizontal scroll-bar, by setting the `body` default `margin` added by some browsers to `0`.
+
+## Step 5
+
+That is better. Now, make the background easy on the eyes, by changing the `background-color` of `body` to `#1b1b32`. Then, to see the text, change the `color` to `#f5f6f7`.
