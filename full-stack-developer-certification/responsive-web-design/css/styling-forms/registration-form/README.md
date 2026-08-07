@@ -35,3 +35,11 @@ That is better. Now, make the background easy on the eyes, by changing the `back
 ## Step 6
 
 As suggested by the title, you are creating a form. So, after the `p` element, insert a `form` with an `action` attribute targeting `https://register-demo.freecodecamp.org`.
+
+## Step 7
+
+The `method` attribute specifies how to send form-data to the URL specified in the `action` attribute. The form-data can be sent via a `GET` request as URL parameters (with `method="get"`) or via a `POST` request as data in the request body (with `method="post"`).
+
+Set the `method` attribute to send your form data via a `POST` request.
+
+ **NOTE** : You will learn more about the `GET` and `POST` methods in the upcoming lessons and workshops.
