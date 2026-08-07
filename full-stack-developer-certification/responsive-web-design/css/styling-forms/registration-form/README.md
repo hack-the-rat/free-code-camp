@@ -43,3 +43,7 @@ The `method` attribute specifies how to send form-data to the URL specified in t
 Set the `method` attribute to send your form data via a `POST` request.
 
  **NOTE** : You will learn more about the `GET` and `POST` methods in the upcoming lessons and workshops.
+
+## Step 8
+
+As the form will have three distinct sections, add three `fieldset` elements within the `form` element.
