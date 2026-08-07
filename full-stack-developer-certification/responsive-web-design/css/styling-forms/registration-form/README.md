@@ -15,3 +15,11 @@ Below the heading, use the following text within a paragraph element to encourag
 ```md
 Please fill out this form with the required information
 ```
+
+## Step 3
+
+In previous lessons, you learned how to work with viewport units.
+
+Remember that the `vh` unit stands for viewport height, and is equal to 1% of the `height` of the viewport. This makes it relative to the viewport height.
+
+It is time to spruce the project up with some CSS. Begin by giving the `body` a `width` of `100%`, and a `height` of `100vh`.
