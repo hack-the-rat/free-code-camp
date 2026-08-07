@@ -444,3 +444,79 @@ Here is an example of a custom checkbox:
 WebKit is a software engine that helps web browsers display websites. Browsers like Safari use WebKit to make sure web pages look and work correctly. This `appearance: none` CSS property gives you complete control over the styling, but it does come with some things to look out for. *The default interactive components of input elements include features such as focus and error indicators which you will need to ensure aren't lost*.
 
 Creating consistent cross-platform styling is a great reason to use this property. You can also use it to ensure that tap targets on a mobile device are large enough or that the colors of a checkbox have enough contrast.
+
+## What Are Common Issues When Styling Special Input Elements?
+
+Let's learn about some of the common issues when trying to style special input elements like the `datetime-local` and `color` inputs.
+
+*These special types of inputs rely on complex pseudo-elements to create things like the date and color pickers*. This presents a significant challenge for styling these inputs. One challenge is that, *because the default styling depends entirely on the browser, CSS that makes the picker look right in one browser may produce a very different result in another*.
+
+Here is an example of a color input:
+
+```html
+<link rel="stylesheet" href="styles.css">
+
+<form>
+  <label for="favorite-color">Pick your favorite color:</label>
+  <input type="color" id="favorite-color" name="favorite-color">
+</form>
+```
+
+```css
+input {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input[type="color"] {
+  width: 60px;
+  height: 40px;
+  padding: 0;
+  border: 2px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+```
+
+Another may be the complexity of the pseudo-element. Consider the date selector; there are a lot of moving parts here and the complex structure of the pseudo-element might pose a significant challenge in applying styling to the right areas.
+
+Here is an example of a date input:
+
+```html
+<link rel="stylesheet" href="styles.css">
+
+<form>
+  <label for="birthdate">Select your birthdate:</label>
+  <input type="date" id="birthdate" name="birthdate">
+</form>
+```
+
+```css
+input {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input[type="date"] {
+  padding: 6px 10px;
+  border: 2px solid #555;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+```
+
+Of course, with these complex elements, you also run the risk of accidentally losing important functionality when you manually style them. Not only could you lose important indicators like the focus state or selected item but you could potentially break the selector entirely.
+
+For these reasons *many developers rely on JavaScript libraries or custom components entirely instead of using the browser's built-in components*.
