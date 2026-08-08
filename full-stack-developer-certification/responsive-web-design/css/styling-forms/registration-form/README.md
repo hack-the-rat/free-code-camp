@@ -47,3 +47,7 @@ Set the `method` attribute to send your form data via a `POST` request.
 ## Step 8
 
 As the form will have three distinct sections, add three `fieldset` elements within the `form` element.
+
+## Step 9
+
+The first `fieldset` will hold name, email, and password fields. Start by adding four `label` elements to the first `fieldset`.
