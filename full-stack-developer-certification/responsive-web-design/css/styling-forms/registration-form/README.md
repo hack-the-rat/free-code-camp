@@ -51,3 +51,12 @@ As the form will have three distinct sections, add three `fieldset` elements wit
 ## Step 9
 
 The first `fieldset` will hold name, email, and password fields. Start by adding four `label` elements to the first `fieldset`.
+
+## Step 10
+
+Add the following text to the `label` elements:
+
+* `Enter Your First Name:`
+* `Enter Your Last Name:`
+* `Enter Your Email:`
+* `Create a New Password:`
