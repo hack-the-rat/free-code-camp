@@ -78,3 +78,11 @@ Nest an `input` element within each `label`. Be sure to add each `input` after t
 Following accessibility best practices, link the `input` elements and the `label` elements together using the `for` attribute.
 
 Use `first-name`, `last-name`, `email`, and `new-password` as values for the respective `id` attributes.
+
+## Step 14
+
+Specifying the `type` attribute of an `input` element is important for the browser to know what kind of data it should expect. If the `type` is not specified, the browser will default to `text`.
+
+Give the first two `input` elements a `type` attribute of `text`, the third a `type` attribute of `email`, and the fourth a `type` attribute of `password`.
+
+The `email` type only allows emails with a `@` and a `.` in the domain. The `password` type obscures the input, and warns if the site does not use HTTPS.
