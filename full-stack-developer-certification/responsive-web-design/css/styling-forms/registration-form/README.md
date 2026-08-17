@@ -68,3 +68,7 @@ In previous lessons, you learned how to work with `rem` units. Remember that `re
 As `label` elements are inline by default, they are all displayed side by side on the same line, making their text hard to read.
 
 To make them appear on separate lines, add `display: block` to the `label` element, and add a `margin` of `0.5rem 0`, to separate them from each other.
+
+## Step 12
+
+Nest an `input` element within each `label`. Be sure to add each `input` after the `label` text, and include a space after the colon.
