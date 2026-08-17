@@ -92,3 +92,11 @@ The `email` type only allows emails with a `@` and a `.` in the domain. The `pas
 The first `input` element with a `type` of `submit` is automatically set to submit its nearest parent `form` element.
 
 To handle the form submission, after the last `fieldset` element add an `input` element with the `type` attribute set to `submit` and the `value` attribute set to `Submit`.
+
+## Step 16
+
+At this point, you should be able to submit the form. However, you might notice not much happens.
+
+To make the form more interactive, add the `required` attribute to the `input` elements in the first `fieldset`.
+
+Now, if you try to submit the form without filling in the required fields, you will see an error message.
