@@ -72,3 +72,9 @@ To make them appear on separate lines, add `display: block` to the `label` eleme
 ## Step 12
 
 Nest an `input` element within each `label`. Be sure to add each `input` after the `label` text, and include a space after the colon.
+
+## Step 13
+
+Following accessibility best practices, link the `input` elements and the `label` elements together using the `for` attribute.
+
+Use `first-name`, `last-name`, `email`, and `new-password` as values for the respective `id` attributes.
