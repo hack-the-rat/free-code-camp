@@ -100,3 +100,9 @@ At this point, you should be able to submit the form. However, you might notice 
 To make the form more interactive, add the `required` attribute to the `input` elements in the first `fieldset`.
 
 Now, if you try to submit the form without filling in the required fields, you will see an error message.
+
+## Step 17
+
+Certain `type` attribute values come with built-in form validation. For example, `type="email"` requires that the value be a valid email address.
+
+Add custom validation to the password `input` element, by adding a `minlength` attribute with a value of `8`. Doing so prevents inputs of less than 8 characters being submitted.
