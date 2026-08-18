@@ -120,3 +120,9 @@ The above is a regular expression which matches eight or more lowercase letters 
 Let us go to the next part of the registration form. This section will ask for the type of account the user is opening.
 
 Start by adding two `label` elements to the second `fieldset`.
+
+## Step 20
+
+Users will be able to choose whether their account is for `Personal` or `Business` purposes.
+
+To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
