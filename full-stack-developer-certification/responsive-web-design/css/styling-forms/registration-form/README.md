@@ -141,3 +141,9 @@ Business
 You only want one radio input to be selectable at a time. However, the form does not know the radio inputs are related.
 
 To relate the radio inputs, give them the same `name` attribute with a value of `account-type`. Now, it is not possible to select both radio inputs at the same time.
+
+## Step 23
+
+The radio buttons don't yet have a value assigned to them. Therefore, the POST request made through the form will not register which option is selected.
+
+To make the request completely robust, add `value` attribute to both the radio buttons with the values `personal` and `business` respectively.
