@@ -147,3 +147,9 @@ To relate the radio inputs, give them the same `name` attribute with a value of 
 The radio buttons don't yet have a value assigned to them. Therefore, the POST request made through the form will not register which option is selected.
 
 To make the request completely robust, add `value` attribute to both the radio buttons with the values `personal` and `business` respectively.
+
+## Step 24
+
+Currently users can submit the form without checking the radio inputs. Although you previously used the `required` attribute to indicate that an input is required, it won't work in this case because adding `required` to both inputs will convey the wrong information to users.
+
+To solve this, you can provide context of what is needed by adding a `legend` element with text `Account type (required)` before the `label` elements within the second `fieldset`. Then add the `checked` attribute to the `Personal` input to ensure the form is submitted with the required data in it.
