@@ -153,3 +153,9 @@ To make the request completely robust, add `value` attribute to both the radio b
 Currently users can submit the form without checking the radio inputs. Although you previously used the `required` attribute to indicate that an input is required, it won't work in this case because adding `required` to both inputs will convey the wrong information to users.
 
 To solve this, you can provide context of what is needed by adding a `legend` element with text `Account type (required)` before the `label` elements within the second `fieldset`. Then add the `checked` attribute to the `Personal` input to ensure the form is submitted with the required data in it.
+
+## Step 25
+
+Follow accessibility best practices by linking the `input` elements and the `label` elements in the second `fieldset`.
+
+Use `personal-account`, and `business-account` as values for the respective `id` attributes.
