@@ -126,3 +126,12 @@ Start by adding two `label` elements to the second `fieldset`.
 Users will be able to choose whether their account is for `Personal` or `Business` purposes.
 
 To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+
+## Step 21
+
+Within each corresponding `label` element, and immediately after the `input` element, add a space and add the following text:
+
+```md
+Personal
+Business
+```
