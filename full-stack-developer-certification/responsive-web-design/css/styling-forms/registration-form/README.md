@@ -243,3 +243,9 @@ Add an initial size of `3` rows and `30` columns.
 To give Campers an idea of what to put in their bio, the `placeholder` attribute is used. The `placeholder` accepts a text value, which is displayed until the user starts typing.
 
 Give the `textarea` a `placeholder` of `I like coding on the beach...`.
+
+## Step 38
+
+With form submissions, it is useful, and good practice, to provide each submittable element with a `name` attribute. This attribute is used to identify the element in the form submission.
+
+Except for the two `radio` inputs (which you have already named), give each submittable element a unique `name` attribute of your choosing.
