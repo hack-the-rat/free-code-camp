@@ -167,3 +167,13 @@ You need to confirm that the user has read the terms and conditions.
 Add a `label` element. Inside the newly created `label` element add an `input` element and set the `type` attribute to `checkbox`. Make this `input` element `required` so users can not sign up without agreeing to the terms and conditions.
 
 Add an `id` and `for` attribute with the value `terms-and-conditions` to the elements for accessibility.
+
+## Step 27
+
+Add an anchor element with the text `Read our terms and conditions` before the newly added `label`. Set the `href` to:
+
+```md
+https://www.freecodecamp.org/news/terms-of-service/
+```
+
+Then add the text `I accept the terms and conditions` immediately after the input element in the label.
