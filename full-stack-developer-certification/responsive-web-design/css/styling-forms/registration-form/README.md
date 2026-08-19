@@ -225,3 +225,9 @@ Give the first `option` a `value` of `""`, and the subsequent `option` elements 
 The `textarea` element acts like an `input` element of type `text`, but comes with the added benefit of being able to receive multi-line text, and an initial number of text rows and columns.
 
 Users will be able to register with a bio. Add a `label` with the text `Provide a bio:` at the end of the `fieldset`. Add a `textarea` element inside the `label` element. Note that the `textarea` requires a closing tag.
+
+## Step 35
+
+Link the applicable form elements and their `label` elements together.
+
+Use `profile-picture`, `age`, `referrer`, and `bio` as values for the respective `id` attributes.
