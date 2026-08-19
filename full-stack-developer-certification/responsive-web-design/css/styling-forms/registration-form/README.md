@@ -159,3 +159,11 @@ To solve this, you can provide context of what is needed by adding a `legend` el
 Follow accessibility best practices by linking the `input` elements and the `label` elements in the second `fieldset`.
 
 Use `personal-account`, and `business-account` as values for the respective `id` attributes.
+
+## Step 26
+
+You need to confirm that the user has read the terms and conditions.
+
+Add a `label` element. Inside the newly created `label` element add an `input` element and set the `type` attribute to `checkbox`. Make this `input` element `required` so users can not sign up without agreeing to the terms and conditions.
+
+Add an `id` and `for` attribute with the value `terms-and-conditions` to the elements for accessibility.
