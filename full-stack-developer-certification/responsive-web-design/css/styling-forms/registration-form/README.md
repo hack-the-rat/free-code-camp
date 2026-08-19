@@ -201,3 +201,15 @@ Start by adding a `select` element below the last `label` element. Then nest 5 `
 ## Step 31
 
 Nest the `select` element (with its `option` elements) within a `label` element with the text `How did you hear about us?`. The text should come before the `select` element.
+
+## Step 32
+
+The dropdown options are currently empty. To give them content, add the following text to each subsequent `option` element:
+
+```md
+(select one)
+freeCodeCamp News
+freeCodeCamp YouTube Channel
+freeCodeCamp Forum
+Other
+```
