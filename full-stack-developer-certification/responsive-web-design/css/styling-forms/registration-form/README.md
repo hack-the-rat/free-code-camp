@@ -197,3 +197,7 @@ Now, if someone tries to submit the form with values outside of the range, a war
 Adding a dropdown to the form is easy with the `select` element. The `select` element is a container for a group of `option` elements, and the `option` element acts as a label for each dropdown option. Both elements require closing tags.
 
 Start by adding a `select` element below the last `label` element. Then nest 5 `option` elements within the `select` element.
+
+## Step 31
+
+Nest the `select` element (with its `option` elements) within a `label` element with the text `How did you hear about us?`. The text should come before the `select` element.
