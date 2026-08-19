@@ -213,3 +213,9 @@ freeCodeCamp YouTube Channel
 freeCodeCamp Forum
 Other
 ```
+
+## Step 33
+
+Submitting the form with an option selected would not send a useful value to the server. Because of that, each `option` element needs a `value` attribute. Without this attribute, the text content of the `option` will be submitted to the server.
+
+Give the first `option` a `value` of `""`, and the subsequent `option` elements `value` attributes from `1` to `4`.
