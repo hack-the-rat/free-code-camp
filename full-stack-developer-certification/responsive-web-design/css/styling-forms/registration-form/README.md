@@ -231,3 +231,9 @@ Users will be able to register with a bio. Add a `label` with the text `Provide 
 Link the applicable form elements and their `label` elements together.
 
 Use `profile-picture`, `age`, `referrer`, and `bio` as values for the respective `id` attributes.
+
+## Step 36
+
+The `textarea` appears too small. To give it an initial size, you can add the `rows` and `cols` attributes.
+
+Add an initial size of `3` rows and `30` columns.
