@@ -191,3 +191,9 @@ Add another `label` after the first, with the text `Input your age (years):`. Th
 Next, add a `min` attribute to the `input` with a value of `13` because users under the age of 13 should not register. Also, users probably will not be over the age of 120; add a `max` attribute with a value of `120`.
 
 Now, if someone tries to submit the form with values outside of the range, a warning will appear, and the form will not submit. Give it a try.
+
+## Step 30
+
+Adding a dropdown to the form is easy with the `select` element. The `select` element is a container for a group of `option` elements, and the `option` element acts as a label for each dropdown option. Both elements require closing tags.
+
+Start by adding a `select` element below the last `label` element. Then nest 5 `option` elements within the `select` element.
