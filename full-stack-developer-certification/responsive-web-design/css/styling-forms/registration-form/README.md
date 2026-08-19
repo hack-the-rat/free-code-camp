@@ -237,3 +237,9 @@ Use `profile-picture`, `age`, `referrer`, and `bio` as values for the respective
 The `textarea` appears too small. To give it an initial size, you can add the `rows` and `cols` attributes.
 
 Add an initial size of `3` rows and `30` columns.
+
+## Step 37
+
+To give Campers an idea of what to put in their bio, the `placeholder` attribute is used. The `placeholder` accepts a text value, which is displayed until the user starts typing.
+
+Give the `textarea` a `placeholder` of `I like coding on the beach...`.
