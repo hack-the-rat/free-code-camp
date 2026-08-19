@@ -219,3 +219,9 @@ Other
 Submitting the form with an option selected would not send a useful value to the server. Because of that, each `option` element needs a `value` attribute. Without this attribute, the text content of the `option` will be submitted to the server.
 
 Give the first `option` a `value` of `""`, and the subsequent `option` elements `value` attributes from `1` to `4`.
+
+## Step 34
+
+The `textarea` element acts like an `input` element of type `text`, but comes with the added benefit of being able to receive multi-line text, and an initial number of text rows and columns.
+
+Users will be able to register with a bio. Add a `label` with the text `Provide a bio:` at the end of the `fieldset`. Add a `textarea` element inside the `label` element. Note that the `textarea` requires a closing tag.
