@@ -269,3 +269,7 @@ Center the `form` element, by giving it a `margin` of `0 auto`. Then, fix its si
 During development, it is useful to see the `fieldset` default borders. However, they make the content appear too separated.
 
 Remove the `border`, and add `2rem` of padding only to the top and bottom of each `fieldset`. Be sure to remove the `padding` from the left and right.
+
+## Step 43
+
+To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
