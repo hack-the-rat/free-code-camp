@@ -325,3 +325,9 @@ To make the `input` and `textarea` elements blend in with the background theme, 
 Currently, if you type in the `input` or `textarea` elements, you will not be able to see the text. Also, their height is too small to be easy to use.
 
 Fix this by setting the `color` to `#ffffff`, and setting their `min-height` to `2em`.
+
+## Step 52
+
+You want the `select` element to remain with a white background, but now it is not getting the same `min-height` as the `input` and `textarea` elements.
+
+Move the `min-height` property and value so that all three element types have the same `min-height` value, and the `select` element still has a white background.
