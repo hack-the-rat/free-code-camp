@@ -305,3 +305,7 @@ Start, by giving the `input` elements in the second `fieldset` a class of `inlin
 ## Step 47
 
 Select only the `.inline` elements, and give them `width` of `unset`. This will remove the earlier rule which set all the `input` elements to `width: 100%`.
+
+## Step 48
+
+Add some space between the `.inline` elements and the `label` text, by giving a right `margin` of `0.5em`. Also, set all the other margin to `0`.
