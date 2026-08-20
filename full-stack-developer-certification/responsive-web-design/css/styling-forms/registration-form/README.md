@@ -301,3 +301,7 @@ Also, add `10px` of `margin` to the top of the selected elements. Set the other 
 For the second `fieldset`, you want the `input` and `label` text to appear on the same line.
 
 Start, by giving the `input` elements in the second `fieldset` a class of `inline`.
+
+## Step 47
+
+Select only the `.inline` elements, and give them `width` of `unset`. This will remove the earlier rule which set all the `input` elements to `width: 100%`.
