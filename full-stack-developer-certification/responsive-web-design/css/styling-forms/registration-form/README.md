@@ -273,3 +273,17 @@ Remove the `border`, and add `2rem` of padding only to the top and bottom of eac
 ## Step 43
 
 To give the `fieldset` elements a bit of separation, select them and give them a `border-bottom` of `3px solid #3b3b4f`.
+
+## Step 44
+
+The border of the last `fieldset` element looks a little out of place.
+
+In previous lessons, you learned how to work with the `last-of-type` CSS pseudo-class like this:
+
+```css
+p:last-of-type { }
+```
+
+That will select the last `p` element.
+
+Create a new selector that targets the last `fieldset` element and set its `border-bottom` to `none`.
