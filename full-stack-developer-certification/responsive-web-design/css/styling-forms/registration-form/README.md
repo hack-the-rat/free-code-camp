@@ -295,3 +295,9 @@ It would be nicer to have the `label` text appear above the form elements.
 Select all `input`, `textarea`, and `select` elements, and make them take up the full width of their parent elements.
 
 Also, add `10px` of `margin` to the top of the selected elements. Set the other margins to `0`.
+
+## Step 46
+
+For the second `fieldset`, you want the `input` and `label` text to appear on the same line.
+
+Start, by giving the `input` elements in the second `fieldset` a class of `inline`.
