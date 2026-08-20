@@ -353,3 +353,7 @@ Use the same technique used to center the `form` to center the submit button.
 ## Step 55
 
 To make the submit button look more in line with the rest of the form, give it the same `height` as the other fields (`2em`). Also, increase the `font-size` to `1.1rem`.
+
+## Step 56
+
+To make the submit button appear more distinct, give it a `background-color` of `#3b3b4f`, and a `border-color` of `white`.
