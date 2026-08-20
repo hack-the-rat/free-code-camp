@@ -319,3 +319,9 @@ To combat this, set the `vertical-align` property to `middle`.
 ## Step 50
 
 To make the `input` and `textarea` elements blend in with the background theme, set their `background-color` to `#0a0a23`. Then, give them a `1px`, `solid` border with a color of `#0a0a23`.
+
+## Step 51
+
+Currently, if you type in the `input` or `textarea` elements, you will not be able to see the text. Also, their height is too small to be easy to use.
+
+Fix this by setting the `color` to `#ffffff`, and setting their `min-height` to `2em`.
