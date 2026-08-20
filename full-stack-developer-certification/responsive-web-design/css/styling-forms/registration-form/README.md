@@ -343,3 +343,9 @@ input[name="password"]
 The above selects `input` elements with a `name` attribute value of `password`.
 
 Now, use the attribute selector to style the submit button with a `display` of `block`, and a `width` of `60%`.
+
+## Step 54
+
+With a `display` of `block` the submit button sits flush against the left edge of its parent.
+
+Use the same technique used to center the `form` to center the submit button.
