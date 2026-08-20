@@ -255,3 +255,7 @@ Except for the two `radio` inputs (which you have already named), give each subm
 The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
 Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+
+## Step 40
+
+Center the `h1` and `p` elements by giving them a `margin` of `1em auto`. Then, align their text in the `center` as well.
