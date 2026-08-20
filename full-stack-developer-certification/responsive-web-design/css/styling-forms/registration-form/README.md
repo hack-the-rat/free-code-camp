@@ -363,3 +363,9 @@ To make the submit button appear more distinct, give it a `background-color` of 
 Lastly, for the submit button, you want to separate it from the `fieldset` above, and adjust its width to never be below `300px`.
 
 Change the `margin` property to include `1em` on the top and bottom, while leaving the right and left margins set to `auto`. Then set the width as described above.
+
+## Step 58
+
+Most browsers inject their own default CSS properties and values for different elements. If you look closely, you might be able to notice the file `input` is smaller than the other text `input` elements. By default, a `padding` of `1px 2px` is given to `input` elements you can type in.
+
+Using another attribute selector, style the `input` with a `type` of `file` to be the same padding as the other `input` elements.
