@@ -357,3 +357,9 @@ To make the submit button look more in line with the rest of the form, give it t
 ## Step 56
 
 To make the submit button appear more distinct, give it a `background-color` of `#3b3b4f`, and a `border-color` of `white`.
+
+## Step 57
+
+Lastly, for the submit button, you want to separate it from the `fieldset` above, and adjust its width to never be below `300px`.
+
+Change the `margin` property to include `1em` on the top and bottom, while leaving the right and left margins set to `auto`. Then set the width as described above.
