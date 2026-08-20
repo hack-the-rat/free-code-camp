@@ -349,3 +349,7 @@ Now, use the attribute selector to style the submit button with a `display` of `
 With a `display` of `block` the submit button sits flush against the left edge of its parent.
 
 Use the same technique used to center the `form` to center the submit button.
+
+## Step 55
+
+To make the submit button look more in line with the rest of the form, give it the same `height` as the other fields (`2em`). Also, increase the `font-size` to `1.1rem`.
