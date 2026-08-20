@@ -309,3 +309,9 @@ Select only the `.inline` elements, and give them `width` of `unset`. This will 
 ## Step 48
 
 Add some space between the `.inline` elements and the `label` text, by giving a right `margin` of `0.5em`. Also, set all the other margin to `0`.
+
+## Step 49
+
+If you look close enough, you will notice the `.inline` elements are too high on the line.
+
+To combat this, set the `vertical-align` property to `middle`.
