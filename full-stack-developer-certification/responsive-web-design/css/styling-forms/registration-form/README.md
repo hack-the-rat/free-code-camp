@@ -331,3 +331,15 @@ Fix this by setting the `color` to `#ffffff`, and setting their `min-height` to 
 You want the `select` element to remain with a white background, but now it is not getting the same `min-height` as the `input` and `textarea` elements.
 
 Move the `min-height` property and value so that all three element types have the same `min-height` value, and the `select` element still has a white background.
+
+## Step 53
+
+To style the submit button, you can use an *attribute* selector, which selects an element based on the given attribute value. Here is an example:
+
+```css
+input[name="password"]
+```
+
+The above selects `input` elements with a `name` attribute value of `password`.
+
+Now, use the attribute selector to style the submit button with a `display` of `block`, and a `width` of `60%`.
