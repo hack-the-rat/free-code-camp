@@ -249,3 +249,9 @@ Give the `textarea` a `placeholder` of `I like coding on the beach...`.
 With form submissions, it is useful, and good practice, to provide each submittable element with a `name` attribute. This attribute is used to identify the element in the form submission.
 
 Except for the two `radio` inputs (which you have already named), give each submittable element a unique `name` attribute of your choosing.
+
+## Step 39
+
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
+
+Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
