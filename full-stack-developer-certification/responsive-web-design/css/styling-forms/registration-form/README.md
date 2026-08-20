@@ -315,3 +315,7 @@ Add some space between the `.inline` elements and the `label` text, by giving a 
 If you look close enough, you will notice the `.inline` elements are too high on the line.
 
 To combat this, set the `vertical-align` property to `middle`.
+
+## Step 50
+
+To make the `input` and `textarea` elements blend in with the background theme, set their `background-color` to `#0a0a23`. Then, give them a `1px`, `solid` border with a color of `#0a0a23`.
