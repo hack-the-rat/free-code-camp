@@ -377,3 +377,9 @@ Speaking of `padding`, the submit button is sitting at the bottom of the `form` 
 ## Step 60
 
 Make the `input` for the terms and conditions `inline` by adding the appropriate class in the HTML.
+
+## Step 61
+
+Lastly, change the text color of the `terms and conditions` link element to `#dfdfe2` by adding a new selector in the CSS.
+
+Well done! You have completed the final part of the *Registration Form* workshop.
