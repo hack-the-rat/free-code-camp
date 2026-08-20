@@ -373,3 +373,7 @@ Using another attribute selector, style the `input` with a `type` of `file` to b
 ## Step 59
 
 Speaking of `padding`, the submit button is sitting at the bottom of the `form` element. Add `2em` of `padding` only to the bottom of the `form`.
+
+## Step 60
+
+Make the `input` for the terms and conditions `inline` by adding the appropriate class in the HTML.
