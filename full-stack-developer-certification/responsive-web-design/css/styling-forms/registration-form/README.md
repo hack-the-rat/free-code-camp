@@ -263,3 +263,9 @@ Center the `h1` and `p` elements by giving them a `margin` of `1em auto`. Then, 
 ## Step 41
 
 Center the `form` element, by giving it a `margin` of `0 auto`. Then, fix its size to a maximum width of `500px`, and a minimum width of `300px`. In between that range, allow it to have a `width` of `60vw`.
+
+## Step 42
+
+During development, it is useful to see the `fieldset` default borders. However, they make the content appear too separated.
+
+Remove the `border`, and add `2rem` of padding only to the top and bottom of each `fieldset`. Be sure to remove the `padding` from the left and right.
