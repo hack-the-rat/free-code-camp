@@ -26,3 +26,23 @@ label {
     margin: 10px 0 5px;
     color: #525252;
 }
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
