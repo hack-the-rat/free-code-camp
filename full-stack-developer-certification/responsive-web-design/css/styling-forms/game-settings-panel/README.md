@@ -55,3 +55,11 @@ And last, set a `text-align` property with the value of `left`. This will align 
 ## Step 7
 
 Now create an `h1` selector and set the `text-align` property with a value of `center`. This will center your `h1` elements.
+
+## Step 8
+
+You need some spacing between the checkboxes and the labels. Begin by using the selector for `label` in your CSS and set a `display` property of `block`.
+
+Next, set a `margin` property of `8px auto` to add vertical spacing between elements. This will create consistent spacing above and below each element, helping to separate content and improve readability.
+
+Finally, set the `cursor` property to `pointer` on the `label` elements. This will change the cursor to a hand icon when a user hovers over a `label`, signaling that the element is clickable and improving the overall user experience.
