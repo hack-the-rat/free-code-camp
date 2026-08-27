@@ -25,3 +25,9 @@ Set the `body` to have a `height` property with a value of `100vh` and a `backgr
 The `height` of `100vh` makes the `body` take up the full height of the browser viewport, while the light gray background color provides a subtle base for the page.
 
 Lastly, set a `text-align` property with the value of `center`. This will center all inline-content contained within the page unless a child element overrides it with its own alignment.
+
+## Step 4
+
+Now that the body has been styled, you are going to create a container card for the Game Settings panel.
+
+To start, add a class of `settings-card` to your `div` element.
