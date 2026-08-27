@@ -51,3 +51,7 @@ Within your `.settings-card` selector set the `margin` property to `auto`.
 Setting the `margin` property to `auto` automatically adjusts the margins of an element to evenly distribute the remaining space in its container, commonly used to center block-level elements horizontally.
 
 And last, set a `text-align` property with the value of `left`. This will align the inline content, such as text, to the left side of its containing element.
+
+## Step 7
+
+Now create an `h1` selector and set the `text-align` property with a value of `center`. This will center your `h1` elements.
