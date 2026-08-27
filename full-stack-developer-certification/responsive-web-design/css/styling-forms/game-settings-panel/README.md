@@ -31,3 +31,15 @@ Lastly, set a `text-align` property with the value of `center`. This will center
 Now that the body has been styled, you are going to create a container card for the Game Settings panel.
 
 To start, add a class of `settings-card` to your `div` element.
+
+## Step 5
+
+Now it is time to style the `settings-card` container. Create a class selector for `settings-card`.
+
+This will be where all of your formatting for the container will go. Set the `max-width` to `250px` to define the overall size of your container.
+
+Next, set your `padding` to `20px` so that your content has space between it and the border of the container.
+
+After this, create a rounded edge by setting your `border-radius` to `10px`.
+
+Then set a `box-shadow` with the values of `0 2px 6px rgba(0,0,0,0.2)`. This will create a subtle "lifted" look that will create depth for the container.
