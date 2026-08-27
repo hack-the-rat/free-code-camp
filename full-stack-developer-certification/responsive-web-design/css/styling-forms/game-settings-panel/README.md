@@ -43,3 +43,11 @@ Next, set your `padding` to `20px` so that your content has space between it and
 After this, create a rounded edge by setting your `border-radius` to `10px`.
 
 Then set a `box-shadow` with the values of `0 2px 6px rgba(0,0,0,0.2)`. This will create a subtle "lifted" look that will create depth for the container.
+
+## Step 6
+
+Within your `.settings-card` selector set the `margin` property to `auto`.
+
+Setting the `margin` property to `auto` automatically adjusts the margins of an element to evenly distribute the remaining space in its container, commonly used to center block-level elements horizontally.
+
+And last, set a `text-align` property with the value of `left`. This will align the inline content, such as text, to the left side of its containing element.
