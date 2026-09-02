@@ -117,3 +117,9 @@ CSS pseudo-classes can be chained. You can add one pseudo-class or pseudo-elemen
 Create a new selector for `input[type="checkbox"]`. Add the `:checked` pseudo-class followed by the `::after` pseudo-element. This allows you to add a visual indicator when the checkbox is checked.
 
 Next, add `content` with the value of `"✓"`.
+
+## Step 15
+
+In the declaration for the `input[type="checkbox"]:checked::after` selector, set the `display` to `block`. Setting your `display` property as `block` makes the element a block-level element, meaning that it takes up the full width of its container and starts on a new line, allowing you to control its width, height, and spacing more easily.
+
+Next, set `text-align` to `center`. This will center the inline content (like text, or inline elements) horizontally within the block. The block will still take up the full width of its container but everything inside it will be aligned to the center.

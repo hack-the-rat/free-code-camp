@@ -43,4 +43,6 @@ input[type="checkbox"]:checked {
 
 input[type="checkbox"]:checked::after {
     content: "✓";
+    display: block;
+    text-align: center;
 }
