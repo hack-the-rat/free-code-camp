@@ -32,4 +32,6 @@ input[type="checkbox"] {
     border-radius: 4px;
     background-color: white;
     transition: all 0.3s;
+    vertical-align: middle;
+    margin: 15px;
 }

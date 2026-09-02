@@ -89,3 +89,11 @@ Now that you can see your checkbox again, you are going to finalize some styling
 Then give it a `background-color` of `white` to make the center of your checkbox stand out from the background of the container.
 
 Since you are going to be setting up a custom transition for when a user clicks on the checkboxes, set a `transition` with the value of `all` and `0.3s` so that the transition happens smoothly over 0.3 seconds rather than instantly.
+
+## Step 12
+
+Next, set a `vertical-align` property with a value of `middle`.
+
+The `vertical-align` property controls how `inline` or `inline-block` elements align vertically with the surrounding text or other inline elements. It's often used to adjust the vertical position of elements like images, icons, or text within a line.
+
+Then finalize your checkbox with a `margin` property of `15px`.
