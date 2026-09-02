@@ -123,3 +123,13 @@ Next, add `content` with the value of `"✓"`.
 In the declaration for the `input[type="checkbox"]:checked::after` selector, set the `display` to `block`. Setting your `display` property as `block` makes the element a block-level element, meaning that it takes up the full width of its container and starts on a new line, allowing you to control its width, height, and spacing more easily.
 
 Next, set `text-align` to `center`. This will center the inline content (like text, or inline elements) horizontally within the block. The block will still take up the full width of its container but everything inside it will be aligned to the center.
+
+## Step 16
+
+To finish setting up the visual effect of your checkbox, set the `font-weight` property with a value of `bold`. This will increase the visibility of the checkmark.
+
+Now that this is easier to see, change the `color` to a value of `white`. This is going to change the color of the checkmark within the checkbox when it is checked.
+
+Lastly, alter the `line-height` to a value of `20px`.
+
+With that, you have completed the game settings panel!
