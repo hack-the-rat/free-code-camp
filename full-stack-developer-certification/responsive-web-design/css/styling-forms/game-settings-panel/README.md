@@ -63,3 +63,13 @@ You need some spacing between the checkboxes and the labels. Begin by using the 
 Next, set a `margin` property of `8px auto` to add vertical spacing between elements. This will create consistent spacing above and below each element, helping to separate content and improve readability.
 
 Finally, set the `cursor` property to `pointer` on the `label` elements. This will change the cursor to a hand icon when a user hovers over a `label`, signaling that the element is clickable and improving the overall user experience.
+
+## Step 9
+
+Next up, you are going to enlarge the checkboxes for better visibility.
+
+Begin by setting up a selector for `input`, but specifically targeting your `[type="checkbox"]`.
+
+Within your selector, set the `width` and the `height` to `20px`. This makes it larger than it was before.
+
+And to conform with your `cursor` setting that was set on the labels, add `cursor` and assign the value of `pointer` to it. After that, when you hover over the checkboxes it will display a pointer.
