@@ -73,3 +73,11 @@ Begin by setting up a selector for `input`, but specifically targeting your `[ty
 Within your selector, set the `width` and the `height` to `20px`. This makes it larger than it was before.
 
 And to conform with your `cursor` setting that was set on the labels, add `cursor` and assign the value of `pointer` to it. After that, when you hover over the checkboxes it will display a pointer.
+
+## Step 10
+
+Now you are going to remove the default checkbox that is applied by browsers. Inside of your `input[type='checkbox']` selector, add `appearance` with a value of `none`.
+
+Setting the `appearance` property to `none` will clear the appearance the browser applies to checkboxes, allowing you to show the style you want.
+
+After doing so, since the checkbox won't be visible anymore, set a `border` with `2px` thickness, a `solid` style, and a hex code of `#f1be32`.
