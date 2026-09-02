@@ -40,3 +40,7 @@ input[type="checkbox"]:checked {
     background-color: #f1be32;
     border-color: #e2a60d;
 }
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+}

@@ -107,3 +107,13 @@ First, start with the format for the type selector by setting it as `input[type=
 Next, give it a `background-color` with the value of `#f1be32`.
 
 And lastly, set the `border-color` to have a value of `#e2a60d`.
+
+## Step 14
+
+Now that your checkboxes change color when the user clicks them, you are going to apply some styling to make it a little more obvious that the checkbox has been selected.
+
+CSS pseudo-classes can be chained. You can add one pseudo-class or pseudo-element after another to target elements that meet multiple conditions.
+
+Create a new selector for `input[type="checkbox"]`. Add the `:checked` pseudo-class followed by the `::after` pseudo-element. This allows you to add a visual indicator when the checkbox is checked.
+
+Next, add `content` with the value of `"✓"`.
