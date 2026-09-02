@@ -81,3 +81,11 @@ Now you are going to remove the default checkbox that is applied by browsers. In
 Setting the `appearance` property to `none` will clear the appearance the browser applies to checkboxes, allowing you to show the style you want.
 
 After doing so, since the checkbox won't be visible anymore, set a `border` with `2px` thickness, a `solid` style, and a hex code of `#f1be32`.
+
+## Step 11
+
+Now that you can see your checkbox again, you are going to finalize some styling options for it. Give them a rounded edge by adding a `border-radius` of `4px` to your `input[type="checkbox"]` selector.
+
+Then give it a `background-color` of `white` to make the center of your checkbox stand out from the background of the container.
+
+Since you are going to be setting up a custom transition for when a user clicks on the checkboxes, set a `transition` with the value of `all` and `0.3s` so that the transition happens smoothly over 0.3 seconds rather than instantly.
