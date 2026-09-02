@@ -97,3 +97,13 @@ Next, set a `vertical-align` property with a value of `middle`.
 The `vertical-align` property controls how `inline` or `inline-block` elements align vertically with the surrounding text or other inline elements. It's often used to adjust the vertical position of elements like images, icons, or text within a line.
 
 Then finalize your checkbox with a `margin` property of `15px`.
+
+## Step 13
+
+In a previous lesson, you learned about pseudo-classes and pseudo-elements in CSS. You are going to apply that knowledge now by creating a combined type selector with pseudo-class selector.
+
+First, start with the format for the type selector by setting it as `input[type="checkbox"]` and appending `:checked` to the end of it.
+
+Next, give it a `background-color` with the value of `#f1be32`.
+
+And lastly, set the `border-color` to have a value of `#e2a60d`.
