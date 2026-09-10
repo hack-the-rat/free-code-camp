@@ -19,3 +19,13 @@ The content is surrounded by a space called padding, similar to how bubble wrap 
 Think of the border like the cardboard box your item was shipped in.
 
 Change the `src` attribute to `https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png`
+
+## Step 4
+
+Margin is the area outside of the box, and can be used to control the space between other boxes or elements.
+
+Here the bottom element has a larger top margin, pushing it further down the page.
+
+Now that you quickly reviewed the CSS box model, it's time to get started on the Rothko painting.
+
+Remove the `img` element.
