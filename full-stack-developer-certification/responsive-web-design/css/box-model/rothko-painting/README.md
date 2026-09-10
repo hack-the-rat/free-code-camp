@@ -11,3 +11,11 @@ In previous lessons about the CSS box model, you learned that every HTML element
 Imagine you receive a box from your favorite online retailer — the content is the item in the box, or in your case, a header, paragraph, or image element.
 
 Change the `src` attribute in the `<img>` from `https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-1.png` to `https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-2.png`.
+
+## Step 3
+
+The content is surrounded by a space called padding, similar to how bubble wrap separates an item from the box around it.
+
+Think of the border like the cardboard box your item was shipped in.
+
+Change the `src` attribute to `https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png`
