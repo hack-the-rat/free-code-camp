@@ -99,3 +99,7 @@ Using the `margin` property, give the `.frame` element vertical margin of `20px`
 Add a new `div` element inside of your `.canvas` element.
 
 Give the new `div` the `class` attribute with a value of `one`. This will be your first rectangle.
+
+## Step 16
+
+Write a new rule that targets `.one` and set its `width` to 425 pixels.
