@@ -63,3 +63,9 @@ Add the `height` property with the value `600px` to your `.canvas` rule.
 ## Step 9
 
 Change the `background-color` of the canvas to `#4d0f00`.
+
+## Step 10
+
+Every painting needs a frame.
+
+Wrap the `.canvas` element in another `div`. Give that `div` the `frame` class.
