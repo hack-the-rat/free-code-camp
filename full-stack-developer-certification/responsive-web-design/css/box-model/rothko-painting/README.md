@@ -107,3 +107,7 @@ Write a new rule that targets `.one` and set its `width` to 425 pixels.
 ## Step 17
 
 Now set the `height` for `.one` to 150 pixels.
+
+## Step 18
+
+Set the `background-color` of `.one` to `#efb762`.
