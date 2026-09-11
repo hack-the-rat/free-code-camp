@@ -37,3 +37,9 @@ Add a `div` element in the `body`.
 Set the `class` attribute equal to `canvas`.
 
 This will act as the canvas for your painting.
+
+## Step 6
+
+Before you can start styling the `div` you added, you need to link your CSS to your HTML.
+
+Add a `link` element to link your `styles.css` file. Set the `href` to `styles.css`, and remember to set the `rel` attribute to `stylesheet`.
