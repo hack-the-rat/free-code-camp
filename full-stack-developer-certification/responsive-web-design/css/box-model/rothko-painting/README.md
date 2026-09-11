@@ -87,3 +87,9 @@ In `.frame`, set its `width` to 500 pixels.
 Use padding to adjust the spacing within an element.
 
 In `.frame`, use the `padding` shorthand property to increase the space between the `.frame` and `.canvas` elements by `50px`. The shorthand will increase space in the top, bottom, left, and right of the element's border and canvas within.
+
+## Step 14
+
+Use margins to adjust the spacing outside of an element.
+
+Using the `margin` property, give the `.frame` element vertical margin of `20px`, and horizontal margin of `auto`. This will move the frame down 20 pixels and horizontally center it on the page.
