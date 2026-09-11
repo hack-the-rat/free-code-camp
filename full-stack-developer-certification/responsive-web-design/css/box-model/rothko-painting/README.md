@@ -75,3 +75,9 @@ Wrap the `.canvas` element in another `div`. Give that `div` the `frame` class.
 Write a new rule using the `.frame` class selector.
 
 Use the `border` shorthand declaration to give the `.frame` element a solid, black border with a width of `50px`.
+
+## Step 12
+
+The frame is much too wide.
+
+In `.frame`, set its `width` to 500 pixels.
