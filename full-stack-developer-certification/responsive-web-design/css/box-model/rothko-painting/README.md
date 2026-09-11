@@ -59,3 +59,7 @@ Even though your `<div>` has no text, it's still treated as a box with content. 
 ## Step 8
 
 Add the `height` property with the value `600px` to your `.canvas` rule.
+
+## Step 9
+
+Change the `background-color` of the canvas to `#4d0f00`.
