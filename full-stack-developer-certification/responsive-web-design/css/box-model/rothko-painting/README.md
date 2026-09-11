@@ -69,3 +69,9 @@ Change the `background-color` of the canvas to `#4d0f00`.
 Every painting needs a frame.
 
 Wrap the `.canvas` element in another `div`. Give that `div` the `frame` class.
+
+## Step 11
+
+Write a new rule using the `.frame` class selector.
+
+Use the `border` shorthand declaration to give the `.frame` element a solid, black border with a width of `50px`.
