@@ -81,3 +81,9 @@ Use the `border` shorthand declaration to give the `.frame` element a solid, bla
 The frame is much too wide.
 
 In `.frame`, set its `width` to 500 pixels.
+
+## Step 13
+
+Use padding to adjust the spacing within an element.
+
+In `.frame`, use the `padding` shorthand property to increase the space between the `.frame` and `.canvas` elements by `50px`. The shorthand will increase space in the top, bottom, left, and right of the element's border and canvas within.
