@@ -43,3 +43,15 @@ This will act as the canvas for your painting.
 Before you can start styling the `div` you added, you need to link your CSS to your HTML.
 
 Add a `link` element to link your `styles.css` file. Set the `href` to `styles.css`, and remember to set the `rel` attribute to `stylesheet`.
+
+## Step 7
+
+Time for CSS.
+
+Even though your `<div>` has no text, it's still treated as a box with content. Write a CSS rule that uses the `.canvas` class selector and set its `width` to 500 pixels. Here's a CSS rule that sets the width of the class `card` to 300 pixels:
+
+```css
+.card {
+  width: 300px;
+}
+```
