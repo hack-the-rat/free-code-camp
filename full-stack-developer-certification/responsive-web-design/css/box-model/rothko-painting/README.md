@@ -29,3 +29,11 @@ Here the bottom element has a larger top margin, pushing it further down the pag
 Now that you quickly reviewed the CSS box model, it's time to get started on the Rothko painting.
 
 Remove the `img` element.
+
+## Step 5
+
+Add a `div` element in the `body`.
+
+Set the `class` attribute equal to `canvas`.
+
+This will act as the canvas for your painting.
