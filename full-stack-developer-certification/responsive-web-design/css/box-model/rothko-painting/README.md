@@ -55,3 +55,7 @@ Even though your `<div>` has no text, it's still treated as a box with content. 
   width: 300px;
 }
 ```
+
+## Step 8
+
+Add the `height` property with the value `600px` to your `.canvas` rule.
