@@ -111,3 +111,9 @@ Now set the `height` for `.one` to 150 pixels.
 ## Step 18
 
 Set the `background-color` of `.one` to `#efb762`.
+
+## Step 19
+
+Use margins to position the `.one` element on the canvas.
+
+Add the shorthand `margin` property with a vertical margin of `20px` and a horizontal margin of `auto`.
