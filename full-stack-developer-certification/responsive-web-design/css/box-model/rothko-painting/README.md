@@ -103,3 +103,7 @@ Give the new `div` the `class` attribute with a value of `one`. This will be you
 ## Step 16
 
 Write a new rule that targets `.one` and set its `width` to 425 pixels.
+
+## Step 17
+
+Now set the `height` for `.one` to 150 pixels.
