@@ -123,3 +123,9 @@ Add the shorthand `margin` property with a vertical margin of `20px` and a horiz
 Now `.one` is centered horizontally, but its top margin is pushing past the canvas and onto the frame's border, shifting the entire canvas down 20 pixels.
 
 Add `padding` of `1px` to the `.canvas` element to give the `.one` element something solid to push off of.
+
+## Step 21
+
+Adding 1 pixel of padding to the top, bottom, left, and right of the canvas changed its dimensions to 502 pixels x 602 pixels.
+
+Replace the `padding` property with `overflow` set to `hidden` - changing the canvas back to its original dimensions.
