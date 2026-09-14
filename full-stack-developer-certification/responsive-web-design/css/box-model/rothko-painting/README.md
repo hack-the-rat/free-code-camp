@@ -145,3 +145,7 @@ Set the `height` of the `.two` element to 200 pixels.
 ## Step 25
 
 Set the `background-color` of the `.two` element to `#8f0401`.
+
+## Step 26
+
+Center the `.two` element by setting its `margin` to `auto`.
