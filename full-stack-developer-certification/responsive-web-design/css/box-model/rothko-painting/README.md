@@ -133,3 +133,7 @@ Replace the `padding` property with `overflow` set to `hidden` - changing the ca
 ## Step 22
 
 Add another `div` with a `class` value of `two` just below your `one` element. This will be your second rectangle.
+
+## Step 23
+
+Create a new CSS rule using the `.two` selector and set its `width` to 475 pixels.
