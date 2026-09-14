@@ -149,3 +149,7 @@ Set the `background-color` of the `.two` element to `#8f0401`.
 ## Step 26
 
 Center the `.two` element by setting its `margin` to `auto`.
+
+## Step 27
+
+Create a new `div` with a `class` value of `three` right under the `.two` element. This will be your third rectangle.
