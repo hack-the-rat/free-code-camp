@@ -153,3 +153,9 @@ Center the `.two` element by setting its `margin` to `auto`.
 ## Step 27
 
 Create a new `div` with a `class` value of `three` right under the `.two` element. This will be your third rectangle.
+
+## Step 28
+
+You don't always have to use pixels when sizing an element.
+
+Create a new rule, `.three`, and set its `width` to `91%`.
