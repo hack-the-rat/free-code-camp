@@ -159,3 +159,7 @@ Create a new `div` with a `class` value of `three` right under the `.two` elemen
 You don't always have to use pixels when sizing an element.
 
 Create a new rule, `.three`, and set its `width` to `91%`.
+
+## Step 29
+
+Set the `height` of `.three` to `28%`.
