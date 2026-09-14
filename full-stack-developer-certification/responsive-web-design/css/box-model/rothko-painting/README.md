@@ -141,3 +141,7 @@ Create a new CSS rule using the `.two` selector and set its `width` to 475 pixel
 ## Step 24
 
 Set the `height` of the `.two` element to 200 pixels.
+
+## Step 25
+
+Set the `background-color` of the `.two` element to `#8f0401`.
