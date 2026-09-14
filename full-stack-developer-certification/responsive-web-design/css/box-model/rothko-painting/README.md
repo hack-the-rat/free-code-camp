@@ -167,3 +167,7 @@ Set the `height` of `.three` to `28%`.
 ## Step 30
 
 Change the `background-color` of `.three` to `#b20403`.
+
+## Step 31
+
+Center the `.three` element on the canvas by setting its `margin` to `auto`.
