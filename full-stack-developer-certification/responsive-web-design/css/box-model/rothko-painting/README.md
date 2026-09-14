@@ -129,3 +129,7 @@ Add `padding` of `1px` to the `.canvas` element to give the `.one` element somet
 Adding 1 pixel of padding to the top, bottom, left, and right of the canvas changed its dimensions to 502 pixels x 602 pixels.
 
 Replace the `padding` property with `overflow` set to `hidden` - changing the canvas back to its original dimensions.
+
+## Step 22
+
+Add another `div` with a `class` value of `two` just below your `one` element. This will be your second rectangle.
