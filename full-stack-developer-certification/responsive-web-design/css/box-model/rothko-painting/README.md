@@ -231,3 +231,9 @@ Use the `border-radius` property on the `.two` selector, to set its top-left rad
 The `border-radius` property accepts up to four values to round the top-left, top-right, bottom-right, and bottom-left corners.
 
 Round the top-left corner of `.three` by 30 pixels, the top-right by 25 pixels, the bottom-right by 60 pixels, and bottom-left by 12 pixels.
+
+## Step 42
+
+Rotate each rectangle to give them more of an imperfect, hand-painted look.
+
+Use the `transform` property on the `.one` selector to `rotate` it counterclockwise by 0.6 degrees.
