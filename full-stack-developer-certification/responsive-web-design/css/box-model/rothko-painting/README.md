@@ -221,3 +221,7 @@ Add a `box-shadow` to `.three` with the values `0 0 5px 5px #b20403`.
 The corners of each rectangle are still too sharp.
 
 Round each corner of the `.one` element by 9 pixels, using the `border-radius` property.
+
+## Step 40
+
+Use the `border-radius` property on the `.two` selector, to set its top-left radius and bottom-right radius to `8px`, and top-right radius and bottom-left radius to `10px`.
