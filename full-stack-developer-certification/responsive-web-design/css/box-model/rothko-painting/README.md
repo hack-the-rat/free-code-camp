@@ -225,3 +225,9 @@ Round each corner of the `.one` element by 9 pixels, using the `border-radius` p
 ## Step 40
 
 Use the `border-radius` property on the `.two` selector, to set its top-left radius and bottom-right radius to `8px`, and top-right radius and bottom-left radius to `10px`.
+
+## Step 41
+
+The `border-radius` property accepts up to four values to round the top-left, top-right, bottom-right, and bottom-left corners.
+
+Round the top-left corner of `.three` by 30 pixels, the top-right by 25 pixels, the bottom-right by 60 pixels, and bottom-left by 12 pixels.
