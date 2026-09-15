@@ -211,3 +211,7 @@ Increase the area and soften the edges of `.one` by setting its `box-shadow` to 
 ## Step 37
 
 Use the same `box-shadow` declaration for `.two`, but change the color from `#efb762` to `#8f0401`.
+
+## Step 38
+
+Add a `box-shadow` to `.three` with the values `0 0 5px 5px #b20403`.
