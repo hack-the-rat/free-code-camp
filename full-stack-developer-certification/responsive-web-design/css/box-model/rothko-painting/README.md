@@ -201,3 +201,9 @@ Create a rule that targets both `.one` and `.two` and increase their `blur` effe
 ## Step 35
 
 Increase the `blur` of `.three` by 2 pixels.
+
+## Step 36
+
+The rectangles are too small and their edges don't have the soft quality of a painting.
+
+Increase the area and soften the edges of `.one` by setting its `box-shadow` to `0 0 3px 3px #efb762`.
