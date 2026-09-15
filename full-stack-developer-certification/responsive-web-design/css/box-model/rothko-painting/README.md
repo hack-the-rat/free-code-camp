@@ -197,3 +197,7 @@ p {
 ## Step 34
 
 Create a rule that targets both `.one` and `.two` and increase their `blur` effect by 1 pixel.
+
+## Step 35
+
+Increase the `blur` of `.three` by 2 pixels.
