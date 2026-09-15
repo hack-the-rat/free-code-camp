@@ -237,3 +237,7 @@ Round the top-left corner of `.three` by 30 pixels, the top-right by 25 pixels, 
 Rotate each rectangle to give them more of an imperfect, hand-painted look.
 
 Use the `transform` property on the `.one` selector to `rotate` it counterclockwise by 0.6 degrees.
+
+## Step 43
+
+Rotate the `.two` element clockwise by 0.4 degrees.
