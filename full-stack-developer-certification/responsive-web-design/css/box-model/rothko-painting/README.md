@@ -215,3 +215,9 @@ Use the same `box-shadow` declaration for `.two`, but change the color from `#ef
 ## Step 38
 
 Add a `box-shadow` to `.three` with the values `0 0 5px 5px #b20403`.
+
+## Step 39
+
+The corners of each rectangle are still too sharp.
+
+Round each corner of the `.one` element by 9 pixels, using the `border-radius` property.
