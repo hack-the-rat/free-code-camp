@@ -207,3 +207,7 @@ Increase the `blur` of `.three` by 2 pixels.
 The rectangles are too small and their edges don't have the soft quality of a painting.
 
 Increase the area and soften the edges of `.one` by setting its `box-shadow` to `0 0 3px 3px #efb762`.
+
+## Step 37
+
+Use the same `box-shadow` declaration for `.two`, but change the color from `#efb762` to `#8f0401`.
