@@ -241,3 +241,9 @@ Use the `transform` property on the `.one` selector to `rotate` it counterclockw
 ## Step 43
 
 Rotate the `.two` element clockwise by 0.4 degrees.
+
+## Step 44
+
+Rotate `.three` counterclockwise by 0.2 degrees.
+
+With this final step, your Rothko painting is now complete.
