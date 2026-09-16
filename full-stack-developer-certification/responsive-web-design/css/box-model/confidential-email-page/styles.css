@@ -31,3 +31,7 @@
     border: 5px solid crimson;
     font-weight: bold;
 }
+
+.blurred {
+    filter: blur(3px);
+}
