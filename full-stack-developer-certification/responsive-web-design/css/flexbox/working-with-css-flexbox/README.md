@@ -215,3 +215,649 @@ div {
 ```
 
 CSS flexbox is a powerful layout model that provides a flexible and efficient way to arrange elements within a container. By understanding the key concepts of flex containers, flex items, and the various flex properties, you can create dynamic and responsive websites that adapt to different screen sizes and orientations.
+
+## What Are Some Common Flex Properties, and How Do They Work?
+
+Flex properties control how elements behave inside a flex layout, from container-level distribution to item-level self-alignment. We'll cover some of the most commonly used ones in this lesson: `flex-wrap`, `flex-flow`, `justify-content`, `align-items`, and `align-self`.
+
+### Wrapping Items with `flex-wrap`
+
+Let's start with `flex-wrap`. This property determines how flex items are wrapped within a flex container to fit the available space. `flex-wrap` can take three possible values: `nowrap`, `wrap`, and `wrap-reverse`. `nowrap` is the default value: flex items won't be wrapped onto a new line, even if their width exceeds the container's width.
+
+In the [code](https://codesandbox.io/p/sandbox/sdd2dw) below, we have three `div` elements. Let's focus on the `width`. The bordered `main` container has a `width` of `200px`, while its three child `div` elements combined have a `width` of `240px` (`80px` each):
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  width: 200px;
+  display: flex;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+The width of the `div` elements exceeds the width of their container, but by default they will be shrunk to fit the available space. If you do want to wrap them when they exceed the width of their container, you can set `flex-wrap: wrap` on the flex [container](https://codesandbox.io/p/sandbox/8rljz7):
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+### Combining Direction and Wrap with `flex-flow`
+
+The `div` elements will be rearranged in rows when they exceed the width of their container. You can wrap flex items in reverse order with `flex-wrap: wrap-reverse`. *The `flex-flow` property is a shorthand property for `flex-direction` and `flex-wrap`*. In this [example](https://codesandbox.io/p/sandbox/nnsp4f), we set `flex-direction` to `column` and `flex-wrap` to `wrap-reverse`:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-flow: column wrap-reverse;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+### Aligning Items Along the Main Axis with `justify-content`
+
+Great. Now let's talk about `justify-content`. `justify-content` aligns the child elements along the main axis of the flex container. If you assign the value `flex-start` to `justify-content`, the flex [items](https://codesandbox.io/p/sandbox/clgdk4) will be aligned to the start of the main axis. This could be horizontal or vertical:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+With `justify-content: flex-end`, flex [items](https://codesandbox.io/p/sandbox/pzxcxk) are aligned to the end of the main axis, horizontally or vertically.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+To center the flex [items](https://codesandbox.io/p/sandbox/w87mpj) along the main axis, you can use `justify-content: center`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+To distribute the elements along the main axis with no space at the edges, you can use `justify-content: space-between`. The first item sits at the start of the main axis, the last item sits at the end, and any remaining space is distributed between adjacent [items](https://codesandbox.io/p/sandbox/f55d9q).
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+`justify-content: space-around` distributes flex items evenly along the main axis, adding a space before the first item and after the last [item](https://codesandbox.io/p/sandbox/g4r6yg). This additional space is half of the space between each pair of adjacent items. If there's only one item to distribute, it will be centered.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+And last but not least, we have `justify-content: space-evenly`, which distributes the items evenly along the main axis. The space between the items and the space before and after the first and last [elements](https://codesandbox.io/p/sandbox/7xvx96) are exactly the same:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+### Aligning Items Along the Cross Axis with `align-items`
+
+Great. Now you know how to distribute flex items along the main axis. But you may also want to distribute them along the cross axis. Remember that the cross axis is perpendicular to the main axis. You can do this with the `align-items` property. To center the items along the cross axis, you just need to add `align-items: center` to the flex [container](https://codesandbox.io/p/sandbox/ls4ts3):
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+In this example, the flex items are centered along the cross axis, which is vertical by default. If the cross axis is horizontal, they will be centered horizontally instead. In contrast, `align-items: flex-start` aligns the [items](https://codesandbox.io/p/sandbox/8shzyp) to the start of the cross axis:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+The opposite is `align-items: flex-end`. This will align flex [items](https://codesandbox.io/p/sandbox/yc2294) to the end of the cross axis, vertically or horizontally.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-end;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+}
+```
+
+To stretch the flex items along the cross axis, you can use `align-items: stretch`. This only affects items whose size on the cross axis is `auto`; items with an explicit size on the cross axis (for example, a set `height` in a row container) won't stretch. The affected items will fill the [container](https://codesandbox.io/p/sandbox/q6mglq) in the direction of the cross axis.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: stretch;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+  height: auto;
+}
+```
+
+### Overriding Alignment for a Single Item with `align-self`
+
+And finally, you can use the `align-self` property to assign a different alignment on the cross axis to an individual flex item. For [example](https://codesandbox.io/p/sandbox/kn2s2c), you can stretch it with `align-self: stretch`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+  align-self: stretch;
+}
+```
+
+You can center [it](https://codesandbox.io/p/sandbox/ykywhf) with `align-self: center`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+  align-self: center;
+}
+```
+
+You can align [it](https://codesandbox.io/p/sandbox/3c9tzj) to the start of the cross axis with `align-self: flex-start`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+  align-self: flex-start;
+}
+```
+
+Or you can align [it](https://codesandbox.io/p/sandbox/9tf66g) to the end of the cross axis with `align-self: flex-end`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<main>
+  <div id="first-div"></div>
+  <div id="second-div"></div>
+  <div id="third-div"></div>
+</main>
+```
+
+```css
+main {
+  display: flex;
+  height: 300px;
+  align-items: flex-start;
+  border: 2px solid #444;
+}
+
+div {
+  width: 80px;
+  height: 50px;
+}
+
+#first-div {
+  background-color: #4d70b2;
+}
+
+#second-div {
+  background-color: #5c4db2;
+}
+
+#third-div {
+  background-color: #4da3b2;
+  align-self: flex-end;
+}
+```
+
+There are other flex properties and values that you can choose from to create the responsive layout that you envision, but these are the most commonly used ones. With these CSS flex properties and your new knowledge of the CSS flex model, you can start creating responsive layouts to create a smooth and inclusive user experience across devices.
