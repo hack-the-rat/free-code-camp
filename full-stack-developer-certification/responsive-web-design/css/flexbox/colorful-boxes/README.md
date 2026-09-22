@@ -29,3 +29,7 @@ Inside each `.box` element, add an `h2` element with the text `Box` followed by 
 ## Step 6
 
 Now it's time to create the color name for the boxes. To do this, add a `p` element below each `h2` element with these color names in order: `Red`, `Orange`, `Yellow`, `Green`, `Blue`, and `Indigo`. One color for each box.
+
+## Step 7
+
+Now you are going to style the `div` elements with the class `box`. First create a `.box` class selector and add the property `max-height` with the value `120px` to the `box` class selector.
