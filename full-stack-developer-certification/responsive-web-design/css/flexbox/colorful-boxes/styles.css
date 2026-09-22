@@ -38,3 +38,9 @@ h1 {
     background: #f4a261;
     order: 0;
 }
+
+.box3 {
+    background: #ffd166;
+    order: 2;
+    flex-shrink: 3;
+}

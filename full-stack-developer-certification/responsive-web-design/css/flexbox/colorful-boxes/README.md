@@ -208,3 +208,11 @@ Also, add the `order` property with a value of `0`.
 ## Step 36
 
 In your `html` file, add the class `box3` to the third `.box` element.
+
+## Step 37
+
+Now to continue styling your boxes, create a new `.box3` selector and add the `background` property with the value `#ffd166` to it.
+
+Then, add the `order` property with a value of `2` to your new selector. You'll see this box move after the `.box1` element.
+
+Also add the `flex-shrink` property with a value of `3`. This means that this box will shrink three times as much as the other boxes when there isn't enough space on its line.
