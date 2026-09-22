@@ -102,3 +102,9 @@ Make it so your flex items wrap to the next row when they run out of space.
 The `justify-content` property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
 
 Give your `.gallery` selector a `justify-content` property with `center` as the value.
+
+## Step 16
+
+The `align-items` property positions the flex content along the cross axis. In this case, with your `flex-direction` set to `row`, your cross axis would be vertical.
+
+To vertically center your images, give your `.gallery` selector an `align-items` property with `center` as the value.
