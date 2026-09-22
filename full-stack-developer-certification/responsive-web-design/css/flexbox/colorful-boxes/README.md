@@ -182,3 +182,7 @@ Still inside the `.box` selector, change the second value in `flex` from `1` to 
 The last value of the `flex` property sets the `flex-basis` property. This property sets the starting size of a flex item before it grows or shrinks.
 
 Finally, change the last value in `flex` from `100px` to `150px` inside your `.box` selector.
+
+## Step 32
+
+Going back to the `html` file, add the class `box1` to the first `div` with the class of `box`.
