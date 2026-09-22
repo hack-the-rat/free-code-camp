@@ -27,3 +27,11 @@ In order to better visualize how your elements are sized, adding a border can be
 Give your `.gallery` element a `width` of `50%` and a `border` set to `5px solid red`.
 
 Then give your `img` elements a `width` of `100%`, `padding` set to `5px`, and a `border` set to `5px solid blue`.
+
+## Step 6
+
+Notice how the blue image border extends beyond the red gallery border. This is due to the way browsers calculate the size of container elements.
+
+The `box-sizing` property is used to set this behavior. By default, the `content-box` model is used. With this model, when an element has a specific width, that width is calculated based only on the element's content. Padding and border values get added to the total width, so the element grows to accommodate these values.
+
+Try setting `box-sizing` to `content-box` explicitly, with the global `*` selector. At this point, you will not see any changes, because you are using the default value.
