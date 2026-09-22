@@ -69,3 +69,7 @@ Now add the `flex-direction` property with the value `column` to the `.box` sele
 The `align-items` property aligns flex items along the cross axis (perpendicular to the main axis).
 
 Now add the `align-items` property with the value `center` to the `.box` selector. Since the `box` class has `flex-direction: column`, the cross axis is horizontal, so `center` will center items horizontally within the box.
+
+## Step 14
+
+Now add the property `margin` with the value `10px` to the `.box` selector.
