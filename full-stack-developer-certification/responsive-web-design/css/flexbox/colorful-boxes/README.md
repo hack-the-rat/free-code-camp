@@ -21,3 +21,7 @@ Center the content of the `h1` element by setting its `text-align` property to `
 Now add a `div` element with the class `flex-container` below your `header`. Then create six `div` elements with the class `box` inside the `div` you just created.
 
 Remember that a class attribute is often used to point to a class name in a style sheet. In this case, all of the `div` elements will be styled equally according to the `.flex-container` and `.box` style definition.
+
+## Step 5
+
+Inside each `.box` element, add an `h2` element with the text `Box` followed by a space and a sequential number starting from `1`.
