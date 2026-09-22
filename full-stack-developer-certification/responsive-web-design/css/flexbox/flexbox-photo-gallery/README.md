@@ -55,3 +55,7 @@ Now your images are too big.
 Create a `.gallery img` selector to target them. Give them all a `width` of `100%` and a `max-width` of `350px`.
 
 Also set the `height` property to `300px` to keep your images a uniform size.
+
+## Step 10
+
+Remove the margin from your body element, set the `font-family` to `sans-serif`, and give it a `background-color` of `#f5f6f7` as the value.
