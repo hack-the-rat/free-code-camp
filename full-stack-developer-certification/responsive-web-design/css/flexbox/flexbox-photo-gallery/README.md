@@ -108,3 +108,9 @@ Give your `.gallery` selector a `justify-content` property with `center` as the 
 The `align-items` property positions the flex content along the cross axis. In this case, with your `flex-direction` set to `row`, your cross axis would be vertical.
 
 To vertically center your images, give your `.gallery` selector an `align-items` property with `center` as the value.
+
+## Step 17
+
+Give your `.gallery` selector a `padding` property set to `20px 10px` to create some space around the container.
+
+Then, give it a `max-width` of `1400px` and add a `margin` of `0 auto` to center it.
