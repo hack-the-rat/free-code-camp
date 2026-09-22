@@ -152,3 +152,7 @@ With the `center` value, items will be packed to the center of the alignment con
 Now to see how the `end` value works, change the `align-content` value from `center` to `end`.
 
 With the `end` value, items will be packed to the end of the alignment container.
+
+## Step 27
+
+With the `space-around` value, items are evenly distributed within the alignment container. Each item has equal space on both sides, but the space at the start and end edges is half the space between two adjacent items. To see it in action, change the `align-content` value from `end` to `space-around`.
