@@ -120,3 +120,11 @@ Then, give it a `max-width` of `1400px` and add a `margin` of `0 auto` to center
 Notice how some of your images have become distorted. This is because the images have different aspect ratios. Rather than setting each aspect ratio individually, you can use the `object-fit` property to determine how images should behave.
 
 Give your `.gallery img` selector the `object-fit` property and set it to `cover`. This will tell the image to fill the `img` container while maintaining aspect ratio, resulting in cropping to fit.
+
+## Step 19
+
+Your images need some space between them.
+
+The `gap` CSS shorthand property sets the gaps, also known as gutters, between rows and columns. The `gap` property and its `row-gap` and `column-gap` sub-properties provide this functionality for flex, grid, and multi-column layout. You apply the property to the container element.
+
+Give your `.gallery` flex container a `gap` property with `16px` as the value.
