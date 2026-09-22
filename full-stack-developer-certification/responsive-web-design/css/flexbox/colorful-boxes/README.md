@@ -156,3 +156,9 @@ With the `end` value, items will be packed to the end of the alignment container
 ## Step 27
 
 With the `space-around` value, items are evenly distributed within the alignment container. Each item has equal space on both sides, but the space at the start and end edges is half the space between two adjacent items. To see it in action, change the `align-content` value from `end` to `space-around`.
+
+## Step 28
+
+Now you are going to check on the last alignment value. Change the `align-content` value from `space-around` to `space-evenly`.
+
+With the `space-evenly` value, items are evenly distributed within the alignment container. The space between all items is exactly the same, including the space at the start and the end.
