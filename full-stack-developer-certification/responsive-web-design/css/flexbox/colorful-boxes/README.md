@@ -73,3 +73,9 @@ Now add the `align-items` property with the value `center` to the `.box` selecto
 ## Step 14
 
 Now add the property `margin` with the value `10px` to the `.box` selector.
+
+## Step 15
+
+The `font-weight` property controls font thickness.
+
+Now add the `font-weight` property with a value `bold` to the `.box` selector.
