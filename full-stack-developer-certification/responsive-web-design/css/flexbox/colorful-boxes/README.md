@@ -220,3 +220,9 @@ Also add the `flex-shrink` property with a value of `3`. This means that this bo
 ## Step 38
 
 Inside the `html` file, add the class `box4` to your fourth `.box` element.
+
+## Step 39
+
+Now create a `.box4` selector and add the `background` property with the value `#4caf50` to it.
+
+Then add the `order` property with a value of `3` to the `.box4` selector. You'll see this box move after the one with the `box3` class.
