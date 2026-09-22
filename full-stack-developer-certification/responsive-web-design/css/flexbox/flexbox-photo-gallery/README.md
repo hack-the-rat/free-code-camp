@@ -147,3 +147,9 @@ Example:
 ```
 
 Create a new selector using an `::after` pseudo-element on the `.gallery` element. Add a `content` property set to an empty string `""` and `350px` set for the `width` property.
+
+## Step 22
+
+The `alt` image attribute should describe the image content. Screen readers announce the alternative text in place of images. If the image can't be loaded, this text is presented in place of the image.
+
+To complete the project, add an `alt` attribute to all nine of your cat images to describe them. Use a value at least five characters long for each.
