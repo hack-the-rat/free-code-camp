@@ -47,3 +47,11 @@ Change the `box-sizing` property to `border-box`. Notice how your blue image bor
 Now that you have figured out your `box-sizing` approach, you can clean up the CSS you added to see the changes.
 
 Remove your `.gallery` and `img` selectors, and all rules within.
+
+## Step 9
+
+Now your images are too big.
+
+Create a `.gallery img` selector to target them. Give them all a `width` of `100%` and a `max-width` of `350px`.
+
+Also set the `height` property to `300px` to keep your images a uniform size.
