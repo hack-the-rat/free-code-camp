@@ -90,3 +90,9 @@ Flexbox has a main and cross axis. The main axis is defined by the `flex-directi
 Try the different values to see how they affect the layout.
 
 When you are done, set an explicit `flex-direction` of `row` on the `.gallery` element.
+
+## Step 14
+
+The `flex-wrap` property determines how your flex items behave when the flex container is too small. Setting it to `wrap` will allow the items to wrap to the next row or column. `nowrap` (default) will prevent your items from wrapping and shrink them if needed.
+
+Make it so your flex items wrap to the next row when they run out of space.
