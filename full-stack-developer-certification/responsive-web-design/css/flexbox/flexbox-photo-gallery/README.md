@@ -67,3 +67,11 @@ Align your `.header` text in the center. Make the text uppercase using the `text
 Give it a padding of `32px` on all sides. Set the background to `#0a0a23` and the text to `#fff` as the color values.
 
 Add a `border-bottom` with `4px solid #fdb347` as the value.
+
+## Step 12
+
+Flexbox is a one-dimensional CSS layout that can control the way items are spaced out and aligned within a container.
+
+To use it, give an element a `display` property of `flex`. This will make the element a  *flex container* . Any direct children of a flex container are called  *flex items* .
+
+Create a `.gallery` selector and make it a flex container.
