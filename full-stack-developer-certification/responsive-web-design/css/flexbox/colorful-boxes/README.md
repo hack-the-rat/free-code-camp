@@ -176,3 +176,9 @@ Now, getting back to the `.box` selector, change the first number in `flex` (cor
 The second value of the `flex` property sets the `flex-shrink` property. This property controls how much the flex item will shrink when there isn't enough space in the container for all items.
 
 Still inside the `.box` selector, change the second value in `flex` from `1` to `0`.
+
+## Step 31
+
+The last value of the `flex` property sets the `flex-basis` property. This property sets the starting size of a flex item before it grows or shrinks.
+
+Finally, change the last value in `flex` from `100px` to `150px` inside your `.box` selector.
