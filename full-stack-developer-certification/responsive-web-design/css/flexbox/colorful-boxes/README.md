@@ -33,3 +33,7 @@ Now it's time to create the color name for the boxes. To do this, add a `p` elem
 ## Step 7
 
 Now you are going to style the `div` elements with the class `box`. First create a `.box` class selector and add the property `max-height` with the value `120px` to the `box` class selector.
+
+## Step 8
+
+Still inside the `.box` selector, add the property `color` with the value `#000`. This is going to make all text of `.box` elements to have the `#000` color.
