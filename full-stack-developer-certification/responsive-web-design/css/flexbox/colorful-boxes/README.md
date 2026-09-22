@@ -194,3 +194,7 @@ Now you are going to organize the boxes inside your flexbox container. First, cr
 Then, add the property `order` with the value `1`. You'll see the first box move to the end. This happens because the `box` class already has an `order` value of `0`, and items with higher order values appear later.
 
 Also add the `flex-grow` property with a value of `1`. This will make the box grow to fill extra space on its line.
+
+## Step 34
+
+Going back to the `html` file, add the class `box2` to the second `.box` element.
