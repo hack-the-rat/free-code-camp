@@ -140,3 +140,9 @@ Add the property `align-content` with the value `space-between` to see how the b
 Now try another alignment value. Change the `align-content` value from `space-between` to `start`.
 
 With the `start` value, items are packed toward the start edge of the alignment container.
+
+## Step 25
+
+Next on the list is the `center` value. Change `align-content` value from `start` to `center`.
+
+With the `center` value, items will be packed to the center of the alignment container.
