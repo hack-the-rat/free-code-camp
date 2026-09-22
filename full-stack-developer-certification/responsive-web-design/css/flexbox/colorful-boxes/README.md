@@ -108,3 +108,11 @@ Add the property `order` with the value `0` to the `.box` selector.
 ## Step 19
 
 Create a `.flex-container` selector and set the `display` property to the value `flex`.
+
+## Step 20
+
+The `flex-wrap` property defines whether flex items are forced onto one line or can wrap onto multiple lines.
+
+By default, flex items have a value of `nowrap`, meaning they stay on a single line even if they overflow the container. The `wrap` value instead makes flex items wrap onto new lines when they don't fit in the container's width, creating a more flexible, responsive layout.
+
+To continue, add the `flex-wrap` property with the value `wrap` to the `.flex-container` class selector.
