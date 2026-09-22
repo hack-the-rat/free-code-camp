@@ -41,3 +41,9 @@ Try setting `box-sizing` to `content-box` explicitly, with the global `*` select
 The `border-box` sizing model does the opposite of `content-box`. The total width of the element, including padding and border, will be the explicit width set. The content of the element will shrink to make room for the padding and border.
 
 Change the `box-sizing` property to `border-box`. Notice how your blue image borders now fit within your red gallery border.
+
+## Step 8
+
+Now that you have figured out your `box-sizing` approach, you can clean up the CSS you added to see the changes.
+
+Remove your `.gallery` and `img` selectors, and all rules within.
