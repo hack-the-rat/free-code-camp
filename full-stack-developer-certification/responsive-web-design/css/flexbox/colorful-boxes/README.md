@@ -236,3 +236,7 @@ Add the class `box5` to your fifth `.box` element.
 Now create a `.box5` selector and add the `background` property with the value `#457b9d` to it.
 
 Then add the `order` property with a value of `4` to your new selector. You'll see this box move after the one with the `box4` class.
+
+## Step 42
+
+Finally add the class `box6` to the last of your `.box` elements.
