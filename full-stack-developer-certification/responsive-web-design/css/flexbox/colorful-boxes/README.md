@@ -49,3 +49,9 @@ In this case, `1px` is `border-width`, which defines the thickness of the border
 The `display` property controls how an element is rendered on the page. When you define it with the `flex` value, this enables flexbox layout mode, which gives you control to arrange and align the items inside the container.
 
 Now add the property `display` with the value `flex` to the `.box` selector.
+
+## Step 11
+
+The `flex` property controls the size and behavior of the items inside a flexible container. It is composed by three properties: `flex-grow`, `flex-shrink`, and `flex-basis`.
+
+Now add the `flex` property with the value `1 1 100px` to the `.box` selector. This will make each box start at `100px`, allowing them to grow to fill available space, or shrink when needed.
