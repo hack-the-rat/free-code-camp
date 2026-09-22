@@ -15,4 +15,5 @@ h1 {
     font-weight: bold;
     font-size: 1.125rem;
     border-radius: 5px;
+    order: 0;
 }

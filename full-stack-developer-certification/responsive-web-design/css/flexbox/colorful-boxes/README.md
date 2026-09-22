@@ -98,3 +98,9 @@ The `border-radius` property rounds the corners of an element's border. You can 
 * Four values, which set the border radius clockwise starting from top-left corner.
 
 Now add the property `border-radius` with the value `5px` to the `.box` selector.
+
+## Step 18
+
+The `order` property specifies the order of a flex item relative to other flex items inside the same container. By default, all flex items have an `order` value of `0`, meaning they appear in the order they're written in the HTML. Items with lower `order` values appear first, while items with higher values appear last.
+
+Add the property `order` with the value `0` to the `.box` selector.
