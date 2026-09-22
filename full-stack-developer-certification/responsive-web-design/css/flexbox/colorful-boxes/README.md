@@ -162,3 +162,11 @@ With the `space-around` value, items are evenly distributed within the alignment
 Now you are going to check on the last alignment value. Change the `align-content` value from `space-around` to `space-evenly`.
 
 With the `space-evenly` value, items are evenly distributed within the alignment container. The space between all items is exactly the same, including the space at the start and the end.
+
+## Step 29
+
+The `flex` property controls the size and behavior of the items inside a flexible container. It is composed by three properties: `flex-grow`, `flex-shrink`, and `flex-basis`.
+
+The `flex-grow` property controls how much extra space the flex item should take up if there is free space available in the container.
+
+Now, getting back to the `.box` selector, change the first number in `flex` (corresponding to the `flex-grow` value) from `1` to `0`.
