@@ -33,3 +33,8 @@ h1 {
     order: 1;
     flex-grow: 1;
 }
+
+.box2 {
+    background: #f4a261;
+    order: 0;
+}

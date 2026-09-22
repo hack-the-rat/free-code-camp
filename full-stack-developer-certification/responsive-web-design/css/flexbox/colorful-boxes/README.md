@@ -198,3 +198,9 @@ Also add the `flex-grow` property with a value of `1`. This will make the box gr
 ## Step 34
 
 Going back to the `html` file, add the class `box2` to the second `.box` element.
+
+## Step 35
+
+Inside your `styles.css` file, create a `.box2` selector and add the `background` property with the value `#f4a261` to it.
+
+Also, add the `order` property with a value of `0`.
