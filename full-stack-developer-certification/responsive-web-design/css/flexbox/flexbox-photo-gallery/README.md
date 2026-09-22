@@ -114,3 +114,9 @@ To vertically center your images, give your `.gallery` selector an `align-items`
 Give your `.gallery` selector a `padding` property set to `20px 10px` to create some space around the container.
 
 Then, give it a `max-width` of `1400px` and add a `margin` of `0 auto` to center it.
+
+## Step 18
+
+Notice how some of your images have become distorted. This is because the images have different aspect ratios. Rather than setting each aspect ratio individually, you can use the `object-fit` property to determine how images should behave.
+
+Give your `.gallery img` selector the `object-fit` property and set it to `cover`. This will tell the image to fill the `img` container while maintaining aspect ratio, resulting in cropping to fit.
