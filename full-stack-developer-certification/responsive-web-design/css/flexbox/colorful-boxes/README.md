@@ -204,3 +204,7 @@ Going back to the `html` file, add the class `box2` to the second `.box` element
 Inside your `styles.css` file, create a `.box2` selector and add the `background` property with the value `#f4a261` to it.
 
 Also, add the `order` property with a value of `0`.
+
+## Step 36
+
+In your `html` file, add the class `box3` to the third `.box` element.
