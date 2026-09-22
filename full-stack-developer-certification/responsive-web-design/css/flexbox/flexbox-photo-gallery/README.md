@@ -96,3 +96,9 @@ When you are done, set an explicit `flex-direction` of `row` on the `.gallery` e
 The `flex-wrap` property determines how your flex items behave when the flex container is too small. Setting it to `wrap` will allow the items to wrap to the next row or column. `nowrap` (default) will prevent your items from wrapping and shrink them if needed.
 
 Make it so your flex items wrap to the next row when they run out of space.
+
+## Step 15
+
+The `justify-content` property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
+
+Give your `.gallery` selector a `justify-content` property with `center` as the value.
