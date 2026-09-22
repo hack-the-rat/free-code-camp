@@ -240,3 +240,13 @@ Then add the `order` property with a value of `4` to your new selector. You'll s
 ## Step 42
 
 Finally add the class `box6` to the last of your `.box` elements.
+
+## Step 43
+
+Create a `.box6` selector and add the `background` property with the value `#3f51b5` to it.
+
+Then add the `order` property with a value of `5` to your new selector. You'll see the `.box6` element move after the `.box5` element.
+
+Also, add the `flex-grow` property with a value of `1`. This will make box 6 grow to fill any remaining space in the container.
+
+With that, the colorful boxes workshop is complete!
