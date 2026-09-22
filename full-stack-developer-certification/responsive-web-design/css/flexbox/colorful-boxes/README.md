@@ -186,3 +186,11 @@ Finally, change the last value in `flex` from `100px` to `150px` inside your `.b
 ## Step 32
 
 Going back to the `html` file, add the class `box1` to the first `div` with the class of `box`.
+
+## Step 33
+
+Now you are going to organize the boxes inside your flexbox container. First, create a `.box1` selector and add to it the `background` property with the value `#f16e79`.
+
+Then, add the property `order` with the value `1`. You'll see the first box move to the end. This happens because the `box` class already has an `order` value of `0`, and items with higher order values appear later.
+
+Also add the `flex-grow` property with a value of `1`. This will make the box grow to fill extra space on its line.

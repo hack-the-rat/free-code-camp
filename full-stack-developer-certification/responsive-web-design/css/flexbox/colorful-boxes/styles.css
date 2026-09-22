@@ -27,3 +27,9 @@ h1 {
     margin: 20px auto;
     align-content: space-evenly;
 }
+
+.box1 {
+    background: #f16e79;
+    order: 1;
+    flex-grow: 1;
+}
