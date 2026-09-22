@@ -230,3 +230,9 @@ Then add the `order` property with a value of `3` to the `.box4` selector. You'l
 ## Step 40
 
 Add the class `box5` to your fifth `.box` element.
+
+## Step 41
+
+Now create a `.box5` selector and add the `background` property with the value `#457b9d` to it.
+
+Then add the `order` property with a value of `4` to your new selector. You'll see this box move after the one with the `box4` class.
