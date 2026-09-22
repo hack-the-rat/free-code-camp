@@ -116,3 +116,9 @@ The `flex-wrap` property defines whether flex items are forced onto one line or 
 By default, flex items have a value of `nowrap`, meaning they stay on a single line even if they overflow the container. The `wrap` value instead makes flex items wrap onto new lines when they don't fit in the container's width, creating a more flexible, responsive layout.
 
 To continue, add the `flex-wrap` property with the value `wrap` to the `.flex-container` class selector.
+
+## Step 21
+
+Now you will set the width and height of the `.flex-container` element. To do this, add the `width` property with the value `70%` and the `height` property with the value `600px`.
+
+Defining `width` and `height` properties will set the amount of width and height the `div` takes form its parent element, in this case the `body` element.
