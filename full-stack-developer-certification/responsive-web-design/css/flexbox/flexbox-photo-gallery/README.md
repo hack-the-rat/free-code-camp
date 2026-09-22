@@ -35,3 +35,9 @@ Notice how the blue image border extends beyond the red gallery border. This is 
 The `box-sizing` property is used to set this behavior. By default, the `content-box` model is used. With this model, when an element has a specific width, that width is calculated based only on the element's content. Padding and border values get added to the total width, so the element grows to accommodate these values.
 
 Try setting `box-sizing` to `content-box` explicitly, with the global `*` selector. At this point, you will not see any changes, because you are using the default value.
+
+## Step 7
+
+The `border-box` sizing model does the opposite of `content-box`. The total width of the element, including padding and border, will be the explicit width set. The content of the element will shrink to make room for the padding and border.
+
+Change the `box-sizing` property to `border-box`. Notice how your blue image borders now fit within your red gallery border.
