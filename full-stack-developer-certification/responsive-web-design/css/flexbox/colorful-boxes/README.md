@@ -134,3 +134,9 @@ Remember: `padding` adds space inside the element (between the border and conten
 Now you are going to use the `align-content` property. This property controls the arrangement of items along the cross axis. While the default value of `align-content` is `stretch`, the most relevant options you can use for `align-content` are: `space-between`, `start`, `center`, `end`, `space-around` and `space-evenly`.
 
 Add the property `align-content` with the value `space-between` to see how the boxes will align in the `.flex-container` element.
+
+## Step 24
+
+Now try another alignment value. Change the `align-content` value from `space-between` to `start`.
+
+With the `start` value, items are packed toward the start edge of the alignment container.
