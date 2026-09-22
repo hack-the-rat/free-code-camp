@@ -25,3 +25,7 @@ Remember that a class attribute is often used to point to a class name in a styl
 ## Step 5
 
 Inside each `.box` element, add an `h2` element with the text `Box` followed by a space and a sequential number starting from `1`.
+
+## Step 6
+
+Now it's time to create the color name for the boxes. To do this, add a `p` element below each `h2` element with these color names in order: `Red`, `Orange`, `Yellow`, `Green`, `Blue`, and `Indigo`. One color for each box.
