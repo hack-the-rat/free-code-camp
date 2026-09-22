@@ -170,3 +170,9 @@ The `flex` property controls the size and behavior of the items inside a flexibl
 The `flex-grow` property controls how much extra space the flex item should take up if there is free space available in the container.
 
 Now, getting back to the `.box` selector, change the first number in `flex` (corresponding to the `flex-grow` value) from `1` to `0`.
+
+## Step 30
+
+The second value of the `flex` property sets the `flex-shrink` property. This property controls how much the flex item will shrink when there isn't enough space in the container for all items.
+
+Still inside the `.box` selector, change the second value in `flex` from `1` to `0`.
