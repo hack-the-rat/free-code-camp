@@ -37,3 +37,9 @@ Now you are going to style the `div` elements with the class `box`. First create
 ## Step 8
 
 Still inside the `.box` selector, add the property `color` with the value `#000`. This is going to make all text of `.box` elements to have the `#000` color.
+
+## Step 9
+
+Add the property `border` with the value `1px solid #000` to the `.box` selector. The `border` property is used to create a visible outline around an element. It can be customized in terms of `border-width`, `border-style`, and `border-color`.
+
+In this case, `1px` is `border-width`, which defines the thickness of the border. `solid` is `border-style` and sets the appearance of the border (solid, dashed, dotted and so on). And `#000` is `border-color`, which defines the color of the border.
