@@ -128,3 +128,9 @@ Defining `width` and `height` properties will set the amount of width and height
 To finish styling the `flex-container` class, add the `padding` property with a value of `10px` and the `margin` property with a value of `20px auto`.
 
 Remember: `padding` adds space inside the element (between the border and content), while `margin` adds space outside the element (between the border and other elements).
+
+## Step 23
+
+Now you are going to use the `align-content` property. This property controls the arrangement of items along the cross axis. While the default value of `align-content` is `stretch`, the most relevant options you can use for `align-content` are: `space-between`, `start`, `center`, `end`, `space-around` and `space-evenly`.
+
+Add the property `align-content` with the value `space-between` to see how the boxes will align in the `.flex-container` element.
