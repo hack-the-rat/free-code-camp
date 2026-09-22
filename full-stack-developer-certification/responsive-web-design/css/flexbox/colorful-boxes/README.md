@@ -43,3 +43,9 @@ Still inside the `.box` selector, add the property `color` with the value `#000`
 Add the property `border` with the value `1px solid #000` to the `.box` selector. The `border` property is used to create a visible outline around an element. It can be customized in terms of `border-width`, `border-style`, and `border-color`.
 
 In this case, `1px` is `border-width`, which defines the thickness of the border. `solid` is `border-style` and sets the appearance of the border (solid, dashed, dotted and so on). And `#000` is `border-color`, which defines the color of the border.
+
+## Step 10
+
+The `display` property controls how an element is rendered on the page. When you define it with the `flex` value, this enables flexbox layout mode, which gives you control to arrange and align the items inside the container.
+
+Now add the property `display` with the value `flex` to the `.box` selector.
