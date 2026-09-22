@@ -55,3 +55,11 @@ Now add the property `display` with the value `flex` to the `.box` selector.
 The `flex` property controls the size and behavior of the items inside a flexible container. It is composed by three properties: `flex-grow`, `flex-shrink`, and `flex-basis`.
 
 Now add the `flex` property with the value `1 1 100px` to the `.box` selector. This will make each box start at `100px`, allowing them to grow to fill available space, or shrink when needed.
+
+## Step 12
+
+The `flex-direction` property controls how flex items are arranged within their container. The default value is `row`, which arranges items horizontally from left to right. This property only works on elements with `display: flex` or `display: inline-flex`.
+
+With the `column` value, items stack vertically from top to bottom. Other possible values are `row`, `row-reverse` and `column-reverse`.
+
+Now add the `flex-direction` property with the value `column` to the `.box` selector.
