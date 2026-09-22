@@ -146,3 +146,9 @@ With the `start` value, items are packed toward the start edge of the alignment 
 Next on the list is the `center` value. Change `align-content` value from `start` to `center`.
 
 With the `center` value, items will be packed to the center of the alignment container.
+
+## Step 26
+
+Now to see how the `end` value works, change the `align-content` value from `center` to `end`.
+
+With the `end` value, items will be packed to the end of the alignment container.
