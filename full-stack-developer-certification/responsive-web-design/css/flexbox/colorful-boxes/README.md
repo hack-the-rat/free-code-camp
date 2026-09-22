@@ -63,3 +63,9 @@ The `flex-direction` property controls how flex items are arranged within their 
 With the `column` value, items stack vertically from top to bottom. Other possible values are `row`, `row-reverse` and `column-reverse`.
 
 Now add the `flex-direction` property with the value `column` to the `.box` selector.
+
+## Step 13
+
+The `align-items` property aligns flex items along the cross axis (perpendicular to the main axis).
+
+Now add the `align-items` property with the value `center` to the `.box` selector. Since the `box` class has `flex-direction: column`, the cross axis is horizontal, so `center` will center items horizontally within the box.
