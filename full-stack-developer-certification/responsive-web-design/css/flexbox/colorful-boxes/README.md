@@ -122,3 +122,9 @@ To continue, add the `flex-wrap` property with the value `wrap` to the `.flex-co
 Now you will set the width and height of the `.flex-container` element. To do this, add the `width` property with the value `70%` and the `height` property with the value `600px`.
 
 Defining `width` and `height` properties will set the amount of width and height the `div` takes form its parent element, in this case the `body` element.
+
+## Step 22
+
+To finish styling the `flex-container` class, add the `padding` property with a value of `10px` and the `margin` property with a value of `20px auto`.
+
+Remember: `padding` adds space inside the element (between the border and content), while `margin` adds space outside the element (between the border and other elements).
