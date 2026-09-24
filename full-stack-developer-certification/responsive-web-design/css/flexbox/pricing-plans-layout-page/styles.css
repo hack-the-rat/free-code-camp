@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid #012345;
+    gap: 20px;
+    width: 80%;
+    max-width: 900px;
+    height: 70vh;
+    padding: 0 20px;
+}
