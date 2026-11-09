@@ -202,3 +202,88 @@ Times New Roman
 ![The text 'Hello, World!' displayed in Georgia, a serif font with wider letterforms and stroke contrast optimized for screen readability](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-5.png)*By using web-safe fonts, you can make sure that your design looks consistent across devices and platforms*. They can also enhance accessibility for users with visual disabilities, since they are simple and easy to read. And finally, web-safe fonts can reduce page load time, since they don't have to be downloaded if they're already installed.
 
 Now that you know what web-safe fonts are, you can start using them and assigning them as fallbacks to create reliable user experiences across browsers and platforms.
+
+## What Is the @font-face At-Rule, and How Does It Work?
+
+Before we dive in, you should know what an at-rule is in CSS. At-rules are statements that provide instructions to the browser. You can use them to define various aspects of the stylesheet, such as media queries, keyframes, font faces, and more. You'll learn more about concepts like media queries and keyframes in future lessons. This time, you'll learn about the `@font-face` at-rule.
+
+### The Basic Syntax
+
+*With `@font-face`, you can define a custom font by specifying the font file, format, and other important properties, like weight and style*. This is the basic syntax. You can see `@font-face` followed by a block enclosed by curly brackets:
+
+```css
+@font-face {
+  /* Descriptors */
+}
+```
+
+### The `font-family` Descriptor
+
+Within the curly brackets, you will need to include descriptors to customize your font face. Let's see some of the most commonly used ones. The font-family descriptor specifies the name that you will use throughout the stylesheet to refer to that font. For example, let's say that you define this `@font-face rule`. It has the `font-family` descriptor defined and its value is `MyCustomFont`:
+
+```css
+@font-face {
+  font-family: "MyCustomFont";
+}
+```
+
+In that case, you would need to use that name in your stylesheet wherever you want to assign that custom font family to all the elements matched by a CSS selector. For example, you would use it as the value of `font-family`:
+
+```css
+body { 
+  font-family: "MyCustomFont"; 
+}
+```
+
+### The `src` Descriptor
+
+But *for the `@font-face` at-rule to be valid, you also need to specify the `src`*. This contains references to the font resources. It's basically a list of external references or locally-installed font face names separated by commas. It can also include hints about the format and technology of the font resources.
+
+In the code below, the `src` is defined. The value is a list of URLs separated by commas and placed on separate lines to improve readability:
+
+```css
+@font-face {
+  font-family: "MyCustomFont"; 
+  src: url("path/to/font.woff2"),
+    url("path/to/font.woff"),
+    url("path/to/font.otf");
+}
+```
+
+You can call the `url()` function to include a file in your stylesheet. In this case, we are including the font files. You'll need to write the file path within parentheses and quotation marks, including the file extension. To improve readability, you can write each resource on a different line, but the last one should end with a semicolon.
+
+### Specifying Font Formats
+
+For each font resource, you can also specify the format. This is optional. It's a hint for the browser on the font format. If the format is omitted, the resource will be downloaded and the format will be detected after it's downloaded. If the format is invalid, the resource will not be downloaded.
+
+Possible font formats include `collection`, `embedded-opentype`, `opentype`, `svg`, `truetype`, `woff`, and `woff2`.
+
+Here's an example with font formats. Notice how we write the specific format within parentheses and quotes:
+
+```css
+@font-face {
+  font-family: "MyCustomFont"; 
+  src: url("path/to/font.woff2") format("woff2"),
+    url("path/to/font.otf") format("opentype"),
+    url("path/to/font.woff") format("woff");
+}
+```
+
+In this example, you can see that we're specifying the WOFF2 format, the OpenType format, and the WOFF format.
+
+woff stands for "Web Open Font Format." The difference between WOFF and WOFF2 is the algorithm used to compress the data. OpenType is a format for scalable computer fonts developed by Microsoft and Adobe that allows users to access additional features in a font. It's widely used across major operating systems.
+
+### Specifying Font Technology
+
+In addition to specifying the format, you can also specify the technology of the font resource. This is optional too. Here's an example where we specify the technology of the second font resource.
+
+```css
+@font-face {
+  font-family: "MyCustomFont"; 
+  src: url("path/to/font.woff2") format("woff2"),
+    url("path/to/font.otf") format("opentype") tech(color-COLRv1),
+    url("path/to/font.woff") format("woff");
+}
+```
+
+These are the fundamentals of the `@font-face` rule. With this at-rule, you can specify the font file to define custom fonts for your unique designs.
