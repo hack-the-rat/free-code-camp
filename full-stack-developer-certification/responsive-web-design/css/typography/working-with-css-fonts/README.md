@@ -476,3 +476,118 @@ If you open the HTML file on a browser, it has instructions on how to add the fo
 This is how you can add custom Font Squirrel fonts to your project. You can also host them on a separate server and use them as external fonts. External fonts are very helpful for customizing the overall look and design of your website. They can make your website truly unique.
 
 However, you should also keep in mind that *using multiple external fonts can increase the load time of the website*, affecting its overall performance. You should always strive to find a balance between style and efficiency.
+
+## What Is the text-shadow Property, and How Does It Work?
+
+CSS doesn't apply any shadows to the text by default. This is an example of a paragraph without any shadows. But *if you do need to add shadows, you can use the `text-shadow` property*.
+
+```CSS
+text-shadow: /* Values */
+```
+
+### The `X` and `Y` Offset Values
+
+In CSS, you can describe a shadow through a combination of its `X` offset, `Y` offset, blur radius, and color. First, you need to specify the `X` and `Y` offset, which represent the horizontal and vertical distance of the shadow from the text, respectively. These values are required.
+
+Here's an [example](https://codesandbox.io/p/sandbox/258z96) of how to apply an `X` and `Y` offset on a shadow. We apply the `text-shadow` property with an x-offset of `3px` and a y-offset of `2px`:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: 3px 2px;
+}
+```
+
+In the browser, the text and the shadow will look similar.
+
+### Adding a Color to the Shadow
+
+We can also customize the color of the shadow by specifying the value before or after the offset. Let's set the [shadow color](https://codesandbox.io/p/sandbox/26qj3q). We will use a hexadecimal color here but you can use any valid color format.
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: 3px 2px #00ffc3;
+}
+```
+
+We are writing the color after the offset but you can also write the color before the offset if you prefer. It's [equivalent](https://codesandbox.io/p/sandbox/xkmx9y):
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: #00ffc3 3px 2px;
+}
+```
+
+In the browser, the shadow will have a specific color, so we can distinguish it very easily from the text.
+
+### Positive and Negative Offset Values
+
+Now that we can differentiate the shadow from the text, it's also important to see how positive and negative values affect the shadow offset. Positive values of the `X` offset and `Y` offset will move the shadow right and down, respectively, while negative values will move the shadow left and up. Here's an example that uses negative values instead:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: -3px -2px #00ffc3;
+}
+```
+
+Now the shadow will move left and up in relation to the text. Great.
+
+### The Blur Radius
+
+But the shadow is not looking very nice, because it looks exactly like the original text but placed behind it. To make it look nicer, we need to add a third value, the blur radius. This value is optional but makes the shadow look a lot smoother and more subtle. The default value of the radius blur is zero. The higher the value, the bigger the blur, which means that the shadow becomes lighter.
+
+Here, we are [setting](https://codesandbox.io/p/sandbox/gylzmf) the blur radius to `3px` and we're back to positive values for the offset:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: 3px 2px 3px #00ffc3;
+}
+```
+
+Now it's starting to look like a shadow. It's more blurry and subtle, so we can focus on the main text while the shadow adds some style in the background. From here, we can tweak the values a little bit until we find a combination of offset, color, and blur radius that fits our needs.
+
+### Adding Multiple Shadows
+
+It's also helpful to know that the text can have more than one shadow. *You just need to write them in the same `text-shadow` property separated by commas*. They will be applied in layers, from front to back, with the first shadow at the top.
+
+Here's an [example](https://codesandbox.io/p/sandbox/krgjml) of a paragraph with three shadows applied in layers. Notice that all these shadows are defined in the same `text-shadow` property and separated by commas:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p>Hello, World!</p>
+```
+
+```css
+p {
+  text-shadow: 
+    3px 2px 3px #00ffc3, 
+    -3px -2px 3px #0077ff, 
+    5px 4px 3px #dee7e5;
+}
+```
+
+`text-shadow` is a powerful CSS property for making your text stand out. It can also enhance the overall design of your web application. By choosing the offset, blur, and color, you can create a wide range of shadow effects.
