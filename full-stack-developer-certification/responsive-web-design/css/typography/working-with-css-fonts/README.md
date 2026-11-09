@@ -68,3 +68,35 @@ With typography, you can also create a visual hierarchy, helping readers underst
 Underlining text or presenting it in italics is helpful for highlighting key points. Providing accurate spacing around the text can highlight its importance. And color contrast can bring readers' attention to specific parts of the text.
 
 Having basic knowledge of typography is essential for designing visually engaging applications. By understanding fonts, spacing, and hierarchy, you can create visual experiences that enhance the readability of your content and reinforce your brand's identity.
+
+## What Are Some Best Practices for Working with Typography in Your Designs?
+
+Typography is the art and technique of arranging type to communicate effectively. It involves formatting text and selecting appropriate fonts. In this lesson, you will learn best practices for using typography in a way that enhances readability, hierarchy, and accessibility.
+
+Let's start with readability. You should choose clear and simple fonts to make your designs easy to understand. This is particularly important for the main text of your website. Users are more likely to engage with your content if the font is easy to read. Some frequently used fonts for web development are Roboto, Open Sans, Poppins, Lato, and Barlow. But there are many to choose from and you will definitely find one that fits your needs.
+
+Text should also be large enough for everyone to read it. You should try to keep lines relatively short. The specific number of characters per line really depends on your project. But keeping lines short will make the content easier to read.
+
+![Three levels of text hierarchy: 'Heading' in large bold serif, 'Subheading' in medium bold serif, and 'Text' in small regular weight](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-1.png)
+*You can use font size to create a visual hierarchy for headings, subheadings, paragraphs, and other elements*.
+
+![freeCodeCamp's landing page showing 'Learn to code — for free.', 'Build projects.', and 'Earn certifications.' in progressively smaller text, with a 'Get started (it's free)' button below](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-2.png)
+For example, the main heading on a webpage should have a larger font, followed by subheadings with smaller font sizes. This will give every element in the hierarchy a specific font size that helps users navigate through the structure visually.
+
+*You should use two or three fonts at most to create a visual consistency*. Using too many fonts can make the text more difficult to read and weaken your branding's identity. This can also impact the user experience by increasing the load time of the website.
+
+![freeCodeCamp's Style Guide Typography section on a dark background, listing Hack-ZeroSlash as the primary monospace font, Lato as the primary proportional font, and SaxMono as the logo font](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-3.png)
+Once you choose these two or three fonts, use them consistently across different pages and elements. These fonts should be consistent with the overall design of your web application, product, or service.
+
+![Two versions of the same text side by side: the top version has a green checkmark and good whitespace between lines, while the bottom version has a red X and cramped, poorly spaced text](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-4.png)
+*You should also use whitespace to create a visual balance and enhance readability*.
+
+![WCAG 2.1 Understanding Docs page showing Understanding SC 1.4.3: Contrast (Minimum) (Level AA), with explanations of contrast ratio requirements for large and small text](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-5.png)
+For accessibility purposes, you should follow the Web Content Accessibility Guidelines. These guidelines set the recommended contrast ratio for text. A higher contrast ratio makes text easier to read, especially for people with visual disabilities.
+
+You should also provide options to adjust font size and avoid complex fonts as much as possible. As a general rule, you should use simple fonts whenever possible. If your content is easy to read, users are more likely to engage with it.
+
+![Browser DevTools open alongside freeCodeCamp's landing page in responsive mode, showing CSS styles applied to the page's heading elements](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-some-best-practices-for-working-with-typography-in-your-designs-6.png)
+A final tip for working with typography is making sure that your fonts are displayed correctly on different screen sizes and devices.
+
+Typography is a powerful tool for creating beautiful designs and engaging user experiences. By understanding the fundamentals of typography and applying these best practices, you can create effective designs.
