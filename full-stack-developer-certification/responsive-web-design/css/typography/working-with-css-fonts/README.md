@@ -176,3 +176,29 @@ You should always include a generic font family at the end of the font-family li
 To make the user experience as consistent as possible, it's also recommended to use web-safe fonts. These font families are usually installed on most devices, so they're very likely to be found and rendered correctly for most users. You'll learn more about them in the next lessons.
 
 Font families are essential in the world of web design. By using the font-family property, you can instantly transform the look and feel of your text.
+
+## What Are Web Safe Fonts?
+
+Web-safe fonts are a subset of fonts that are very likely to be installed on a computer or device. *They are widely supported across different operating systems and web browsers*, so it's very likely that they will be rendered and displayed consistently. Let's see how this works.
+
+Browsers are responsible for interpreting and displaying fonts on a website. When the browser has to render a font, it tries to find the font file on the user's system. But if the font is not found, it will usually fall back to a default system font. This ensures that the content is still readable, even if the specific font that should be rendered on the website is missing.
+
+However, the fallback font selected by the browser may look very different from the font that was originally supposed to be rendered. This can have a critical impact on the overall design and user experience. To avoid this, you should use web-safe fonts whenever possible. You have two options. You can either use them as your primary fonts or you can use custom fonts with a web-safe font as a fallback option. This way, you can control how the website will look in case the custom font is not found.
+
+Let's check out some examples of web-safe fonts. In a previous lesson, you learned that sans-serif fonts are commonly used for web development because they don't have small "feet" or lines at the end of the characters, so they're easy to read on screen. Some examples of web-safe sans-serif fonts are:
+
+Arial
+
+![The text 'Hello, World!' displayed in Arial, a clean geometric sans-serif font with uniform stroke width](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-1.png)Verdana
+
+![The text 'Hello, World!' displayed in Verdana, a wide sans-serif font with large open letterforms and a tall x-height](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-2.png)Trebuchet MS
+
+![The text 'Hello, World!' displayed in Trebuchet MS, a humanist sans-serif font with slightly rounded letterforms](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-3.png)In contrast, serif fonts do have small "feet" at the end of the characters, so they're commonly used for traditional print. But if you ever need to use them for web development purposes, web-safe serif fonts include:
+
+Times New Roman
+
+![The text 'Hello, World!' displayed in Times New Roman, a classic serif font with strong contrast between thick and thin strokes](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-4.png)Georgia
+
+![The text 'Hello, World!' displayed in Georgia, a serif font with wider letterforms and stroke contrast optimized for screen readability](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-web-safe-fonts-5.png)*By using web-safe fonts, you can make sure that your design looks consistent across devices and platforms*. They can also enhance accessibility for users with visual disabilities, since they are simple and easy to read. And finally, web-safe fonts can reduce page load time, since they don't have to be downloaded if they're already installed.
+
+Now that you know what web-safe fonts are, you can start using them and assigning them as fallbacks to create reliable user experiences across browsers and platforms.
