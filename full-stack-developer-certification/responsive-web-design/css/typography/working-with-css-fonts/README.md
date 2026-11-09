@@ -100,3 +100,79 @@ You should also provide options to adjust font size and avoid complex fonts as m
 A final tip for working with typography is making sure that your fonts are displayed correctly on different screen sizes and devices.
 
 Typography is a powerful tool for creating beautiful designs and engaging user experiences. By understanding the fundamentals of typography and applying these best practices, you can create effective designs.
+
+## What Are Font Families and How Do They Work?
+
+A font family is a group of fonts that share a common design. *All the fonts that belong to the same family are based on the same core typeface, but they also have variations in their style, weight, and width*. You can think of them as siblings who share similar characteristics but also have some differences. For example, Arial is a font family that includes variations like Arial Bold and Arial Italic.
+
+![Diagram showing 'Arial' at the top with two blue arrows pointing down to 'Arial Bold' on the left and 'Arial Italic' on the right, illustrating font family variations](https://cdn.freecodecamp.org/curriculum/lecture-transcripts/what-are-font-families-and-how-do-they-work-1.png)
+
+### Setting Font Families in CSS
+
+In CSS, you can set the font family with the `font-family` property. Here is an [example](https://codesandbox.io/p/sandbox/2wkm7y) of setting the font for the paragraph to `Arial`:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p id="arial-font">Example paragraph using Arial font.</p>
+<p>Paragraph not using Arial font.</p>
+```
+
+```css
+#arial-font {
+  font-family: Arial;
+}
+```
+
+### Fallback Fonts
+
+But what if the font family is not found? *You can specify multiple font families in order of priority, from highest to lowest, by separating them with commas*. These alternative fonts will act as fallback options. In this [example](https://codesandbox.io/p/sandbox/4fz5fl), Arial is a primary font and Lato is an alternative font:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p id="specified-font">Example paragraph using specified fonts.</p>
+<p>Paragraph not using specified fonts.</p>
+```
+
+```css
+#specified-font {
+  font-family: Arial, Lato;
+}
+```
+
+The browser will render the first font (Arial) if it's found on the device. If not, the second font (Lato) will be rendered.
+
+You should also know how this process works behind the scenes. The selection process doesn't stop if the first font is available. The font family is chosen one character at a time, so if a font lacks a specific character, the browser looks for it in the lower-priority fonts. Interesting, right?
+
+### Generic Font Families
+
+In the context of web development, you'll also find generic font families. They're very important. A generic font family is a default font that web browsers will render when the higher priority fonts are not available. To ensure that the content is still readable, the browser replaces the original font with the most appropriate font found, based on the generic font family specified. Some of the most commonly used ones are:
+
+* serif
+* sans-serif
+* monospace
+* cursive
+* fantasy
+
+But there are more options to choose from. In the [code](https://codesandbox.io/p/sandbox/q9t8nx) below, we have three alternative font families:
+
+```html
+<link rel="stylesheet" href="styles.css">
+<p id="specified-font">Example paragraph using specified fonts.</p>
+<p>Paragraph not using specified fonts.</p>
+```
+
+```css
+#specified-font {
+  font-family: Arial, Lato, sans-serif;
+}
+```
+
+Arial has the highest priority. If Arial is not found, then the browser will try to render Lato. If neither is found, the browser will use the generic sans-serif font family, selecting a font with these characteristics from those installed on the user's system.
+
+You should always include a generic font family at the end of the font-family list. Keep in mind that the generic font may look different from the font that you originally envisioned in your design, so it's always helpful to check how these fallback fonts look on different browsers.
+
+### Web-Safe Fonts
+
+To make the user experience as consistent as possible, it's also recommended to use web-safe fonts. These font families are usually installed on most devices, so they're very likely to be found and rendered correctly for most users. You'll learn more about them in the next lessons.
+
+Font families are essential in the world of web design. By using the font-family property, you can instantly transform the look and feel of your text.
