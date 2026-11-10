@@ -27,3 +27,7 @@ Also add a `link` element to link your `styles.css` file.
 Create a `body` selector and give it a `font-family` set to `Open Sans` with a fallback of `sans-serif`.
 
 Remember that fonts with spaces in the name must be wrapped in quotes for CSS.
+
+## Step 6
+
+The font is a bit small. Create an `html` selector and set the font to have a size of `16px`.
