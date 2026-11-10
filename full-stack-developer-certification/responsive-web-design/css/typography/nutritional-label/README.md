@@ -31,3 +31,7 @@ Remember that fonts with spaces in the name must be wrapped in quotes for CSS.
 ## Step 6
 
 The font is a bit small. Create an `html` selector and set the font to have a size of `16px`.
+
+## Step 7
+
+Wrap your `h1` and `p` elements in a `div` element. Give that `div` a `class` attribute set to `label`.
