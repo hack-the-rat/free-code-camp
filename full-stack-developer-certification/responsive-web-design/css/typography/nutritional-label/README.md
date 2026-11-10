@@ -35,3 +35,15 @@ The font is a bit small. Create an `html` selector and set the font to have a si
 ## Step 7
 
 Wrap your `h1` and `p` elements in a `div` element. Give that `div` a `class` attribute set to `label`.
+
+## Step 8
+
+Borders can be used to group and prioritize content.
+
+Create a `.label` selector and give it a `border` set to `2px solid black`.
+
+## Step 9
+
+Good use of white space can bring focus to the important elements of your page, and help guide your user's eyes through your text.
+
+Give your `.label` selector a `width` property set to `270px`.
