@@ -21,3 +21,9 @@ Within your `head` element, add a `link` element with the `rel` attribute set to
 This will import the `Open Sans` font family, with the font weight values `400`, `700`, and `800`.
 
 Also add a `link` element to link your `styles.css` file.
+
+## Step 5
+
+Create a `body` selector and give it a `font-family` set to `Open Sans` with a fallback of `sans-serif`.
+
+Remember that fonts with spaces in the name must be wrapped in quotes for CSS.
