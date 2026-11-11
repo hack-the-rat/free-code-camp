@@ -121,3 +121,7 @@ Now you can add the horizontal spacing using `flex`. In your `p` selector, add a
 ## Step 24
 
 Wrap everything within the `.label` element in a new `header` element.
+
+## Step 25
+
+Now update your `h1` selector to be `header h1` to specifically target your `h1` element within your new `header`.
