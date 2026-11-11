@@ -125,3 +125,7 @@ Wrap everything within the `.label` element in a new `header` element.
 ## Step 25
 
 Now update your `h1` selector to be `header h1` to specifically target your `h1` element within your new `header`.
+
+## Step 26
+
+Create a new `div` element below your `header` element, and give it a `class` attribute set to `divider large`.
