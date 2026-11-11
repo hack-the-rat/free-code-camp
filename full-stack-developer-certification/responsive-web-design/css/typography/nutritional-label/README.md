@@ -67,3 +67,7 @@ Create an `h1` rule and set the `font-weight` property to `800`. This will make 
 ## Step 13
 
 Give your `h1` selector a `text-align` property of `center`.
+
+## Step 14
+
+Fine-tune the placement of your `h1` by giving it a top and bottom margin of `-4px` and a left and right margin of `0`.
