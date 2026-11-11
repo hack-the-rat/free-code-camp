@@ -71,3 +71,7 @@ Give your `h1` selector a `text-align` property of `center`.
 ## Step 14
 
 Fine-tune the placement of your `h1` by giving it a top and bottom margin of `-4px` and a left and right margin of `0`.
+
+## Step 15
+
+Create a `p` selector and remove all margins.
