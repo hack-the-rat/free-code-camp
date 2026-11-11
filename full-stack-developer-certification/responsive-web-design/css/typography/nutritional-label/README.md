@@ -139,3 +139,7 @@ Create a new `.large` selector and give it a `height` property set to `10px`. Al
 You may notice there is still a small border at the bottom of your `.large` element. To reset this, give your `.large, .medium` selector a `border` property set to `0`.
 
 Note: the `medium` class will be utilized later for the thinner bars of the nutrition label.
+
+## Step 29
+
+Create a new `div` below your `.large` element and give it a `class` attribute set to `calories-info`.
