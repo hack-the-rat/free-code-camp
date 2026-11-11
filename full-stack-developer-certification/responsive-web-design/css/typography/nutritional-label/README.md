@@ -47,3 +47,7 @@ Create a `.label` selector and give it a `border` set to `2px solid black`.
 Good use of white space can bring focus to the important elements of your page, and help guide your user's eyes through your text.
 
 Give your `.label` selector a `width` property set to `270px`.
+
+## Step 10
+
+Give your `.label` selector a `margin` property set to `20px auto`, and a `padding` property set to `0 7px`.
