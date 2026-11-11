@@ -103,3 +103,7 @@ Give your second `p` element a `class` attribute set to `bold`.
 Your new class does not have any styling yet. Create a `.bold` selector and give it a `font-weight` property set to `800` to make the text bold.
 
 Go ahead and remove the `font-weight` property from your `h1` selector as well.
+
+## Step 21
+
+Give your `h1` element a `class` attribute set to `bold`. This will make the text bold again.
