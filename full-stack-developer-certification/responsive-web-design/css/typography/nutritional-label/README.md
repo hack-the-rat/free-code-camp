@@ -179,3 +179,7 @@ Create a `.calories-info span` selector, set its `font-size` to `2.4em` and `fon
 Typography is often more art than science. You may have to tweak things like alignment until it looks correct.
 
 Give your `.calories-info span` selector a `margin` set to `-7px -2px`. This will shift your `230` text into place.
+
+## Step 38
+
+Below your `.calories-info` element, add a `div` with the `class` attribute set to `divider medium`.
