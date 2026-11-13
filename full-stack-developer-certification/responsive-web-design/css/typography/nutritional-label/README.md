@@ -275,3 +275,7 @@ Below your last `p` element, add another `p` element with the text `Total Carboh
 ## Step 57
 
 Below your last `p` element, add another `p` element with the text `Dietary Fiber 4g`. Give the `p` element the `class` necessary to indent it and remove the dividing border. Then create a divider below that `p` element.
+
+## Step 58
+
+Create another `p` element after your last `.divider`, and give it the text `Total Sugars 12g`. Assign that `p` element the `class` values necessary to indent it and remove the bottom border. Then create another `.divider` below your new `p` element.
