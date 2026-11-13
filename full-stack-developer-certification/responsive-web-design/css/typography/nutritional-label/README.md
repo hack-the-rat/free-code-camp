@@ -305,3 +305,7 @@ Following this element, create a large divider.
 Create another `p` element below your large divider. Give the `p` element the text `Vitamin D 2mcg 10%`.
 
 The `p` element contains only text, you can wrap the percentage in a `span` element so that it is considered a separate entity from the rest of the text, and it's moved to the right.
+
+## Step 64
+
+Create another `p` element, give it the text `Calcium 260mg 20%`. Align `20%` to the right. Below that, create a `p` element with the text `Iron 8mg 45%`, aligning the `45%` to the right.
