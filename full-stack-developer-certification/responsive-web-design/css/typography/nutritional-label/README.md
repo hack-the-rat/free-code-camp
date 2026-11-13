@@ -313,3 +313,13 @@ Create another `p` element, give it the text `Calcium 260mg 20%`. Align `20%` to
 ## Step 65
 
 Create the final `p` element for your `.daily-value` section. Give it the text `Potassium 235mg 6%`. Align the `6%` text to the right, and remove the bottom border of the `p` element.
+
+## Step 66
+
+Add a medium divider after your `.daily-value` element. Below that new divider, create a `p` element with the `class` attribute set to `note`.
+
+Give the `p` element the following text:
+
+```text
+* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.
+```
