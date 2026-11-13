@@ -241,3 +241,9 @@ div:not(#example) {
 The above selects all `div` elements without an `id` of `example`.
 
 Modify your `.daily-value p` selector to exclude the `.no-divider` elements.
+
+## Step 51
+
+Now you will have to add separate dividers below your `.no-divider` elements.
+
+Your first `.no-divider` element has a `.divider` after it. Create another `.divider` after your second `.no-divider` element.
