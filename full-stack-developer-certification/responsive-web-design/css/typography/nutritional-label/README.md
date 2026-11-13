@@ -247,3 +247,7 @@ Modify your `.daily-value p` selector to exclude the `.no-divider` elements.
 Now you will have to add separate dividers below your `.no-divider` elements.
 
 Your first `.no-divider` element has a `.divider` after it. Create another `.divider` after your second `.no-divider` element.
+
+## Step 52
+
+After your last `.divider`, create another `p` element with the text `Trans Fat 0g`. Italicize the word `Trans` by wrapping it in an `i` element. Give the new `p` element the `class` attribute set to `indent no-divider`. Wrap `Trans Fat 0g` in a `span` element for alignment.
