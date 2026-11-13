@@ -293,3 +293,9 @@ Create a `.double-indent` selector and give it a left margin of `2em`.
 Below your `.double-indent` element, add a new `p` element with the text `Includes 10g Added Sugars 20%`. Your new `p` element should also be double indented, and have no bottom border. Use a `span` to make the `20%` bold and right aligned.
 
 Then create another divider after that `p` element.
+
+## Step 62
+
+After your last divider, create another `p` element with the text `Protein 3g`. Use the necessary classes to remove the bottom border, and a `span` to make the `Protein` bold. Then wrap the text `Protein 3g` including the new `span` element, in a new `span` element.
+
+Following this element, create a large divider.
