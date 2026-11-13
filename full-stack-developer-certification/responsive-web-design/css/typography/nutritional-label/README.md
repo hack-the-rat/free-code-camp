@@ -299,3 +299,9 @@ Then create another divider after that `p` element.
 After your last divider, create another `p` element with the text `Protein 3g`. Use the necessary classes to remove the bottom border, and a `span` to make the `Protein` bold. Then wrap the text `Protein 3g` including the new `span` element, in a new `span` element.
 
 Following this element, create a large divider.
+
+## Step 63
+
+Create another `p` element below your large divider. Give the `p` element the text `Vitamin D 2mcg 10%`.
+
+The `p` element contains only text, you can wrap the percentage in a `span` element so that it is considered a separate entity from the rest of the text, and it's moved to the right.
