@@ -203,3 +203,7 @@ Use your existing `.divider` element as an example to add a new divider after th
 ## Step 43
 
 After your last `.divider` element, create a `p` element and give it the text `Total Fat 8g 10%`. Then, wrap the text `Total Fat` in one `span` element, the text `10%` in another, and give them each a class of `bold`.
+
+## Step 44
+
+Notice how the text `8g` appears centered in the preview. Nest the `span` element containing the text `Total Fat` along with the text `8g`, in an additional `span` element for alignment.
