@@ -323,3 +323,7 @@ Give the `p` element the following text:
 ```text
 * The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.
 ```
+
+## Step 67
+
+Create a `.note` selector, and set the size of the font to `0.6rem`. Also set the top and bottom margins to `5px`, removing the left and right margins.
