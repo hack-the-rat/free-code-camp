@@ -251,3 +251,7 @@ Your first `.no-divider` element has a `.divider` after it. Create another `.div
 ## Step 52
 
 After your last `.divider`, create another `p` element with the text `Trans Fat 0g`. Italicize the word `Trans` by wrapping it in an `i` element. Give the new `p` element the `class` attribute set to `indent no-divider`. Wrap `Trans Fat 0g` in a `span` element for alignment.
+
+## Step 53
+
+Create another `.divider` after your last `p` element.
