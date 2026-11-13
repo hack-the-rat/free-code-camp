@@ -183,3 +183,7 @@ Give your `.calories-info span` selector a `margin` set to `-7px -2px`. This wil
 ## Step 38
 
 Below your `.calories-info` element, add a `div` with the `class` attribute set to `divider medium`.
+
+## Step 39
+
+Create an `.medium` selector and give it a `height` property of `5px`.
