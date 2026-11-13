@@ -173,3 +173,9 @@ Create a new `.left-container p` selector setting the top and bottom margin to `
 ## Step 36
 
 Create a `.calories-info span` selector, set its `font-size` to `2.4em` and `font-weight` to `700`.
+
+## Step 37
+
+Typography is often more art than science. You may have to tweak things like alignment until it looks correct.
+
+Give your `.calories-info span` selector a `margin` set to `-7px -2px`. This will shift your `230` text into place.
