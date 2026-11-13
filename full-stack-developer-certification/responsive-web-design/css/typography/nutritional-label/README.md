@@ -211,3 +211,7 @@ Notice how the text `8g` appears centered in the preview. Nest the `span` elemen
 ## Step 45
 
 Below your element with the `Total Fat` text, create a new `p` element with the text `Saturated Fat 1g 5%`. Wrap the `5%` in a `span` with the `class` attribute set to `bold`. In this case this is enough to align the percentage to `5%`.
+
+## Step 46
+
+This new `p` element will need to be indented. Give it a `class` set to `indent`.
