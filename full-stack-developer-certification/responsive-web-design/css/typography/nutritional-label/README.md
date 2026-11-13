@@ -219,3 +219,7 @@ This new `p` element will need to be indented. Give it a `class` set to `indent`
 ## Step 47
 
 Create a new `.indent` selector and give it a `margin-left` property set to `1em`.
+
+## Step 48
+
+Create a `.daily-value p` selector to target all of your `p` elements in the `daily-value` section. Give this new selector a `border-bottom` set to `1px solid #888989`.
