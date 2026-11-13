@@ -287,3 +287,9 @@ The advantage to creating these dividers is that you can apply specific classes 
 ## Step 60
 
 Create a `.double-indent` selector and give it a left margin of `2em`.
+
+## Step 61
+
+Below your `.double-indent` element, add a new `p` element with the text `Includes 10g Added Sugars 20%`. Your new `p` element should also be double indented, and have no bottom border. Use a `span` to make the `20%` bold and right aligned.
+
+Then create another divider after that `p` element.
