@@ -309,3 +309,7 @@ The `p` element contains only text, you can wrap the percentage in a `span` elem
 ## Step 64
 
 Create another `p` element, give it the text `Calcium 260mg 20%`. Align `20%` to the right. Below that, create a `p` element with the text `Iron 8mg 45%`, aligning the `45%` to the right.
+
+## Step 65
+
+Create the final `p` element for your `.daily-value` section. Give it the text `Potassium 235mg 6%`. Align the `6%` text to the right, and remove the bottom border of the `p` element.
