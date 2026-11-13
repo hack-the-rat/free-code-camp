@@ -227,3 +227,17 @@ Create a `.daily-value p` selector to target all of your `p` elements in the `da
 ## Step 49
 
 The bottom borders under your `% Daily Value *` and `Saturated Fat 1g 5%` elements do not extend the full width of the label. Add `no-divider` to the `class` for these two elements.
+
+## Step 50
+
+The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+```css
+div:not(#example) {
+  color: red;
+}
+```
+
+The above selects all `div` elements without an `id` of `example`.
+
+Modify your `.daily-value p` selector to exclude the `.no-divider` elements.
