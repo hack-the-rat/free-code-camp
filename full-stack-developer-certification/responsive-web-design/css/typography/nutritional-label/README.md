@@ -271,3 +271,7 @@ Then, add an additional `span` element around `Sodium 160mg` for alignment again
 ## Step 56
 
 Below your last `p` element, add another `p` element with the text `Total Carbohydrate 37g 13%`. Like before, use `span` elements to make the text `Total Carbohydrate` and `13%` bold. Then, wrap the nutrient and amount in a `span` for alignment again.
+
+## Step 57
+
+Below your last `p` element, add another `p` element with the text `Dietary Fiber 4g`. Give the `p` element the `class` necessary to indent it and remove the dividing border. Then create a divider below that `p` element.
