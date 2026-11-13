@@ -191,3 +191,7 @@ Create an `.medium` selector and give it a `height` property of `5px`.
 ## Step 40
 
 Create a new `div` element below your `.medium` element. Give it a `class` attribute set to `daily-value small-text`. Within this new `div`, add a `p` element with the text `% Daily Value *`, and set the `class` attribute to `bold right`.
+
+## Step 41
+
+The text `% Daily Value *` should be aligned to the right. Create a `.right` selector and use the `justify-content` property to do it.
