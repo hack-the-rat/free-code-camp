@@ -215,3 +215,7 @@ Below your element with the `Total Fat` text, create a new `p` element with the 
 ## Step 46
 
 This new `p` element will need to be indented. Give it a `class` set to `indent`.
+
+## Step 47
+
+Create a new `.indent` selector and give it a `margin-left` property set to `1em`.
