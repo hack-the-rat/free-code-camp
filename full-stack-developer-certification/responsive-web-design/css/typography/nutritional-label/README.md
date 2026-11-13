@@ -223,3 +223,7 @@ Create a new `.indent` selector and give it a `margin-left` property set to `1em
 ## Step 48
 
 Create a `.daily-value p` selector to target all of your `p` elements in the `daily-value` section. Give this new selector a `border-bottom` set to `1px solid #888989`.
+
+## Step 49
+
+The bottom borders under your `% Daily Value *` and `Saturated Fat 1g 5%` elements do not extend the full width of the label. Add `no-divider` to the `class` for these two elements.
