@@ -283,3 +283,7 @@ Create another `p` element after your last `.divider`, and give it the text `Tot
 ## Step 59
 
 The advantage to creating these dividers is that you can apply specific classes to style them individually. Add `double-indent` to the `class` for your last `.divider`.
+
+## Step 60
+
+Create a `.double-indent` selector and give it a left margin of `2em`.
