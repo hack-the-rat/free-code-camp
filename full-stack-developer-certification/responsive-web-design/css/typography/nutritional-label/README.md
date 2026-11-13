@@ -261,3 +261,9 @@ Create another `.divider` after your last `p` element.
 After your last `.divider`, create a new `p` element with the text `Cholesterol 0mg 0%`. Then, wrap the text `Cholesterol` in a `span` element, `0%` in another, and give each of them a class of `bold`.
 
 Finally, nest the `span` element containing the text `Cholesterol` along with the text `0mg`, in an additional `span` element for alignment.
+
+## Step 55
+
+Below your last `p` element, create another `p` element with the text `Sodium 160mg 7%`. Put `Sodium` and `7%` each in their own `span` with a class of a `bold` like you did with the others.
+
+Then, add an additional `span` element around `Sodium 160mg` for alignment again.
