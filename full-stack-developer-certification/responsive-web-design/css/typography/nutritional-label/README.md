@@ -255,3 +255,9 @@ After your last `.divider`, create another `p` element with the text `Trans Fat 
 ## Step 53
 
 Create another `.divider` after your last `p` element.
+
+## Step 54
+
+After your last `.divider`, create a new `p` element with the text `Cholesterol 0mg 0%`. Then, wrap the text `Cholesterol` in a `span` element, `0%` in another, and give each of them a class of `bold`.
+
+Finally, nest the `span` element containing the text `Cholesterol` along with the text `0mg`, in an additional `span` element for alignment.
