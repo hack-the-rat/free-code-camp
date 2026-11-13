@@ -199,3 +199,7 @@ The text `% Daily Value *` should be aligned to the right. Create a `.right` sel
 ## Step 42
 
 Use your existing `.divider` element as an example to add a new divider after the `p` element.
+
+## Step 43
+
+After your last `.divider` element, create a `p` element and give it the text `Total Fat 8g 10%`. Then, wrap the text `Total Fat` in one `span` element, the text `10%` in another, and give them each a class of `bold`.
