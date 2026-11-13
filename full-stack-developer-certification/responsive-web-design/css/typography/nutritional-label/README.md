@@ -279,3 +279,7 @@ Below your last `p` element, add another `p` element with the text `Dietary Fibe
 ## Step 58
 
 Create another `p` element after your last `.divider`, and give it the text `Total Sugars 12g`. Assign that `p` element the `class` values necessary to indent it and remove the bottom border. Then create another `.divider` below your new `p` element.
+
+## Step 59
+
+The advantage to creating these dividers is that you can apply specific classes to style them individually. Add `double-indent` to the `class` for your last `.divider`.
